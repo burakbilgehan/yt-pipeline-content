@@ -1,0 +1,40 @@
+{
+  "id": "scene-002",
+  "visual": {
+    "type": "data-chart",
+    "description": "Horizontal bar chart: 'Average Annual Salary (Nominal USD)'. 10 bars animate in from top (highest) to bottom (lowest). Bars use a single color (#90AFC5 muted blue). Countries: Switzerland, Luxembourg, Iceland, USA, Germany, Canada, Australia, UK, Spain, Mexico. Values are nominal (not PPP). No exact numbers in voiceover — just country names and ranking. The chart looks 'settled' and obvious. This is the setup before the PPP rug-pull.",
+    "searchQuery": null,
+    "textOverlay": null,
+    "dataVisualization": {
+      "component": "HorizontalBarChart",
+      "config": {
+        "title": "Average Annual Salary (Nominal USD)",
+        "titleFont": "Montserrat",
+        "titleSize": 28,
+        "titleColor": "#EAE0D5",
+        "bars": [
+          { "label": "Switzerland", "code": "CHE", "value": 105000, "displayValue": "$105K" },
+          { "label": "Luxembourg", "code": "LUX", "value": 79000, "displayValue": "$79K" },
+          { "label": "Iceland", "code": "ISL", "value": 78000, "displayValue": "$78K" },
+          { "label": "United States", "code": "USA", "value": 77000, "displayValue": "$77K" },
+          { "label": "Germany", "code": "DEU", "value": 58000, "displayValue": "$58K" },
+          { "label": "Canada", "code": "CAN", "value": 55000, "displayValue": "$55K" },
+          { "label": "Australia", "code": "AUS", "value": 54000, "displayValue": "$54K" },
+          { "label": "United Kingdom", "code": "GBR", "value": 47000, "displayValue": "$47K" },
+          { "label": "Spain", "code": "ESP", "value": 30000, "displayValue": "$30K" },
+          { "label": "Mexico", "code": "MEX", "value": 16000, "displayValue": "$16K" }
+        ],
+        "barColor": "#90AFC5",
+        "barHeight": 36,
+        "barGap": 12,
+        "labelColor": "#EAE0D5",
+        "valueColor": "rgba(234,224,213,0.6)",
+        "animationStyle": "stagger-top-down",
+        "staggerDelay": "0.3s",
+        "backgroundColor": "#1A1B22"
+      }
+    }
+  },
+  "transition": "crossfade",
+  "notes": "RAW SALARY SETUP. These are approximate nominal USD values (not PPP) — they exist only as a visual setup before the PPP rug-pull. Exact nominal values are NOT spoken in voiceover (only country names and relative positions). The bar chart will later re-sort when PPP is applied in scene-003. Values are rough estimates from OECD/Eurostat nominal data for visual purposes only."
+}

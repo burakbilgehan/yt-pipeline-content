@@ -1,0 +1,85 @@
+{
+  "id": "scene-003",
+  "visual": {
+    "type": "composite",
+    "description": "Three-phase scene. Phase 1: Split screen — identical grocery basket in Zurich (left) and Mexico City (right). Same items (bread, milk, eggs, rice, chicken), different price tags. Zurich total ~$85, Mexico City total ~$25. Phase 2: Title card 'Purchasing Power Parity (PPP)' with OECD logo + '~3,000 goods & services tracked.' Phase 3: The bar chart from scene-002 re-sorts with PPP values. Bars change to gradient colors (green=highest → red=lowest). Countries reorder: LUX→ISL→CHE→USA. 8 countries shown with PPP values.",
+    "searchQuery": null,
+    "textOverlay": null,
+    "phases": [
+      {
+        "id": "grocery-basket",
+        "duration": "15s",
+        "component": "SplitComparison",
+        "config": {
+          "left": {
+            "city": "Zurich",
+            "country": "Switzerland",
+            "items": [
+              { "name": "Bread", "price": "$6.50" },
+              { "name": "Milk (1L)", "price": "$2.80" },
+              { "name": "Eggs (12)", "price": "$7.20" },
+              { "name": "Rice (1kg)", "price": "$4.50" },
+              { "name": "Chicken (1kg)", "price": "$22.00" }
+            ],
+            "total": "$85+"
+          },
+          "right": {
+            "city": "Mexico City",
+            "country": "Mexico",
+            "items": [
+              { "name": "Bread", "price": "$1.80" },
+              { "name": "Milk (1L)", "price": "$1.20" },
+              { "name": "Eggs (12)", "price": "$2.10" },
+              { "name": "Rice (1kg)", "price": "$1.30" },
+              { "name": "Chicken (1kg)", "price": "$5.50" }
+            ],
+            "total": "$25"
+          },
+          "dividerColor": "#D8A7B1"
+        }
+      },
+      {
+        "id": "ppp-title",
+        "duration": "5s",
+        "component": "TitleCard",
+        "config": {
+          "title": "Purchasing Power Parity (PPP)",
+          "subtitle": "~3,000 goods & services tracked by the OECD",
+          "icon": "OECD",
+          "titleColor": "#EAE0D5",
+          "subtitleColor": "rgba(234,224,213,0.6)"
+        }
+      },
+      {
+        "id": "ppp-bar-chart",
+        "duration": "40s",
+        "component": "HorizontalBarChart",
+        "config": {
+          "title": "Average Annual Salary (PPP-Adjusted USD)",
+          "animation": "re-sort-from-nominal",
+          "gradientColors": {
+            "highest": "#5BBF8C",
+            "lowest": "#E06070"
+          },
+          "bars": [
+            { "label": "Luxembourg", "code": "LUX", "value": 94447, "displayValue": "$94,447" },
+            { "label": "Iceland", "code": "ISL", "value": 89947, "displayValue": "$89,947" },
+            { "label": "Switzerland", "code": "CHE", "value": 87468, "displayValue": "$87,468" },
+            { "label": "United States", "code": "USA", "value": 82933, "displayValue": "$82,933" },
+            { "label": "Germany", "code": "DEU", "value": 69433, "displayValue": "$69,433" },
+            { "label": "United Kingdom", "code": "GBR", "value": 63691, "displayValue": "$63,691" },
+            { "label": "Spain", "code": "ESP", "value": 54564, "displayValue": "$54,564" },
+            { "label": "Greece", "code": "GRC", "value": 32257, "displayValue": "$32,257" },
+            { "label": "Mexico", "code": "MEX", "value": 20433, "displayValue": "$20,433" }
+          ],
+          "barHeight": 36,
+          "barGap": 12,
+          "labelColor": "#EAE0D5",
+          "valueColor": "rgba(234,224,213,0.6)"
+        }
+      }
+    ]
+  },
+  "transition": "crossfade",
+  "notes": "PPP EXPLANATION — the rug-pull. Three phases: (1) Grocery basket shows WHY raw dollars mislead. (2) PPP title card explains the concept. (3) Bar chart re-sorts — countries move position, viewer sees the impact of PPP. Gradient colors (green→red) per feedback point #17. The PPP bar chart serves as visual setup for the quadrant Y-axis in scene-004."
+}

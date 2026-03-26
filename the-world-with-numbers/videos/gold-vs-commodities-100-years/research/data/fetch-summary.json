@@ -1,0 +1,66 @@
+{
+  "fetchedAt": "2026-03-15T12:20:19.303Z",
+  "source": "stooq.com",
+  "assets": [
+    {
+      "name": "Gold (XAU/USD)",
+      "status": "OK",
+      "rows": 14416,
+      "dateRange": "1925-03-01 → 2025-03-14"
+    },
+    {
+      "name": "Silver (XAG/USD)",
+      "status": "OK",
+      "rows": 15778,
+      "dateRange": "1925-03-01 → 2025-03-14"
+    },
+    {
+      "name": "Platinum (XPT/USD)",
+      "status": "OK",
+      "rows": 14438,
+      "dateRange": "1968-03-01 → 2025-03-14"
+    },
+    {
+      "name": "Crude Oil WTI",
+      "status": "OK",
+      "rows": 12602,
+      "dateRange": "1946-01-31 → 2025-03-14"
+    },
+    {
+      "name": "Copper",
+      "status": "OK",
+      "rows": 19683,
+      "dateRange": "1925-01-30 → 2025-03-14"
+    },
+    {
+      "name": "S&P 500",
+      "status": "OK",
+      "rows": 26400,
+      "dateRange": "1925-01-02 → 2025-03-14"
+    },
+    {
+      "name": "Dow Jones Industrial Average",
+      "status": "OK",
+      "rows": 26269,
+      "dateRange": "1925-01-02 → 2025-03-14"
+    },
+    {
+      "name": "FTSE 100",
+      "status": "OK",
+      "rows": 9896,
+      "dateRange": "1985-12-31 → 2025-03-14"
+    },
+    {
+      "name": "Nikkei 225",
+      "status": "OK",
+      "rows": 19782,
+      "dateRange": "1925-03-01 → 2025-03-14"
+    },
+    {
+      "name": "DAX",
+      "status": "OK",
+      "rows": 16471,
+      "dateRange": "1959-09-28 → 2025-03-14"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "scene-021",
+  "visual": {
+    "type": "stock-video",
+    "description": "India megacity footage — crowded Mumbai local train, Delhi traffic, construction cranes, office workers in late-night cubicles. Fast-paced montage showing urbanization velocity. Overlaid data label in muted text: 'Avg sleep: ~7h (wearable data)' with cautionary note: '⚠️ ESTIMATED — No RAND-equivalent study for India. Wearable data has significant urban bias.' in #E8E0D4.",
+    "assetPath": "production/visuals/pexels-35366364-india-rush-hour-traffic-jam-ov.mp4",
+    "searchQuery": "india mumbai crowded train city traffic night",
+    "textOverlay": "⚠️ ESTIMATED — Wearable data, significant urban bias",
+    "dataVisualization": null
+  },
+  "transition": "cut",
+  "notes": "⚠️ ESTIMATED label REQUIRED — no RAND-equivalent study for India. Production flag #2 and #6: trajectory framing only, NOT a current economic claim."
+}

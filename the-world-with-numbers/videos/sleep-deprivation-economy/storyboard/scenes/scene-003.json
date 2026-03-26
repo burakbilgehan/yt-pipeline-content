@@ -1,0 +1,13 @@
+{
+  "id": "scene-003",
+  "visual": {
+    "type": "stock-video",
+    "description": "Close-up of a person rubbing their eyes at a desk, then transition to slow-motion footage of a car driving at night with headlights blurring — evoking impaired driving without being graphic.",
+    "assetPath": "production/visuals/pexels-7966844-tired-person-rubbing-eyes-desk.mp4",
+    "searchQuery": "tired person rubbing eyes desk night",
+    "textOverlay": "0.05% BAC at 17h → 0.10% BAC at 24h",
+    "dataVisualization": null
+  },
+  "transition": "fade",
+  "notes": "⚠️ VERIFY: BAC stat (Williamson & Feyer 2000). Visual reinforces the drunk-driving equivalence without showing actual accidents."
+}

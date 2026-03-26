@@ -1,0 +1,12 @@
+{
+  "id": "scene-025",
+  "visual": {
+    "type": "text-overlay",
+    "description": "Dark bg (#1A1824). Same three-box formula layout from scene-018, but now personalized: Box 1: 'Your country's GDP' in #E8E0D4. Arrow →. Box 2: '% workforce sleeping <6h' in #E8E0D4. Arrow →. Box 3: '× 1.3–2.3%' in #D47FA6 accent. Below: '= Your country's sleep cost' in #D47FA6. Clean callback to the earlier formula — viewer now has the tool. Bottom label in muted: 'Coefficient range: 1.3–2.3% (corrected per script-v2).'",
+    "searchQuery": null,
+    "textOverlay": "GDP × % workforce <6h × 1.3–2.3% = your country's sleep cost",
+    "dataVisualization": null
+  },
+  "transition": "cut",
+  "notes": "Callback to scene-018 formula — same visual layout, now personalized for viewer. Coefficient range 1.3–2.3% per script-v2 correction (was 1.5–2.5%)."
+}

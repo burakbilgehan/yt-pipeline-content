@@ -1,0 +1,153 @@
+{
+  "id": "scene-010",
+  "visual": {
+    "type": "composite",
+    "description": "THREE-PHASE CLOSING. Phase A (0-17s): QuadrantScatter chart with LUX+KHM spotlight. Phase B (17-34s): Single stock video — earth from space with night lights. Voiceover continues underneath until ~30s. Phase C (34-42s): End screen with subscribe + next video placeholders, fade to black.",
+    "phases": [
+      {
+        "id": "phase-a-chart",
+        "type": "data-chart",
+        "startOffset": 0,
+        "endOffset": 17,
+        "description": "QuadrantScatter chart persists from scene-009. All 40 dots visible briefly (2s), then all except LUX and KHM fade out (2s). LUX and KHM pulse with tooltips. Chart crossfades into stock video in last 2s.",
+        "dataVisualization": {
+          "component": "QuadrantScatter",
+          "config": {
+            "state": "closing-lux-khm-spotlight",
+            "activeQuadrant": null,
+            "showAxes": true,
+            "showGrid": true,
+            "showCrosshair": true,
+            "showQuadrantFills": true,
+            "showQuadrantLabels": true,
+            "showDots": true,
+            "showAllDots": true,
+            "centered": true,
+            "origin": { "x": 1633, "y": 59200 },
+            "xAxis": { "label": "Annual Hours Worked", "min": 1250, "max": 2550 },
+            "yAxis": { "label": "PPP-Adjusted Annual Salary ($)", "min": 3000, "max": 100000 },
+            "dots": [
+              { "code": "LUX", "x": 1473, "y": 94447 },
+              { "code": "ISL", "x": 1449, "y": 89947 },
+              { "code": "CHE", "x": 1528, "y": 87468 },
+              { "code": "USA", "x": 1810, "y": 82933 },
+              { "code": "BEL", "x": 1525, "y": 76109 },
+              { "code": "AUT", "x": 1443, "y": 75767 },
+              { "code": "NLD", "x": 1427, "y": 75370 },
+              { "code": "NOR", "x": 1424, "y": 74864 },
+              { "code": "DNK", "x": 1371, "y": 74022 },
+              { "code": "AUS", "x": 1707, "y": 70763 },
+              { "code": "DEU", "x": 1340, "y": 69433 },
+              { "code": "CAN", "x": 1686, "y": 69417 },
+              { "code": "GBR", "x": 1531, "y": 63691 },
+              { "code": "NZL", "x": 1748, "y": 62437 },
+              { "code": "SVN", "x": 1619, "y": 61776 },
+              { "code": "FRA", "x": 1511, "y": 60608 },
+              { "code": "IRL", "x": 1657, "y": 60431 },
+              { "code": "FIN", "x": 1498, "y": 59597 },
+              { "code": "SWE", "x": 1440, "y": 59058 },
+              { "code": "ISR", "x": 1891, "y": 54736 },
+              { "code": "ESP", "x": 1643, "y": 54564 },
+              { "code": "LTU", "x": 1624, "y": 52898 },
+              { "code": "ITA", "x": 1694, "y": 51019 },
+              { "code": "KOR", "x": 1901, "y": 50947 },
+              { "code": "JPN", "x": 1607, "y": 49446 },
+              { "code": "LVA", "x": 1553, "y": 45567 },
+              { "code": "POL", "x": 1814, "y": 44211 },
+              { "code": "PRT", "x": 1635, "y": 40002 },
+              { "code": "EST", "x": 1770, "y": 38975 },
+              { "code": "CZE", "x": 1754, "y": 38489 },
+              { "code": "SVK", "x": 1622, "y": 36105 },
+              { "code": "HUN", "x": 1699, "y": 34996 },
+              { "code": "GRC", "x": 1886, "y": 32257 },
+              { "code": "MEX", "x": 2226, "y": 20433 }
+            ],
+            "uglyTruthDots": [
+              { "code": "IND", "x": 2383, "y": 8600, "shape": "square", "color": "#8B2030" },
+              { "code": "BGD", "x": 2383, "y": 7000, "shape": "square", "color": "#8B2030" },
+              { "code": "KHM", "x": 2389, "y": 5500, "shape": "square", "color": "#8B2030" },
+              { "code": "PAK", "x": 2471, "y": 7000, "shape": "square", "color": "#8B2030" },
+              { "code": "NGA", "x": 2062, "y": 5800, "shape": "square", "color": "#8B2030" },
+              { "code": "PHL", "x": 2096, "y": 11000, "shape": "square", "color": "#8B2030" }
+            ],
+            "highlightDots": [
+              { "code": "LUX", "pulse": true, "glowColor": "rgba(91,191,140,0.7)" },
+              { "code": "KHM", "pulse": true, "glowColor": "rgba(139,32,48,0.7)" }
+            ],
+            "closingChartSequence": {
+              "step1_allVisible": { "duration": "2s", "allDotsOpacity": 0.7 },
+              "step2_fadeToSpotlight": { "duration": "2s", "fadeAllExcept": ["LUX", "KHM"], "fadeTo": 0.08 },
+              "step3_spotlightPulse": {
+                "duration": "11s",
+                "spotlightDots": [
+                  {
+                    "code": "LUX",
+                    "showLabel": true,
+                    "pulse": true,
+                    "glowColor": "rgba(91,191,140,0.7)",
+                    "tooltip": { "salary": "$94,447", "hours": "1,473 hrs/yr", "hourlyRate": "$64.12/hr" }
+                  },
+                  {
+                    "code": "KHM",
+                    "showLabel": true,
+                    "pulse": true,
+                    "glowColor": "rgba(139,32,48,0.7)",
+                    "tooltip": { "salary": "~$5,500", "hours": "2,389 hrs/yr", "hourlyRate": "$2.30/hr" }
+                  }
+                ]
+              },
+              "step4_chartFadeOut": { "duration": "2s", "fadeAll": true }
+            },
+            "dotSize": 8,
+            "uglyTruthDotSize": 10,
+            "skipEntrance": true,
+            "showLabelsFor": "all"
+          }
+        }
+      },
+      {
+        "id": "phase-b-stock-video",
+        "type": "stock-video",
+        "startOffset": 17,
+        "endOffset": 34,
+        "description": "Single stock video: Earth from space with night lights. Slow Ken Burns zoom. Voiceover continues underneath ('Same planet... It's where you were born.') until ~30s offset, then 4s of silence with just music and the video.",
+        "video": {
+          "file": "pexels-1851190-earth-from-space-night-lights.mp4",
+          "staticPath": "time-vs-earnings/production/visuals/pexels-1851190-earth-from-space-night-lights.mp4"
+        },
+        "overlay": {
+          "tint": "rgba(26, 27, 34, 0.3)",
+          "kenBurns": { "startScale": 1.0, "endScale": 1.1 }
+        }
+      },
+      {
+        "id": "phase-c-end-screen",
+        "type": "end-screen",
+        "startOffset": 34,
+        "endOffset": 42,
+        "description": "End screen with subscribe button and next video placeholder. Dark background. Music fades out. Fade to black in last 2s.",
+        "endCard": {
+          "component": "EndCardScene",
+          "config": {
+            "fadeToBlack": true,
+            "fadeToBlackDuration": "2s",
+            "backgroundColor": "#1A1B22",
+            "watermark": true,
+            "youtubeEndScreen": {
+              "enabled": true,
+              "subscribePlacement": "center-left",
+              "nextVideoPlacement": "center-right"
+            }
+          }
+        },
+        "musicFade": {
+          "startAt": "0s",
+          "duration": "6s",
+          "fadeTo": 0
+        }
+      }
+    ]
+  },
+  "transition": "seamless",
+  "notes": "CLOSING — three-phase design (42s total). Phase A (0-17s): QuadrantScatter chart, LUX+KHM spotlight. Phase B (17-34s, 17s): Earth from space stock video, voiceover ends ~30s. Phase C (34-42s, 8s): EndCardScene with subscribe + next video, music fades, fade to black. Video ends at 593.7+42 = 635.7s (~10:36)."
+}

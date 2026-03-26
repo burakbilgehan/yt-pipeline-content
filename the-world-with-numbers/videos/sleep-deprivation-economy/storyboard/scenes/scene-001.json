@@ -1,0 +1,13 @@
+{
+  "id": "scene-001",
+  "visual": {
+    "type": "stock-video",
+    "description": "Morning commute montage — packed buses, subway cars, bumper-to-bumper traffic. Tired faces, heads nodding, eyes barely open. Slow, heavy atmosphere.",
+    "assetPath": "production/visuals/pexels-855749-tired-commuters-morning-subway.mp4",
+    "searchQuery": "tired commuters morning subway crowd",
+    "textOverlay": null,
+    "dataVisualization": null
+  },
+  "transition": "cut",
+  "notes": null
+}

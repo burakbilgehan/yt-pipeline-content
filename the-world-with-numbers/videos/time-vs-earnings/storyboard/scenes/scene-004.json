@@ -1,0 +1,45 @@
+{
+  "id": "scene-004",
+  "visual": {
+    "type": "data-chart",
+    "description": "DREAM quadrant (top-left) brightens. Countries appear one by one with spring stagger: Luxembourg first (largest dot, pulsing glow), then Iceland, Switzerland. Germany pulses strongly — furthest left (fewest hours). Denmark close to Germany. Then Netherlands, Norway. Counter: '13 of 34 countries.' Belgium earns $49.91/hr callout. Austria earns $52.51/hr callout.",
+    "searchQuery": null,
+    "textOverlay": null,
+    "dataVisualization": {
+      "component": "QuadrantScatter",
+      "config": {
+        "state": "dream-quadrant-leaders",
+        "activeQuadrant": "topLeft",
+        "showDots": true,
+        "dotFilter": "dream-leaders",
+        "highlightedCountries": ["LUX", "ISL", "CHE", "DEU", "DNK"],
+        "dots": [
+          { "code": "LUX", "x": 1473, "y": 94447, "entranceOrder": 1, "size": "large" },
+          { "code": "ISL", "x": 1449, "y": 89947, "entranceOrder": 2 },
+          { "code": "CHE", "x": 1528, "y": 87468, "entranceOrder": 3 },
+          { "code": "DEU", "x": 1340, "y": 69433, "entranceOrder": 4, "pulse": true },
+          { "code": "DNK", "x": 1371, "y": 74022, "entranceOrder": 5 },
+          { "code": "NLD", "x": 1427, "y": 75370, "entranceOrder": 6 },
+          { "code": "NOR", "x": 1424, "y": 74864, "entranceOrder": 7 }
+        ],
+        "dotColor": "#5BBF8C",
+        "miniCallouts": [
+          { "code": "LUX", "label": "Luxembourg", "stat": "$64.12/hr", "note": "Highest hourly rate" },
+          { "code": "ISL", "label": "Iceland", "stat": "$62.08/hr", "note": "370K population" },
+          { "code": "DEU", "label": "Germany", "stat": "$51.82/hr · 1,340 hrs", "note": "Fewest hours in dataset" },
+          { "code": "DNK", "label": "Denmark", "stat": "$53.99/hr · 1,371 hrs", "note": "2nd fewest hours" }
+        ],
+        "counterLabel": "13 of 34 countries",
+        "dimOtherQuadrants": true,
+        "cameraZoom": {
+          "target": "topLeft",
+          "scale": 1.25,
+          "startAt": "1s",
+          "duration": "4s"
+        }
+      }
+    }
+  },
+  "transition": "seamless",
+  "notes": "DREAM leaders spotlight. Y-values are now PPP salary ($). LUX at top ($94,447), DEU furthest left (1,340 hrs). Text badges for country codes (NOT emoji flags). Spring entrance with 1.5-frame stagger. Germany pulses because it has the fewest hours. Mini callout cards show $/hr."
+}

@@ -1,0 +1,35 @@
+{
+  "id": "scene-002",
+  "visual": {
+    "type": "composite",
+    "description": "Split screen: left side shows '$3,000/month' cash stack illustration. Right side splits vertically — top: Zurich skyline silhouette with floating prices (rent $2,800, groceries $600), bottom: Mexico City silhouette with lower prices (rent $400, groceries $150). Cash stack visually 'shrinks' in Zurich (scale 1.0→0.3) and 'grows' in Mexico City (scale 1.0→2.5). Then transition to 'Purchasing Power Parity' title card. Animated basket of ~3,000 goods. Then PPP salary bar chart: LUX ($94,447), ISL ($89,947), CHE ($87,468), USA ($82,933) top. GRC ($32,257), MEX ($20,433) bottom.",
+    "searchQuery": null,
+    "aiImagePrompt": "Minimalist city skyline silhouettes side by side — one European alpine city, one Latin American sprawling city, dark moody background, cinematic lighting, muted color palette, minimal composition, high detail, editorial documentary style, no text, no people",
+    "textOverlay": {
+      "prices": [
+        { "label": "Zurich", "items": ["Rent: $2,800", "Groceries: $600"] },
+        { "label": "Mexico City", "items": ["Rent: $400", "Groceries: $150"] }
+      ]
+    },
+    "dataVisualization": {
+      "component": "BarChart",
+      "config": {
+        "type": "horizontal",
+        "title": "PPP-Adjusted Annual Salary ($)",
+        "subtitle": "OECD 2024",
+        "bars": [
+          { "label": "Luxembourg", "value": 94447, "color": "#5BBF8C" },
+          { "label": "Iceland", "value": 89947, "color": "#5BBF8C" },
+          { "label": "Switzerland", "value": 87468, "color": "#5BBF8C" },
+          { "label": "United States", "value": 82933, "color": "#5BBF8C" },
+          { "label": "Greece", "value": 32257, "color": "#E06070" },
+          { "label": "Mexico", "value": 20433, "color": "#E06070" }
+        ],
+        "unit": "$",
+        "showAt": "second-half"
+      }
+    }
+  },
+  "transition": "cut",
+  "notes": "Phase 1 — PPP explanation. Two visual beats: (1) the $3,000 split screen showing local price differences, (2) PPP salary bar chart. NO Big Mac references. PPP basket animation is a new visual element. Bar chart shows top 4 + bottom 2 for contrast. Green for top earners, red for bottom."
+}

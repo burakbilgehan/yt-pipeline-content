@@ -1,0 +1,12 @@
+{
+  "id": "scene-012",
+  "visual": {
+    "type": "text-overlay",
+    "description": "Dark bg (#1A1824). Title fades in: 'RAND Europe, 2016' in #D47FA6 accent. Below, five country names appear one by one in #E8E0D4: United States, Japan, Germany, United Kingdom, Canada. Then two definition cards stack: 'Absenteeism — not showing up' and 'Presenteeism — showing up, performing far below capacity' with presenteeism line highlighted in accent.",
+    "searchQuery": null,
+    "textOverlay": "RAND Europe, 2016\n5 countries — 2 metrics\nAbsenteeism vs Presenteeism",
+    "dataVisualization": null
+  },
+  "transition": "cut",
+  "notes": "Source: RAND RR-1791, 2016. Presenteeism is the bigger cost — visual emphasis on that definition."
+}

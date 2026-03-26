@@ -1,0 +1,39 @@
+{
+  "id": "scene-005",
+  "visual": {
+    "type": "data-chart",
+    "description": "Continuing DREAM quadrant. Netherlands highlights with part-time icon ('~50% part-time'). Belgium, Austria get brief stat callouts. Remaining DREAM cluster fades in: UK, Slovenia, France, Finland. Text overlay: '13 of 34 countries — all European. Not a single country outside Europe.'",
+    "searchQuery": null,
+    "textOverlay": {
+      "conclusion": "13 of 34 countries — Western and Northern Europe dominates"
+    },
+    "dataVisualization": {
+      "component": "QuadrantScatter",
+      "config": {
+        "state": "dream-quadrant-cluster",
+        "activeQuadrant": "topLeft",
+        "showDots": true,
+        "dotFilter": "dream-all",
+        "highlightedCountries": ["NLD", "BEL", "AUT"],
+        "miniCallouts": [
+          { "code": "NLD", "label": "Netherlands", "stat": "$52.82/hr · 1,427 hrs", "note": "Part-time by choice" },
+          { "code": "NOR", "label": "Norway", "stat": "$52.57/hr · 1,424 hrs" },
+          { "code": "BEL", "label": "Belgium", "stat": "$49.91/hr" },
+          { "code": "AUT", "label": "Austria", "stat": "$52.51/hr" }
+        ],
+        "clusterDots": [
+          { "code": "BEL", "x": 1525, "y": 76109 },
+          { "code": "AUT", "x": 1443, "y": 75767 },
+          { "code": "GBR", "x": 1531, "y": 63691 },
+          { "code": "SVN", "x": 1619, "y": 61776 },
+          { "code": "FRA", "x": 1511, "y": 60608 },
+          { "code": "FIN", "x": 1498, "y": 59597 }
+        ],
+        "dimOtherQuadrants": true,
+        "dotColor": "#5BBF8C"
+      }
+    }
+  },
+  "transition": "cross-dissolve",
+  "notes": "DREAM cluster completion. NLD part-time icon. BEL and AUT get brief hourly rate callouts. GBR, SVN, FRA, FIN fade in as cluster. Text emphasizes ALL European. Transition: DREAM dims, GRIND brightens."
+}

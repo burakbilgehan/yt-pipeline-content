@@ -1,0 +1,27 @@
+{
+  "id": "scene-007",
+  "visual": {
+    "type": "data-chart",
+    "description": "Two-tier threshold graphic. Top bar: CDC threshold — '<7 hours: 1 in 3 US adults' in #E8E0D4. Bottom bar glows red (#E06070): RAND danger zone — '<6 hours' with label 'RAND economic loss threshold'. A dotted line separates the two tiers. Dark bg, clean layout. The <6h bar is visually more alarming.",
+    "searchQuery": null,
+    "textOverlay": "CDC: <7h — 1 in 3 adults\nRAND danger zone: <6h",
+    "dataVisualization": {
+      "type": "comparison",
+      "data": {
+        "cdcThreshold": {
+          "label": "<7 hours/night",
+          "value": "1 in 3 US adults",
+          "source": "CDC BRFSS 2022"
+        },
+        "randThreshold": {
+          "label": "<6 hours/night",
+          "value": "RAND danger zone",
+          "source": "RAND RR-1791, 2016",
+          "highlight": true
+        }
+      }
+    }
+  },
+  "transition": "cut",
+  "notes": "Key distinction: CDC uses <7h, RAND uses <6h. All RAND-cited graphics must use <6h threshold per production flag #5."
+}

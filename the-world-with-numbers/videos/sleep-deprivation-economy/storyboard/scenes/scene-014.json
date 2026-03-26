@@ -1,0 +1,22 @@
+{
+  "id": "scene-014",
+  "visual": {
+    "type": "data-chart",
+    "description": "Dark bg. Large counter animates up to '$680B' in #D47FA6 accent, center screen. Below: comparison card — two flag icons (Portugal + New Zealand) with their combined GDP shown. Visual equivalence: '$680B lost to sleep > Portugal + New Zealand GDP combined'. Subtle smoke/dissolve effect on the number to match 'going up in smoke' line.",
+    "searchQuery": null,
+    "textOverlay": "$680B/year > Portugal + New Zealand GDP combined",
+    "dataVisualization": {
+      "type": "counter",
+      "data": {
+        "targetValue": "$680B",
+        "label": "Annual loss — 5 countries",
+        "comparison": {
+          "item": "Portugal + New Zealand GDP combined",
+          "message": "Lost every year. Not from war. Not from crisis. From not sleeping."
+        }
+      }
+    }
+  },
+  "transition": "fade",
+  "notes": "$680B is aggregate of high-end estimates across 5 countries. Portugal + NZ comparison added per script-v2 revision. ⚠️ FLAG #7: Do NOT extrapolate to '$1T globally' — RAND only measured 5 countries. $680B is the five-country total, not a global estimate."
+}

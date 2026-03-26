@@ -1,0 +1,65 @@
+{
+  "id": "scene-008",
+  "visual": {
+    "type": "data-chart",
+    "description": "TRAP quadrant (bottom-right) brightens. 11 dots appear, Greece and Mexico pulse at extreme edges. Germany dot in DREAM re-highlights. Connector line GRC → DEU: '3× more per hour, 546 fewer hours.' Then connector line DEU → MEX: '5.6× more per hour, 886 more hours = 111 extra workdays.' Luxembourg connector to Mexico: '7× more per hour, 753 fewer hours.' Counter: '11 of 34 countries.'",
+    "searchQuery": null,
+    "textOverlay": null,
+    "dataVisualization": {
+      "component": "QuadrantScatter",
+      "config": {
+        "state": "trap-quadrant-extremes",
+        "activeQuadrant": "bottomRight",
+        "showDots": true,
+        "dotFilter": "trap-all",
+        "dots": [
+          { "code": "ISR", "x": 1891, "y": 54736 },
+          { "code": "ESP", "x": 1643, "y": 54564 },
+          { "code": "ITA", "x": 1694, "y": 51019 },
+          { "code": "KOR", "x": 1901, "y": 50947 },
+          { "code": "POL", "x": 1814, "y": 44211 },
+          { "code": "PRT", "x": 1635, "y": 40002 },
+          { "code": "EST", "x": 1770, "y": 38975 },
+          { "code": "CZE", "x": 1754, "y": 38489 },
+          { "code": "HUN", "x": 1699, "y": 34996 },
+          { "code": "GRC", "x": 1886, "y": 32257, "pulse": true },
+          { "code": "MEX", "x": 2226, "y": 20433, "pulse": true }
+        ],
+        "crossQuadrantDots": [
+          { "code": "DEU", "x": 1340, "y": 69433, "opacity": 0.7 },
+          { "code": "LUX", "x": 1473, "y": 94447, "opacity": 0.5 }
+        ],
+        "dotColor": "#E06070",
+        "connectorLines": [
+          {
+            "from": "GRC", "to": "DEU",
+            "style": "dashed", "color": "#E06070",
+            "labels": ["3× more per hour", "546 fewer hours"]
+          },
+          {
+            "from": "DEU", "to": "MEX",
+            "style": "dashed", "color": "#E06070",
+            "labels": ["5.6× more per hour", "886 more hours = 111 workdays"],
+            "showAfter": "4s"
+          },
+          {
+            "from": "LUX", "to": "MEX",
+            "style": "dashed", "color": "#E06070",
+            "labels": ["7× more per hour", "753 fewer hours"],
+            "showAfter": "7s"
+          }
+        ],
+        "counterLabel": "11 of 34 countries",
+        "dimOtherQuadrants": true,
+        "cameraZoom": {
+          "target": "bottomRight",
+          "scale": 1.2,
+          "startAt": "1.5s",
+          "duration": "5s"
+        }
+      }
+    }
+  },
+  "transition": "seamless",
+  "notes": "TRAP part 1: extreme comparisons. Three connector lines in sequence — GRC-DEU, DEU-MEX, LUX-MEX. Each connector is visually devastating — crossing nearly the entire chart. Germany and Luxembourg re-highlighted from DREAM at partial opacity. All 11 TRAP dots visible with their PPP salary y-values. No Big Mac references."
+}

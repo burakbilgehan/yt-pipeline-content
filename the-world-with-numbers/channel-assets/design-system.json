@@ -1,0 +1,49 @@
+{
+  "name": "muted-documentary",
+  "version": 2,
+  "colors": {
+    "bgTop": "#1A1B22",
+    "bgBottom": "#1A1B22",
+    "accent1": "#D8A7B1",
+    "accent2": "#90AFC5",
+    "text": "#EAE0D5",
+    "textMuted": "rgba(234, 224, 213, 0.6)",
+    "positive": "#5BBF8C",
+    "negative": "#E06070",
+    "surface": "rgba(255, 255, 255, 0.06)",
+    "border": "rgba(234, 224, 213, 0.12)",
+    "grid": "#A3B18A"
+  },
+  "typography": {
+    "fontFamily": "Montserrat, sans-serif",
+    "headingWeight": 700,
+    "bodyWeight": 400,
+    "monoFont": "JetBrains Mono, monospace",
+    "bodyFont": "Inter, sans-serif"
+  },
+  "geometry": {
+    "cornerRadius": 8,
+    "borderWidth": 1,
+    "screenUtilization": 0.85,
+    "asymmetry": 0,
+    "alignment": "left"
+  },
+  "effects": {
+    "glassOpacity": 0,
+    "glowIntensity": 0,
+    "shadowDepth": "none",
+    "gradientAngle": 180,
+    "filmGrainOpacity": 0.03,
+    "dotGridOpacity": 0.1,
+    "dotGridSpacing": 20
+  },
+  "animation": {
+    "speed": "normal",
+    "springDamping": 20,
+    "springStiffness": 100,
+    "stagger": 10,
+    "easingCurve": [0.33, 1, 0.68, 1]
+  },
+  "exportedAt": "2026-03-19T23:00:00.000Z",
+  "exportedFrom": "brand-guide-v2-gemini-pivot"
+}

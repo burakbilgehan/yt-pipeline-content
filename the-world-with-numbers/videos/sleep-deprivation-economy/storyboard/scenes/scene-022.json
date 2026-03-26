@@ -1,0 +1,12 @@
+{
+  "id": "scene-022",
+  "visual": {
+    "type": "ai-image",
+    "description": "India map silhouette on dark bg (#1A1824). An animated arrow curves upward from bottom-left to top-right across the map, representing urbanization trajectory. Three condition labels appear along the arrow path: 'Long hours', 'Financial stress', 'Screen culture' — each in #E8E0D4. At the arrow's tip: 'The same conditions. A different timeline.' in #D47FA6 accent. Clean, atmospheric, forward-looking tone.",
+    "searchQuery": null,
+    "textOverlay": "The same conditions. A different timeline.",
+    "dataVisualization": null
+  },
+  "transition": "fade",
+  "notes": "aiImagePrompt: Dark atmospheric India map silhouette on #1A1824 background, a glowing upward trajectory arrow across the map, three floating text labels along the path, cinematic lighting, ultra detailed, 8K, minimal. Production flag #6: trajectory framing ONLY — no economic dollar claim for India. Fade to Close."
+}

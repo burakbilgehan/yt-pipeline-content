@@ -1,0 +1,401 @@
+{
+  "id": "scene-007",
+  "visual": {
+    "type": "data-chart",
+    "description": "Camera pans to bottom-right. TRAP zone glows red. 11 labels reveal. GRC-DEU connector line crosses entire chart: '3× per hour | 546 fewer hrs'. Then KOR-ITA highlight: '$72 diff, 207 hrs'. MEX pulses at extreme. LUX-MEX connector: '7× per hour'. Tooltips for GRC, KOR, ITA, MEX.",
+    "searchQuery": null,
+    "textOverlay": null,
+    "dataVisualization": {
+      "component": "QuadrantScatter",
+      "config": {
+        "state": "trap-quadrant-focus",
+        "activeQuadrant": "bottomRight",
+        "showAxes": true,
+        "showGrid": true,
+        "showCrosshair": true,
+        "showQuadrantFills": true,
+        "showQuadrantLabels": true,
+        "showDots": true,
+        "showAllDots": true,
+        "centered": true,
+        "origin": {
+          "x": 1633,
+          "y": 59200
+        },
+        "xAxis": {
+          "label": "Annual Hours Worked",
+          "min": 1250,
+          "max": 2350
+        },
+        "yAxis": {
+          "label": "PPP-Adjusted Annual Salary ($)",
+          "min": 20000,
+          "max": 100000
+        },
+        "dots": [
+          {
+            "code": "LUX",
+            "x": 1473,
+            "y": 94447
+          },
+          {
+            "code": "ISL",
+            "x": 1449,
+            "y": 89947
+          },
+          {
+            "code": "CHE",
+            "x": 1528,
+            "y": 87468
+          },
+          {
+            "code": "USA",
+            "x": 1810,
+            "y": 82933
+          },
+          {
+            "code": "BEL",
+            "x": 1525,
+            "y": 76109
+          },
+          {
+            "code": "AUT",
+            "x": 1443,
+            "y": 75767
+          },
+          {
+            "code": "NLD",
+            "x": 1427,
+            "y": 75370
+          },
+          {
+            "code": "NOR",
+            "x": 1424,
+            "y": 74864
+          },
+          {
+            "code": "DNK",
+            "x": 1371,
+            "y": 74022
+          },
+          {
+            "code": "AUS",
+            "x": 1707,
+            "y": 70763
+          },
+          {
+            "code": "DEU",
+            "x": 1340,
+            "y": 69433
+          },
+          {
+            "code": "CAN",
+            "x": 1686,
+            "y": 69417
+          },
+          {
+            "code": "GBR",
+            "x": 1531,
+            "y": 63691
+          },
+          {
+            "code": "NZL",
+            "x": 1748,
+            "y": 62437
+          },
+          {
+            "code": "SVN",
+            "x": 1619,
+            "y": 61776
+          },
+          {
+            "code": "FRA",
+            "x": 1511,
+            "y": 60608
+          },
+          {
+            "code": "IRL",
+            "x": 1657,
+            "y": 60431
+          },
+          {
+            "code": "FIN",
+            "x": 1498,
+            "y": 59597
+          },
+          {
+            "code": "SWE",
+            "x": 1440,
+            "y": 59058
+          },
+          {
+            "code": "ISR",
+            "x": 1891,
+            "y": 54736
+          },
+          {
+            "code": "ESP",
+            "x": 1643,
+            "y": 54564
+          },
+          {
+            "code": "LTU",
+            "x": 1624,
+            "y": 52898
+          },
+          {
+            "code": "ITA",
+            "x": 1694,
+            "y": 51019
+          },
+          {
+            "code": "KOR",
+            "x": 1901,
+            "y": 50947
+          },
+          {
+            "code": "JPN",
+            "x": 1607,
+            "y": 49446
+          },
+          {
+            "code": "LVA",
+            "x": 1553,
+            "y": 45567
+          },
+          {
+            "code": "POL",
+            "x": 1814,
+            "y": 44211
+          },
+          {
+            "code": "PRT",
+            "x": 1635,
+            "y": 40002
+          },
+          {
+            "code": "EST",
+            "x": 1770,
+            "y": 38975
+          },
+          {
+            "code": "CZE",
+            "x": 1754,
+            "y": 38489
+          },
+          {
+            "code": "SVK",
+            "x": 1622,
+            "y": 36105
+          },
+          {
+            "code": "HUN",
+            "x": 1699,
+            "y": 34996
+          },
+          {
+            "code": "GRC",
+            "x": 1886,
+            "y": 32257
+          },
+          {
+            "code": "MEX",
+            "x": 2226,
+            "y": 20433
+          }
+        ],
+        "activeQuadrantDots": [
+          "ISR",
+          "ESP",
+          "ITA",
+          "KOR",
+          "POL",
+          "PRT",
+          "EST",
+          "CZE",
+          "HUN",
+          "GRC",
+          "MEX"
+        ],
+        "showLabelsFor": [
+          "ISR",
+          "ESP",
+          "ITA",
+          "KOR",
+          "POL",
+          "PRT",
+          "EST",
+          "CZE",
+          "HUN",
+          "GRC",
+          "MEX"
+        ],
+        "labelRevealStyle": "stagger",
+        "labelStaggerDelay": "0.25s",
+        "crossQuadrantDots": [
+          {
+            "code": "DEU",
+            "showLabel": true,
+            "opacity": 0.7,
+            "purpose": "comparison-grc"
+          },
+          {
+            "code": "LUX",
+            "showLabel": true,
+            "opacity": 0.5,
+            "purpose": "comparison-mex"
+          }
+        ],
+        "highlightDots": [
+          {
+            "code": "GRC",
+            "pulse": true,
+            "glowColor": "rgba(224,96,112,0.6)"
+          },
+          {
+            "code": "MEX",
+            "pulse": true,
+            "glowColor": "rgba(224,96,112,0.8)"
+          },
+          {
+            "code": "KOR",
+            "pulse": false,
+            "glowColor": "rgba(224,96,112,0.4)"
+          },
+          {
+            "code": "ITA",
+            "pulse": false,
+            "glowColor": "rgba(224,96,112,0.4)"
+          }
+        ],
+        "tooltips": [
+          {
+            "code": "GRC",
+            "position": "topRight",
+            "showAt": "3s",
+            "pixelOffset": {
+              "x": 150,
+              "y": -350
+            },
+            "data": {
+              "salary": "$32,257",
+              "hours": "1,886 hrs/yr",
+              "hourlyRate": "$17.10/hr"
+            }
+          },
+          {
+            "code": "KOR",
+            "position": "topLeft",
+            "showAt": "14s",
+            "pixelOffset": {
+              "x": -300,
+              "y": -450
+            },
+            "data": {
+              "salary": "$50,947",
+              "hours": "1,901 hrs/yr",
+              "hourlyRate": "$26.80/hr"
+            }
+          },
+          {
+            "code": "ITA",
+            "position": "left",
+            "showAt": "14s",
+            "pixelOffset": {
+              "x": -100,
+              "y": 200
+            },
+            "data": {
+              "salary": "$51,019",
+              "hours": "1,694 hrs/yr",
+              "hourlyRate": "$30.12/hr"
+            }
+          },
+          {
+            "code": "MEX",
+            "position": "bottomRight",
+            "showAt": "22s",
+            "pixelOffset": {
+              "x": 100,
+              "y": -350
+            },
+            "data": {
+              "salary": "$20,433",
+              "hours": "2,226 hrs/yr",
+              "hourlyRate": "$9.18/hr"
+            }
+          }
+        ],
+        "connectorLines": [
+          {
+            "from": "GRC",
+            "to": "DEU",
+            "style": "dashed",
+            "color": "#E06070",
+            "labels": [
+              "~3× per hour",
+              "546 fewer hrs"
+            ],
+            "labelDir": "above",
+            "showAt": "3s",
+            "duration": "10s"
+          },
+          {
+            "from": "KOR",
+            "to": "ITA",
+            "style": "dotted",
+            "color": "#D8A7B1",
+            "labels": [
+              "$72 diff",
+              "207 more hrs"
+            ],
+            "labelDir": "below",
+            "showAt": "13s",
+            "duration": "8s"
+          },
+          {
+            "from": "LUX",
+            "to": "MEX",
+            "style": "dashed",
+            "color": "#E06070",
+            "labels": [
+              "7× per hour",
+              "753 fewer hrs"
+            ],
+            "labelDir": "above",
+            "showAt": "22s",
+            "duration": "10s"
+          }
+        ],
+        "quadrantGlow": {
+          "quadrant": "bottomRight",
+          "color": "rgba(224,96,112,0.12)",
+          "animateIn": "2s"
+        },
+        "dimOtherQuadrants": true,
+        "dimOpacity": 0.3,
+        "counterLabel": "11 of 34",
+        "counterPosition": "topRight",
+        "cameraZoom": {
+          "target": "bottomRight",
+          "scale": 1.2,
+          "startAt": "1s",
+          "duration": "3s",
+          "easing": "easeInOut",
+          "startFrom": {
+            "target": "topRight",
+            "scale": 1.25
+          },
+          "transitionDuration": "1.5s"
+        },
+        "dotColorActive": "rgba(224,96,112,0.9)",
+        "dotColorInactive": "rgba(234,224,213,0.25)",
+        "dotSize": 8,
+        "skipEntrance": true,
+        "tooltipScale": 0.65
+      }
+    }
+  },
+  "transition": "seamless",
+  "notes": "TRAP quadrant — the most dramatic section. Three connector lines in sequence: (1) GRC-DEU crossing quadrant boundary — same EU, same currency, 3× hourly difference. (2) KOR-ITA — $72 salary difference but 207 hours apart, the 'quiet story'. (3) LUX-MEX — 7× per hour, longest connector line on chart. MEX pulses at the extreme bottom-right as the OECD worst position. DEU and LUX re-highlighted at partial opacity as comparison anchors. All 11 TRAP dots labeled. Math verified: GRC $17.10/hr vs DEU $51.82/hr = 3.03× (script says 'roughly three times'). KOR-ITA salary diff = $72, hours diff = 207. LUX $64.12 / MEX $9.18 = 6.98× ≈ 7×."
+}

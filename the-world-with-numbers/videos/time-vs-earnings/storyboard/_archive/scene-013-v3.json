@@ -1,0 +1,29 @@
+{
+  "id": "scene-013",
+  "visual": {
+    "type": "composite",
+    "description": "Full QuadrantScatter matrix in background at 60% opacity. Lower-third overlay slides up from bottom with clean source citations on dark surface (rgba(26,27,34,0.85)). Line 1: 'OECD Average Wages 2024 (PPP) · OECD Hours Worked 2022 · Big Mac Index Jan 2025 · The Economist.' Line 2: 'Euro-area countries share a single Big Mac price ($5.95).' Line 3: 'This is a simplified comparison — real life is more complex.'",
+    "searchQuery": null,
+    "textOverlay": {
+      "position": "lower-third",
+      "lines": [
+        "OECD Average Wages 2024 (PPP) · OECD Hours Worked 2022 · Big Mac Index Jan 2025",
+        "Euro-area countries share a single Big Mac price ($5.95)",
+        "This is a simplified comparison — real life is more complex."
+      ],
+      "background": "rgba(26,27,34,0.85)",
+      "textColor": "#EAE0D5",
+      "sourceColor": "#90AFC5"
+    },
+    "dataVisualization": {
+      "component": "QuadrantScatter",
+      "config": {
+        "state": "full-matrix-dimmed",
+        "showAllDots": true,
+        "opacity": 0.6
+      }
+    }
+  },
+  "transition": "slide",
+  "notes": "Quick data disclaimer — keeps the video honest. Lower-third slides up (0.5s), holds, slides down. Background matrix visible but dimmed so text is readable. Inter font for source text, 16px. Source links in #90AFC5 (Muted Blue). This is only 15 seconds — fast and clean. No editorial commentary, just facts about the data."
+}

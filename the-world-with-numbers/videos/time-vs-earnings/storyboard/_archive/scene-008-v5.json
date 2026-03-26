@@ -1,0 +1,332 @@
+{
+  "id": "scene-008",
+  "visual": {
+    "type": "data-chart",
+    "description": "Camera pans to bottom-left. CHILL zone glows blue. 5 labels reveal. SWE dot pulses near salary mean line with annotation '$142 below average'. JPN dot highlighted with '?' icon and 'karoshi' text overlay. JPN tooltip. SWE tooltip.",
+    "searchQuery": null,
+    "textOverlay": null,
+    "dataVisualization": {
+      "component": "QuadrantScatter",
+      "config": {
+        "state": "chill-quadrant-focus",
+        "activeQuadrant": "bottomLeft",
+        "showAxes": true,
+        "showGrid": true,
+        "showCrosshair": true,
+        "showQuadrantFills": true,
+        "showQuadrantLabels": true,
+        "showDots": true,
+        "showAllDots": true,
+        "centered": true,
+        "origin": {
+          "x": 1633,
+          "y": 59200
+        },
+        "xAxis": {
+          "label": "Annual Hours Worked",
+          "min": 1250,
+          "max": 2350
+        },
+        "yAxis": {
+          "label": "PPP-Adjusted Annual Salary ($)",
+          "min": 20000,
+          "max": 100000
+        },
+        "dots": [
+          {
+            "code": "LUX",
+            "x": 1473,
+            "y": 94447
+          },
+          {
+            "code": "ISL",
+            "x": 1449,
+            "y": 89947
+          },
+          {
+            "code": "CHE",
+            "x": 1528,
+            "y": 87468
+          },
+          {
+            "code": "USA",
+            "x": 1810,
+            "y": 82933
+          },
+          {
+            "code": "BEL",
+            "x": 1525,
+            "y": 76109
+          },
+          {
+            "code": "AUT",
+            "x": 1443,
+            "y": 75767
+          },
+          {
+            "code": "NLD",
+            "x": 1427,
+            "y": 75370
+          },
+          {
+            "code": "NOR",
+            "x": 1424,
+            "y": 74864
+          },
+          {
+            "code": "DNK",
+            "x": 1371,
+            "y": 74022
+          },
+          {
+            "code": "AUS",
+            "x": 1707,
+            "y": 70763
+          },
+          {
+            "code": "DEU",
+            "x": 1340,
+            "y": 69433
+          },
+          {
+            "code": "CAN",
+            "x": 1686,
+            "y": 69417
+          },
+          {
+            "code": "GBR",
+            "x": 1531,
+            "y": 63691
+          },
+          {
+            "code": "NZL",
+            "x": 1748,
+            "y": 62437
+          },
+          {
+            "code": "SVN",
+            "x": 1619,
+            "y": 61776
+          },
+          {
+            "code": "FRA",
+            "x": 1511,
+            "y": 60608
+          },
+          {
+            "code": "IRL",
+            "x": 1657,
+            "y": 60431
+          },
+          {
+            "code": "FIN",
+            "x": 1498,
+            "y": 59597
+          },
+          {
+            "code": "SWE",
+            "x": 1440,
+            "y": 59058
+          },
+          {
+            "code": "ISR",
+            "x": 1891,
+            "y": 54736
+          },
+          {
+            "code": "ESP",
+            "x": 1643,
+            "y": 54564
+          },
+          {
+            "code": "LTU",
+            "x": 1624,
+            "y": 52898
+          },
+          {
+            "code": "ITA",
+            "x": 1694,
+            "y": 51019
+          },
+          {
+            "code": "KOR",
+            "x": 1901,
+            "y": 50947
+          },
+          {
+            "code": "JPN",
+            "x": 1607,
+            "y": 49446
+          },
+          {
+            "code": "LVA",
+            "x": 1553,
+            "y": 45567
+          },
+          {
+            "code": "POL",
+            "x": 1814,
+            "y": 44211
+          },
+          {
+            "code": "PRT",
+            "x": 1635,
+            "y": 40002
+          },
+          {
+            "code": "EST",
+            "x": 1770,
+            "y": 38975
+          },
+          {
+            "code": "CZE",
+            "x": 1754,
+            "y": 38489
+          },
+          {
+            "code": "SVK",
+            "x": 1622,
+            "y": 36105
+          },
+          {
+            "code": "HUN",
+            "x": 1699,
+            "y": 34996
+          },
+          {
+            "code": "GRC",
+            "x": 1886,
+            "y": 32257
+          },
+          {
+            "code": "MEX",
+            "x": 2226,
+            "y": 20433
+          }
+        ],
+        "activeQuadrantDots": [
+          "SWE",
+          "LTU",
+          "JPN",
+          "LVA",
+          "SVK"
+        ],
+        "showLabelsFor": [
+          "SWE",
+          "LTU",
+          "JPN",
+          "LVA",
+          "SVK"
+        ],
+        "labelRevealStyle": "stagger",
+        "labelStaggerDelay": "0.3s",
+        "highlightDots": [
+          {
+            "code": "SWE",
+            "pulse": true,
+            "glowColor": "rgba(144,175,197,0.6)"
+          },
+          {
+            "code": "JPN",
+            "pulse": true,
+            "glowColor": "rgba(144,175,197,0.6)"
+          }
+        ],
+        "annotations": [
+          {
+            "type": "text-badge",
+            "attachTo": "SWE",
+            "text": "$142 below average",
+            "position": "right",
+            "showAt": "2s",
+            "style": {
+              "backgroundColor": "rgba(144,175,197,0.2)",
+              "borderColor": "#90AFC5",
+              "color": "#EAE0D5",
+              "fontSize": 14
+            }
+          },
+          {
+            "type": "icon-badge",
+            "attachTo": "JPN",
+            "icon": "?",
+            "position": "topRight",
+            "showAt": "22s",
+            "style": {
+              "backgroundColor": "rgba(144,175,197,0.3)",
+              "borderColor": "#90AFC5",
+              "color": "#EAE0D5",
+              "fontSize": 18,
+              "shape": "circle"
+            }
+          },
+          {
+            "type": "text-overlay",
+            "attachTo": "JPN",
+            "text": "karoshi — death from overwork",
+            "position": "bottomRight",
+            "showAt": "25s",
+            "duration": "12s",
+            "style": {
+              "color": "#90AFC5",
+              "fontSize": 16,
+              "fontStyle": "italic",
+              "backgroundColor": "rgba(26,27,34,0.85)",
+              "padding": "6px 12px"
+            }
+          }
+        ],
+        "tooltips": [
+          {
+            "code": "SWE",
+            "position": "topRight",
+            "showAt": "2s",
+            "data": {
+              "salary": "$59,058",
+              "hours": "1,440 hrs/yr",
+              "hourlyRate": "$41.01/hr"
+            }
+          },
+          {
+            "code": "JPN",
+            "position": "bottomLeft",
+            "showAt": "22s",
+            "data": {
+              "salary": "$49,446",
+              "hours": "1,607 hrs/yr",
+              "hourlyRate": "$30.77/hr",
+              "note": "Includes part-time workers"
+            }
+          }
+        ],
+        "quadrantGlow": {
+          "quadrant": "bottomLeft",
+          "color": "rgba(144,175,197,0.12)",
+          "animateIn": "2s"
+        },
+        "dimOtherQuadrants": true,
+        "dimOpacity": 0.3,
+        "counterLabel": "5 of 34",
+        "counterPosition": "topRight",
+        "cameraZoom": {
+          "target": "bottomLeft",
+          "scale": 1.3,
+          "startAt": "1s",
+          "duration": "3s",
+          "easing": "easeInOut",
+          "startFrom": {
+            "target": "bottomRight",
+            "scale": 1.2
+          },
+          "transitionDuration": "1.5s"
+        },
+        "dotColorActive": "rgba(144,175,197,0.9)",
+        "dotColorInactive": "rgba(234,224,213,0.25)",
+        "dotSize": 8,
+        "skipEntrance": true
+      }
+    }
+  },
+  "transition": "seamless",
+  "notes": "CHILL quadrant — smallest with 5 countries, but two standout stories. (1) SWE: $59,058 is only $142 below the $59,200 mean — it's CHILL by a rounding error. Its $41.01/hr matches AUS ($41.44) and CAN ($41.15) in GRIND who work hundreds more hours. Annotation badge emphasizes the near-miss. (2) JPN: the karoshi paradox — Japan is culturally synonymous with overwork but OECD data puts it below average hours because OECD counts ALL workers including Japan's massive part-time workforce. The '?' icon and karoshi overlay draw attention to this statistical nuance. Script is careful: 'The statistic is accurate — it just measures something different than most people expect.' No connector lines needed — the annotations tell both stories. Math verified: SWE $59,058 = $59,200 - $142. JPN hourly: $49,446/1,607 = $30.77."
+}

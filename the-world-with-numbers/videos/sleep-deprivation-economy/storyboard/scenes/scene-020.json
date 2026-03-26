@@ -1,0 +1,27 @@
+{
+  "id": "scene-020",
+  "visual": {
+    "type": "data-chart",
+    "description": "Side-by-side comparison on dark bg. Left panel: South Korea flag + 'GDP: $1.67T' + 'Work hours: 1,872 hrs/yr'. Right panel: Japan flag + 'Work hours: 1,626 hrs/yr'. A connecting line shows '+246 hrs/yr' gap in #E06070. Below: estimated loss bar for South Korea: '$31B–$49B/year' in #D47FA6 with prominent on-screen label: '⚠️ ESTIMATED — Not a RAND-measured figure. Modelled using Japan\\'s GDP loss ratio applied to South Korean GDP.' Source: OECD Annual Hours Worked, World Bank GDP 2022.",
+    "searchQuery": null,
+    "textOverlay": "⚠️ ESTIMATED: $31B–$49B/year",
+    "dataVisualization": {
+      "type": "comparison",
+      "data": {
+        "southKorea": {
+          "gdp": "$1.67T",
+          "workHours": "1,872 hrs/yr",
+          "estimatedLoss": "$31B–$49B/year",
+          "flag": "⚠️ ESTIMATED"
+        },
+        "japan": {
+          "workHours": "1,626 hrs/yr",
+          "source": "OECD"
+        },
+        "gap": "+246 hrs/yr"
+      }
+    }
+  },
+  "transition": "cut",
+  "notes": "⚠️ ESTIMATED label REQUIRED on screen — this is NOT a RAND-measured figure. Modelled using Japan's GDP loss ratio. Production flag #2."
+}

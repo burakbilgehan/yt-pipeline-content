@@ -1,0 +1,213 @@
+{
+  "slug": "time-vs-earnings",
+  "title": "Time vs Earnings",
+  "description": "",
+  "createdAt": "2026-03-21T01:43:20.638Z",
+  "updatedAt": "2026-03-23T11:10:40.196Z",
+  "currentWork": null,
+  "tags": [],
+  "metadata": {
+    "targetLength": 750,
+    "tone": "neutral-analytic, authoritative, curiosity-driven — numbers speak for themselves",
+    "targetAudience": "18-35, globally curious, English-speaking, prefers facts over opinions",
+    "language": "en",
+    "format": "long"
+  },
+  "pipeline": {
+    "research": {
+      "status": "completed",
+      "version": 3,
+      "files": [
+        "pre-research-v1.md",
+        "notebooklm-brief.md",
+        "research-v1.md",
+        "research-v2.md",
+        "research-v3.md"
+      ],
+      "criticGrade": "A",
+      "note": "v3 adds non-OECD ugly truth countries (6 candidates: IND, BGD, KHM, PAK, NGA, PHL)"
+    },
+    "content": {
+      "status": "completed",
+      "version": 6,
+      "files": [
+        "script-v1.md",
+        "script-v2.md",
+        "script-v3.md",
+        "script-v4.md",
+        "script-v5.md",
+        "script-v6.md"
+      ],
+      "criticGrade": "A",
+      "basedOn": "research-v2, research-v3",
+      "note": "v6: Rewrote closing — replaced abstract philosophical ending with concrete embodied image (two workers, Cambodia 9th hour $2.30 vs Luxembourg clocking out at $64.12). Removed <prosody rate=slow> tag."
+    },
+    "storyboard": {
+      "status": "completed",
+      "version": 5,
+      "files": [
+        "storyboard-v1.md",
+        "storyboard-v2.json",
+        "storyboard-v3.json",
+        "storyboard-v4.json",
+        "storyboard-v5.json",
+        "storyboard-summary-v2.md"
+      ],
+      "basedOn": "script-v4",
+      "criticGrade": "A",
+      "note": "v5: Complete rewrite per 19-point feedback. 10 scenes with scenes-v5/ detail files. All timings synced to TTS durations (760.8s / 12:41). Ugly truth segment with 6 non-OECD countries."
+    },
+    "production": {
+      "status": "completed",
+      "version": 1,
+      "startedAt": "2026-03-22T15:41:17.787Z",
+      "completedAt": "2026-03-23T10:00:00.000Z"
+    },
+    "publishing": {
+      "status": "completed",
+      "version": 1,
+      "started": "2026-03-23T00:00:00.000Z",
+      "completedAt": "2026-03-23T11:10:40.196Z"
+    },
+    "analytics": {
+      "status": "active",
+      "version": 1,
+      "note": "Analytics sync started 2026-03-23. Video just published, no meaningful data yet."
+    }
+  },
+  "history": [
+    {
+      "event": "research.started",
+      "timestamp": "2026-03-21T12:00:00.000Z",
+      "note": "Pre-research feasibility study started — exploring data availability for time-vs-earnings topic"
+    },
+    {
+      "event": "research.completed",
+      "timestamp": "2026-03-21T21:00:00.000Z",
+      "note": "Research v1 completed — Critic Grade A. 33 OECD countries, Big Macs/hr metric, 4-quadrant matrix. 3 critic rounds (B+ → B → A)."
+    },
+    {
+      "event": "content.started",
+      "timestamp": "2026-03-21T21:00:00.000Z",
+      "note": "Script writing started — content-writer agent invoked with research-v1.md (Grade A)"
+    },
+    {
+      "event": "content.revision",
+      "timestamp": "2026-03-21T23:00:00.000Z",
+      "note": "Script v2 — Critic review (C+ FAIL). Fixed: Germany-Greece 2.1× → 3× per hour, Japan 'less than half' → '~57%', removed editorial phrases. Expanded: +500 words across Phase 2. Word count: 1,890 spoken."
+    },
+    {
+      "event": "content.completed",
+      "timestamp": "2026-03-21T23:30:00.000Z",
+      "note": "Content completed — Critic Grade A-. 1,701 spoken words, all facts verified, zero editorial phrases."
+    },
+    {
+      "event": "storyboard.started",
+      "timestamp": "2026-03-21T23:30:00.000Z",
+      "note": "Storyboard v1 written directly (agent failures bypassed). 14 scenes, 6 new components identified, 4 QuadrantScatter enhancements."
+    },
+    {
+      "event": "content.revision",
+      "timestamp": "2026-03-21T23:45:00.000Z",
+      "note": "Script v3 (file: script-v2.md) — Chirp 3 HD markup migration. All SSML <break> → [pause] tags, ElevenLabs-specific [curious]/[thoughtful] removed. No content changes. TTS engine: Google Chirp 3 HD / Achernar."
+    },
+    {
+      "event": "storyboard.revision",
+      "timestamp": "2026-03-21T24:00:00.000Z",
+      "note": "Storyboard v2 — converted from Markdown to JSON two-tier format. 15 scenes (was 14). Fixed: DREAM extended to 7:30 (+Scene 007 for NL/NO/CA), GRIND starts 7:30 (was 7:00), TRAP extended to 11:45 (+Scene 012 for Mexico/Israel). Defined GRIND dot color #D8A7B1. Fixed Scene 1 label. Updated TTS to Chirp 3 HD."
+    },
+    {
+      "action": "production.started",
+      "version": 1,
+      "at": "2026-03-21T23:10:00.678Z",
+      "reason": "Generated TTS audio (google) from script-v2.md (15 blocks, 662.4s total, speed=1)"
+    },
+    {
+      "action": "production.completed",
+      "version": 1,
+      "at": "2026-03-21T23:34:48.456Z",
+      "reason": "Rendered 756s video (22680 frames)"
+    },
+    {
+      "action": "production.started",
+      "version": 1,
+      "at": "2026-03-22T01:14:44.987Z",
+      "reason": "Generated TTS audio (google) from script-v2.md (15 blocks, 219.9s total, speed=1)"
+    },
+    {
+      "action": "production.started",
+      "version": 1,
+      "at": "2026-03-22T01:16:59.507Z",
+      "reason": "Generated TTS audio (google) from script-v2.md (15 blocks, 663.8s total, speed=1)"
+    },
+    {
+      "event": "content.reopened",
+      "timestamp": "2026-03-22T12:00:00.000Z",
+      "note": "Complete rewrite as script-v3.md. Dropped Big Mac Index methodology — now PPP-only per research-v2. Y-axis: PPP salary ($). Comparisons: $/hr. 34 countries (added Slovakia). New origin: $59,200 / 1,633 hrs. 1,803 spoken words, estimated 12:25. Critic: Round 1 C FAIL → Round 2 A PASS. 55 numbers verified, zero errors."
+    },
+    {
+      "event": "storyboard.revision",
+      "timestamp": "2026-03-22T18:00:00.000Z",
+      "note": "Storyboard v4 — complete rewrite for PPP methodology. 12 scenes (was 15). All scene detail files (scene-001 to scene-012) rewritten with PPP salary y-values. Skeleton storyboard-v4.json written with voiceover text from script-v3.md. Timing estimated at 164.2 WPM: 745s (12:25). Background music config included."
+    },
+    {
+      "action": "production.started",
+      "version": 1,
+      "at": "2026-03-22T11:44:20.914Z",
+      "reason": "Generated TTS audio (google) from script-v3.md (12 blocks, 764.4s total, speed=1)"
+    },
+    {
+      "action": "production.started",
+      "version": 1,
+      "at": "2026-03-22T12:01:04.121Z",
+      "reason": "Generated TTS audio (google) from script-v3.md (12 blocks, 687.4s total, speed=1.1)"
+    },
+    {
+      "action": "production.started",
+      "version": 1,
+      "at": "2026-03-22T12:30:13.791Z",
+      "reason": "Generated TTS audio (google) from script-v3.md (12 blocks, 848.7s total, speed=1.05)"
+    },
+    {
+      "action": "production.started",
+      "version": 1,
+      "at": "2026-03-22T12:45:13.963Z",
+      "reason": "Generated TTS audio (google) from script-v3.md (12 blocks, 832.1s total, speed=1.05)"
+    },
+    {
+      "action": "production.started",
+      "version": 1,
+      "at": "2026-03-22T13:54:41.538Z",
+      "reason": "Generated TTS audio (google) from script-v4.md (10 blocks, 760.8s total, speed=1.05)"
+    },
+    {
+      "action": "production.started",
+      "version": 1,
+      "at": "2026-03-22T15:09:22.797Z",
+      "reason": "Generated TTS audio (google) from script-v5.md (10 blocks, 771.2s total, speed=1.05)"
+    },
+    {
+      "action": "production.started",
+      "version": 1,
+      "at": "2026-03-22T15:41:17.787Z",
+      "reason": "Generated TTS audio (google) from script-v5.md (10 blocks, 639.2s total, speed=1.15)"
+    },
+    {
+      "event": "publishing.started",
+      "timestamp": "2026-03-23T00:00:00.000Z",
+      "agent": "publisher",
+      "details": "Publishing plan v1 and metadata v1 created. Title: 'How Much Is One Hour of Your Life Worth? (40 Countries Exposed)'. 23 tags (496/500 chars). Awaiting production completion for upload."
+    },
+    {
+      "action": "publishing.completed",
+      "version": 1,
+      "at": "2026-03-23T11:10:40.196Z",
+      "reason": "Uploaded to YouTube as -QPYHM3ER-I"
+    }
+  ],
+  "youtube": {
+    "videoId": "-QPYHM3ER-I",
+    "url": "https://www.youtube.com/watch?v=-QPYHM3ER-I",
+    "publishedAt": "2026-03-23T11:10:40.195Z"
+  }
+}

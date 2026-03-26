@@ -1,0 +1,326 @@
+{
+  "id": "scene-006",
+  "visual": {
+    "type": "data-chart",
+    "description": "Camera pans to top-right. GRIND zone glows amber. 5 GRIND dot labels reveal. Text overlay: '5 countries. All English-speaking.' USA-DNK connector line across quadrant boundary: '439 hrs apart | ~18% more per hour'. USA and DNK tooltips. DREAM dots labels fade, dots stay dimmed.",
+    "searchQuery": null,
+    "textOverlay": {
+      "text": "5 countries. All English-speaking.",
+      "position": "bottomCenter",
+      "style": "subtitle",
+      "showAt": "4s",
+      "duration": "6s",
+      "color": "#D8A7B1",
+      "fontSize": 28
+    },
+    "dataVisualization": {
+      "component": "QuadrantScatter",
+      "config": {
+        "state": "grind-quadrant-focus",
+        "activeQuadrant": "topRight",
+        "showAxes": true,
+        "showGrid": true,
+        "showCrosshair": true,
+        "showQuadrantFills": true,
+        "showQuadrantLabels": true,
+        "showDots": true,
+        "showAllDots": true,
+        "centered": true,
+        "origin": {
+          "x": 1633,
+          "y": 59200
+        },
+        "xAxis": {
+          "label": "Annual Hours Worked",
+          "min": 1250,
+          "max": 2350
+        },
+        "yAxis": {
+          "label": "PPP-Adjusted Annual Salary ($)",
+          "min": 20000,
+          "max": 100000
+        },
+        "dots": [
+          {
+            "code": "LUX",
+            "x": 1473,
+            "y": 94447
+          },
+          {
+            "code": "ISL",
+            "x": 1449,
+            "y": 89947
+          },
+          {
+            "code": "CHE",
+            "x": 1528,
+            "y": 87468
+          },
+          {
+            "code": "USA",
+            "x": 1810,
+            "y": 82933
+          },
+          {
+            "code": "BEL",
+            "x": 1525,
+            "y": 76109
+          },
+          {
+            "code": "AUT",
+            "x": 1443,
+            "y": 75767
+          },
+          {
+            "code": "NLD",
+            "x": 1427,
+            "y": 75370
+          },
+          {
+            "code": "NOR",
+            "x": 1424,
+            "y": 74864
+          },
+          {
+            "code": "DNK",
+            "x": 1371,
+            "y": 74022
+          },
+          {
+            "code": "AUS",
+            "x": 1707,
+            "y": 70763
+          },
+          {
+            "code": "DEU",
+            "x": 1340,
+            "y": 69433
+          },
+          {
+            "code": "CAN",
+            "x": 1686,
+            "y": 69417
+          },
+          {
+            "code": "GBR",
+            "x": 1531,
+            "y": 63691
+          },
+          {
+            "code": "NZL",
+            "x": 1748,
+            "y": 62437
+          },
+          {
+            "code": "SVN",
+            "x": 1619,
+            "y": 61776
+          },
+          {
+            "code": "FRA",
+            "x": 1511,
+            "y": 60608
+          },
+          {
+            "code": "IRL",
+            "x": 1657,
+            "y": 60431
+          },
+          {
+            "code": "FIN",
+            "x": 1498,
+            "y": 59597
+          },
+          {
+            "code": "SWE",
+            "x": 1440,
+            "y": 59058
+          },
+          {
+            "code": "ISR",
+            "x": 1891,
+            "y": 54736
+          },
+          {
+            "code": "ESP",
+            "x": 1643,
+            "y": 54564
+          },
+          {
+            "code": "LTU",
+            "x": 1624,
+            "y": 52898
+          },
+          {
+            "code": "ITA",
+            "x": 1694,
+            "y": 51019
+          },
+          {
+            "code": "KOR",
+            "x": 1901,
+            "y": 50947
+          },
+          {
+            "code": "JPN",
+            "x": 1607,
+            "y": 49446
+          },
+          {
+            "code": "LVA",
+            "x": 1553,
+            "y": 45567
+          },
+          {
+            "code": "POL",
+            "x": 1814,
+            "y": 44211
+          },
+          {
+            "code": "PRT",
+            "x": 1635,
+            "y": 40002
+          },
+          {
+            "code": "EST",
+            "x": 1770,
+            "y": 38975
+          },
+          {
+            "code": "CZE",
+            "x": 1754,
+            "y": 38489
+          },
+          {
+            "code": "SVK",
+            "x": 1622,
+            "y": 36105
+          },
+          {
+            "code": "HUN",
+            "x": 1699,
+            "y": 34996
+          },
+          {
+            "code": "GRC",
+            "x": 1886,
+            "y": 32257
+          },
+          {
+            "code": "MEX",
+            "x": 2226,
+            "y": 20433
+          }
+        ],
+        "activeQuadrantDots": [
+          "USA",
+          "AUS",
+          "CAN",
+          "NZL",
+          "IRL"
+        ],
+        "showLabelsFor": [
+          "USA",
+          "AUS",
+          "CAN",
+          "NZL",
+          "IRL"
+        ],
+        "labelRevealStyle": "stagger",
+        "labelStaggerDelay": "0.4s",
+        "crossQuadrantDots": [
+          {
+            "code": "DNK",
+            "showLabel": true,
+            "opacity": 0.8,
+            "purpose": "comparison-target"
+          }
+        ],
+        "highlightDots": [
+          {
+            "code": "USA",
+            "pulse": true,
+            "glowColor": "rgba(216,167,177,0.6)"
+          },
+          {
+            "code": "DNK",
+            "pulse": true,
+            "glowColor": "rgba(91,191,140,0.5)"
+          }
+        ],
+        "tooltips": [
+          {
+            "code": "USA",
+            "position": "right",
+            "showAt": "3s",
+            "pixelOffset": {
+              "x": 100,
+              "y": -50
+            },
+            "data": {
+              "salary": "$82,933",
+              "hours": "1,810 hrs/yr",
+              "hourlyRate": "$45.82/hr"
+            }
+          },
+          {
+            "code": "DNK",
+            "position": "right",
+            "showAt": "8s",
+            "pixelOffset": {
+              "x": 300,
+              "y": 0
+            },
+            "data": {
+              "salary": "$74,022",
+              "hours": "1,371 hrs/yr",
+              "hourlyRate": "$53.99/hr"
+            }
+          }
+        ],
+        "connectorLines": [
+          {
+            "from": "USA",
+            "to": "DNK",
+            "style": "dashed",
+            "color": "#D8A7B1",
+            "labels": [
+              "439 hrs apart",
+              "~18% more per hour"
+            ],
+            "labelDir": "above",
+            "showAt": "7s",
+            "duration": "12s"
+          }
+        ],
+        "quadrantGlow": {
+          "quadrant": "topRight",
+          "color": "rgba(216,167,177,0.12)",
+          "animateIn": "2s"
+        },
+        "dimOtherQuadrants": true,
+        "dimOpacity": 0.3,
+        "counterLabel": "5 of 34",
+        "counterPosition": "topRight",
+        "cameraZoom": {
+          "target": "topRight",
+          "scale": 1.25,
+          "startAt": "1s",
+          "duration": "3s",
+          "easing": "easeInOut",
+          "startFrom": {
+            "target": "topLeft",
+            "scale": 1.3
+          },
+          "transitionDuration": "1.5s"
+        },
+        "dotColorActive": "rgba(216,167,177,0.9)",
+        "dotColorInactive": "rgba(234,224,213,0.25)",
+        "dotSize": 8,
+        "skipEntrance": true
+      }
+    }
+  },
+  "transition": "seamless",
+  "notes": "GRIND quadrant. Camera pans from top-left to top-right (smooth easeInOut). Only 5 countries — all Anglosphere. Text overlay emphasizes this pattern. Key comparison: USA vs DNK connector line crosses the quadrant boundary — DNK earns ~18% more per hour but USA earns ~11% more total salary, at the cost of 439 extra hours (55 eight-hour days, nearly 11 extra work weeks). AUS and CAN mentioned as ~$41/hr, matching SWE in CHILL on far fewer hours. No flag emojis — use text country codes per Remotion rules."
+}

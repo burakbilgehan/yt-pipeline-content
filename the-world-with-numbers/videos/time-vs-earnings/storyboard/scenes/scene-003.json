@@ -1,0 +1,40 @@
+{
+  "id": "scene-003",
+  "visual": {
+    "type": "data-chart",
+    "description": "PPP salary bar chart from Scene 002 rotates 90° to become Y-axis of scatter plot. X-axis 'Annual Hours Worked' extends horizontally. Grid lines fade in (20px spacing, #A3B18A 10% opacity). Dashed crosshairs appear at 34-country average: $59,200 on Y-axis, 1,633 hours on X-axis. Labels: '34-country average.' Four quadrant fills fade in, then labels: DREAM (top-left green), GRIND (top-right pink), CHILL (bottom-left blue), TRAP (bottom-right red).",
+    "searchQuery": null,
+    "textOverlay": null,
+    "dataVisualization": {
+      "component": "QuadrantScatter",
+      "config": {
+        "state": "empty-matrix",
+        "showAxes": true,
+        "showGrid": true,
+        "showCrosshair": true,
+        "showQuadrantFills": true,
+        "showQuadrantLabels": true,
+        "showDots": false,
+        "origin": { "x": 1633, "y": 59200 },
+        "xAxis": { "label": "Annual Hours Worked", "min": 1250, "max": 2350 },
+        "yAxis": { "label": "PPP-Adjusted Annual Salary ($)", "min": 15000, "max": 100000 },
+        "quadrantLabels": {
+          "topLeft": "DREAM",
+          "topRight": "GRIND",
+          "bottomLeft": "CHILL",
+          "bottomRight": "TRAP"
+        },
+        "quadrantColors": {
+          "topLeft": "rgba(91,191,140,0.08)",
+          "topRight": "rgba(216,167,177,0.08)",
+          "bottomLeft": "rgba(144,175,197,0.08)",
+          "bottomRight": "rgba(224,96,112,0.08)"
+        },
+        "animationSequence": ["axes", "grid", "crosshair", "quadrantFills", "quadrantLabels"],
+        "animationStagger": "0.5s"
+      }
+    }
+  },
+  "transition": "seamless",
+  "notes": "THE BIG REVEAL. Y-axis is PPP salary ($), NOT Big Macs/hr. Origin at ($59,200, 1,633). Build piece by piece: axes → grid → crosshair → fills → labels. No dots yet. X range covers DEU (1,340) to MEX (2,226) with padding. Y range covers MEX ($20,433) to LUX ($94,447) with padding."
+}

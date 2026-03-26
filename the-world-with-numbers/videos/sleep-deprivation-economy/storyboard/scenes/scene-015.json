@@ -1,0 +1,48 @@
+{
+  "id": "scene-015",
+  "visual": {
+    "type": "data-chart",
+    "description": "Animated reorder: the bar chart from scene-013 reshuffles from absolute $ (US first) to GDP % (Japan first). Japan bar glows #E06070 negative red at top: '1.86–2.92%'. US below: '1.56–2.28%'. Reorder animation makes the reveal dramatic. After bars settle, a cultural callout card slides in from right: 'Inemuri (居眠り) — sleeping while present. Tolerated as a sign of dedication.' in #E8E0D4 with 居眠り in #D47FA6.",
+    "searchQuery": null,
+    "textOverlay": "居眠り (Inemuri) — sleeping while present",
+    "dataVisualization": {
+      "type": "bar-chart",
+      "data": {
+        "orientation": "horizontal",
+        "sortBy": "gdp-percentage-descending",
+        "bars": [
+          {
+            "country": "Japan",
+            "gdpLoss": "1.86–2.92%",
+            "color": "#E06070",
+            "highlight": true
+          },
+          {
+            "country": "United States",
+            "gdpLoss": "1.56–2.28%",
+            "color": "#C97B9F"
+          },
+          {
+            "country": "United Kingdom",
+            "gdpLoss": "1.36–1.86%",
+            "color": "#C97B9F"
+          },
+          {
+            "country": "Germany",
+            "gdpLoss": "1.02–1.56%",
+            "color": "#C97B9F"
+          },
+          {
+            "country": "Canada",
+            "gdpLoss": "0.85–1.56%",
+            "color": "#C97B9F"
+          }
+        ],
+        "source": "RAND RR-1791, 2016",
+        "animation": "reorder from absolute-$ chart"
+      }
+    }
+  },
+  "transition": "cut",
+  "notes": "Key reveal moment — audience expects US to top every chart. Japan's GDP% range (1.86–2.92%) MUST show full range. Inemuri callout is cultural texture, not economic claim."
+}

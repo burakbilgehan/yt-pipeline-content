@@ -1,0 +1,50 @@
+# yt-pipeline content repo
+# Only text-based files are tracked. All media/binary files are excluded.
+
+# Video renders & output
+*.mp4
+*.mkv
+*.avi
+*.mov
+*.webm
+
+# Audio (TTS, BGM)
+*.wav
+*.mp3
+*.ogg
+*.flac
+*.aac
+
+# Images & visuals
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.svg
+*.bmp
+*.tiff
+
+# EXCEPT brand assets — these are small and important
+!channel-assets/logo.png
+!channel-assets/banner.png
+!channel-assets/watermark.png
+
+# Test renders directory (all contents)
+**/test-renders/
+
+# Production output directory
+**/production/output/
+
+# Collected visuals (stock media, AI images)
+**/production/visuals/
+
+# Audio directory (TTS + BGM)
+**/production/audio/
+
+# Cache
+**/cache/
+
+# OS files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,33 @@
+{
+  "id": "scene-007",
+  "visual": {
+    "type": "data-chart",
+    "description": "Continuing GRIND. Australia and Canada highlighted as near-twins: AUS ($41.45/hr, 1,707h) vs CAN ($41.17/hr, 1,686h). Comparison note: 'Both earn roughly the same hourly rate as Sweden — which sits in CHILL on far fewer hours.' New Zealand: lowest hourly rate in GRIND at $35.72/hr on 1,748 hours. Ireland closest to center — $1,231 above salary mean, 24 hours past hours mean. Callout: 'Apple, Google, Meta inflate Ireland's average.'",
+    "searchQuery": null,
+    "textOverlay": null,
+    "dataVisualization": {
+      "component": "QuadrantScatter",
+      "config": {
+        "state": "grind-quadrant-detail",
+        "activeQuadrant": "topRight",
+        "showDots": true,
+        "highlightedCountries": ["AUS", "CAN", "NZL", "IRL"],
+        "miniCallouts": [
+          { "code": "AUS", "label": "Australia", "stat": "$41.45/hr · 1,707 hrs" },
+          { "code": "CAN", "label": "Canada", "stat": "$41.17/hr · 1,686 hrs" },
+          { "code": "NZL", "label": "New Zealand", "stat": "$35.72/hr", "note": "Lowest in GRIND" },
+          { "code": "IRL", "label": "Ireland", "stat": "$60,431 · 1,657 hrs", "note": "Closest to center" }
+        ],
+        "crossQuadrantCallout": {
+          "from": ["AUS", "CAN"],
+          "compareTo": "SWE",
+          "note": "Same hourly rate as Sweden (CHILL)"
+        },
+        "dotColor": "#D8A7B1",
+        "dimOtherQuadrants": true
+      }
+    }
+  },
+  "transition": "cross-dissolve",
+  "notes": "GRIND detail scene. AUS and CAN near-twins. Sweden cross-quadrant reference shows that GRIND countries work more hours for similar hourly rates as CHILL's Sweden. Ireland closest to center — tech multinationals inflate average. Transition: GRIND dims, TRAP brightens."
+}

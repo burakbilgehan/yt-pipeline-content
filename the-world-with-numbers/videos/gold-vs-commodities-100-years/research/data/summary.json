@@ -1,0 +1,681 @@
+{
+  "computedAt": "2026-03-17T09:03:07.526Z",
+  "version": "v2-fx-corrected",
+  "notes": [
+    "FX conversion applied to Nikkei (JPY→USD), FTSE (GBP→USD), DAX (DEM/EUR→USD)",
+    "Fixed rates: JPY/USD=360 (1949-1970), DEM/USD=4.20/4.00/3.67 (1959-1970)",
+    "Stooq EUR/USD pre-1999 is synthetic DEM→EUR (÷1.95583)",
+    "DAX denomination: DEM pre-1999, EUR post-1999"
+  ],
+  "goldDataPoints": 14416,
+  "goldDateRange": {
+    "first": "1925-03-01",
+    "last": "2025-03-14"
+  },
+  "breakpoints": [
+    {
+      "date": "1929-10-29",
+      "label": "Black Tuesday (Great Depression)"
+    },
+    {
+      "date": "1934-01-30",
+      "label": "FDR Gold Revaluation ($20.67 → $35)"
+    },
+    {
+      "date": "1944-07-01",
+      "label": "Bretton Woods Agreement"
+    },
+    {
+      "date": "1971-08-15",
+      "label": "Nixon Shock (Gold Standard Ends)"
+    },
+    {
+      "date": "1980-01-21",
+      "label": "Gold Peak ($850/oz)"
+    },
+    {
+      "date": "2000-03-10",
+      "label": "Dot-com Peak"
+    },
+    {
+      "date": "2008-09-15",
+      "label": "Lehman Brothers Collapse"
+    },
+    {
+      "date": "2020-03-23",
+      "label": "COVID Crash Bottom"
+    }
+  ],
+  "assets": [
+    {
+      "id": "silver",
+      "name": "Silver",
+      "isIndex": false,
+      "currency": "USD",
+      "fxConversion": "Native USD, no conversion",
+      "dataPoints": 14485,
+      "fxStats": {
+        "fixed": 0,
+        "market": 0,
+        "skipped": 1293
+      },
+      "dateRange": {
+        "first": "1925-03-01",
+        "last": "2025-03-14"
+      },
+      "firstRatio": 0.033381712626995644,
+      "lastRatio": 0.011325122401839837,
+      "changePercent": -66.07387245709717,
+      "minRatio": {
+        "value": 0.008093825956844663,
+        "date": "2020-03-18"
+      },
+      "maxRatio": {
+        "value": 0.06647727272727272,
+        "date": "1968-03-05"
+      },
+      "breakpointValues": [
+        {
+          "date": "1929-10-29",
+          "label": "Black Tuesday (Great Depression)",
+          "ratio": null
+        },
+        {
+          "date": "1934-01-30",
+          "label": "FDR Gold Revaluation ($20.67 → $35)",
+          "ratio": 0.014092777451556076
+        },
+        {
+          "date": "1944-07-01",
+          "label": "Bretton Woods Agreement",
+          "ratio": 0.012244897959183675
+        },
+        {
+          "date": "1971-08-15",
+          "label": "Nixon Shock (Gold Standard Ends)",
+          "ratio": 0.03856812933025404
+        },
+        {
+          "date": "1980-01-21",
+          "label": "Gold Peak ($850/oz)",
+          "ratio": 0.049760191846522785
+        },
+        {
+          "date": "2000-03-10",
+          "label": "Dot-com Peak",
+          "ratio": 0.01757785467128028
+        },
+        {
+          "date": "2008-09-15",
+          "label": "Lehman Brothers Collapse",
+          "ratio": 0.014064337953255256
+        },
+        {
+          "date": "2020-03-23",
+          "label": "COVID Crash Bottom",
+          "ratio": 0.008526718464439085
+        }
+      ]
+    },
+    {
+      "id": "platinum",
+      "name": "Platinum",
+      "isIndex": false,
+      "currency": "USD",
+      "fxConversion": "Native USD, no conversion",
+      "dataPoints": 14210,
+      "fxStats": {
+        "fixed": 0,
+        "market": 0,
+        "skipped": 228
+      },
+      "dateRange": {
+        "first": "1968-03-01",
+        "last": "2025-03-14"
+      },
+      "firstRatio": 6.644886363636363,
+      "lastRatio": 0.33373969236644674,
+      "changePercent": -94.97749586519927,
+      "minRatio": {
+        "value": 0.3286332109619474,
+        "date": "2025-02-24"
+      },
+      "maxRatio": {
+        "value": 6.839598997493734,
+        "date": "1968-09-04"
+      },
+      "breakpointValues": [
+        {
+          "date": "1929-10-29",
+          "label": "Black Tuesday (Great Depression)",
+          "ratio": null
+        },
+        {
+          "date": "1934-01-30",
+          "label": "FDR Gold Revaluation ($20.67 → $35)",
+          "ratio": null
+        },
+        {
+          "date": "1944-07-01",
+          "label": "Bretton Woods Agreement",
+          "ratio": null
+        },
+        {
+          "date": "1971-08-15",
+          "label": "Nixon Shock (Gold Standard Ends)",
+          "ratio": 2.6674364896073905
+        },
+        {
+          "date": "1980-01-21",
+          "label": "Gold Peak ($850/oz)",
+          "ratio": 1.1051558752997603
+        },
+        {
+          "date": "2000-03-10",
+          "label": "Dot-com Peak",
+          "ratio": 1.6505190311418685
+        },
+        {
+          "date": "2008-09-15",
+          "label": "Lehman Brothers Collapse",
+          "ratio": 1.5036055848207437
+        },
+        {
+          "date": "2020-03-23",
+          "label": "COVID Crash Bottom",
+          "ratio": 0.4116413298687283
+        }
+      ]
+    },
+    {
+      "id": "oil-wti",
+      "name": "Crude Oil (WTI)",
+      "isIndex": false,
+      "currency": "USD",
+      "fxConversion": "Native USD, no conversion",
+      "dataPoints": 12333,
+      "fxStats": {
+        "fixed": 0,
+        "market": 0,
+        "skipped": 268
+      },
+      "dateRange": {
+        "first": "1968-01-31",
+        "last": "2025-03-14"
+      },
+      "firstRatio": 0.08721590909090908,
+      "lastRatio": 0.02250217333407034,
+      "changePercent": -74.19946249644052,
+      "minRatio": {
+        "value": 0.007543163169762008,
+        "date": "2020-04-27"
+      },
+      "maxRatio": {
+        "value": 0.1620329542817359,
+        "date": "2005-08-30"
+      },
+      "breakpointValues": [
+        {
+          "date": "1929-10-29",
+          "label": "Black Tuesday (Great Depression)",
+          "ratio": null
+        },
+        {
+          "date": "1934-01-30",
+          "label": "FDR Gold Revaluation ($20.67 → $35)",
+          "ratio": null
+        },
+        {
+          "date": "1944-07-01",
+          "label": "Bretton Woods Agreement",
+          "ratio": null
+        },
+        {
+          "date": "1971-08-15",
+          "label": "Nixon Shock (Gold Standard Ends)",
+          "ratio": 0.08337236533957845
+        },
+        {
+          "date": "1980-01-21",
+          "label": "Gold Peak ($850/oz)",
+          "ratio": 0.04420863309352518
+        },
+        {
+          "date": "2000-03-10",
+          "label": "Dot-com Peak",
+          "ratio": 0.10903114186851212
+        },
+        {
+          "date": "2008-09-15",
+          "label": "Lehman Brothers Collapse",
+          "ratio": 0.1223725259550964
+        },
+        {
+          "date": "2020-03-23",
+          "label": "COVID Crash Bottom",
+          "ratio": 0.015275953221408177
+        }
+      ]
+    },
+    {
+      "id": "copper",
+      "name": "Copper",
+      "isIndex": false,
+      "currency": "USD",
+      "fxConversion": "Native USD, no conversion",
+      "dataPoints": 14538,
+      "fxStats": {
+        "fixed": 0,
+        "market": 0,
+        "skipped": 5145
+      },
+      "dateRange": {
+        "first": "1948-03-01",
+        "last": "2025-03-14"
+      },
+      "firstRatio": 0.005,
+      "lastRatio": 0.0016311311889770504,
+      "changePercent": -67.377376220459,
+      "minRatio": {
+        "value": 0.0012894183601962158,
+        "date": "1980-09-11"
+      },
+      "maxRatio": {
+        "value": 0.0169971671388102,
+        "date": "1970-06-03"
+      },
+      "breakpointValues": [
+        {
+          "date": "1929-10-29",
+          "label": "Black Tuesday (Great Depression)",
+          "ratio": null
+        },
+        {
+          "date": "1934-01-30",
+          "label": "FDR Gold Revaluation ($20.67 → $35)",
+          "ratio": null
+        },
+        {
+          "date": "1944-07-01",
+          "label": "Bretton Woods Agreement",
+          "ratio": null
+        },
+        {
+          "date": "1971-08-15",
+          "label": "Nixon Shock (Gold Standard Ends)",
+          "ratio": 0.01215437788018433
+        },
+        {
+          "date": "1980-01-21",
+          "label": "Gold Peak ($850/oz)",
+          "ratio": 0.0014508393285371701
+        },
+        {
+          "date": "2000-03-10",
+          "label": "Dot-com Peak",
+          "ratio": 0.002704152249134948
+        },
+        {
+          "date": "2008-09-15",
+          "label": "Lehman Brothers Collapse",
+          "ratio": 0.0040709865493786124
+        },
+        {
+          "date": "2020-03-23",
+          "label": "COVID Crash Bottom",
+          "ratio": 0.0013615383874169315
+        }
+      ]
+    },
+    {
+      "id": "sp500",
+      "name": "S&P 500",
+      "isIndex": true,
+      "currency": "USD",
+      "fxConversion": "Native USD, no conversion",
+      "dataPoints": 15197,
+      "fxStats": {
+        "fixed": 0,
+        "market": 0,
+        "skipped": 11203
+      },
+      "dateRange": {
+        "first": "1925-03-02",
+        "last": "2025-03-14"
+      },
+      "firstRatio": 0.5611998064828253,
+      "lastRatio": 1.8890636489567156,
+      "changePercent": 236.61160020633895,
+      "minRatio": {
+        "value": 0.1225519287833828,
+        "date": "1980-01-22"
+      },
+      "maxRatio": {
+        "value": 5.587948011027963,
+        "date": "1999-07-16"
+      },
+      "breakpointValues": [
+        {
+          "date": "1929-10-29",
+          "label": "Black Tuesday (Great Depression)",
+          "ratio": null
+        },
+        {
+          "date": "1934-01-30",
+          "label": "FDR Gold Revaluation ($20.67 → $35)",
+          "ratio": 0.3147386964180857
+        },
+        {
+          "date": "1944-07-01",
+          "label": "Bretton Woods Agreement",
+          "ratio": 0.3333333333333333
+        },
+        {
+          "date": "1971-08-15",
+          "label": "Nixon Shock (Gold Standard Ends)",
+          "ratio": 2.27557603686636
+        },
+        {
+          "date": "1980-01-21",
+          "label": "Gold Peak ($850/oz)",
+          "ratio": 0.1344124700239808
+        },
+        {
+          "date": "2000-03-10",
+          "label": "Dot-com Peak",
+          "ratio": 4.827231833910035
+        },
+        {
+          "date": "2008-09-15",
+          "label": "Lehman Brothers Collapse",
+          "ratio": 1.5249578069861403
+        },
+        {
+          "date": "2020-03-23",
+          "label": "COVID Crash Bottom",
+          "ratio": 1.437275766929296
+        }
+      ]
+    },
+    {
+      "id": "dow-jones",
+      "name": "Dow Jones",
+      "isIndex": true,
+      "currency": "USD",
+      "fxConversion": "Native USD, no conversion",
+      "dataPoints": 15187,
+      "fxStats": {
+        "fixed": 0,
+        "market": 0,
+        "skipped": 11082
+      },
+      "dateRange": {
+        "first": "1925-03-02",
+        "last": "2025-03-14"
+      },
+      "firstRatio": 5.995645863570392,
+      "lastRatio": 13.898681594414825,
+      "changePercent": 131.81291741834457,
+      "minRatio": {
+        "value": 0.9519727442576108,
+        "date": "1980-01-22"
+      },
+      "maxRatio": {
+        "value": 44.882108183079055,
+        "date": "1999-08-25"
+      },
+      "breakpointValues": [
+        {
+          "date": "1929-10-29",
+          "label": "Black Tuesday (Great Depression)",
+          "ratio": null
+        },
+        {
+          "date": "1934-01-30",
+          "label": "FDR Gold Revaluation ($20.67 → $35)",
+          "ratio": 3.0299471520845564
+        },
+        {
+          "date": "1944-07-01",
+          "label": "Bretton Woods Agreement",
+          "ratio": 3.8612244897959185
+        },
+        {
+          "date": "1971-08-15",
+          "label": "Nixon Shock (Gold Standard Ends)",
+          "ratio": 20.483870967741936
+        },
+        {
+          "date": "1980-01-21",
+          "label": "Gold Peak ($850/oz)",
+          "ratio": 1.0465227817745804
+        },
+        {
+          "date": "2000-03-10",
+          "label": "Dot-com Peak",
+          "ratio": 34.3557785467128
+        },
+        {
+          "date": "2008-09-15",
+          "label": "Lehman Brothers Collapse",
+          "ratio": 13.958855418605841
+        },
+        {
+          "date": "2020-03-23",
+          "label": "COVID Crash Bottom",
+          "ratio": 11.943206601164647
+        }
+      ]
+    },
+    {
+      "id": "ftse100",
+      "name": "FTSE 100",
+      "isIndex": true,
+      "currency": "GBP→USD",
+      "fxConversion": "Multiply by gbpusd.csv",
+      "dataPoints": 9896,
+      "fxStats": {
+        "fixed": 0,
+        "market": 9896,
+        "skipped": 0
+      },
+      "dateRange": {
+        "first": "1985-12-31",
+        "last": "2025-03-14"
+      },
+      "firstRatio": 6.166205919661733,
+      "lastRatio": 8.663687241699876,
+      "changePercent": 40.502723304692196,
+      "minRatio": {
+        "value": 5.400970287070524,
+        "date": "1986-10-08"
+      },
+      "maxRatio": {
+        "value": 38.91610466849745,
+        "date": "1999-09-06"
+      },
+      "breakpointValues": [
+        {
+          "date": "1929-10-29",
+          "label": "Black Tuesday (Great Depression)",
+          "ratio": null
+        },
+        {
+          "date": "1934-01-30",
+          "label": "FDR Gold Revaluation ($20.67 → $35)",
+          "ratio": null
+        },
+        {
+          "date": "1944-07-01",
+          "label": "Bretton Woods Agreement",
+          "ratio": null
+        },
+        {
+          "date": "1971-08-15",
+          "label": "Nixon Shock (Gold Standard Ends)",
+          "ratio": null
+        },
+        {
+          "date": "1980-01-21",
+          "label": "Gold Peak ($850/oz)",
+          "ratio": null
+        },
+        {
+          "date": "2000-03-10",
+          "label": "Dot-com Peak",
+          "ratio": 37.21069038062284
+        },
+        {
+          "date": "2008-09-15",
+          "label": "Lehman Brothers Collapse",
+          "ratio": 20.02513348335294
+        },
+        {
+          "date": "2020-03-23",
+          "label": "COVID Crash Bottom",
+          "ratio": 9.708859498231831
+        }
+      ]
+    },
+    {
+      "id": "nikkei225",
+      "name": "Nikkei 225",
+      "isIndex": true,
+      "currency": "JPY→USD",
+      "fxConversion": "Divide by usdjpy.csv + fixed rates for 1949-01-01–1970-12-31: 360",
+      "dataPoints": 14280,
+      "fxStats": {
+        "fixed": 1042,
+        "market": 13238,
+        "skipped": 5502
+      },
+      "dateRange": {
+        "first": "1949-03-01",
+        "last": "2025-03-14"
+      },
+      "firstRatio": 0.008011904761904762,
+      "lastRatio": 0.08351327218636789,
+      "changePercent": 942.3647642875042,
+      "minRatio": {
+        "value": 0.006207496653279786,
+        "date": "1950-06-08"
+      },
+      "maxRatio": {
+        "value": 0.7105762331385052,
+        "date": "2000-04-03"
+      },
+      "breakpointValues": [
+        {
+          "date": "1929-10-29",
+          "label": "Black Tuesday (Great Depression)",
+          "ratio": null
+        },
+        {
+          "date": "1934-01-30",
+          "label": "FDR Gold Revaluation ($20.67 → $35)",
+          "ratio": null
+        },
+        {
+          "date": "1944-07-01",
+          "label": "Bretton Woods Agreement",
+          "ratio": null
+        },
+        {
+          "date": "1971-08-15",
+          "label": "Nixon Shock (Gold Standard Ends)",
+          "ratio": 0.16307216225116272
+        },
+        {
+          "date": "1980-01-21",
+          "label": "Gold Peak ($850/oz)",
+          "ratio": 0.03316941433988671
+        },
+        {
+          "date": "2000-03-10",
+          "label": "Dot-com Peak",
+          "ratio": 0.6433256559264402
+        },
+        {
+          "date": "2008-09-15",
+          "label": "Lehman Brothers Collapse",
+          "ratio": 0.14084029994054237
+        },
+        {
+          "date": "2020-03-23",
+          "label": "COVID Crash Bottom",
+          "ratio": 0.09774729455193601
+        }
+      ]
+    },
+    {
+      "id": "dax",
+      "name": "DAX",
+      "isIndex": true,
+      "currency": "DEM/EUR→USD",
+      "fxConversion": "Fixed DEM/USD pre-1971, synthetic EUR/USD÷1.95583 for 1971-1998, EUR/USD post-1999",
+      "dataPoints": 14334,
+      "fxStats": {
+        "fixed": 673,
+        "market": 13661,
+        "skipped": 2137
+      },
+      "dateRange": {
+        "first": "1959-12-01",
+        "last": "2025-03-14"
+      },
+      "firstRatio": 2.582505910165484,
+      "lastRatio": 8.377164209249775,
+      "changePercent": 224.38122121133796,
+      "minRatio": {
+        "value": 0.30890965853273095,
+        "date": "1980-01-22"
+      },
+      "maxRatio": {
+        "value": 27.214026346771316,
+        "date": "2000-03-27"
+      },
+      "breakpointValues": [
+        {
+          "date": "1929-10-29",
+          "label": "Black Tuesday (Great Depression)",
+          "ratio": null
+        },
+        {
+          "date": "1934-01-30",
+          "label": "FDR Gold Revaluation ($20.67 → $35)",
+          "ratio": null
+        },
+        {
+          "date": "1944-07-01",
+          "label": "Bretton Woods Agreement",
+          "ratio": null
+        },
+        {
+          "date": "1971-08-15",
+          "label": "Nixon Shock (Gold Standard Ends)",
+          "ratio": 3.4217772076964934
+        },
+        {
+          "date": "1980-01-21",
+          "label": "Gold Peak ($850/oz)",
+          "ratio": 0.33401961700657834
+        },
+        {
+          "date": "2000-03-10",
+          "label": "Dot-com Peak",
+          "ratio": 26.571780830449825
+        },
+        {
+          "date": "2008-09-15",
+          "label": "Lehman Brothers Collapse",
+          "ratio": 11.066557009154605
+        },
+        {
+          "date": "2020-03-23",
+          "label": "COVID Crash Bottom",
+          "ratio": 6.034315929581582
+        }
+      ]
+    }
+  ]
+}

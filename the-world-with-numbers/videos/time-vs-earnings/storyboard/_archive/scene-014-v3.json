@@ -1,0 +1,35 @@
+{
+  "id": "scene-014",
+  "visual": {
+    "type": "data-chart",
+    "description": "Full QuadrantScatter at 100% — all 33 dots visible, all quadrant labels, all quadrant fills. This is the 'hero shot' — the complete picture. All spotlight labels (Luxembourg, Japan, USA, Denmark, Germany, Greece, Mexico) visible. Brief wide-angle hold for 2-3 seconds. Then slow zoom begins toward the space between USA (GRIND) and Denmark (DREAM).",
+    "searchQuery": null,
+    "textOverlay": null,
+    "dataVisualization": {
+      "component": "QuadrantScatter",
+      "config": {
+        "state": "full-matrix-hero",
+        "showAllDots": true,
+        "showAllLabels": true,
+        "showQuadrantFills": true,
+        "showQuadrantLabels": true,
+        "opacity": 1.0,
+        "labeledCountries": ["LUX", "JPN", "USA", "DNK", "DEU", "GRC", "MEX"],
+        "ambientPulse": {
+          "enabled": true,
+          "scaleRange": [0.995, 1.005],
+          "period": "3s"
+        },
+        "cameraZoom": {
+          "target": { "x": 1590, "y": 8.87 },
+          "startScale": 1.0,
+          "endScale": 1.8,
+          "startAt": "3s",
+          "duration": "12s"
+        }
+      }
+    }
+  },
+  "transition": "seamless",
+  "notes": "The hero shot — everything the viewer has been building toward. Let it breathe for 2-3 seconds before the zoom starts. Very slow camera zoom (12s total, continues into Scene 015) targeting the midpoint between USA and Denmark. Ambient dot pulse is barely perceptible (0.5% scale) — adds life without distraction. All 33 dots from all quadrants visible with their assigned colors."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "scene-010",
+  "visual": {
+    "type": "ai-image",
+    "description": "Body diagram on dark bg (#1A1824) with four callout regions: Brain (prefrontal cortex, impaired decisions), Heart (blood pressure up), Immune system (suppressed), Hormones (ghrelin up / leptin down arrows). Each callout uses #E8E0D4 text with #D47FA6 accent icons. Clean, minimal medical style.",
+    "searchQuery": null,
+    "textOverlay": null,
+    "dataVisualization": null
+  },
+  "transition": "cut",
+  "notes": "aiImagePrompt: Photorealistic dark medical illustration of full human body silhouette on #1A1824 background, four glowing callout zones — brain, heart, immune system, gut/hormones — each with subtle icon, cinematic lighting, ultra detailed, 8K, dark atmospheric."
+}

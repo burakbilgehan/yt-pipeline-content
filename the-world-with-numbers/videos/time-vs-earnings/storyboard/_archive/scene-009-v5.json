@@ -1,0 +1,454 @@
+{
+  "id": "scene-009",
+  "visual": {
+    "type": "data-chart",
+    "description": "CRITICAL SCENE: Camera ZOOMS OUT. Axes extend dramatically (X to 2550, Y down to 3000). OECD origin crosshair stays fixed. 6 non-OECD dots appear as dark red SQUARES (different shape from OECD circles) deep in bottom-right, labeled one by one with stagger. DEU-KHM connector line stretches across the ENTIRE chart: '22.5× per hour | 1,049 fewer hrs'. Disclaimer text in corner. Tooltips for all 6 ugly truth countries. LUX-IND connector: '17.8× per hour'.",
+    "searchQuery": null,
+    "textOverlay": {
+      "text": "Sources: World Bank, ILO — not directly comparable to OECD methodology",
+      "position": "bottomLeft",
+      "style": "disclaimer",
+      "showAt": "3s",
+      "duration": "persistent",
+      "color": "rgba(234,224,213,0.45)",
+      "fontSize": 12
+    },
+    "dataVisualization": {
+      "component": "QuadrantScatter",
+      "config": {
+        "state": "ugly-truth-zoom-out",
+        "activeQuadrant": null,
+        "showAxes": true,
+        "showGrid": true,
+        "showCrosshair": true,
+        "showQuadrantFills": true,
+        "showQuadrantLabels": true,
+        "showDots": true,
+        "showAllDots": true,
+        "centered": true,
+        "origin": {
+          "x": 1633,
+          "y": 59200
+        },
+        "xAxis": {
+          "label": "Annual Hours Worked",
+          "min": 1250,
+          "max": 2550,
+          "extendedRange": true,
+          "extendAnimation": {
+            "from": 2350,
+            "to": 2550,
+            "duration": "2s"
+          }
+        },
+        "yAxis": {
+          "label": "PPP-Adjusted Annual Salary ($)",
+          "min": 3000,
+          "max": 100000,
+          "extendedRange": true,
+          "extendAnimation": {
+            "from": 15000,
+            "to": 3000,
+            "duration": "2s"
+          }
+        },
+        "dots": [
+          {
+            "code": "LUX",
+            "x": 1473,
+            "y": 94447
+          },
+          {
+            "code": "ISL",
+            "x": 1449,
+            "y": 89947
+          },
+          {
+            "code": "CHE",
+            "x": 1528,
+            "y": 87468
+          },
+          {
+            "code": "USA",
+            "x": 1810,
+            "y": 82933
+          },
+          {
+            "code": "BEL",
+            "x": 1525,
+            "y": 76109
+          },
+          {
+            "code": "AUT",
+            "x": 1443,
+            "y": 75767
+          },
+          {
+            "code": "NLD",
+            "x": 1427,
+            "y": 75370
+          },
+          {
+            "code": "NOR",
+            "x": 1424,
+            "y": 74864
+          },
+          {
+            "code": "DNK",
+            "x": 1371,
+            "y": 74022
+          },
+          {
+            "code": "AUS",
+            "x": 1707,
+            "y": 70763
+          },
+          {
+            "code": "DEU",
+            "x": 1340,
+            "y": 69433
+          },
+          {
+            "code": "CAN",
+            "x": 1686,
+            "y": 69417
+          },
+          {
+            "code": "GBR",
+            "x": 1531,
+            "y": 63691
+          },
+          {
+            "code": "NZL",
+            "x": 1748,
+            "y": 62437
+          },
+          {
+            "code": "SVN",
+            "x": 1619,
+            "y": 61776
+          },
+          {
+            "code": "FRA",
+            "x": 1511,
+            "y": 60608
+          },
+          {
+            "code": "IRL",
+            "x": 1657,
+            "y": 60431
+          },
+          {
+            "code": "FIN",
+            "x": 1498,
+            "y": 59597
+          },
+          {
+            "code": "SWE",
+            "x": 1440,
+            "y": 59058
+          },
+          {
+            "code": "ISR",
+            "x": 1891,
+            "y": 54736
+          },
+          {
+            "code": "ESP",
+            "x": 1643,
+            "y": 54564
+          },
+          {
+            "code": "LTU",
+            "x": 1624,
+            "y": 52898
+          },
+          {
+            "code": "ITA",
+            "x": 1694,
+            "y": 51019
+          },
+          {
+            "code": "KOR",
+            "x": 1901,
+            "y": 50947
+          },
+          {
+            "code": "JPN",
+            "x": 1607,
+            "y": 49446
+          },
+          {
+            "code": "LVA",
+            "x": 1553,
+            "y": 45567
+          },
+          {
+            "code": "POL",
+            "x": 1814,
+            "y": 44211
+          },
+          {
+            "code": "PRT",
+            "x": 1635,
+            "y": 40002
+          },
+          {
+            "code": "EST",
+            "x": 1770,
+            "y": 38975
+          },
+          {
+            "code": "CZE",
+            "x": 1754,
+            "y": 38489
+          },
+          {
+            "code": "SVK",
+            "x": 1622,
+            "y": 36105
+          },
+          {
+            "code": "HUN",
+            "x": 1699,
+            "y": 34996
+          },
+          {
+            "code": "GRC",
+            "x": 1886,
+            "y": 32257
+          },
+          {
+            "code": "MEX",
+            "x": 2226,
+            "y": 20433
+          }
+        ],
+        "uglyTruthDots": [
+          {
+            "code": "IND",
+            "x": 2383,
+            "y": 8600,
+            "shape": "square",
+            "color": "#8B2030"
+          },
+          {
+            "code": "BGD",
+            "x": 2383,
+            "y": 7000,
+            "shape": "square",
+            "color": "#8B2030"
+          },
+          {
+            "code": "KHM",
+            "x": 2389,
+            "y": 5500,
+            "shape": "square",
+            "color": "#8B2030"
+          },
+          {
+            "code": "PAK",
+            "x": 2471,
+            "y": 7000,
+            "shape": "square",
+            "color": "#8B2030"
+          },
+          {
+            "code": "NGA",
+            "x": 2062,
+            "y": 5800,
+            "shape": "square",
+            "color": "#8B2030"
+          },
+          {
+            "code": "PHL",
+            "x": 2096,
+            "y": 11000,
+            "shape": "square",
+            "color": "#8B2030"
+          }
+        ],
+        "uglyTruthLabelReveal": "sequential",
+        "uglyTruthLabelDelay": "1.5s",
+        "uglyTruthEntranceStyle": "fade-drop",
+        "showLabelsFor": [
+          "DEU",
+          "LUX",
+          "MEX",
+          "IND",
+          "BGD",
+          "KHM",
+          "PAK",
+          "NGA",
+          "PHL"
+        ],
+        "highlightDots": [
+          {
+            "code": "DEU",
+            "pulse": false,
+            "glowColor": "rgba(91,191,140,0.5)"
+          },
+          {
+            "code": "LUX",
+            "pulse": false,
+            "glowColor": "rgba(91,191,140,0.5)"
+          },
+          {
+            "code": "KHM",
+            "pulse": true,
+            "glowColor": "rgba(139,32,48,0.6)"
+          },
+          {
+            "code": "IND",
+            "pulse": true,
+            "glowColor": "rgba(139,32,48,0.6)"
+          }
+        ],
+        "tooltips": [
+          {
+            "code": "KHM",
+            "position": "left",
+            "showAt": "20s",
+            "pixelOffset": {
+              "x": -550,
+              "y": -350
+            },
+            "data": {
+              "salary": "~$5,500",
+              "hours": "2,389 hrs/yr",
+              "hourlyRate": "$2.30/hr",
+              "source": "World Bank / ILO est."
+            }
+          },
+          {
+            "code": "PAK",
+            "position": "right",
+            "showAt": "30s",
+            "pixelOffset": {
+              "x": -100,
+              "y": -500
+            },
+            "data": {
+              "salary": "~$7,000",
+              "hours": "2,471 hrs/yr",
+              "hourlyRate": "$2.83/hr",
+              "source": "World Bank / ILO est."
+            }
+          },
+          {
+            "code": "IND",
+            "position": "top",
+            "showAt": "35s",
+            "pixelOffset": {
+              "x": -250,
+              "y": -550
+            },
+            "data": {
+              "salary": "~$8,600",
+              "hours": "2,383 hrs/yr",
+              "hourlyRate": "$3.61/hr",
+              "source": "World Bank / ILO est."
+            }
+          },
+          {
+            "code": "BGD",
+            "position": "bottom",
+            "showAt": "45s",
+            "pixelOffset": {
+              "x": -400,
+              "y": -150
+            },
+            "data": {
+              "salary": "~$7,000",
+              "hours": "2,383 hrs/yr",
+              "hourlyRate": "$2.94/hr",
+              "source": "World Bank / ILO est."
+            }
+          },
+          {
+            "code": "NGA",
+            "position": "left",
+            "showAt": "55s",
+            "pixelOffset": {
+              "x": -700,
+              "y": -200
+            },
+            "data": {
+              "salary": "~$5,800",
+              "hours": "2,062 hrs/yr",
+              "hourlyRate": "$2.81/hr",
+              "source": "World Bank / ILO est."
+            }
+          },
+          {
+            "code": "PHL",
+            "position": "top",
+            "showAt": "55s",
+            "pixelOffset": {
+              "x": -700,
+              "y": -450
+            },
+            "data": {
+              "salary": "~$11,000",
+              "hours": "2,096 hrs/yr",
+              "hourlyRate": "$5.25/hr",
+              "source": "World Bank / ILO est."
+            }
+          }
+        ],
+        "connectorLines": [
+          {
+            "from": "DEU",
+            "to": "KHM",
+            "style": "dashed",
+            "color": "#8B2030",
+            "lineWidth": 2,
+            "labels": [
+              "22.5× per hour",
+              "1,049 fewer hrs"
+            ],
+            "labelDir": "above",
+            "showAt": "22s",
+            "duration": "15s"
+          },
+          {
+            "from": "LUX",
+            "to": "IND",
+            "style": "dashed",
+            "color": "#8B2030",
+            "lineWidth": 1.5,
+            "labels": [
+              "17.8× per hour"
+            ],
+            "labelDir": "below",
+            "showAt": "37s",
+            "duration": "12s"
+          }
+        ],
+        "quadrantGlow": null,
+        "dimOtherQuadrants": false,
+        "dimOpacity": 1,
+        "oecdDotsOpacity": 0.5,
+        "cameraZoom": {
+          "target": "fullExtended",
+          "scale": 1,
+          "startAt": "5s",
+          "duration": "4s",
+          "easing": "easeOut",
+          "startFrom": {
+            "target": "bottomLeft",
+            "scale": 1.3
+          },
+          "transitionDuration": "2s"
+        },
+        "dotColorActive": "rgba(234,224,213,0.5)",
+        "dotColorInactive": "rgba(234,224,213,0.25)",
+        "dotSize": 8,
+        "uglyTruthDotSize": 10,
+        "skipEntrance": true
+      }
+    }
+  },
+  "transition": "seamless",
+  "notes": "UGLY TRUTH — the emotional gut-punch. The axes dramatically extend downward and rightward, revealing vast empty space where the non-OECD countries will appear. This visual alone tells the story before any dot appears. 6 non-OECD dots use SQUARES (not circles) to visually distinguish them from OECD data and reinforce the disclaimer that these use different data sources. They appear sequentially with fade-drop animation. The OECD cluster suddenly looks tiny and privileged. DEU-KHM connector stretches across nearly the entire chart — the most dramatic visual in the video. Script mentions Germany earns the entire Bangladeshi annual salary in ~5 weeks. Disclaimer text persists in corner. Math verified: DEU $51.82/hr / KHM $2.30/hr = 22.53× ≈ 22.5×. LUX $64.12/hr / IND $3.61/hr = 17.76× ≈ 17.8×. PAK 2,471 hrs is most in entire 40-country dataset. MEX $9.18 vs KHM $2.30 — even OECD worst is 4× better than non-OECD worst."
+}

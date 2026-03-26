@@ -1,0 +1,12 @@
+{
+  "id": "scene-018",
+  "visual": {
+    "type": "text-overlay",
+    "description": "Dark bg (#1A1824). Three clean boxes appear left to right with arrows connecting them: Box 1: 'GDP' in #E8E0D4. Arrow →. Box 2: '% workforce sleeping <6h' in #E8E0D4. Arrow →. Box 3: 'Productivity loss coefficient' in #E8E0D4. Below the chain, result box glows in #D47FA6: '= Estimated annual loss'. Label at bottom: 'RAND\\'s framework, simplified.' Source note in muted text.",
+    "searchQuery": null,
+    "textOverlay": "GDP × (% workforce <6h) × loss coefficient = estimated annual loss",
+    "dataVisualization": null
+  },
+  "transition": "cut",
+  "notes": "This formula returns in the Close section as a DIY tool for the viewer. Keep it visually memorable — same layout will be mirrored later."
+}

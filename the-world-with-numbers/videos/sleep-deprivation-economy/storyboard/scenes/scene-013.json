@@ -1,0 +1,49 @@
+{
+  "id": "scene-013",
+  "visual": {
+    "type": "data-chart",
+    "description": "Horizontal bar chart on dark bg (#1A1824). Countries ranked by absolute $ loss, top to bottom: US, Japan, Germany, UK, Canada. US bar extends dramatically further than others in #D47FA6 accent. Each bar shows dollar range with ticker animation. US: $411B (with range note 1.56–2.28% GDP). Japan: $88B–$138B (RANGE shown, not just ceiling). Germany: $60B. UK: $50B. Canada: $21B. Source label bottom-right: 'RAND RR-1791, 2016'.",
+    "searchQuery": null,
+    "textOverlay": null,
+    "dataVisualization": {
+      "type": "bar-chart",
+      "data": {
+        "orientation": "horizontal",
+        "sortBy": "absolute-loss-descending",
+        "bars": [
+          {
+            "country": "United States",
+            "loss": "$411B",
+            "lossNote": "high-end estimate",
+            "gdpRange": "1.56–2.28%",
+            "color": "#D47FA6"
+          },
+          {
+            "country": "Japan",
+            "loss": "$88B–$138B",
+            "gdpRange": "1.86–2.92%",
+            "color": "#C97B9F"
+          },
+          {
+            "country": "Germany",
+            "loss": "$60B",
+            "color": "#C97B9F"
+          },
+          {
+            "country": "United Kingdom",
+            "loss": "$50B",
+            "color": "#C97B9F"
+          },
+          {
+            "country": "Canada",
+            "loss": "$21B",
+            "color": "#C97B9F"
+          }
+        ],
+        "source": "RAND RR-1791, 2016"
+      }
+    }
+  },
+  "transition": "cut",
+  "notes": "Japan MUST show $88B–$138B range, not just $138B ceiling. US $411B is the high-end scenario. Ticker animation on dollar amounts."
+}

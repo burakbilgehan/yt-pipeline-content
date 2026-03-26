@@ -1,0 +1,163 @@
+{
+  "slug": "gold-vs-commodities-100-years",
+  "title": "What If You Priced Everything in Gold? (100 Years of Data)",
+  "description": "Price every major asset in gold terms (asset/gold ratio) over 100 years (1925-2025). Strips away inflation and reveals real purchasing power changes.",
+  "createdAt": "2026-03-15T00:00:00Z",
+  "updatedAt": "2026-03-17T19:00:54.850Z",
+  "currentWork": null,
+  "tags": [
+    "gold",
+    "commodities",
+    "100-years",
+    "inflation",
+    "purchasing-power",
+    "data-driven"
+  ],
+  "metadata": {
+    "targetLength": 1233,
+    "tone": "informative, slightly dramatic, data-focused",
+    "targetAudience": "18-35, curious learners, investors, economics enthusiasts",
+    "language": "en",
+    "format": "long"
+  },
+  "pipeline": {
+    "research": {
+      "status": "completed",
+      "version": 1,
+      "completedAt": "2026-03-15T00:00:00Z"
+    },
+    "content": {
+      "status": "completed",
+      "version": 3,
+      "completedAt": "2026-03-17T00:00:00Z"
+    },
+    "storyboard": {
+      "status": "completed",
+      "version": 1,
+      "completedAt": "2026-03-17T00:00:00Z"
+    },
+    "production": {
+      "status": "completed",
+      "version": 1,
+      "completedAt": "2026-03-17T19:00:54.850Z"
+    },
+    "publishing": {
+      "status": "completed",
+      "version": 1,
+      "completedAt": "2026-03-17T19:42:24Z"
+    },
+    "analytics": {
+      "status": "active",
+      "version": 1,
+      "note": "Analytics sync running since 2026-03-18. 187 views, 4.57 watch hours, 88s avg duration as of 2026-03-23."
+    }
+  },
+  "history": [
+    {
+      "event": "project.created",
+      "timestamp": "2026-03-15T00:00:00Z",
+      "agent": "researcher"
+    },
+    {
+      "event": "research.started",
+      "timestamp": "2026-03-15T00:00:00Z",
+      "agent": "researcher",
+      "details": "Starting comprehensive research on 100 years of asset prices in gold terms"
+    },
+    {
+      "event": "content.started",
+      "timestamp": "2026-03-15T00:00:00Z",
+      "agent": "content-writer",
+      "details": "Drafting script-v1 based on research-v2"
+    },
+    {
+      "event": "content.revision",
+      "timestamp": "2026-03-15T00:00:00Z",
+      "agent": "content-writer",
+      "details": "Script-v2: Nikkei rise/fall punchline, softened CTA, rebalanced acts, horse race visual concept integrated"
+    },
+    {
+      "event": "content.completed",
+      "timestamp": "2026-03-15T00:00:00Z",
+      "agent": "content-writer",
+      "details": "Script-v2 approved by user"
+    },
+    {
+      "event": "storyboard.started",
+      "timestamp": "2026-03-15T00:00:00Z",
+      "agent": "storyboard",
+      "details": "Creating storyboard-v1 based on script-v2"
+    },
+    {
+      "action": "production.started",
+      "version": 1,
+      "at": "2026-03-15T15:13:29.320Z",
+      "reason": "Generated TTS audio from script-v2.md (6 blocks)"
+    },
+    {
+      "action": "production.started",
+      "version": 1,
+      "at": "2026-03-15T15:14:48.234Z",
+      "reason": "Generated TTS audio from script-v2.md (6 blocks)"
+    },
+    {
+      "action": "production.started",
+      "version": 1,
+      "at": "2026-03-15T23:20:31.496Z",
+      "reason": "Generated TTS audio (edge-tts) from script-v2.md (6 blocks)"
+    },
+    {
+      "action": "production.started",
+      "version": 1,
+      "at": "2026-03-15T23:21:19.477Z",
+      "reason": "Generated TTS audio (edge-tts) from script-v2.md (6 blocks)"
+    },
+    {
+      "action": "production.started",
+      "version": 1,
+      "at": "2026-03-15T23:37:31.929Z",
+      "reason": "Generated TTS audio (elevenlabs) from script-v2.md (6 blocks)"
+    },
+    {
+      "event": "content.reopened",
+      "timestamp": "2026-03-17T00:00:00Z",
+      "agent": "content-writer",
+      "reason": "FX conversion bug corrected for Nikkei, DAX, FTSE. All three assets had wrong gold-term ratios due to currency conversion errors. Script-v3 written with corrected data."
+    },
+    {
+      "action": "production.started",
+      "version": 1,
+      "at": "2026-03-17T11:40:29.220Z",
+      "reason": "Generated TTS audio (elevenlabs) from script-v3.md (7 blocks)"
+    },
+    {
+      "event": "publishing.started",
+      "timestamp": "2026-03-17T00:00:00Z",
+      "agent": "publisher",
+      "details": "Publishing plan v1 created. Metadata prepared for YouTube upload."
+    },
+    {
+      "action": "production.completed",
+      "version": 1,
+      "at": "2026-03-17T19:00:54.850Z",
+      "reason": "Rendered 230s video (6900 frames)"
+    },
+    {
+      "event": "publishing.note",
+      "timestamp": "2026-03-17T19:29:03.742Z",
+      "agent": "publisher",
+      "details": "Pipeline upload script failed — 'exceeded number of videos' API quota. Video was uploaded manually via YouTube Studio."
+    },
+    {
+      "event": "analytics.started",
+      "timestamp": "2026-03-23T11:18:52.150Z",
+      "agent": "analytics",
+      "details": "First analytics sync: 187 views, 4.57 watch hours, 88s avg view duration, 7 likes, 3 comments, 2 subs gained"
+    }
+  ],
+  "youtube": {
+    "videoId": "WeVrejS9Wf8",
+    "url": "https://www.youtube.com/watch?v=WeVrejS9Wf8",
+    "publishedAt": "2026-03-17T19:42:24Z"
+  }
+}

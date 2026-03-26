@@ -1,0 +1,59 @@
+{
+  "id": "scene-006",
+  "visual": {
+    "type": "composite",
+    "description": "GRIND quadrant (top-right) brightens. 5 dots appear: USA (largest), AUS, CAN, NZL, IRL. Flag strip shows all five — text badges. Text overlay: 'The Anglosphere Quadrant' — all English-speaking. Counter: '5 of 34.' Then USA-Denmark connector line draws across matrix. Side panel: USA ($45.82/hr, 1,810 hrs) vs Denmark ($53.99/hr, 1,371 hrs). Calendar grid: 55 days highlighted in red. Labels: '55 extra workdays ≈ 11 extra work weeks. For 12% more salary.'",
+    "searchQuery": null,
+    "textOverlay": {
+      "anglosphereLabel": "The Anglosphere Quadrant — all 5 countries English-speaking",
+      "punchline": "For 12% more salary.",
+      "punchlineColor": "#D8A7B1"
+    },
+    "dataVisualization": {
+      "component": "QuadrantScatter",
+      "config": {
+        "state": "grind-quadrant-focus",
+        "activeQuadrant": "topRight",
+        "showDots": true,
+        "dots": [
+          { "code": "USA", "x": 1810, "y": 82933, "entranceOrder": 1, "size": "large" },
+          { "code": "AUS", "x": 1707, "y": 70763, "entranceOrder": 2 },
+          { "code": "CAN", "x": 1686, "y": 69417, "entranceOrder": 3 },
+          { "code": "NZL", "x": 1748, "y": 62437, "entranceOrder": 4 },
+          { "code": "IRL", "x": 1657, "y": 60431, "entranceOrder": 5 }
+        ],
+        "dotColor": "#D8A7B1",
+        "connectorLine": {
+          "from": "USA",
+          "to": "DNK",
+          "style": "dashed",
+          "color": "#D8A7B1",
+          "midpointLabel": "439 hours"
+        },
+        "comparisonCard": {
+          "left": { "code": "USA", "label": "United States", "stats": { "hourlyRate": 45.82, "hours": 1810, "salary": 82933 } },
+          "right": { "code": "DNK", "label": "Denmark", "stats": { "hourlyRate": 53.99, "hours": 1371, "salary": 74022 } }
+        },
+        "calendarGrid": {
+          "component": "CalendarGrid",
+          "months": 12,
+          "highlightedDays": 55,
+          "highlightColor": "#E06070",
+          "labels": [
+            { "text": "55 extra 8-hour workdays", "delay": "0s" },
+            { "text": "≈ 11 extra work weeks", "delay": "1s" },
+            { "text": "For 12% more salary.", "delay": "2s", "color": "#D8A7B1", "size": "large" }
+          ]
+        },
+        "counterLabel": "5 of 34 countries",
+        "dimOtherQuadrants": true,
+        "cameraZoom": {
+          "target": "topRight",
+          "scale": 1.3
+        }
+      }
+    }
+  },
+  "transition": "seamless",
+  "notes": "GRIND reveal + USA vs Denmark comparison. KEY CHANGE from v3: now 5 countries (not 2), all Anglosphere. The emptiness of GRIND is LESS dramatic with 5 dots but the Anglosphere pattern is a stronger insight. USA-DNK connector shows 439 hours = 55 days = 12% more salary (not 6% — old Big Mac metric). Calendar grid is the emotional peak. GRIND dot color: #D8A7B1."
+}

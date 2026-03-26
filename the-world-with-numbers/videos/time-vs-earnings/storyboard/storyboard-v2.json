@@ -1,0 +1,211 @@
+{
+  "title": "Time vs Earnings",
+  "version": 2,
+  "basedOn": { "content": 3 },
+  "changesFromPrev": "Converted from Markdown (v1) to JSON two-tier format. Fixed timing issues from Critic review: DREAM extended to 7:30 (was 7:00), GRIND starts 7:30 (was 7:00), TRAP extended to 11:45 (was 11:30). Split DREAM into 2 scenes (006+007) to cover Netherlands/Norway/Canada VO block. Split TRAP into 2 scenes (011+012). Defined GRIND dot color (#D8A7B1). Fixed Scene 1 label from 'BM/hr' to 'Value per Hour'. Updated TTS notes: Google Chirp 3 HD / Achernar.",
+  "date": "2026-03-21",
+  "totalDuration": 756,
+  "tts": {
+    "provider": "google",
+    "engine": "chirp3-hd",
+    "voice": "Achernar",
+    "inputMode": "markup"
+  },
+  "scenes": [
+    {
+      "id": "scene-001",
+      "section": "Hook",
+      "startTime": 0,
+      "endTime": 30,
+      "voiceover": "The average American earns eighty-two thousand nine hundred thirty-three dollars a year. [pause long] The average German earns sixty-nine thousand four hundred thirty-three. [pause] On paper, the American earns nineteen percent more. [pause long][pause long] But the German worker gets more for every hour they spend working — and works four hundred seventy fewer hours a year to do it. [pause long] The problem isn't who earns more. The problem is that salary numbers — on their own — mean almost nothing.",
+      "visual": {
+        "type": "data-chart",
+        "description": "Salary numbers fade in then re-sort by 'Value per Hour' — SalaryShuffleScene"
+      },
+      "transition": "crossfade",
+      "sceneFile": "scenes/scene-001.json"
+    },
+    {
+      "id": "scene-002",
+      "section": "The Salary Illusion",
+      "startTime": 30,
+      "endTime": 135,
+      "voiceover": "Three thousand dollars a month. [pause] In parts of Mexico, that covers rent, food, transport, and savings. In Zurich, it barely covers a studio apartment. Same number. Completely different lives. [pause long] This is why economists use something called Purchasing Power Parity, or PPP — a way to adjust salaries so they reflect what money actually buys in each country. The Organization for Economic Cooperation and Development, or OECD, publishes PPP-adjusted average wages for over thirty member countries every year. [pause] After PPP adjustment, an American earns eighty-two thousand nine hundred thirty-three dollars. A German earns sixty-nine thousand four hundred thirty-three. A Mexican earns twenty thousand four hundred thirty-three. [pause] These numbers are more honest — they account for local prices. But they're still abstract. Forty-nine thousand dollars PPP in Japan versus sixty-nine thousand in Germany — what does that difference actually feel like when you're standing in a grocery store? [pause] We need something more tangible.",
+      "visual": {
+        "type": "composite",
+        "description": "$3,000 split screen Zurich vs Mexico City, then PPP wage bar chart"
+      },
+      "transition": "cut",
+      "sceneFile": "scenes/scene-002.json"
+    },
+    {
+      "id": "scene-003",
+      "section": "The Big Mac Lens",
+      "startTime": 135,
+      "endTime": 200,
+      "voiceover": "This is where the Big Mac comes in. [pause] Since nineteen eighty-six, The Economist has tracked the price of a Big Mac in over fifty countries. A Big Mac uses local labor, local ingredients, local rent — making it a useful proxy for local cost of living. [pause long] In the United States, a Big Mac costs five dollars and seventy-nine cents. In Japan, three dollars and eleven cents. In Switzerland, seven dollars and ninety-nine cents. [pause] Take a country's PPP-adjusted hourly wage and divide it by the local Big Mac price. What you get is a single number: how many Big Macs one hour of work can buy. [pause long] This captures both how much you earn AND how far that money goes. [pause] And this is where the rankings start to shift.",
+      "visual": {
+        "type": "composite",
+        "description": "Big Mac center screen with radial price tags, morphing into bar chart"
+      },
+      "transition": "morph",
+      "sceneFile": "scenes/scene-003.json"
+    },
+    {
+      "id": "scene-004",
+      "section": "The Big Mac Lens",
+      "startTime": 200,
+      "endTime": 270,
+      "voiceover": "Switzerland has the second-highest PPP-adjusted wage in the OECD — eighty-seven thousand four hundred sixty-eight dollars, behind only Luxembourg. [pause] But a Big Mac there costs seven ninety-nine. Divide the hourly wage by that price and Switzerland drops to number fifteen — seven point one six Big Macs per hour. [pause long] Japan earns about fifty-seven percent of Switzerland's wage — forty-nine thousand four hundred forty-six dollars. But a Big Mac costs just three eleven. The result? Number two in the world at nine point eight nine Big Macs per hour. [pause long] High salary does not mean high purchasing power. And low salary does not always mean low purchasing power. The price of what you buy matters just as much as what you earn.",
+      "visual": {
+        "type": "data-chart",
+        "description": "Two-column ranking re-sort — Switzerland drops #2→#15, Japan jumps to #2"
+      },
+      "transition": "morph",
+      "sceneFile": "scenes/scene-004.json"
+    },
+    {
+      "id": "scene-005",
+      "section": "Adding Time",
+      "startTime": 270,
+      "endTime": 345,
+      "voiceover": "So now you know what people actually earn — in tangible purchasing power per hour. [pause long] But there's a second variable that changes everything. [pause] How many hours do they work for it? [pause long] Because a high hourly rate means one thing if you work one thousand three hundred hours a year — that's Germany. It means something entirely different if you work two thousand two hundred — that's Mexico. [pause] The OECD tracks average annual hours worked across its member countries. When you plot purchasing power per hour against hours worked per year, a pattern emerges. [pause] Two axes. Horizontal: hours worked — more hours to the right. Vertical: Big Macs per hour — more purchasing power going up. [pause] The crosshairs sit at the OECD averages: one thousand seven hundred fifty-one hours and six point six one Big Macs per hour. [pause long] Four quadrants. Each tells a very different story.",
+      "visual": {
+        "type": "data-chart",
+        "description": "QuadrantScatter matrix materializes — axes, grid, crosshairs, quadrant fills"
+      },
+      "transition": "seamless",
+      "sceneFile": "scenes/scene-005.json"
+    },
+    {
+      "id": "scene-006",
+      "section": "The Dream Quadrant",
+      "startTime": 345,
+      "endTime": 390,
+      "voiceover": "Top left. The DREAM quadrant. [pause] Fewer hours than average, more purchasing power than average. [pause] Sixteen of thirty-three countries land here — nearly half the dataset. Luxembourg leads at ten point seven eight Big Macs per hour on just one thousand four hundred seventy-three hours. [pause long] Germany works the fewest hours in the entire OECD — one thousand three hundred forty — and earns eight point seven one Big Macs per hour. Denmark: one thousand three hundred seventy-one hours, nine point eight three Big Macs per hour. But the biggest surprise here is Japan. [pause] Japan's average wage — forty-nine thousand four hundred forty-six dollars — sits in the middle of the pack. [pause] Yet a Big Mac in Japan costs just three dollars and eleven cents — the cheapest in the dataset. [pause] Divide it out — nine point eight nine Big Macs per hour. Number two in the world, behind only Luxembourg. [pause long] A moderate salary — but everything is cheaper. That changes the math entirely.",
+      "visual": {
+        "type": "data-chart",
+        "description": "DREAM quadrant activates — Lux, Germany, Denmark dots + Japan spotlight card"
+      },
+      "transition": "seamless",
+      "sceneFile": "scenes/scene-006.json"
+    },
+    {
+      "id": "scene-007",
+      "section": "The Dream Quadrant",
+      "startTime": 390,
+      "endTime": 450,
+      "voiceover": "[pause] The Netherlands: eight point eight eight Big Macs per hour on one thousand four hundred twenty-seven hours — nearly half the workforce works part-time by choice. Norway: seven point eight eight Big Macs per hour on one thousand four hundred twenty-four hours — oil wealth and short work weeks. Canada: seven point five eight Big Macs per hour — the Anglosphere outlier that works fewer hours than the United States and earns well. [pause] Austria, Belgium, Sweden, Australia, the UK, France, Finland — all here. [pause] Sixteen out of thirty-three OECD countries have figured out this balance — below-average hours, above-average purchasing power. The question is why the other seventeen haven't — and what's different about the countries that have.",
+      "visual": {
+        "type": "data-chart",
+        "description": "DREAM cluster — Netherlands, Norway, Canada callouts + remaining dots fade in"
+      },
+      "transition": "cross-dissolve",
+      "sceneFile": "scenes/scene-007.json"
+    },
+    {
+      "id": "scene-008",
+      "section": "The Grind Quadrant",
+      "startTime": 450,
+      "endTime": 480,
+      "voiceover": "Top right. The GRIND. [pause] Above-average purchasing power, but above-average hours too. [pause long] Only two countries in the entire dataset land here. [pause] The United States and South Korea. [pause long] Out of thirty-three OECD countries, only two combine above-average pay with above-average hours.",
+      "visual": {
+        "type": "data-chart",
+        "description": "GRIND quadrant — only USA and South Korea dots, emptiness is the story"
+      },
+      "transition": "seamless",
+      "sceneFile": "scenes/scene-008.json"
+    },
+    {
+      "id": "scene-009",
+      "section": "The Grind Quadrant",
+      "startTime": 480,
+      "endTime": 555,
+      "voiceover": "[pause] The United States earns seven point nine one Big Macs per hour — above the six point six one average. Americans work one thousand eight hundred ten hours a year. [pause] Now compare that to Denmark — in the DREAM quadrant at nine point eight three Big Macs per hour and one thousand three hundred seventy-one hours. [pause long] Multiply it out. Americans earn fourteen thousand three hundred seventeen Big Macs per year. Danes earn thirteen thousand four hundred seventy-seven. [pause] The American total is six percent higher. [pause long] But Americans work thirty-two percent more hours to get there. [pause] Four hundred thirty-nine extra hours per year. [pause long] That's fifty-five eight-hour workdays. [pause] Almost eleven extra work weeks. [pause long][pause long] For six percent more. [pause long] South Korea is the other GRIND member — six point nine eight Big Macs per hour on one thousand nine hundred one hours. Just zero point three seven above the average line.",
+      "visual": {
+        "type": "composite",
+        "description": "USA vs Denmark connector + comparison card + CalendarGrid (55 red days)"
+      },
+      "transition": "fade",
+      "sceneFile": "scenes/scene-009.json"
+    },
+    {
+      "id": "scene-010",
+      "section": "The Chill Quadrant",
+      "startTime": 555,
+      "endTime": 615,
+      "voiceover": "Bottom left. The CHILL quadrant. [pause] Below-average hours, below-average purchasing power. Nine countries — mostly Southern and Eastern Europe. [pause long] Italy stands out. A G-seven economy — one of the seven wealthiest nations on paper — but Italian real wages have barely moved in twenty-five years. [pause] Five point zero six Big Macs per hour. For context, that's lower than Hungary, lower than Spain, lower than Lithuania. [pause] A generation of Italian workers earning roughly what their parents earned — in a country where everything else got more expensive. [pause long] Then there's Portugal. Annual wage: forty thousand and two dollars. That sounds reasonable — until you realize Portugal uses the Euro. [pause] And the Euro-area Big Mac price is five ninety-five. The result: just four point one one Big Macs per hour. [pause] That's less than Hungary, which earns a lower raw wage of thirty-four thousand nine hundred ninety-six dollars but has Big Macs at three sixty-five. [pause] Hungary's cheaper prices more than compensate for its lower salary. [pause long] For Portugal, a shared currency means shared prices — but not shared wages. The squeeze at the heart of the Eurozone.",
+      "visual": {
+        "type": "composite",
+        "description": "CHILL quadrant — Italy callout + Portugal vs Hungary DivisionComparison"
+      },
+      "transition": "cross-dissolve",
+      "sceneFile": "scenes/scene-010.json"
+    },
+    {
+      "id": "scene-011",
+      "section": "The Trap Quadrant",
+      "startTime": 615,
+      "endTime": 660,
+      "voiceover": "Bottom right. The TRAP. [pause] More hours than average. Less purchasing power than average. [pause] Six countries. And this is where the gaps are widest. [pause long] Greece. One thousand eight hundred eighty-six hours per year — the most of any EU country. Purchasing power: two point eight eight Big Macs per hour. [pause] Compare that to Germany. [pause] Per hour, a German worker earns three times more — eight point seven one versus two point eight eight Big Macs — while working five hundred forty-six fewer hours a year. [pause] Over a full year, Germany accumulates eleven thousand six hundred seventy-one Big Macs. Greece: five thousand four hundred thirty-two. [pause] More than double — on twenty-nine percent fewer hours. [pause] Both countries are in the European Union. Both use the same Big Mac price of five ninety-five.",
+      "visual": {
+        "type": "data-chart",
+        "description": "TRAP quadrant — Greece vs Germany connector with 3× comparison stats"
+      },
+      "transition": "seamless",
+      "sceneFile": "scenes/scene-011.json"
+    },
+    {
+      "id": "scene-012",
+      "section": "The Trap Quadrant",
+      "startTime": 660,
+      "endTime": 705,
+      "voiceover": "[pause long][pause long] Mexico sits at the far edge of the chart. Two thousand two hundred twenty-six hours per year — the most in the entire OECD — at two point zero zero Big Macs per hour. A German worker earns four point four times more Big Macs per hour while working forty percent fewer hours. [pause] In absolute terms: a German accumulates eleven thousand six hundred seventy-one Big Macs per year. A Mexican: four thousand four hundred fifty-two. [pause long] Israel is the surprise. A country known for its tech sector — yet one thousand eight hundred ninety-one hours and just six point one four Big Macs per hour puts it in the TRAP. High-tech reputation, middle-of-the-pack purchasing power.",
+      "visual": {
+        "type": "data-chart",
+        "description": "TRAP continued — Mexico extreme edge + Germany connector + Israel callout"
+      },
+      "transition": "fade",
+      "sceneFile": "scenes/scene-012.json"
+    },
+    {
+      "id": "scene-013",
+      "section": "The Data Behind the Numbers",
+      "startTime": 705,
+      "endTime": 720,
+      "voiceover": "A note on the data. All wages are OECD twenty twenty-four, PPP-adjusted. Hours are OECD twenty twenty-two. Big Mac prices are from The Economist, January twenty twenty-five. Euro-area countries share a single Big Mac price of five ninety-five. This is a simplified comparison — real life is more complex.",
+      "visual": {
+        "type": "composite",
+        "description": "Lower-third source citations over dimmed full matrix"
+      },
+      "transition": "slide",
+      "sceneFile": "scenes/scene-013.json"
+    },
+    {
+      "id": "scene-014",
+      "section": "Closing Thought",
+      "startTime": 720,
+      "endTime": 735,
+      "voiceover": "Thirty-three countries. Two axes. Four quadrants.",
+      "visual": {
+        "type": "data-chart",
+        "description": "Full QuadrantScatter hero shot — all 33 dots, all labels, slow zoom begins"
+      },
+      "transition": "seamless",
+      "sceneFile": "scenes/scene-014.json"
+    },
+    {
+      "id": "scene-015",
+      "section": "Closing Thought",
+      "startTime": 735,
+      "endTime": 756,
+      "voiceover": "[pause long] An American worker and a Danish worker end the year with roughly the same number of Big Macs — fourteen thousand three hundred seventeen versus thirteen thousand four hundred seventy-seven. [pause] Six percent apart. [pause] The difference is four hundred thirty-nine hours. Fifty-five eight-hour days. Almost eleven work weeks. [pause long] A Greek worker puts in five hundred forty-six more hours than a German — and ends the year with less than half the purchasing power. A Mexican worker logs the most hours in the entire OECD — two thousand two hundred twenty-six — and takes home two Big Macs per hour. [pause long] The numbers don't tell you which tradeoff is right. They can't. [pause] Whether four hundred thirty-nine extra hours is worth six percent more depends on something no dataset can capture — what you believe an hour of your life is worth. [pause long][pause long][pause long] And that's a number no index can measure.",
+      "visual": {
+        "type": "composite",
+        "description": "Zoomed into USA-Denmark gap, connector line, Greece/Mexico flash, fade to black + end card"
+      },
+      "transition": "fade-to-black",
+      "sceneFile": "scenes/scene-015.json"
+    }
+  ]
+}

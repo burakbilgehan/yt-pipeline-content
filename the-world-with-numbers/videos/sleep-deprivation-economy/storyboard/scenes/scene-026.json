@@ -1,0 +1,13 @@
+{
+  "id": "scene-026",
+  "visual": {
+    "type": "stock-video",
+    "description": "Evening commute — mirror of the hook's morning commute. People heading home on buses, subways, highways — but calmer, quieter, golden-hour light. A visual callback: same framing as scene-001 but evening. Peaceful, reflective tone. No text overlay during voiceover — let the words land on the visuals alone.",
+    "assetPath": "production/visuals/pexels-3723444-evening-commute-sunset-city-bu.mp4",
+    "searchQuery": "evening commute sunset city bus subway people going home",
+    "textOverlay": null,
+    "dataVisualization": null
+  },
+  "transition": "fade",
+  "notes": "Mirror of scene-001 morning commute. Evening version = the 'answer' to the hook's question. No text — voiceover carries the emotional close."
+}

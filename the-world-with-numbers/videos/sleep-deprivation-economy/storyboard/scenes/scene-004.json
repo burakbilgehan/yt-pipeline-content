@@ -1,0 +1,13 @@
+{
+  "id": "scene-004",
+  "visual": {
+    "type": "stock-video",
+    "description": "Wide aerial shot of a massive city at rush hour — highways packed, office buildings lit up. Camera slowly pulls back to reveal the scale. Subtle text appears at end: 'How big is the bill?'",
+    "assetPath": "production/visuals/pexels-29538541-aerial-city-rush-hour-traffic-.mp4",
+    "searchQuery": "aerial city rush hour traffic highway",
+    "textOverlay": "How big is the bill?",
+    "dataVisualization": null
+  },
+  "transition": "fade",
+  "notes": "Economics pivot — tone shifts from personal to systemic. Aerial scale reinforces 'hundreds of millions' framing."
+}

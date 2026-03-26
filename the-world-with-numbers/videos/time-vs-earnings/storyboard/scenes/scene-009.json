@@ -1,0 +1,31 @@
+{
+  "id": "scene-009",
+  "visual": {
+    "type": "data-chart",
+    "description": "TRAP detail: South Korea and Italy spotlight. Side-by-side comparison card: KOR ($50,947, 1,901h) vs ITA ($51,019, 1,694h). '$72 difference' highlighted. '207 extra hours = 26 workdays for the same paycheck.' Then Spain callout: 'Just 10 hours past the mean — barely TRAP.' Portugal: '$40,002 on 1,635h — 2 hours over the line. Western European prices, Eastern European wages.' Poland brief: '$24.37/hr on 1,814h.' Israel: 'Tech sector reputation — $28.95/hr.'",
+    "searchQuery": null,
+    "textOverlay": null,
+    "dataVisualization": {
+      "component": "QuadrantScatter",
+      "config": {
+        "state": "trap-quadrant-detail",
+        "activeQuadrant": "bottomRight",
+        "comparisonCard": {
+          "left": { "code": "KOR", "label": "South Korea", "stats": { "salary": 50947, "hours": 1901, "hourlyRate": 26.80 } },
+          "right": { "code": "ITA", "label": "Italy", "stats": { "salary": 51019, "hours": 1694, "hourlyRate": 30.12 } },
+          "highlight": "$72 salary difference — 207 extra hours (26 workdays)"
+        },
+        "miniCallouts": [
+          { "code": "ESP", "label": "Spain", "stat": "$54,564 · 1,643 hrs", "note": "Just 10 hours past the mean" },
+          { "code": "PRT", "label": "Portugal", "stat": "$40,002 · 1,635 hrs", "note": "2 hours over the line" },
+          { "code": "POL", "label": "Poland", "stat": "$24.37/hr · 1,814 hrs" },
+          { "code": "ISR", "label": "Israel", "stat": "$28.95/hr · 1,891 hrs", "note": "Tech sector, middle-of-the-pack" }
+        ],
+        "dotColor": "#E06070",
+        "dimOtherQuadrants": true
+      }
+    }
+  },
+  "transition": "cross-dissolve",
+  "notes": "TRAP part 2: KOR vs ITA is the '$72 for 207 hours' mic drop. Spain and Portugal as borderline TRAP cases — mirror of Sweden's borderline CHILL. Israel as tech-sector surprise. Transition: TRAP dims, CHILL brightens."
+}

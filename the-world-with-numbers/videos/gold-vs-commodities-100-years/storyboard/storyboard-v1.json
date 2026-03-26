@@ -1,0 +1,272 @@
+{
+  "title": "Gold vs Commodities: 100 Years of Prices in Gold Terms",
+  "version": 1,
+  "basedOn": { "content": 2 },
+  "changesFromPrev": null,
+  "date": "2026-03-15T00:00:00Z",
+  "totalDuration": 230,
+  "visualConcept": "horse-race",
+  "notes": "This video uses a SINGLE continuous animated line chart ('horse race') as the primary visual throughout. The chart shows 9 asset/gold ratios racing forward through time (1925-2025). Scenes below define overlays, zoom levels, timeline speed, and event markers ON TOP of the continuous chart. The chart itself is a custom Remotion component (HorseRaceChart) that receives the full ratio dataset and renders all 9 lines simultaneously. Scene transitions are NOT cuts between different visuals — they are zoom/speed changes within the same chart.",
+  "chartConfig": {
+    "component": "HorseRaceChart",
+    "dataSource": "research/data/ratios/",
+    "assets": [
+      { "id": "silver", "label": "Silver", "color": "#C0C0C0", "file": "silver-gold-ratio.csv" },
+      { "id": "platinum", "label": "Platinum", "color": "#E5E4E2", "file": "platinum-gold-ratio.csv" },
+      { "id": "oil-wti", "label": "Oil (WTI)", "color": "#4A2F1B", "file": "oil-wti-gold-ratio.csv" },
+      { "id": "copper", "label": "Copper", "color": "#B87333", "file": "copper-gold-ratio.csv" },
+      { "id": "sp500", "label": "S&P 500", "color": "#FF6584", "file": "sp500-gold-ratio.csv" },
+      { "id": "dow-jones", "label": "Dow Jones", "color": "#6C63FF", "file": "dow-jones-gold-ratio.csv" },
+      { "id": "ftse100", "label": "FTSE 100", "color": "#00A86B", "file": "ftse100-gold-ratio.csv" },
+      { "id": "nikkei225", "label": "Nikkei 225", "color": "#FF4444", "file": "nikkei225-gold-ratio.csv" },
+      { "id": "dax", "label": "DAX", "color": "#FFD700", "file": "dax-gold-ratio.csv" }
+    ],
+    "yAxisLabel": "Asset / Gold Ratio",
+    "xAxisLabel": "Year",
+    "backgroundColor": "#0a0a0a",
+    "gridColor": "#1a1a1a",
+    "labelFont": "Inter, sans-serif"
+  },
+  "eventMarkers": [
+    { "year": 1929, "label": "Great Depression", "type": "crisis" },
+    { "year": 1934, "label": "FDR Gold Revaluation", "type": "policy" },
+    { "year": 1944, "label": "Bretton Woods", "type": "policy" },
+    { "year": 1971, "label": "NIXON SHOCK", "type": "crisis", "major": true },
+    { "year": 1980, "label": "Gold Peak — 1:1", "type": "milestone", "major": true },
+    { "year": 1989, "label": "Japan Bubble Peak", "type": "milestone" },
+    { "year": 1999, "label": "Dow/Gold ATH: 44.88", "type": "milestone", "major": true },
+    { "year": 2000, "label": "Dot-com Crash", "type": "crisis" },
+    { "year": 2008, "label": "Lehman Brothers", "type": "crisis" },
+    { "year": 2020, "label": "COVID Crash", "type": "crisis" },
+    { "year": 2025, "label": "Platinum ATL: 0.33", "type": "milestone" }
+  ],
+  "scenes": [
+    {
+      "id": "scene-001",
+      "section": "Act 1: Hook",
+      "startTime": 0,
+      "endTime": 12,
+      "voiceover": "The Dow Jones has gained twenty-six thousand percent since 1925. Sounds like the greatest investment in history, right? But what if I told you — when you price the Dow in gold — it has only doubled. That's it. One hundred years. One hundred and thirty-two percent. Less than one percent a year.",
+      "visual": {
+        "type": "text-overlay",
+        "description": "Full-screen dramatic text reveal. Giant '26,000%' in green, then it deflates/morphs into '132%' with gold shimmer. Dark background.",
+        "textOverlay": "26,000% → 132%"
+      },
+      "transition": "fade",
+      "notes": "NO chart yet. Pure text impact. The 26,000% number should feel massive, then the deflation to 132% is the gut punch. Gold particle effect on the transition."
+    },
+    {
+      "id": "scene-002",
+      "section": "Act 1: Setup",
+      "startTime": 12,
+      "endTime": 30,
+      "voiceover": "Here's the idea: forget dollars. Dollars lose value every single year. Instead, let's price everything — stocks, oil, silver, platinum — in gold. How many ounces of gold does it take to buy one unit of each asset? This strips away all the inflation noise and shows you what actually gained real value — and what didn't. I crunched a hundred years of daily data — over a hundred and seventy-five thousand data points — and the results will change how you think about wealth. Let's race them.",
+      "visual": {
+        "type": "composite",
+        "description": "Animated formula card: 'Asset Price ÷ Gold Price = Gold Ratio' with example (Oil $67 ÷ Gold $2990 = 0.022 oz). Then transition to the horse race starting gate — all 9 asset lines appear at their starting positions (1925), labeled, color-coded. Camera zooms in close. Lines are at the gate, ready to race.",
+        "textOverlay": "Asset Price ÷ Gold Price = Gold Ratio"
+      },
+      "transition": "zoom",
+      "notes": "The formula should animate in piece by piece. Then the chart fades in behind — first the grid, then the time axis, then the asset lines pop in one by one with their labels. End with the 'starting gate' view — zoomed in on 1925, all lines ready. This is where the chart component first appears."
+    },
+    {
+      "id": "scene-003",
+      "section": "Act 2: Gold Standard Era 1925-1971",
+      "startTime": 30,
+      "endTime": 80,
+      "voiceover": "For the first half of this story, gold's price was fixed by the government. Twenty dollars and sixty-seven cents an ounce. So every ratio here is a pure reflection of supply and demand — no inflation tricks. In 1925, the Dow-to-Gold ratio starts at six. Stocks are climbing. But then — the Great Depression. The ratio crashes. In 1934, Roosevelt devalues the dollar — gold jumps to thirty-five dollars overnight — and the ratio drops to three. After World War Two, Bretton Woods pegs the entire global economy to gold. Slowly, stocks recover. By the late sixties, the Dow is pushing past twenty times gold. The Nikkei is at fifty-eight times gold — Japan's post-war miracle is real, and it's leading the race by a mile. But behind the scenes, America is printing money to fund Vietnam. The gold standard is cracking.",
+      "visual": {
+        "type": "data-chart",
+        "description": "Horse race chart animating through 1925→1971. The timeline advances steadily. Lines climb and fall with the data.",
+        "dataVisualization": {
+          "type": "horse-race",
+          "timeRange": { "start": 1925, "end": 1971 },
+          "timelineSpeed": "moderate",
+          "camera": {
+            "defaultZoom": 1.0,
+            "keyframes": [
+              { "year": 1925, "zoom": 1.2, "focusAssets": ["dow-jones", "nikkei225"], "note": "Start zoomed in on starting positions" },
+              { "year": 1929, "zoom": 1.0, "speed": 0.5, "note": "Slow down for Great Depression" },
+              { "year": 1934, "zoom": 1.3, "speed": 0.3, "focusAssets": ["dow-jones"], "note": "Zoom in on FDR revaluation drop" },
+              { "year": 1944, "zoom": 1.0, "speed": 0.7, "note": "Bretton Woods marker" },
+              { "year": 1955, "zoom": 0.7, "note": "Zoom out to show Nikkei pulling ahead" },
+              { "year": 1965, "zoom": 0.6, "focusAssets": ["nikkei225"], "note": "Nikkei leading the race dramatically" },
+              { "year": 1971, "zoom": 0.8, "speed": 0.4, "note": "Slow down approaching Nixon Shock" }
+            ]
+          },
+          "visibleAssets": {
+            "always": ["dow-jones", "sp500", "nikkei225", "silver"],
+            "from1948": ["copper"],
+            "from1960": ["dax"],
+            "from1968": ["platinum", "oil-wti"],
+            "from1986": ["ftse100"]
+          },
+          "annotations": [
+            { "year": 1929, "text": "Great Depression", "style": "crisis-flash" },
+            { "year": 1934, "text": "FDR: Gold $20.67 → $35", "style": "policy-banner", "duration": 2 },
+            { "year": 1944, "text": "Bretton Woods", "style": "policy-banner", "duration": 1.5 },
+            { "year": 1965, "text": "Nikkei leads: 58× Gold", "style": "leader-callout", "asset": "nikkei225" }
+          ]
+        }
+      },
+      "transition": "cut",
+      "notes": "Commodities (copper, silver) stay near the bottom of the frame throughout. Key visual: Nikkei pulling away from everything by the 1960s. As new assets get data (copper 1948, DAX 1960, platinum/oil 1968), they appear with a subtle fade-in at their starting position."
+    },
+    {
+      "id": "scene-004",
+      "section": "Act 3: Nixon Shock 1971-1980",
+      "startTime": 80,
+      "endTime": 130,
+      "voiceover": "On August fifteenth, nineteen seventy-one, Nixon goes on television and severs the dollar from gold. The gold standard is dead. Gold is free. And it explodes. From thirty-five dollars to over eight hundred in less than a decade. Watch the race now. Every single line — every asset — plummets. The Dow-to-Gold ratio goes from twenty down to one. The S&P from two point three to zero point one two. The DAX drops ninety-five percent. Even platinum — which was worth nearly seven times gold — falls below gold for the first time ever. And then comes January twenty-second, nineteen eighty. The single most dramatic day in a hundred years of data. On that day, one ounce of gold could buy the entire Dow Jones Industrial Average. One to one. Every asset ratio bottomed out — simultaneously. Gold crushed everything at once.",
+      "visual": {
+        "type": "data-chart",
+        "description": "THE MONEY SHOT. Horse race chart 1971→1980. All lines nosedive together. This is the most dramatic moment in the video.",
+        "dataVisualization": {
+          "type": "horse-race",
+          "timeRange": { "start": 1971, "end": 1980 },
+          "timelineSpeed": "slow",
+          "camera": {
+            "keyframes": [
+              { "year": 1971, "zoom": 0.8, "speed": 0.3, "note": "Slow and dramatic as Nixon hits" },
+              { "year": 1972, "zoom": 1.0, "speed": 0.5, "note": "Zoom in as lines start falling" },
+              { "year": 1975, "zoom": 1.2, "focusAssets": ["dow-jones", "sp500", "dax"], "note": "Tight on the major indices falling" },
+              { "year": 1979, "zoom": 1.5, "speed": 0.2, "focusAssets": ["dow-jones"], "note": "Super tight on Dow approaching 1:1" },
+              { "year": 1980, "zoom": 1.8, "speed": 0.1, "note": "MAXIMUM ZOOM. Pause moment. 1:1 flash." }
+            ]
+          },
+          "annotations": [
+            { "year": 1971, "text": "NIXON SHOCK", "style": "major-crisis-flash", "duration": 2, "screenShake": true },
+            { "year": 1974, "text": "Platinum falls below Gold", "style": "crossing-alert", "asset": "platinum" },
+            { "year": 1980, "text": "1 oz Gold = Entire Dow", "style": "milestone-flash", "duration": 3, "pause": true }
+          ],
+          "assetDropoff": {
+            "copper": { "year": 1975, "reason": "ratio too small to see" },
+            "silver": { "year": 1976, "reason": "ratio too small to see" }
+          }
+        }
+      },
+      "transition": "cut",
+      "notes": "THIS IS THE KEY VISUAL MOMENT. The 1980 Jan 22 '1:1' moment should feel like a dramatic freeze — maybe a brief 0.5s pause in the timeline with the '1:1' text glowing in gold. All commodity lines should have drifted off the bottom of the visible frame by now. Only indices remain visible. Screen shake or pulse effect when 'NIXON SHOCK' flashes."
+    },
+    {
+      "id": "scene-005",
+      "section": "Act 4: Great Reversal 1980-2000",
+      "startTime": 130,
+      "endTime": 170,
+      "voiceover": "Then the pendulum swings the other way. Hard. Volcker hikes interest rates to twenty percent. Inflation dies. Stocks take off. And gold just sits there — doing nothing — for twenty years. The Dow-to-Gold ratio explodes from one to forty-five. It's the greatest stock bull run in history. The DAX goes from zero point five to twenty-eight. The Nikkei — remember, it was already leading the race — hits ninety-seven times gold in December nineteen eighty-nine. Ninety-seven. That's the Japanese asset bubble at its peak, and it's the highest any ratio ever reached in this entire dataset. Then Japan crashes. The Nikkei-to-Gold ratio falls from ninety-seven to twelve. A loss of eighty-seven percent — even in gold terms. Japan's miracle turns into Japan's lost decades. Meanwhile, on August twenty-fifth, nineteen ninety-nine — the Dow-to-Gold ratio peaks at forty-four point eight eight. Gold's single worst day in a century. Nobody wants it. Stocks are king.",
+      "visual": {
+        "type": "data-chart",
+        "description": "Horse race chart 1980→2000. Lines rocket upward. Nikkei shoots to insane heights then crashes. Dow peaks at 44.88.",
+        "dataVisualization": {
+          "type": "horse-race",
+          "timeRange": { "start": 1980, "end": 2000 },
+          "timelineSpeed": "moderate-fast",
+          "camera": {
+            "keyframes": [
+              { "year": 1980, "zoom": 1.8, "note": "Start from the tight 1:1 moment" },
+              { "year": 1982, "zoom": 0.8, "speed": 1.0, "note": "Zoom out fast as lines explode upward" },
+              { "year": 1985, "zoom": 0.5, "note": "Wide shot — need room for the explosive growth" },
+              { "year": 1988, "zoom": 0.4, "focusAssets": ["nikkei225"], "note": "Nikkei is shooting off the top" },
+              { "year": 1989.5, "zoom": 0.3, "speed": 0.3, "note": "SLOW DOWN for Nikkei peak at 96.85" },
+              { "year": 1990, "zoom": 0.5, "speed": 0.5, "note": "Nikkei starts crashing, other indices keep going" },
+              { "year": 1995, "zoom": 0.5, "speed": 0.8, "note": "Dow taking over lead" },
+              { "year": 1999, "zoom": 0.6, "speed": 0.3, "focusAssets": ["dow-jones"], "note": "Slow for Dow ATH at 44.88" }
+            ]
+          },
+          "annotations": [
+            { "year": 1989.9, "text": "Nikkei Peak: 96.85× Gold", "style": "milestone-flash", "asset": "nikkei225", "icon": "crown", "duration": 2 },
+            { "year": 1992, "text": "Japan's Lost Decades Begin", "style": "crisis-flash", "asset": "nikkei225" },
+            { "year": 1999.6, "text": "Dow/Gold ATH: 44.88", "style": "milestone-flash", "asset": "dow-jones", "icon": "crown", "duration": 2 }
+          ],
+          "assetDropoff": {
+            "copper": { "visible": false, "reason": "still too small" },
+            "silver": { "visible": false, "reason": "still too small" },
+            "oil-wti": { "visible": false, "reason": "ratio near zero" }
+          }
+        }
+      },
+      "transition": "cut",
+      "notes": "The Nikkei peak (96.85) is the highest ANY ratio ever reached. It should feel like a rocket going off the chart. Crown or star icon at the peak. Then the Nikkei crash is dramatic — the line nosedives while Dow/DAX/S&P keep climbing. Commodities remain invisible at the bottom. FTSE 100 enters here (data from 1986)."
+    },
+    {
+      "id": "scene-006",
+      "section": "Act 5: Gold's Revenge 2000-2025",
+      "startTime": 170,
+      "endTime": 205,
+      "voiceover": "The dot-com crash. Nine-eleven. The two-thousand-eight financial crisis. COVID. Through crisis after crisis, gold climbs back while everything else struggles. The Dow-to-Gold ratio falls from forty-five back to about fourteen. Commodities get destroyed. Platinum — which started at nearly seven times gold in nineteen sixty-eight — hits an all-time low of zero point three three. Just three weeks ago. A ninety-five percent collapse. Oil touches near zero in gold terms when prices go negative in April twenty-twenty. Silver hits its lowest point versus gold during COVID — worse than the Great Depression. Not a single commodity beat gold over this hundred years. Not one.",
+      "visual": {
+        "type": "data-chart",
+        "description": "Horse race chart 2000→2025. All lines trending downward. Gold is winning = everything falls in gold terms.",
+        "dataVisualization": {
+          "type": "horse-race",
+          "timeRange": { "start": 2000, "end": 2025 },
+          "timelineSpeed": "moderate",
+          "camera": {
+            "keyframes": [
+              { "year": 2000, "zoom": 0.6, "note": "Wide view showing the decline beginning" },
+              { "year": 2008, "zoom": 0.8, "speed": 0.4, "note": "Slow for Lehman" },
+              { "year": 2010, "zoom": 0.7, "speed": 0.8, "note": "Resume normal speed" },
+              { "year": 2019, "zoom": 0.9, "speed": 0.5, "note": "Slow for COVID approach" },
+              { "year": 2020.3, "zoom": 1.2, "speed": 0.2, "focusAssets": ["oil-wti", "platinum"], "note": "Zoom in on oil near-zero and commodity destruction" },
+              { "year": 2024, "zoom": 1.0, "speed": 0.5, "focusAssets": ["platinum"], "note": "Platinum ATL" },
+              { "year": 2025, "zoom": 0.5, "speed": 0.3, "note": "Zoom out wide for the full 100-year view" }
+            ]
+          },
+          "annotations": [
+            { "year": 2001, "text": "Dot-com Crash + 9/11", "style": "crisis-flash" },
+            { "year": 2008, "text": "Lehman Brothers", "style": "crisis-flash", "duration": 1.5 },
+            { "year": 2020.3, "text": "COVID — Oil Goes Negative", "style": "major-crisis-flash", "duration": 2 },
+            { "year": 2025, "text": "Platinum ATL: 0.33×", "style": "milestone-flash", "asset": "platinum", "icon": "skull" }
+          ],
+          "assetVisibility": "bring-back-all",
+          "note": "Briefly bring commodities back into view (zoomed out enough to see them clustered near zero) to show how destroyed they are vs gold. This sets up the scoreboard."
+        }
+      },
+      "transition": "cut",
+      "notes": "The final zoom-out at 2025 should reveal the entire 100-year chart for the first time — a 'wow' moment showing the full journey. All 9 lines visible, from the 1925 start to 2025 finish. Commodities crushed at the bottom, indices in the middle."
+    },
+    {
+      "id": "scene-007",
+      "section": "Act 6: Scoreboard",
+      "startTime": 205,
+      "endTime": 225,
+      "voiceover": "So here's the hundred-year scoreboard. Every commodity lost to gold. Stocks are split — Japan's Nikkei is up nine hundred and twenty-two percent, but that number hides a crash from ninety-seven down to twelve. The S&P doubled. The Dow barely doubled. The DAX actually lost money. And gold quietly beat almost everything. The Dow-to-Gold ratio is cyclical — it swings between one and forty-five over decades. Right now, we're at about fourteen. Somewhere in the middle.",
+      "visual": {
+        "type": "data-chart",
+        "description": "Transition from full chart to animated SCOREBOARD. Ranked bar chart showing all 9 assets with percentage changes. Green for winners, red for losers. Then briefly show the Dow/Gold cyclical chart with 'YOU ARE HERE' marker.",
+        "dataVisualization": {
+          "type": "comparison",
+          "data": {
+            "items": [
+              { "label": "Nikkei 225", "value": 921.8, "color": "#FF4444", "suffix": "%" },
+              { "label": "S&P 500", "value": 236.6, "color": "#FF6584", "suffix": "%" },
+              { "label": "Dow Jones", "value": 131.8, "color": "#6C63FF", "suffix": "%" },
+              { "label": "FTSE 100", "value": 57.0, "color": "#00A86B", "suffix": "%" },
+              { "label": "DAX", "value": -29.0, "color": "#FFD700", "suffix": "%" },
+              { "label": "Silver", "value": -66.1, "color": "#C0C0C0", "suffix": "%" },
+              { "label": "Copper", "value": -67.4, "color": "#B87333", "suffix": "%" },
+              { "label": "Oil (WTI)", "value": -74.2, "color": "#4A2F1B", "suffix": "%" },
+              { "label": "Platinum", "value": -95.0, "color": "#E5E4E2", "suffix": "%" }
+            ]
+          }
+        }
+      },
+      "transition": "fade",
+      "notes": "The transition from chart to scoreboard should be smooth — maybe the chart lines 'flatten' into horizontal bars that become the scoreboard. Each bar slides in with stagger animation. Green glow for positive, red glow for negative. The Nikkei bar should be dramatically longer than everything else. After the scoreboard, briefly flash the cyclical Dow/Gold line with 'YOU ARE HERE' at 13.90."
+    },
+    {
+      "id": "scene-008",
+      "section": "Act 6: CTA & Closing",
+      "startTime": 225,
+      "endTime": 230,
+      "voiceover": "Nominal returns are an illusion. When you measure the world in gold — the picture looks very different. If you found this interesting, subscribe. There's a lot more data to explore.",
+      "visual": {
+        "type": "text-overlay",
+        "description": "Clean closing. Key message text fades in: 'Nominal returns are an illusion.' Subtle subscribe button animation — not aggressive, just a calm fade-in at the bottom. Channel name 'The World With Numbers' visible.",
+        "textOverlay": "Nominal returns are an illusion."
+      },
+      "transition": "fade",
+      "notes": "Keep it clean and minimal. No flashy end-screen. The data should speak for itself. Subscribe button is small, bottom-right, calm fade-in. Channel branding subtle."
+    }
+  ]
+}

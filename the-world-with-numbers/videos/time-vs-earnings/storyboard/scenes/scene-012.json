@@ -1,0 +1,73 @@
+{
+  "id": "scene-012",
+  "visual": {
+    "type": "composite",
+    "description": "Full QuadrantScatter at 100% — all 34 dots visible, hero shot. Brief hold 2-3s. Then slow zoom toward USA-Germany gap. Connector line: '$45.82/hr vs $51.82/hr — 470 hours apart.' Then view pulls back to show USA, Germany, and Greece as a triangle. Three dots pulse. Then all dots fade except these three. Denmark briefly flashes for 'takes home nearly as much' callback. Final text: 'What is an hour of your life worth?' fades in. Slow fade to #1A1B22 black. Channel watermark. Hold 5s silence for YouTube end screen.",
+    "searchQuery": null,
+    "textOverlay": {
+      "gapLabel": "$45.82/hr vs $51.82/hr — 470 hours apart",
+      "finalQuestion": "What is an hour of your life worth?",
+      "finalQuestionColor": "#EAE0D5"
+    },
+    "dataVisualization": {
+      "component": "QuadrantScatter",
+      "config": {
+        "state": "closing-hero-to-triangle",
+        "showAllDots": true,
+        "showAllLabels": true,
+        "showQuadrantFills": true,
+        "showQuadrantLabels": true,
+        "labeledCountries": ["LUX", "USA", "DEU", "DNK", "GRC", "MEX", "SWE", "JPN"],
+        "cameraZoom": {
+          "target": { "x": 1575, "y": 76000 },
+          "startScale": 1.0,
+          "endScale": 1.6,
+          "startAt": "3s",
+          "duration": "15s"
+        },
+        "connectorLines": [
+          {
+            "from": "USA", "to": "DEU",
+            "style": "dashed", "color": "#D8A7B1",
+            "labels": ["$45.82 vs $51.82/hr", "470 hours apart"],
+            "showAfter": "5s"
+          },
+          {
+            "from": "DEU", "to": "GRC",
+            "style": "dashed", "color": "#E06070",
+            "labels": ["3× per hour, 546 fewer hours"],
+            "showAfter": "10s"
+          }
+        ],
+        "triangleFocus": {
+          "countries": ["USA", "DEU", "GRC"],
+          "showAfter": "8s",
+          "dimOthersTo": 0.15
+        },
+        "denmarkFlash": {
+          "code": "DNK",
+          "delay": "14s",
+          "duration": "1.5s"
+        }
+      }
+    },
+    "endCard": {
+      "component": "EndCardScene",
+      "config": {
+        "fadeToBlack": true,
+        "fadeToBlackDuration": "1.5s",
+        "backgroundColor": "#1A1B22",
+        "watermark": true,
+        "silenceHold": "5s",
+        "youtubeEndScreen": {
+          "enabled": true,
+          "startAt": "-20s",
+          "subscribePlacement": "bottom-right",
+          "nextVideoPlacement": "bottom-left"
+        }
+      }
+    }
+  },
+  "transition": "fade-to-black",
+  "notes": "Closing: hero shot → USA-DEU connector → expand to USA-DEU-GRC triangle → Denmark flash callback → philosophical question → fade to black. The zoom targets the midpoint between USA and Germany. Triangle is the visual summary of the entire video — DREAM, GRIND, TRAP. 'What is an hour of your life worth?' in Inter, subtle fade. YouTube end screen elements in last 20s. No 'like and subscribe' — silence is the CTA."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "scene-023",
+  "visual": {
+    "type": "text-overlay",
+    "description": "Dark bg (#1A1824). A list of 'hard problems' appears in muted text (rgba(232,224,212,0.6)): 'Inequality', 'Inflation', 'Housing' — each with a small 'years + policy + trade-offs' label. Then all three dim further and a single line punches in center in #D47FA6 accent, large: 'Sleep deprivation has a fix. The fix is free.' Hold for emphasis.",
+    "searchQuery": null,
+    "textOverlay": "Sleep deprivation has a fix.\nThe fix is free.",
+    "dataVisualization": null
+  },
+  "transition": "cut",
+  "notes": "Emotional pivot — the script shifts from problem to solution. The 'fix is free' line is the thesis of the Close."
+}

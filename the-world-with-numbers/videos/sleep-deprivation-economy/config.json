@@ -1,0 +1,156 @@
+{
+  "slug": "sleep-deprivation-economy",
+  "title": "The Hidden Cost of Not Sleeping: What Sleep Deprivation Does to the Economy",
+  "description": "The US loses $411 billion per year to sleep deprivation. This video explores the full economic, health, and productivity toll of the global sleep crisis — with real data, country comparisons, and surprising findings from landmark research.",
+  "createdAt": "2026-03-17T22:45:41.866Z",
+  "updatedAt": "2026-03-21T00:00:00.000Z",
+  "currentWork": null,
+  "status": "cancelled",
+  "cancelledAt": "2026-03-21T00:00:00.000Z",
+  "cancelReason": "Project abandoned by decision. Video was production-complete but never published.",
+  "tags": [
+    "sleep",
+    "economy",
+    "data",
+    "productivity",
+    "health",
+    "GDP",
+    "ranking",
+    "comparison"
+  ],
+  "metadata": {
+    "targetLength": 740,
+    "tone": "informative, slightly dramatic, curiosity-driven, data-focused",
+    "targetAudience": "18-35, curious learners, English-speaking, loves lists and rankings",
+    "language": "en",
+    "format": "long"
+  },
+  "pipeline": {
+    "research": {
+      "status": "completed",
+      "version": 2,
+      "completedAt": "2026-03-18T00:00:00.000Z"
+    },
+    "content": {
+      "status": "completed",
+      "version": 2,
+      "completedAt": "2026-03-18T12:00:00.000Z"
+    },
+    "storyboard": {
+      "status": "completed",
+      "version": 1,
+      "completedAt": "2026-03-18T18:00:00.000Z"
+    },
+    "production": {
+      "status": "completed",
+      "version": 0,
+      "startedAt": "2026-03-18T23:32:32.905Z",
+      "completedAt": "2026-03-19T01:59:28.195Z"
+    },
+    "publishing": {
+      "status": "cancelled",
+      "version": 0
+    },
+    "analytics": {
+      "status": "cancelled",
+      "version": 0
+    }
+  },
+  "history": [
+    {
+      "event": "research.started",
+      "timestamp": "2026-03-17T22:50:00.000Z",
+      "agent": "researcher"
+    },
+    {
+      "event": "research.completed",
+      "timestamp": "2026-03-17T23:30:00.000Z",
+      "agent": "researcher",
+      "details": "research-v1.md written"
+    },
+    {
+      "event": "research.reopened",
+      "timestamp": "2026-03-18T00:00:00.000Z",
+      "agent": "researcher",
+      "details": "research-v2.md: regional expansion, RAND methodology, extrapolation framework"
+    },
+    {
+      "event": "research.completed",
+      "timestamp": "2026-03-18T00:00:00.000Z",
+      "agent": "researcher",
+      "details": "research-v2.md completed: RAND 4-step methodology, regional sleep data table, pattern analysis, South Korea & India extrapolations, RAND 2023 insomnia update, data gap disclosures"
+    },
+    {
+      "event": "content.started",
+      "timestamp": "2026-03-18T00:00:00Z",
+      "agent": "content-writer",
+      "details": "Drafting script-v1 based on research-v1 + research-v2"
+    },
+    {
+      "event": "content.completed",
+      "timestamp": "2026-03-18T00:30:00Z",
+      "agent": "content-writer",
+      "details": "script-v1.md written, 1329 words, ~9.2 min"
+    },
+    {
+      "event": "content.revised",
+      "timestamp": "2026-03-18T09:00:00.000Z",
+      "agent": "content-writer",
+      "details": "script-v2.md: 8 Critic fixes applied — $411B reframe, GDP ranges, RAND 2023 stat, threshold bridge, tired worker anchor, coefficient fix, $680B Portugal comparison, hook visual update"
+    },
+    {
+      "event": "content.revised",
+      "timestamp": "2026-03-18T12:00:00.000Z",
+      "agent": "content-writer",
+      "details": "script-v2.md: Japan dollar range fixed ($88B-$138B), closing line replaced, production note added"
+    },
+    {
+      "event": "storyboard.started",
+      "timestamp": "2026-03-18T14:00:00.000Z",
+      "agent": "storyboard",
+      "details": "storyboard-v1.json created: 27 scenes, skeleton + scene detail files architecture, based on content-v2"
+    },
+    {
+      "event": "storyboard.completed",
+      "timestamp": "2026-03-18T18:00:00.000Z",
+      "agent": "storyboard",
+      "details": "storyboard-v1 completed: 27 scenes, 740s total (~12.3 min), Critic Grade B (2 iterations — Round 1: timing/data fixes → Passed B). Skeleton+scenes architecture."
+    },
+    {
+      "action": "production.started",
+      "version": 1,
+      "at": "2026-03-18T23:27:07.157Z",
+      "reason": "Generated TTS audio (elevenlabs) from script-v2.md (0 blocks, 0.0s total, speed=1)"
+    },
+    {
+      "action": "production.started",
+      "version": 1,
+      "at": "2026-03-18T23:30:00.956Z",
+      "reason": "Generated TTS audio (elevenlabs) from script-v2.md (7 blocks, 731.6s total, speed=1)"
+    },
+    {
+      "action": "production.started",
+      "version": 1,
+      "at": "2026-03-18T23:32:32.905Z",
+      "reason": "Generated TTS audio (elevenlabs) from script-v2.md (25 blocks, 586.1s total, speed=1)"
+    },
+    {
+      "action": "production.completed",
+      "version": 1,
+      "at": "2026-03-19T00:58:27.909Z",
+      "reason": "Rendered 738s video (22140 frames)"
+    },
+    {
+      "action": "production.completed",
+      "version": 1,
+      "at": "2026-03-19T01:59:28.195Z",
+      "reason": "Rendered 643s video (19290 frames)"
+    },
+    {
+      "event": "project.cancelled",
+      "timestamp": "2026-03-21T00:00:00.000Z",
+      "agent": "director",
+      "details": "Project cancelled by user decision. Production was complete but video was never published."
+    }
+  ]
+}

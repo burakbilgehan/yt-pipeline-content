@@ -1,0 +1,56 @@
+{
+  "fetchedAt": "2026-03-23T11:41:35.020Z",
+  "videoId": "WeVrejS9Wf8",
+  "startDate": "2026-03-17",
+  "endDate": "2026-03-23",
+  "points": [
+    {
+      "date": "2026-03-17",
+      "views": 31,
+      "watchTimeMinutes": 38,
+      "impressions": 0,
+      "ctr": 0,
+      "likes": 4,
+      "shares": 0,
+      "subscribersGained": 1,
+      "subscribersLost": 0,
+      "averageViewDuration": 75
+    },
+    {
+      "date": "2026-03-18",
+      "views": 135,
+      "watchTimeMinutes": 223,
+      "impressions": 0,
+      "ctr": 0,
+      "likes": 2,
+      "shares": 0,
+      "subscribersGained": 0,
+      "subscribersLost": 0,
+      "averageViewDuration": 99
+    },
+    {
+      "date": "2026-03-19",
+      "views": 15,
+      "watchTimeMinutes": 10,
+      "impressions": 0,
+      "ctr": 0,
+      "likes": 0,
+      "shares": 0,
+      "subscribersGained": 0,
+      "subscribersLost": 0,
+      "averageViewDuration": 41
+    },
+    {
+      "date": "2026-03-20",
+      "views": 6,
+      "watchTimeMinutes": 1,
+      "impressions": 0,
+      "ctr": 0,
+      "likes": 1,
+      "shares": 0,
+      "subscribersGained": 1,
+      "subscribersLost": 0,
+      "averageViewDuration": 13
+    }
+  ]
+}

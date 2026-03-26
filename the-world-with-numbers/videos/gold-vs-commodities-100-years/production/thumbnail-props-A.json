@@ -1,0 +1,11 @@
+{
+  "variant": "A",
+  "beforeNumber": "26,000%",
+  "afterNumber": "132%",
+  "bottomLabel": "PRICED IN GOLD",
+  "cornerLabel": "100 YEARS OF DATA",
+  "cornerPosition": "bottom-left",
+  "strikethroughColor": "#D47FA6",
+  "afterColor": "#D4A574",
+  "glowColor": "rgba(212, 127, 166, 0.3)"
+}

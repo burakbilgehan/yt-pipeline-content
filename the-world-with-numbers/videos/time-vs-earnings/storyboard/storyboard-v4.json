@@ -1,0 +1,210 @@
+{
+  "title": "Time vs Earnings",
+  "version": 4,
+  "basedOn": {
+    "content": "script-v3",
+    "research": "research-v2",
+    "storyboard": 3
+  },
+  "changesFromPrev": "Complete rewrite for PPP methodology (dropped Big Mac Index). 12 scenes (was 15). Y-axis: PPP-adjusted annual salary ($). 34 countries (added Slovakia). New origin: $59,200 / 1,633 hrs. Quadrants: DREAM 13, GRIND 5, CHILL 5, TRAP 11. SSML voiceover with natural number rounding and organic pacing. Timings updated from actual Sulafat 1.05 TTS durations.",
+  "date": "2026-03-22",
+  "totalDuration": 856,
+  "totalDurationNote": "Updated from actual TTS durations: 832.1s audio + 24s visual buffers (12 scenes × 2s). Sulafat 1.05 + SSML (pitch tags removed).",
+  "tts": {
+    "provider": "google",
+    "engine": "chirp3-hd",
+    "voice": "Sulafat",
+    "inputMode": "ssml",
+    "speed": 1.05
+  },
+  "backgroundMusic": {
+    "tracks": [
+      {
+        "file": "QuangerineCream - Noir Et Blanc Vie.mp3",
+        "duration": 166.3
+      },
+      {
+        "file": "Goestories - Noir Et Blanc Vie.mp3",
+        "duration": 133.5
+      },
+      {
+        "file": "True Art Real Affection Part 2 - Noir Et Blanc Vie.mp3",
+        "duration": 218
+      }
+    ],
+    "volume": 0.06,
+    "crossfadeDuration": 3,
+    "loop": true,
+    "order": "sequential"
+  },
+  "scenes": [
+    {
+      "id": "scene-001",
+      "section": "Hook",
+      "startTime": 0,
+      "endTime": 42.5,
+      "durationNote": "40.5s audio + 2s buffer",
+      "voiceover": "<speak><s>The average American earns eighty-two thousand nine hundred thirty-three dollars a year.</s> <break time=\"500ms\"/> <s>The average German earns about sixty-nine and a half thousand.</s> <break time=\"600ms\"/> <s>On paper, the American earns nineteen percent more.</s> <break time=\"400ms\"/> <s>But the German worker earns thirteen percent more for every hour they spend working</s> <break time=\"300ms\"/> <s>and works four hundred seventy fewer hours per year.</s> <break time=\"700ms\"/> <s>That's fifty-nine full eight-hour workdays.</s> <break time=\"1000ms\"/> <prosody rate=\"95%\"><s>The problem isn't who earns more.</s></prosody> <break time=\"500ms\"/> <prosody rate=\"93%\"><s>The problem is that salary numbers, on their own, mean almost nothing.</s></prosody></speak>",
+      "visual": {
+        "type": "data-chart",
+        "description": "Salary numbers fade in then re-sort by hourly rate — SalaryShuffleScene"
+      },
+      "transition": "crossfade",
+      "sceneFile": "scenes/scene-001.json"
+    },
+    {
+      "id": "scene-002",
+      "section": "The Salary Illusion",
+      "startTime": 42.5,
+      "endTime": 160.4,
+      "durationNote": "115.9s audio + 2s buffer",
+      "voiceover": "<speak><s>Three thousand dollars a month.</s> <break time=\"700ms\"/> <s>In parts of Mexico, that covers rent, food, transport, and leaves room for savings.</s> <s>In Zurich, it barely covers a studio apartment.</s> <break time=\"600ms\"/> <prosody rate=\"95%\"><s>Same number.</s> <s>Completely different lives.</s></prosody> <break time=\"900ms\"/> <s>This is the problem with comparing salaries across countries.</s> <s>A dollar in Tokyo does not buy what a dollar buys in Warsaw, or in New York.</s> <break time=\"600ms\"/> <s>So economists use something called Purchasing Power Parity, or PPP.</s> <break time=\"500ms\"/> <s>Here's how it works.</s> <break time=\"800ms\"/> <s>The Organization for Economic Cooperation and Development tracks the prices of roughly three thousand goods and services in each member country.</s> <s>Everything from bread and rice to haircuts, electricity, and rent.</s> <s>They use those prices to calculate a conversion factor for every country.</s> <break time=\"700ms\"/> <s>When the OECD says a Swiss worker earns about eighty-seven and a half thousand PPP dollars, it means that salary buys the same amount of stuff as eighty-seven and a half thousand dollars would buy in the United States.</s> <break time=\"400ms\"/> <s>A German earning roughly sixty-nine thousand PPP dollars has the same purchasing power as an American earning sixty-nine thousand dollars in America.</s> <break time=\"500ms\"/> <prosody rate=\"95%\"><s>Apples to apples.</s></prosody> <break time=\"900ms\"/> <s>After this adjustment, the rankings shift.</s> <s>Luxembourg leads at ninety-four thousand four hundred forty-seven.</s> <s>Iceland is second at almost ninety thousand.</s> <s>Switzerland third at about eighty-seven and a half thousand.</s> <s>The United States is fourth at nearly eighty-three thousand.</s> <break time=\"600ms\"/> <s>At the bottom: Greece at about thirty-two thousand.</s> <break time=\"400ms\"/> <s>And Mexico at just over twenty thousand.</s> <break time=\"800ms\"/> <s>Now you know what people actually earn, in real purchasing power.</s> <break time=\"500ms\"/> <prosody rate=\"95%\"><s>But that's only half the picture.</s></prosody></speak>",
+      "visual": {
+        "type": "composite",
+        "description": "$3,000 split screen Zurich vs Mexico City, then PPP wage bar chart"
+      },
+      "transition": "cut",
+      "sceneFile": "scenes/scene-002.json"
+    },
+    {
+      "id": "scene-003",
+      "section": "Adding Time",
+      "startTime": 160.4,
+      "endTime": 219.3,
+      "durationNote": "56.9s audio + 2s buffer",
+      "voiceover": "<speak><s>How many hours do people work for that salary?</s> <break time=\"800ms\"/> <s>Because sixty-nine thousand dollars means one thing if you work thirteen hundred and forty hours a year.</s> <s>That's Germany.</s> <break time=\"400ms\"/> <s>It means something very different if you work over twenty-two hundred hours.</s> <s>That's Mexico.</s> <break time=\"700ms\"/> <s>The OECD tracks average annual hours worked across its member countries.</s> <s>Plot salary on one axis and hours on the other, and a pattern emerges.</s> <break time=\"900ms\"/> <s>Two axes.</s> <s>Vertical: PPP-adjusted annual salary — higher is more.</s> <s>Horizontal: hours worked per year — further right is more hours.</s> <break time=\"500ms\"/> <s>The crosshairs sit at the thirty-four-country averages: fifty-nine thousand two hundred dollars and sixteen hundred thirty-three hours.</s> <break time=\"800ms\"/> <s>Four quadrants.</s> <break time=\"600ms\"/> <prosody rate=\"95%\"><s>Each tells a very different story.</s></prosody></speak>",
+      "visual": {
+        "type": "data-chart",
+        "description": "QuadrantScatter matrix materializes — axes, grid, crosshairs, quadrant fills"
+      },
+      "transition": "seamless",
+      "sceneFile": "scenes/scene-003.json"
+    },
+    {
+      "id": "scene-004",
+      "section": "The Dream Quadrant",
+      "startTime": 219.3,
+      "endTime": 309.0,
+      "durationNote": "87.7s audio + 2s buffer",
+      "voiceover": "<speak><s>Top left.</s> <break time=\"600ms\"/> <s>The DREAM quadrant.</s> <break time=\"700ms\"/> <s>Salary above the average.</s> <s>Hours below the average.</s> <break time=\"400ms\"/> <s>Thirteen of thirty-four countries land here — the largest quadrant.</s> <break time=\"700ms\"/> <s>Luxembourg leads at ninety-four thousand four hundred forty-seven dollars on about fourteen hundred seventy hours.</s> <s>That's sixty-four dollars and twelve cents for every hour worked — the highest hourly rate in the dataset.</s> <break time=\"700ms\"/> <s>Iceland follows at almost ninety thousand dollars — a country of three hundred seventy thousand people with the second-highest salary in the OECD.</s> <break time=\"400ms\"/> <s>Then Switzerland at roughly eighty-seven and a half thousand — third highest.</s> <break time=\"900ms\"/> <s>But the most notable position belongs to Germany.</s> <break time=\"700ms\"/> <s>Germany works the fewest hours in the entire dataset — just thirteen hundred forty per year.</s> <s>Its salary of about sixty-nine and a half thousand dollars translates to fifty-one eighty-two per hour.</s> <break time=\"500ms\"/> <s>Denmark is close behind — thirteen seventy-one hours, fifty-three ninety-nine per hour.</s> <s>The second-fewest hours, the fourth-highest hourly rate.</s> <break time=\"500ms\"/> <s>The Netherlands: about fourteen hundred twenty-seven hours, fifty-two eighty-two per hour.</s> <s>Nearly half the Dutch workforce works part-time — by choice.</s> <break time=\"400ms\"/> <s>Norway: roughly fourteen hundred twenty-four hours, fifty-two fifty-seven per hour.</s></speak>",
+      "visual": {
+        "type": "data-chart",
+        "description": "DREAM quadrant activates — LUX, ISL, CHE, DEU, DNK, NLD, NOR leader dots"
+      },
+      "transition": "seamless",
+      "sceneFile": "scenes/scene-004.json"
+    },
+    {
+      "id": "scene-005",
+      "section": "The Dream Quadrant",
+      "startTime": 309.0,
+      "endTime": 337.7,
+      "durationNote": "26.7s audio + 2s buffer",
+      "voiceover": "<speak><s>Belgium earns forty-nine ninety-one per hour.</s> <s>Austria earns fifty-two fifty-one.</s> <break time=\"400ms\"/> <s>The United Kingdom, Slovenia, France, Finland — all here.</s> <break time=\"700ms\"/> <s>Thirteen out of thirty-four countries show this combination: above-average pay, below-average hours.</s> <break time=\"600ms\"/> <prosody rate=\"95%\"><s>Western and Northern Europe dominates this quadrant.</s> <s>Not a single country outside of Europe appears here.</s></prosody></speak>",
+      "visual": {
+        "type": "data-chart",
+        "description": "DREAM cluster — BEL, AUT, GBR, SVN, FRA, FIN + all-European conclusion"
+      },
+      "transition": "cross-dissolve",
+      "sceneFile": "scenes/scene-005.json"
+    },
+    {
+      "id": "scene-006",
+      "section": "The Grind Quadrant",
+      "startTime": 337.7,
+      "endTime": 412.9,
+      "durationNote": "73.2s audio + 2s buffer",
+      "voiceover": "<speak><s>Top right.</s> <break time=\"600ms\"/> <s>The GRIND.</s> <break time=\"700ms\"/> <s>Above-average salary, but above-average hours too.</s> <break time=\"500ms\"/> <s>Five countries.</s> <s>And every single one of them is English-speaking.</s> <break time=\"700ms\"/> <s>The United States.</s> <s>Australia.</s> <s>Canada.</s> <s>New Zealand.</s> <s>Ireland.</s> <break time=\"500ms\"/> <prosody rate=\"95%\"><s>The entire Anglosphere — and no one else.</s></prosody> <break time=\"900ms\"/> <s>The United States leads with almost eighty-three thousand dollars — the highest salary in the GRIND — but at eighteen hundred ten hours per year.</s> <break time=\"500ms\"/> <s>Compare that to Denmark, sitting comfortably in the DREAM quadrant.</s> <break time=\"400ms\"/> <s>Denmark earns about seventy-four thousand dollars on thirteen seventy-one hours.</s> <break time=\"500ms\"/> <s>The American earns twelve percent more total salary.</s> <break time=\"400ms\"/> <s>But the Dane earns eighteen percent more per hour — fifty-three ninety-nine versus forty-five eighty-two.</s> <break time=\"800ms\"/> <s>The difference is four hundred thirty-nine hours.</s> <break time=\"400ms\"/> <s>Fifty-five eight-hour workdays.</s> <break time=\"400ms\"/> <s>Nearly eleven extra work weeks per year.</s> <break time=\"600ms\"/> <prosody rate=\"93%\"><s>For twelve percent more salary.</s></prosody></speak>",
+      "visual": {
+        "type": "composite",
+        "description": "GRIND quadrant — 5 Anglosphere dots + USA vs DNK connector + CalendarGrid"
+      },
+      "transition": "seamless",
+      "sceneFile": "scenes/scene-006.json"
+    },
+    {
+      "id": "scene-007",
+      "section": "The Grind Quadrant",
+      "startTime": 412.9,
+      "endTime": 470.6,
+      "durationNote": "55.7s audio + 2s buffer",
+      "voiceover": "<speak><s>Australia earns about seventy-one thousand dollars on seventeen hundred seven hours — forty-one forty-five per hour.</s> <break time=\"400ms\"/> <s>Canada is nearly identical: roughly sixty-nine and a half thousand on sixteen eighty-six hours — forty-one seventeen per hour.</s> <break time=\"400ms\"/> <s>Both earn roughly the same hourly rate as Sweden, which sits in the CHILL quadrant on far fewer hours.</s> <break time=\"700ms\"/> <s>New Zealand earns less — about sixty-two and a half thousand — on more hours — seventeen forty-eight.</s> <s>The lowest hourly rate in the GRIND at thirty-five seventy-two.</s> <break time=\"500ms\"/> <s>Ireland is the closest to the center — around sixty thousand dollars, sixteen fifty-seven hours.</s> <s>Just twelve hundred dollars above the salary mean and twenty-four hours past the hours mean.</s> <break time=\"500ms\"/> <prosody rate=\"95%\"><s>The tech multinationals — Apple, Google, Meta — inflate Ireland's national wage average.</s></prosody></speak>",
+      "visual": {
+        "type": "data-chart",
+        "description": "GRIND detail — AUS/CAN twins, NZL lowest, IRL closest to center"
+      },
+      "transition": "cross-dissolve",
+      "sceneFile": "scenes/scene-007.json"
+    },
+    {
+      "id": "scene-008",
+      "section": "The Trap Quadrant",
+      "startTime": 470.6,
+      "endTime": 561.8,
+      "durationNote": "89.2s audio + 2s buffer",
+      "voiceover": "<speak><s>Bottom right.</s> <break time=\"600ms\"/> <s>The TRAP.</s> <break time=\"700ms\"/> <s>Below-average salary.</s> <s>Above-average hours.</s> <break time=\"500ms\"/> <s>Eleven countries — and this is where the gaps are widest.</s> <break time=\"900ms\"/> <s>Greece.</s> <break time=\"600ms\"/> <s>Eighteen hundred eighty-six hours per year — the most of any EU member in this dataset.</s> <s>Salary: about thirty-two thousand dollars.</s> <break time=\"400ms\"/> <s>That's seventeen dollars and ten cents per hour.</s> <break time=\"700ms\"/> <s>Now draw a line from Greece to Germany, sitting in the DREAM quadrant.</s> <break time=\"500ms\"/> <s>A German worker earns three times more per hour — fifty-one eighty-two versus seventeen ten — while working five hundred forty-six fewer hours per year.</s> <break time=\"500ms\"/> <prosody rate=\"95%\"><s>Both countries are in the European Union.</s></prosody> <break time=\"900ms\"/> <s>Mexico sits at the far extreme.</s> <s>Twenty-two hundred twenty-six hours per year — the most in the entire OECD.</s> <s>Salary: just over twenty thousand dollars.</s> <break time=\"400ms\"/> <s>That's nine dollars and eighteen cents per hour.</s> <break time=\"700ms\"/> <s>Germany earns five point six times more per hour.</s> <s>Mexico works eight hundred eighty-six more hours per year — a hundred and eleven extra eight-hour workdays.</s> <break time=\"600ms\"/> <prosody rate=\"95%\"><s>Luxembourg — the top of the DREAM quadrant — earns seven times more per hour than Mexico while working seven hundred fifty-three fewer hours.</s></prosody></speak>",
+      "visual": {
+        "type": "data-chart",
+        "description": "TRAP extremes — GRC/MEX pulses, DEU-GRC-MEX-LUX connector lines"
+      },
+      "transition": "seamless",
+      "sceneFile": "scenes/scene-008.json"
+    },
+    {
+      "id": "scene-009",
+      "section": "The Trap Quadrant",
+      "startTime": 561.8,
+      "endTime": 632.7,
+      "durationNote": "68.9s audio + 2s buffer",
+      "voiceover": "<speak><s>South Korea and Italy tell a quieter story.</s> <break time=\"600ms\"/> <s>South Korea earns about fifty-one thousand dollars.</s> <s>Italy earns almost exactly the same.</s> <break time=\"400ms\"/> <s>A difference of seventy-two dollars.</s> <break time=\"400ms\"/> <s>Nearly identical annual salaries.</s> <break time=\"700ms\"/> <s>But Korea works nineteen hundred one hours.</s> <s>Italy works about sixteen ninety-four.</s> <break time=\"400ms\"/> <s>Korea puts in two hundred seven extra hours — twenty-six additional workdays — for essentially the same paycheck.</s> <break time=\"800ms\"/> <s>Spain sits just ten hours past the hours mean at sixteen forty-three — barely inside the TRAP.</s> <s>Almost fifty-five thousand dollars.</s> <break time=\"400ms\"/> <s>Portugal earns about forty thousand on sixteen thirty-five hours — just two hours over the line.</s> <s>Western European prices, but wages closer to Eastern Europe.</s> <break time=\"500ms\"/> <s>Poland works eighteen fourteen hours for roughly forty-four thousand dollars — about twenty-four thirty-seven per hour.</s> <break time=\"500ms\"/> <prosody rate=\"95%\"><s>Israel rounds out the surprises.</s> <s>A country known for its tech sector — yet almost nineteen hundred hours and twenty-nine bucks an hour puts it firmly in the TRAP.</s></prosody></speak>",
+      "visual": {
+        "type": "data-chart",
+        "description": "TRAP detail — KOR vs ITA $72, ESP/PRT borderline, POL, ISR"
+      },
+      "transition": "cross-dissolve",
+      "sceneFile": "scenes/scene-009.json"
+    },
+    {
+      "id": "scene-010",
+      "section": "The Chill Quadrant",
+      "startTime": 632.7,
+      "endTime": 738.3,
+      "durationNote": "103.6s audio + 2s buffer",
+      "voiceover": "<speak><s>Bottom left.</s> <break time=\"600ms\"/> <s>The CHILL quadrant.</s> <break time=\"500ms\"/> <s>Below-average salary and below-average hours.</s> <s>Five countries.</s> <break time=\"700ms\"/> <s>Sweden is the first thing you notice.</s> <break time=\"500ms\"/> <s>At just under fifty-nine thousand one hundred dollars, Sweden sits a hundred and forty-two dollars below the salary mean.</s> <break time=\"400ms\"/> <s>Its hourly rate — forty-one oh one — is neck-and-neck with Australia at forty-one forty-five and Canada at forty-one seventeen.</s> <s>Both of those countries are in the GRIND quadrant, working hundreds of hours more.</s> <break time=\"500ms\"/> <prosody rate=\"95%\"><s>Sweden is CHILL by the numbers — but by less than a rounding error.</s></prosody> <break time=\"900ms\"/> <s>Lithuania earns about fifty-three thousand on sixteen twenty-four hours.</s> <s>Latvia earns roughly forty-five and a half thousand on fifteen fifty-three hours.</s> <s>Slovakia earns about thirty-six thousand on sixteen twenty-two hours.</s> <break time=\"400ms\"/> <s>Three countries quietly working moderate hours for moderate pay.</s> <break time=\"1000ms\"/> <s>And then there's Japan.</s> <break time=\"700ms\"/> <s>Japan — the country known for karoshi, death from overwork — shows sixteen hundred seven hours per year.</s> <break time=\"400ms\"/> <s>Below the OECD average.</s> <break time=\"500ms\"/> <s>How?</s> <break time=\"800ms\"/> <s>The OECD counts all workers — full-time and part-time.</s> <s>Japan has a large and growing part-time workforce — freeters, part-time women, retired part-timers.</s> <s>That pulls the national average down.</s> <break time=\"500ms\"/> <s>Full-time Japanese workers still log extreme hours.</s> <break time=\"400ms\"/> <prosody rate=\"95%\"><s>The statistic is correct.</s> <s>It just measures something different than what most people expect.</s></prosody></speak>",
+      "visual": {
+        "type": "data-chart",
+        "description": "CHILL quadrant — SWE near-miss, JPN karoshi, LTU/LVA/SVK"
+      },
+      "transition": "cross-dissolve",
+      "sceneFile": "scenes/scene-010.json"
+    },
+    {
+      "id": "scene-011",
+      "section": "The Data Note",
+      "startTime": 738.3,
+      "endTime": 769.5,
+      "durationNote": "29.2s audio + 2s buffer",
+      "voiceover": "<speak><s>A note on the data.</s> <break time=\"500ms\"/> <s>All wages are from the OECD, twenty twenty-four, adjusted for Purchasing Power Parity.</s> <s>Hours worked are OECD, twenty twenty-two.</s> <break time=\"400ms\"/> <s>PPP means every salary is converted to what it would buy in the United States — apples to apples.</s> <break time=\"500ms\"/> <prosody rate=\"95%\"><s>This is a simplified comparison.</s> <s>Real life includes taxes, benefits, and cost variations within countries.</s></prosody></speak>",
+      "visual": {
+        "type": "composite",
+        "description": "Lower-third source citations over dimmed full matrix"
+      },
+      "transition": "slide",
+      "sceneFile": "scenes/scene-011.json"
+    },
+    {
+      "id": "scene-012",
+      "section": "Closing Thought",
+      "startTime": 769.5,
+      "endTime": 856.2,
+      "durationNote": "84.7s audio + 2s buffer",
+      "voiceover": "<speak><s>Thirty-four countries.</s> <s>Two axes.</s> <s>Four quadrants.</s> <break time=\"900ms\"/> <s>A German worker earns fifty-one eighty-two for every hour worked.</s> <s>An American earns forty-five eighty-two.</s> <break time=\"500ms\"/> <s>The American works four hundred seventy more hours per year — fifty-nine full workdays — and ends up with nineteen percent more total salary.</s> <break time=\"800ms\"/> <s>Is nineteen percent worth fifty-nine days?</s> <break time=\"1200ms\"/> <s>A Greek worker puts in five hundred forty-six more hours per year than a German — and earns one-third as much per hour.</s> <break time=\"500ms\"/> <s>A Mexican worker logs over twenty-two hundred hours — the most in the entire OECD — at nine dollars and eighteen cents per hour.</s> <break time=\"700ms\"/> <s>Meanwhile, a Dane works about thirteen seventy-one hours, earns fifty-three ninety-nine per hour, and takes home nearly as much as the American who works four hundred thirty-nine more hours.</s> <break time=\"1000ms\"/> <prosody rate=\"95%\"><s>The numbers don't tell you which tradeoff is right.</s></prosody> <break time=\"500ms\"/> <prosody rate=\"93%\"><s>They can't.</s></prosody> <break time=\"800ms\"/> <s>Whether four hundred seventy extra hours is worth nineteen percent more salary depends on something no dataset can capture.</s> <break time=\"1200ms\"/> <s>What you believe an hour of your life is worth.</s> <break time=\"1000ms\"/> <prosody rate=\"90%\"><s>And that's a number no index can measure.</s></prosody></speak>",
+      "visual": {
+        "type": "composite",
+        "description": "Hero shot -> USA-DEU-GRC triangle -> fade to black + end card"
+      },
+      "transition": "fade-to-black",
+      "sceneFile": "scenes/scene-012.json"
+    }
+  ]
+}

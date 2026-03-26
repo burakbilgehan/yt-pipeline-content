@@ -1,0 +1,34 @@
+{
+  "id": "scene-001",
+  "visual": {
+    "type": "composite",
+    "description": "Faz 1 (0-3.5s): Dark screen, question text ease-in centered with clock icon spinning below. Faz 2 (3.5-8s): Hard cut to world map globe footage. Faz 3 (8-12s): Hard cut to sharp-dressed white-collar financier. Faz 4 (12s-end): Hard cut to factory worker in developing country.",
+    "searchQuery": null,
+    "textOverlay": {
+      "text": "What is one hour of your life worth?",
+      "position": "center",
+      "font": "Montserrat",
+      "size": 52,
+      "color": "#EAE0D5"
+    },
+    "hookConfig": {
+      "questionText": "What is one hour of your life worth?",
+      "slug": "time-vs-earnings",
+      "videos": {
+        "worldmap": "hook-worldmap.mp4",
+        "whitecollar": "hook-whitecollar.mp4",
+        "factory": "hook-factory.mp4"
+      },
+      "phaseTimes": {
+        "textEnd": 3.5,
+        "mapStart": 3.5,
+        "mapEnd": 8.0,
+        "whitecollarStart": 8.0,
+        "whitecollarEnd": 14.0,
+        "factoryStart": 14.0
+      }
+    }
+  },
+  "transition": "crossfade",
+  "notes": "Hook scene — 4 phases with hard cuts. Phase 1: Question + clock on dark bg. Phase 2: World map footage synced with 'The answer depends... Where you were born.' Phase 3: White-collar financier synced with 'In some countries, an hour of work buys a full meal.' Phase 4: Factory worker synced with 'In others, it barely covers a cup of coffee' and continues until scene end."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "scene-019",
+  "visual": {
+    "type": "ai-image",
+    "description": "World map on dark bg (#1A1824). Heat gradient overlay: East Asia (Japan, South Korea) in red/orange (#E06070). Western/Northern Europe (Netherlands, France, Germany) in cool blue/green (#5BBF8C). Duration labels float near each region: Japan 6h22m, South Korea 6h30m, Netherlands 8h+, France ~7h, Germany ~7h. Source note on screen: 'Walch et al. 2016, Science Advances, as reported in secondary sources. ⚠️ UNVERIFIED direct access.'",
+    "searchQuery": null,
+    "textOverlay": "Japan: 6h22m | S. Korea: 6h30m | Netherlands: 8h+",
+    "dataVisualization": null
+  },
+  "transition": "fade",
+  "notes": "aiImagePrompt: Dark world map on #1A1824 background, heat gradient overlay — East Asia glowing red/orange, Northern Europe glowing cool blue/green, cinematic lighting, ultra detailed, 8K, minimal clean cartographic style. ⚠️ UNVERIFIED: Walch et al. 2016 — direct access to Science Advances paper not confirmed, sourced from secondary reports."
+}

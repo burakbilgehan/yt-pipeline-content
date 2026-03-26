@@ -1,0 +1,12 @@
+{
+  "id": "scene-002",
+  "visual": {
+    "type": "mixed",
+    "description": "Dark background (#1A1824). First card punches in: '17 hours awake = 0.05% BAC' in accent (#D47FA6). Hold 3 seconds. Then cut to stock image of drink being poured (visual metaphor for BAC). Then second card lands: '24 hours awake = 0.10% BAC — above the legal driving limit in most countries' in #E8E0D4.",
+    "searchQuery": "pouring drink glass close up",
+    "textOverlay": "17 hours awake = 0.05% BAC\n24 hours awake = 0.10% BAC",
+    "dataVisualization": null
+  },
+  "transition": "cut",
+  "notes": "⚠️ VERIFY: Williamson & Feyer 2000, Occupational and Environmental Medicine — confirm exact BAC figures (0.05% at 17–19h, 0.10% at 24h) before publishing."
+}

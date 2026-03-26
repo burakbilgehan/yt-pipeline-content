@@ -1,0 +1,12 @@
+{
+  "id": "scene-005",
+  "visual": {
+    "type": "text-overlay",
+    "description": "Title card on dark gradient (#1A1824 → #2D2B3D). Channel logo top-center. Title: 'The Hidden Cost of Not Sleeping' in #E8E0D4, Inter font, large. Subtle accent line (#D47FA6) below title.",
+    "searchQuery": null,
+    "textOverlay": "The Hidden Cost of Not Sleeping",
+    "dataVisualization": null
+  },
+  "transition": "fade",
+  "notes": "5-second title card. No voiceover — let the title breathe. Matches channel brand exactly."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "scene-008",
+  "visual": {
+    "type": "ai-image",
+    "description": "Human body diagram on dark background (#1A1824). Brain highlighted with callout: 'Prefrontal cortex — reduced activity'. Staged degradation timeline below: '24h → anxiety, disorientation' in #E8E0D4, '72h → hallucinations, psychosis' in negative red (#E06070). Clean medical-illustration style, dark atmospheric, cinematic lighting.",
+    "searchQuery": null,
+    "textOverlay": "24h: anxiety, disorientation\n72h: hallucinations, psychosis",
+    "dataVisualization": null
+  },
+  "transition": "fade",
+  "notes": "aiImagePrompt: Photorealistic dark medical illustration of a human silhouette on #1A1824 background, brain region glowing with reduced activity indicator, cinematic lighting, ultra detailed, 8K quality. Timeline callouts at 24h and 72h deprivation stages."
+}

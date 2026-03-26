@@ -1,0 +1,42 @@
+{
+  "id": "scene-016",
+  "visual": {
+    "type": "data-chart",
+    "description": "Working-days-lost infographic on dark bg. Rows of human silhouettes — US row has 1.23M with many figures fading to ghost/transparent. Japan: 604K. Germany: 200K+. UK: 200K+. Figures fade out proportionally. Then a hard cut to a separate callout card with border in #D47FA6: 'Chronic insomnia: 45–54 lost working days/year — per person.' Source: RAND RR-A2166-1, 2023.",
+    "searchQuery": null,
+    "textOverlay": "Chronic insomnia → 45–54 lost working days/year per person",
+    "dataVisualization": {
+      "type": "comparison",
+      "data": {
+        "workingDaysLost": [
+          {
+            "country": "United States",
+            "days": "1.23M/year"
+          },
+          {
+            "country": "Japan",
+            "days": "604K/year"
+          },
+          {
+            "country": "Germany",
+            "days": "209K/year"
+          },
+          {
+            "country": "United Kingdom",
+            "days": "207K/year"
+          },
+          {
+            "country": "Canada",
+            "days": "78K/year"
+          }
+        ],
+        "insomnia": {
+          "perPerson": "45–54 working days/year",
+          "source": "RAND RR-A2166-1, 2023"
+        }
+      }
+    }
+  },
+  "transition": "cut",
+  "notes": "2023 RAND follow-up stat added per script-v2 revision. '45–54 days per person' is the gut-punch — emphasize 'each one' with visual isolation."
+}

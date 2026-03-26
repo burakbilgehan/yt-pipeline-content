@@ -1,0 +1,61 @@
+{
+  "id": "scene-015",
+  "visual": {
+    "type": "composite",
+    "description": "Camera zoomed into space between USA and Denmark. All other dots fade to 20% opacity. Connector line between USA and Denmark reappears. Gap labeled: '439 hours | 55 days | 6%.' The numbers pulse. Greece and Mexico flash briefly in TRAP (0.3s glow + fade). Final text: 'What is an hour of your life worth?' fades in below matrix. Then slow fade to #1A1B22 black. Channel watermark appears. Hold 3-5s silence for YouTube end screen area.",
+    "searchQuery": null,
+    "textOverlay": {
+      "gapLabel": "439 hours | 55 days | 6%",
+      "finalQuestion": "What is an hour of your life worth?",
+      "finalQuestionColor": "#EAE0D5"
+    },
+    "dataVisualization": {
+      "component": "QuadrantScatter",
+      "config": {
+        "state": "closing-zoom-usa-denmark",
+        "cameraZoom": {
+          "target": { "x": 1590, "y": 8.87 },
+          "startScale": 1.46,
+          "endScale": 1.8,
+          "startAt": "0s",
+          "duration": "12s"
+        },
+        "visibleDots": {
+          "highlighted": ["USA", "DNK"],
+          "highlightOpacity": 1.0,
+          "otherOpacity": 0.2
+        },
+        "connectorLine": {
+          "from": "USA",
+          "to": "DNK",
+          "style": "dashed",
+          "color": "#D8A7B1",
+          "label": "439 hours | 55 days | 6%"
+        },
+        "flashDots": [
+          { "code": "GRC", "delay": "8s", "duration": "0.3s" },
+          { "code": "MEX", "delay": "8.5s", "duration": "0.3s" }
+        ]
+      }
+    },
+    "endCard": {
+      "component": "EndCardScene",
+      "status": "new-component-needed",
+      "config": {
+        "fadeToBlack": true,
+        "fadeToBlackDuration": "1.5s",
+        "backgroundColor": "#1A1B22",
+        "watermark": true,
+        "silenceHold": "5s",
+        "youtubeEndScreen": {
+          "enabled": true,
+          "startAt": "-20s",
+          "subscribePlacement": "bottom-right",
+          "nextVideoPlacement": "bottom-left"
+        }
+      }
+    }
+  },
+  "transition": "fade-to-black",
+  "notes": "Emotional close. The zoom into USA-Denmark gap is the visual metaphor for the entire video: same destination, different paths. '439 hours | 55 days | 6%' pulses in JetBrains Mono. Greece/Mexico flash is a brief callback — the extremes haven't been forgotten. 'What is an hour of your life worth?' in Inter, subtle fade over 2s. No 'like and subscribe' — the silence is the CTA. YouTube end screen elements in last 20s. Channel watermark appears after fade to black. EndCardScene is a new component needed."
+}

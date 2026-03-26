@@ -1,0 +1,47 @@
+{
+  "id": "scene-010",
+  "visual": {
+    "type": "data-chart",
+    "description": "CHILL quadrant (bottom-left) brightens. 5 dots appear: Sweden very close to salary mean line (annotation: '$142 below mean'). Lithuania, Latvia, Slovakia as 'Baltic + Eastern cluster.' Japan dot gets '?' icon. Sweden hourly rate comparison: SWE $41.01 vs AUS $41.45 vs CAN $41.17 (both in GRIND). Japan karoshi paradox: 1,607 hours — below average. Explanation overlay: 'OECD counts all workers including part-time. Japan's part-time workforce pulls the average down.'",
+    "searchQuery": null,
+    "textOverlay": {
+      "swedenNote": "CHILL by the numbers — DREAM by less than a rounding error",
+      "japanNote": "Karoshi paradox: death from overwork, below-average hours"
+    },
+    "dataVisualization": {
+      "component": "QuadrantScatter",
+      "config": {
+        "state": "chill-quadrant-focus",
+        "activeQuadrant": "bottomLeft",
+        "showDots": true,
+        "dots": [
+          { "code": "SWE", "x": 1440, "y": 59058, "pulse": true },
+          { "code": "LTU", "x": 1624, "y": 52898 },
+          { "code": "JPN", "x": 1607, "y": 49446, "icon": "?" },
+          { "code": "LVA", "x": 1553, "y": 45567 },
+          { "code": "SVK", "x": 1622, "y": 36105 }
+        ],
+        "dotColor": "#90AFC5",
+        "miniCallouts": [
+          { "code": "SWE", "label": "Sweden", "stat": "$41.01/hr · 1,440 hrs", "note": "$142 below salary mean" },
+          { "code": "LTU", "label": "Lithuania", "stat": "$52,898 · 1,624 hrs" },
+          { "code": "LVA", "label": "Latvia", "stat": "$45,567 · 1,553 hrs" },
+          { "code": "SVK", "label": "Slovakia", "stat": "$36,105 · 1,622 hrs" },
+          { "code": "JPN", "label": "Japan", "stat": "$30.77/hr · 1,607 hrs", "note": "Karoshi paradox" }
+        ],
+        "crossQuadrantComparison": {
+          "countries": ["SWE", "AUS", "CAN"],
+          "note": "Sweden's hourly rate matches GRIND countries on far fewer hours"
+        },
+        "counterLabel": "5 of 34 countries",
+        "dimOtherQuadrants": true,
+        "cameraZoom": {
+          "target": "bottomLeft",
+          "scale": 1.2
+        }
+      }
+    }
+  },
+  "transition": "cross-dissolve",
+  "notes": "CHILL quadrant: Sweden near-miss is the opener, Japan karoshi paradox is the closer. All 5 CHILL countries named and shown with stats (Critic Round 1 fix). Sweden annotation line to salary mean shows how close it is. Japan '?' icon triggers curiosity before the explanation. Lithuania, Latvia, Slovakia get brief but visible callouts."
+}

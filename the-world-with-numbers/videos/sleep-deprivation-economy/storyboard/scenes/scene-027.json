@@ -1,0 +1,12 @@
+{
+  "id": "scene-027",
+  "visual": {
+    "type": "text-overlay",
+    "description": "Dark gradient bg (#1A1824 → #2D2B3D). Final formula card centered: 'GDP × % workforce sleeping <6h × 1.3–2.3% = your country's sleep cost' in #E8E0D4 with coefficient in #D47FA6. Below: Subscribe CTA button animation. Bottom: full source list overlay in small muted text — RAND RR-1791, RAND RB-9962, RAND RR-A2166-1, CDC BRFSS 2022, Williamson & Feyer 2000, Walch et al. 2016, OECD, World Bank. Channel logo top center.",
+    "searchQuery": null,
+    "textOverlay": "GDP × % workforce <6h × 1.3–2.3% = your country's sleep cost\n\nSubscribe for more data stories.",
+    "dataVisualization": null
+  },
+  "transition": "fade",
+  "notes": "End card — 10 seconds. No voiceover. Subscribe CTA + source list. Matches channel end screen template. Logo placement consistent with brand."
+}

@@ -1,0 +1,29 @@
+{
+  "id": "scene-011",
+  "visual": {
+    "type": "composite",
+    "description": "Full QuadrantScatter matrix in background at 60% opacity. Lower-third overlay slides up from bottom with clean source citations on dark surface (rgba(26,27,34,0.85)). Line 1: 'OECD Average Wages 2024 (PPP) · OECD Hours Worked 2022.' Line 2: 'PPP = salaries converted to US-dollar purchasing power equivalent.' Line 3: 'This is a simplified comparison — real life includes taxes, benefits, and cost variations.'",
+    "searchQuery": null,
+    "textOverlay": {
+      "position": "lower-third",
+      "lines": [
+        "OECD Average Wages 2024 (PPP) · OECD Hours Worked 2022",
+        "PPP = salaries converted to US-dollar purchasing power equivalent",
+        "This is a simplified comparison — real life includes taxes, benefits, and cost variations."
+      ],
+      "background": "rgba(26,27,34,0.85)",
+      "textColor": "#EAE0D5",
+      "sourceColor": "#90AFC5"
+    },
+    "dataVisualization": {
+      "component": "QuadrantScatter",
+      "config": {
+        "state": "full-matrix-dimmed",
+        "showAllDots": true,
+        "opacity": 0.6
+      }
+    }
+  },
+  "transition": "slide",
+  "notes": "Data disclaimer — NO Big Mac reference. Sources are OECD wages and OECD hours only. Lower-third slides up (0.5s), holds ~15s, slides down. Background matrix dimmed for readability. Quick and clean."
+}

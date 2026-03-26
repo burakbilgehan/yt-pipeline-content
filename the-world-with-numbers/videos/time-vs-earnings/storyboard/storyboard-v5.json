@@ -1,0 +1,182 @@
+{
+  "title": "Time vs Earnings",
+  "version": 5,
+  "basedOn": {
+    "content": "script-v6",
+    "research": "research-v2, research-v3",
+    "storyboard": 4
+  },
+  "changesFromPrev": "Complete rewrite for 19-point feedback. 10 scenes (was 12). New structure: Hook → Raw Salary Rankings → PPP → Quadrant Intro → DREAM → GRIND → TRAP → CHILL → Ugly Truth → Closing. Quadrant is persistent after scene-004 — camera stays on scatter plot, never leaves. All 34 dots always visible once introduced. Tooltips for every mentioned country. Connector lines for comparisons. Ugly truth zoom-out with 6 non-OECD countries. No CalendarGrid. No separate data-note scene (folded into ugly truth disclaimer). SSML voiceover synced to script-v6 break times.",
+  "date": "2026-03-22",
+  "totalDuration": 635.7,
+  "totalDurationNote": "SYNCED to actual TTS durations (script-v6 closing, Chirp3-HD Sulafat, speed 1.15). 606.0s speech + 18s inter-scene buffers (9x2s) + 12s closing extension (text overlay hold + end screen) = ~635.7s (10:36).",
+  "tts": {
+    "provider": "google",
+    "engine": "chirp3-hd",
+    "voice": "Sulafat",
+    "inputMode": "ssml",
+    "speed": 1.15
+  },
+  "backgroundMusic": {
+    "tracks": [
+      {
+        "file": "QuangerineCream - Noir Et Blanc Vie.mp3",
+        "duration": 166.3
+      },
+      {
+        "file": "Goestories - Noir Et Blanc Vie.mp3",
+        "duration": 133.5
+      },
+      {
+        "file": "True Art Real Affection Part 2 - Noir Et Blanc Vie.mp3",
+        "duration": 218
+      }
+    ],
+    "volume": 0.08,
+    "crossfadeDuration": 3,
+    "loop": true,
+    "order": "sequential"
+  },
+  "scenes": [
+    {
+      "id": "scene-001",
+      "section": "Hook",
+      "startTime": 0,
+      "endTime": 26.5,
+      "durationNote": "TTS: 24.5s + 2s buffer = 26.5s",
+      "voiceover": "<speak>\n<p>\nWhat is one hour of your life worth?\n<break time=\"600ms\"/>\nThe answer depends almost entirely on one thing. Where you were born.\n</p>\n<break time=\"400ms\"/>\n<p>\nIn some countries, an hour of work buys a full meal for a family. In others, it barely covers a cup of coffee. And the countries where people work the longest hours... are almost never the ones where people earn the most.\n<break time=\"250ms\"/>\nHere's what the data actually shows.\n</p>\n</speak>",
+      "visual": {
+        "type": "composite",
+        "description": "Dark screen → clock tick → text: 'What is one hour of your life worth?' → dissolve → world map silhouette with pulsing dots"
+      },
+      "transition": "seamless",
+      "sceneFile": "scenes-v5/scene-001.json"
+    },
+    {
+      "id": "scene-002",
+      "section": "Raw Salary Rankings",
+      "startTime": 26.5,
+      "endTime": 76.7,
+      "durationNote": "TTS: 48.2s + 2s buffer = 50.2s",
+      "voiceover": "<speak>\n<p>\nStart with the obvious. Average annual salary, in raw US dollars. Switzerland near the top. Luxembourg. Iceland. The United States.\n<break time=\"150ms\"/>\nDown the list: Germany, Canada, Australia, the United Kingdom. Further down: Spain, Portugal, Poland. At the bottom: Greece, Hungary, Mexico.\n</p>\n<break time=\"250ms\"/>\n<p>\nThis is the ranking most people picture when they think about global salaries. Rich countries earn more, poorer countries earn less. Simple. Intuitive.\n<break time=\"400ms\"/>\nAnd misleading.\n</p>\n<break time=\"150ms\"/>\n<p>\nBecause a dollar in Zurich does not buy what a dollar buys in Warsaw. Or in Mexico City. Or in Tokyo. To compare salaries honestly, you have to account for what that money actually buys.\n</p>\n</speak>",
+      "visual": {
+        "type": "data-chart",
+        "description": "Horizontal bar chart: 'Average Annual Salary (Nominal USD)' — 10 countries, bars animate in top to bottom"
+      },
+      "transition": "seamless",
+      "sceneFile": "scenes-v5/scene-002.json"
+    },
+    {
+      "id": "scene-003",
+      "section": "Purchasing Power Parity",
+      "startTime": 76.7,
+      "endTime": 171.4,
+      "durationNote": "TTS: 92.7s + 2s buffer = 94.7s",
+      "voiceover": "<speak>\n<p>\nThree thousand dollars a month. In parts of Mexico, that covers rent, food, and transport — with room to spare. In Zurich, it barely covers a studio apartment. Same number. Completely different lives.\n</p>\n<break time=\"400ms\"/>\n<p>\nSo economists use something called Purchasing Power Parity — or PPP. The OECD tracks prices of roughly three thousand goods and services in each country — bread, rice, electricity, rent, haircuts, public transport — and calculates a conversion factor for every currency. That conversion factor adjusts each country's wages so they reflect actual buying power, not just a raw dollar amount.\n</p>\n<p>\nWhen the OECD says a Swiss worker earns eighty-seven thousand PPP dollars, it means that salary buys the same amount of stuff as eighty-seven thousand dollars would in the United States. Apples to apples.\n</p>\n<break time=\"250ms\"/>\n<p>\nAfter this adjustment, the rankings shift. Luxembourg takes the top spot — ninety-four thousand four hundred forty-seven dollars. Iceland second at almost ninety thousand. Switzerland third at eighty-seven thousand four hundred sixty-eight. The United States fourth at eighty-two thousand nine hundred thirty-three.\n<break time=\"250ms\"/>\nAt the bottom of thirty-four OECD countries: Greece at thirty-two thousand two hundred fifty-seven. And Mexico at twenty thousand four hundred thirty-three.\n</p>\n<break time=\"400ms\"/>\n<p>\nNow you know what people actually earn — in real purchasing power. But that's only half the picture.\n</p>\n</speak>",
+      "visual": {
+        "type": "composite",
+        "description": "Split: grocery basket Zurich vs Mexico City → PPP title card → bar chart re-sorts with PPP values (8-10 countries, green→red gradient)"
+      },
+      "transition": "seamless",
+      "sceneFile": "scenes-v5/scene-003.json"
+    },
+    {
+      "id": "scene-004",
+      "section": "Introducing the Quadrant",
+      "startTime": 171.4,
+      "endTime": 230.4,
+      "durationNote": "TTS: 57.0s + 2s buffer = 59.0s",
+      "voiceover": "<speak>\n<p>\nHow many hours do people work for that salary? Because sixty-nine thousand dollars means one thing if you work one thousand three hundred forty hours a year — that's Germany. It means something very different at two thousand two hundred twenty-six hours — that's Mexico.\n</p>\n<break time=\"250ms\"/>\n<p>\nPlot salary on one axis, hours on the other. The crosshair sits at the thirty-four-country average: fifty-nine thousand two hundred dollars and one thousand six hundred thirty-three hours.\n<break time=\"250ms\"/>\nFour quadrants.\n</p>\n<p>\nTop left — high pay, low hours. We call it the dream. Top right — high pay, high hours. The grind. Bottom left — low pay, low hours. The chill. Bottom right — low pay, high hours. The trap.\n<break time=\"400ms\"/>\nThirty-four countries. Four stories.\n</p>\n</speak>",
+      "visual": {
+        "type": "data-chart",
+        "description": "PPP bar chart transforms → scatter plot axes → crosshair at origin → quadrant labels → ALL 34 dots animate in (anonymous, no labels)"
+      },
+      "transition": "seamless",
+      "sceneFile": "scenes-v5/scene-004.json"
+    },
+    {
+      "id": "scene-005",
+      "section": "The Dream Quadrant",
+      "startTime": 230.4,
+      "endTime": 295.0,
+      "durationNote": "TTS: 62.6s + 2s buffer = 64.6s",
+      "voiceover": "<speak>\n<p>\nThirteen countries land in the dream quadrant. Above-average salary, below-average hours.\n<break time=\"250ms\"/>\nLuxembourg sits at the very top — roughly ninety-four and a half thousand dollars on about fourteen hundred seventy hours. That's sixty-four dollars and twelve cents per hour — the highest in the dataset.\n</p>\n<p>\nBut the most notable position belongs to Germany. Germany works the fewest hours of any country in the dataset — one thousand three hundred forty per year. Its salary of roughly sixty-nine and a half thousand dollars translates to almost fifty-two dollars an hour.\n</p>\n<p>\nDenmark sits close by — about thirteen hundred seventy hours, almost fifty-four dollars per hour. The second-fewest hours and the fourth-highest hourly rate in the dataset.\n<break time=\"250ms\"/>\nThe rest of this quadrant reads like a map of Western and Northern Europe. The Netherlands, Norway, Belgium, Austria, Switzerland, Iceland. Then the UK, France, Finland, Slovenia.\n<break time=\"400ms\"/>\nNot a single country outside Europe appears here.\n</p>\n</speak>",
+      "visual": {
+        "type": "data-chart",
+        "description": "Camera stays on quadrant. DREAM zone glows green. 13 labels reveal. LUX tooltip, DEU tooltip+pulse. Counter: '13 of 34'. Other quadrants dimmed."
+      },
+      "transition": "seamless",
+      "sceneFile": "scenes-v5/scene-005.json"
+    },
+    {
+      "id": "scene-006",
+      "section": "The Grind Quadrant",
+      "startTime": 295.0,
+      "endTime": 354.7,
+      "durationNote": "TTS: 57.8s + 2s buffer = 59.8s",
+      "voiceover": "<speak>\n<p>\nFive countries in the grind. Above-average salary, above-average hours.\n<break time=\"250ms\"/>\nThe United States. Australia. Canada. New Zealand. Ireland. Every single one is English-speaking. The entire Anglosphere — and no one else.\n</p>\n<break time=\"400ms\"/>\n<p>\nThe United States earns the highest total salary in this quadrant — almost eighty-three thousand dollars. But at eighteen hundred ten hours per year. Compare that to Denmark, in the dream quadrant. Denmark earns about eleven percent less in total salary, but nearly eighteen percent more per hour — roughly fifty-four dollars versus about forty-six.\n<break time=\"250ms\"/>\nThe difference is four hundred thirty-nine hours. Fifty-five eight-hour workdays. Nearly eleven extra work weeks per year — for about eleven percent more pay.\n</p>\n<p>\nAustralia and Canada sit in the middle of this quadrant — both around forty-one dollars per hour. Nearly the same hourly rate as Sweden, which sits in the chill quadrant on far fewer hours.\n</p>\n</speak>",
+      "visual": {
+        "type": "data-chart",
+        "description": "Camera stays on quadrant. GRIND zone glows amber. 5 labels + flags reveal. Text: '5 countries. All English-speaking.' USA-DNK connector line: '439 hrs | 18% more per hour'. USA+DNK tooltips."
+      },
+      "transition": "seamless",
+      "sceneFile": "scenes-v5/scene-006.json"
+    },
+    {
+      "id": "scene-007",
+      "section": "The Trap Quadrant",
+      "startTime": 354.7,
+      "endTime": 425.4,
+      "durationNote": "TTS: 68.7s + 2s buffer = 70.7s",
+      "voiceover": "<speak>\n<p>\nEleven countries in the trap. Below-average salary, above-average hours.\n<break time=\"250ms\"/>\nThis is where the gaps are widest.\n</p>\n<p>\nDraw a line from Greece to Germany. Both are in the European Union. A German worker earns roughly three times as much per hour — almost fifty-two dollars versus about seventeen — while working five hundred forty-six fewer hours per year.\n<break time=\"400ms\"/>\nSame economic bloc. Same currency. Completely different quadrants.\n</p>\n<p>\nSouth Korea and Italy tell a quieter story. Korea earns fifty thousand nine hundred forty-seven dollars. Italy earns fifty-one thousand nineteen. A difference of seventy-two dollars. But Korea works two hundred seven more hours per year for that nearly identical paycheck. Twenty-six extra workdays. Same salary. A month more of work.\n</p>\n<break time=\"250ms\"/>\n<p>\nAnd then there's Mexico — the far extreme. Two thousand two hundred twenty-six hours per year — the most in the OECD. At nine dollars and eighteen cents per hour. Luxembourg earns seven times more per hour than Mexico, while working about seven hundred fifty fewer hours.\n</p>\n</speak>",
+      "visual": {
+        "type": "data-chart",
+        "description": "Camera stays on quadrant. TRAP zone glows red. 11 labels reveal. GRC-DEU connector line across chart: '3× per hour | 546 fewer hrs'. Then KOR-ITA highlight: '$72 diff, 207 hrs'. MEX pulses at extreme. LUX-MEX connector: '7× per hour'."
+      },
+      "transition": "seamless",
+      "sceneFile": "scenes-v5/scene-007.json"
+    },
+    {
+      "id": "scene-008",
+      "section": "The Chill Quadrant",
+      "startTime": 425.4,
+      "endTime": 483.6,
+      "durationNote": "TTS: 56.2s + 2s buffer = 58.2s",
+      "voiceover": "<speak>\n<p>\nFive countries in the chill quadrant. Below-average salary, below-average hours.\n<break time=\"250ms\"/>\nSweden is the first thing you notice. At fifty-nine thousand fifty-eight dollars, it sits just one hundred forty-two dollars below the salary mean. Its hourly rate — forty-one dollars — matches Australia and Canada, both in the grind, working hundreds of hours more. Sweden is chill by a rounding error.\n</p>\n<break time=\"250ms\"/>\n<p>\nThen there's Japan. The country synonymous with overwork — with karoshi, a word that literally means death from overwork — logs about sixteen hundred hours per year. Below the OECD average. The catch: the OECD counts all workers, including part-time. Japan has a large and growing part-time workforce that pulls the average down. Full-time Japanese workers still log extreme hours. The statistic is accurate — it just measures something different than most people expect.\n</p>\n</speak>",
+      "visual": {
+        "type": "data-chart",
+        "description": "Camera stays on quadrant. CHILL zone glows blue. 5 labels reveal. SWE dot pulses near salary mean line ($142 below annotation). JPN dot with '?' icon + 'karoshi' overlay. JPN tooltip."
+      },
+      "transition": "seamless",
+      "sceneFile": "scenes-v5/scene-008.json"
+    },
+    {
+      "id": "scene-009",
+      "section": "The Ugly Truth",
+      "startTime": 483.6,
+      "endTime": 593.7,
+      "durationNote": "TTS: 108.1s + 2s buffer = 110.1s",
+      "voiceover": "<speak>\n<p>\nEverything so far has been the OECD — thirty-four of the world's wealthier nations. Zoom out.\n<break time=\"400ms\"/>\nSix more countries. India. Bangladesh. Cambodia. Pakistan. Nigeria. Philippines.\n</p>\n<p>\nNow — these numbers come from different sources than our OECD data. World Bank and ILO estimates, which measure income differently. The comparison isn't perfectly apples to apples. But even with generous assumptions, the gap is so massive that the methodology differences don't change the story.\n</p>\n<break time=\"400ms\"/>\n<p>\nCambodia. Five thousand five hundred dollars a year. Two thousand three hundred eighty-nine hours. Two dollars and thirty cents per hour. A German worker earns twenty-two and a half times more per hour — while working over a thousand fewer hours per year.\n</p>\n<p>\nPakistan logs two thousand four hundred seventy-one hours — the most in the entire dataset — at two dollars and eighty-three cents per hour. India — one point four billion people — averages three dollars and sixty-one cents per hour. Luxembourg earns nearly eighteen times more per hour than India, while working fewer hours.\n</p>\n<p>\nBangladesh — about two ninety-five an hour, nearly twenty-four hundred hours a year. This is the country that produces a significant share of the world's garments. A German worker earns the entire Bangladeshi annual salary in about five weeks.\n</p>\n<break time=\"250ms\"/>\n<p>\nLook at the chart. Mexico was the worst in the OECD at about nine dollars an hour. Every one of these six countries earns less than Mexico — and five of the six earn less than half. The bottom of the OECD is still far above the global average. That's not an opinion. That's what the data shows.\n</p>\n</speak>",
+      "visual": {
+        "type": "data-chart",
+        "description": "Camera ZOOMS OUT — axes extend (X to 2550, Y down to 3000). 6 non-OECD dots (dark red squares) appear deep bottom-right: IND, BGD, KHM, PAK, NGA, PHL. Labeled one by one. Disclaimer corner text. DEU-KHM connector line across entire chart: '22.5× per hour | 1,049 fewer hrs'. OECD origin crosshair stays fixed. Tooltips for each ugly truth country."
+      },
+      "transition": "seamless",
+      "sceneFile": "scenes-v5/scene-009.json"
+    },
+    {
+      "id": "scene-010",
+      "section": "Closing",
+      "startTime": 593.7,
+      "endTime": 635.7,
+      "durationNote": "TTS: 30.2s + 5.8s text overlay hold + 6s end screen = 42s",
+      "voiceover": "<speak>\n<p>\nForty countries. Two axes. Four quadrants.\n<break time=\"600ms\"/>\nRight now, somewhere in Cambodia, someone is starting their ninth hour of the day. They'll earn about two dollars and thirty cents for it. Somewhere in Luxembourg, someone just clocked out after six hours — at sixty-four dollars each.\n</p>\n<break time=\"400ms\"/>\n<p>\nSame planet. Same twenty-four hours. The single biggest predictor of which quadrant you land in... is not how hard you work. Not how many hours you put in.\n<break time=\"600ms\"/>\nIt's where you were born.\n</p>\n</speak>",
+      "visual": {
+        "type": "composite",
+        "description": "THREE-PHASE CLOSING. Phase A (0-17s): QuadrantScatter chart with LUX+KHM spotlight. Phase B (17-34s): Earth from space stock video, voiceover underneath. Phase C (34-42s): End screen with subscribe + next video, fade to black."
+      },
+      "transition": "seamless",
+      "sceneFile": "scenes-v5/scene-010.json"
+    }
+  ]
+}

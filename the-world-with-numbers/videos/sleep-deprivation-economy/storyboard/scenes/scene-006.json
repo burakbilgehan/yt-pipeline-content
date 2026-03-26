@@ -1,0 +1,26 @@
+{
+  "id": "scene-006",
+  "visual": {
+    "type": "data-chart",
+    "description": "Dark background (#1A1824). Stat card animates in: '7 in 10 workers feel tired at end of workday' in large #E8E0D4 text with '7/10' in accent #D47FA6. Then a second line fades in below: 'Nearly half tired DURING the workday.' Clean, minimal — two stats stacked.",
+    "searchQuery": null,
+    "textOverlay": "7 in 10 workers feel tired at end of workday",
+    "dataVisualization": {
+      "type": "comparison",
+      "data": {
+        "stat1": {
+          "label": "Tired at end of workday",
+          "value": "70%",
+          "highlight": true
+        },
+        "stat2": {
+          "label": "Tired during workday",
+          "value": "~50%",
+          "highlight": false
+        }
+      }
+    }
+  },
+  "transition": "cut",
+  "notes": "⚠️ VERIFY: '7 in 10 workers' — confirm primary source before publish. Used as relatable framing, not hard economic claim."
+}

@@ -1,0 +1,363 @@
+{
+  "title": "The Hidden Cost of Not Sleeping",
+  "version": 1,
+  "basedOn": {
+    "content": 2
+  },
+  "changesFromPrev": null,
+  "date": "2026-03-18",
+  "totalDuration": 740,
+  "scenes": [
+    {
+      "id": "scene-001",
+      "section": "Hook",
+      "startTime": 0,
+      "endTime": 16,
+      "voiceover": "After just 17 hours without sleep — that's waking up at 7am and staying up until midnight — your brain is performing at the level of someone who is legally drunk.",
+      "visual": {
+        "type": "stock-video",
+        "description": "Morning commute montage — packed buses, subway cars, bumper-to-bumper traffic."
+      },
+      "transition": "cut",
+      "sceneFile": "scenes/scene-001.json"
+    },
+    {
+      "id": "scene-002",
+      "section": "Hook",
+      "startTime": 16,
+      "endTime": 22,
+      "voiceover": "Not \"a little foggy.\" Not \"a bit slow.\" Legally. Drunk.",
+      "visual": {
+        "type": "mixed",
+        "description": "BAC comparison cards with drink-pouring stock insert."
+      },
+      "transition": "cut",
+      "sceneFile": "scenes/scene-002.json"
+    },
+    {
+      "id": "scene-003",
+      "section": "Hook",
+      "startTime": 22,
+      "endTime": 47,
+      "voiceover": "That's what researchers found when they tested cognitive and motor performance on sleep-deprived subjects. After 17 to 19 hours awake: equivalent to a Blood Alcohol Concentration of 0.05 percent. Push to 24 hours awake, and it hits 0.10 percent — above the legal driving limit in almost every country on earth.",
+      "visual": {
+        "type": "stock-video",
+        "description": "Close-up of a person rubbing their eyes at a desk, then transition to slow-motion footage of a car driving at night with headlights blurring — evoking impaired driving without being graphic."
+      },
+      "transition": "fade",
+      "sceneFile": "scenes/scene-003.json"
+    },
+    {
+      "id": "scene-004",
+      "section": "Hook",
+      "startTime": 47,
+      "endTime": 75,
+      "voiceover": "Now think about your morning commute. Think about your coworkers. Think about yourself. This is not just a health story. It is an economics story. Because when hundreds of millions of people show up to work running on empty every single day, the bill eventually lands somewhere. Researchers have figured out exactly how big that bill is.",
+      "visual": {
+        "type": "stock-video",
+        "description": "Wide aerial shot of a massive city at rush hour — highways packed, office buildings lit up."
+      },
+      "transition": "fade",
+      "sceneFile": "scenes/scene-004.json"
+    },
+    {
+      "id": "scene-005",
+      "section": "Hook",
+      "startTime": 75,
+      "endTime": 78,
+      "voiceover": null,
+      "visual": {
+        "type": "text-overlay",
+        "description": "Title card on dark gradient (#1A1824 → #2D2B3D)."
+      },
+      "transition": "fade",
+      "sceneFile": "scenes/scene-005.json"
+    },
+    {
+      "id": "scene-006",
+      "section": "Act 1",
+      "startTime": 78,
+      "endTime": 114,
+      "voiceover": "Let's start with what sleep deprivation actually does to people — because the economic numbers only make sense once you understand what is happening inside the body of every under-slept worker. And we are not talking about a small group. Seven out of ten workers say they feel tired when the workday ends. Nearly half report being regularly tired during the workday itself. This is not a minority experience. This is the baseline.",
+      "visual": {
+        "type": "data-chart",
+        "description": "Fatigue stat cards — 7/10 tired after work, ~50% tired during work."
+      },
+      "transition": "cut",
+      "sceneFile": "scenes/scene-006.json"
+    },
+    {
+      "id": "scene-007",
+      "section": "Act 1",
+      "startTime": 114,
+      "endTime": 141,
+      "voiceover": "More than one in three American adults sleeps less than the recommended seven hours per night. That is not a fringe group. That is the norm. RAND's economic model uses an even stricter threshold — under six hours per night — to define the danger zone. We will come back to why that distinction matters.",
+      "visual": {
+        "type": "data-chart",
+        "description": "Two-tier threshold graphic — 1-in-3 under 7h vs RAND's <6h danger zone."
+      },
+      "transition": "cut",
+      "sceneFile": "scenes/scene-007.json"
+    },
+    {
+      "id": "scene-008",
+      "section": "Act 1",
+      "startTime": 141,
+      "endTime": 176,
+      "voiceover": "Your prefrontal cortex — the part of the brain governing decisions, impulse control, and risk assessment — shows measurably reduced activity after a bad night. Your reaction time slows. You make worse choices and you do not even know it. After 24 hours without sleep: anxiety, disorientation, perceptual distortions. After 72 hours — and this is not science fiction, this is night-shift workers and hospital interns — symptoms resembling psychosis. Hallucinations. Delusions.",
+      "visual": {
+        "type": "ai-image",
+        "description": "Body diagram — prefrontal cortex highlighting, 24h/72h degradation timeline."
+      },
+      "transition": "fade",
+      "sceneFile": "scenes/scene-008.json"
+    },
+    {
+      "id": "scene-009",
+      "section": "Act 1",
+      "startTime": 176,
+      "endTime": 200,
+      "voiceover": "But extreme cases are not required for real damage. Chronic short sleep — under six hours per night — raises your all-cause mortality risk by ten percent compared to people sleeping the recommended seven to nine hours. Sleep six to seven hours? Still a four percent elevated risk.",
+      "visual": {
+        "type": "data-chart",
+        "description": "Mortality risk curve — <6h: +10%, 6-7h: +4% vs 7-9h baseline."
+      },
+      "transition": "cut",
+      "sceneFile": "scenes/scene-009.json"
+    },
+    {
+      "id": "scene-010",
+      "section": "Act 1",
+      "startTime": 200,
+      "endTime": 216,
+      "voiceover": "Sleep deprivation raises ghrelin, your hunger hormone, and suppresses leptin, your fullness hormone — so you eat more, gain weight, develop insulin resistance. It raises blood pressure. It impairs immune function.",
+      "visual": {
+        "type": "ai-image",
+        "description": "Body diagram on dark bg (#1A1824) with four callout regions: Brain (prefrontal cortex, impaired decisions), Heart (blood pressure up), Immune system (suppressed), Hormones (ghrelin up / leptin down arrows)."
+      },
+      "transition": "cut",
+      "sceneFile": "scenes/scene-010.json"
+    },
+    {
+      "id": "scene-011",
+      "section": "Act 1",
+      "startTime": 216,
+      "endTime": 235,
+      "voiceover": "And on the road: more than six thousand fatal car crashes per year in the United States are caused by drowsy driving. Not alcohol. Not drugs. Tired people. The body keeps score. And eventually, so does the economy.",
+      "visual": {
+        "type": "stock-video",
+        "description": "Night highway footage — headlights streaking, slightly blurred to suggest impaired vision."
+      },
+      "transition": "fade",
+      "sceneFile": "scenes/scene-011.json"
+    },
+    {
+      "id": "scene-012",
+      "section": "Act 2",
+      "startTime": 235,
+      "endTime": 267,
+      "voiceover": "In 2016, a team at RAND Europe asked a question no one had properly quantified before: how much does sleep deprivation actually cost an economy? They studied five countries — the United States, Japan, Germany, the United Kingdom, and Canada. They measured both absenteeism, people not showing up, and presenteeism, the quieter and more expensive problem: people showing up but performing far below their capacity.",
+      "visual": {
+        "type": "text-overlay",
+        "description": "RAND study intro — 5 countries, absenteeism vs presenteeism framing."
+      },
+      "transition": "cut",
+      "sceneFile": "scenes/scene-012.json"
+    },
+    {
+      "id": "scene-013",
+      "section": "Act 2",
+      "startTime": 267,
+      "endTime": 297,
+      "voiceover": "The numbers were staggering. The United States loses between 1.56 and 2.28 percent of GDP every year to insufficient sleep. At the high end, that is four hundred and eleven billion dollars. More than the entire annual economic output of Portugal. Japan: between eighty-eight and one hundred and thirty-eight billion dollars. Germany: sixty billion. The UK: fifty billion. Canada: twenty-one billion.",
+      "visual": {
+        "type": "data-chart",
+        "description": "Horizontal bar chart — 5 countries ranked by absolute $ loss, US dominant."
+      },
+      "transition": "cut",
+      "sceneFile": "scenes/scene-013.json"
+    },
+    {
+      "id": "scene-014",
+      "section": "Act 2",
+      "startTime": 297,
+      "endTime": 318,
+      "voiceover": "Five countries. Six hundred and eighty billion dollars. Every year. That is more than the combined GDP of Portugal and New Zealand — going up in smoke every year. Not from a war. Not from a financial crisis. From people not sleeping.",
+      "visual": {
+        "type": "data-chart",
+        "description": "$680B counter animation + Portugal/NZ GDP comparison."
+      },
+      "transition": "fade",
+      "sceneFile": "scenes/scene-014.json"
+    },
+    {
+      "id": "scene-015",
+      "section": "Act 2",
+      "startTime": 318,
+      "endTime": 368,
+      "voiceover": "But rank those same countries by percentage of GDP lost, and something unexpected happens. Japan tops the list, at between 1.86 and 2.92 percent. Higher than the US. Higher than the UK. Higher than everyone. Japan. The country famous for working harder than almost anyone else on earth. There is even a Japanese word for sleeping on the job — inemuri, 居眠り, \"sleeping while present.\" It is paradoxically tolerated as a sign of dedication — proof that you worked yourself to exhaustion. And yet RAND's data shows this culture of relentless, exhausted work is not just failing workers. It is failing the economy.",
+      "visual": {
+        "type": "data-chart",
+        "description": "Bar chart reorder animation — $ rank → GDP% rank, Japan rises to #1 + inemuri callout."
+      },
+      "transition": "cut",
+      "sceneFile": "scenes/scene-015.json"
+    },
+    {
+      "id": "scene-016",
+      "section": "Act 2",
+      "startTime": 368,
+      "endTime": 400,
+      "voiceover": "The US loses the equivalent of 1.23 million working days per year. Japan: 604,000. Germany and the UK each lose over 200,000. And in a 2023 follow-up, RAND narrowed in further. They looked specifically at people with chronic insomnia — clinical sleep disorders, not just short sleep. Each of those individuals loses between 45 and 54 working days of productivity per year. Not collectively. Each one.",
+      "visual": {
+        "type": "data-chart",
+        "description": "Working-days-lost silhouette infographic + chronic insomnia 45-54 days callout."
+      },
+      "transition": "cut",
+      "sceneFile": "scenes/scene-016.json"
+    },
+    {
+      "id": "scene-017",
+      "section": "Act 2",
+      "startTime": 400,
+      "endTime": 415,
+      "voiceover": "RAND's model does not even include healthcare costs from sleep-related disease — no cardiovascular bills, no diabetes treatment, no accident liability. Just lost labour. The real cost is larger.",
+      "visual": {
+        "type": "text-overlay",
+        "description": "Healthcare exclusion disclaimer — 'just lost labour' reveal."
+      },
+      "transition": "fade",
+      "sceneFile": "scenes/scene-017.json"
+    },
+    {
+      "id": "scene-018",
+      "section": "Act 3",
+      "startTime": 415,
+      "endTime": 448,
+      "voiceover": "RAND's 2016 study covered five countries. There are nearly two hundred in the world. So what does the picture look like beyond those five? RAND's methodology is transparent enough to approximate. The structure: take a country's GDP, multiply by the percentage of its workforce sleeping under six hours per night, apply a productivity loss coefficient derived from the five-country data. That gives you an estimated economic loss.",
+      "visual": {
+        "type": "text-overlay",
+        "description": "RAND methodology breakdown — GDP × %workforce × coefficient formula."
+      },
+      "transition": "cut",
+      "sceneFile": "scenes/scene-018.json"
+    },
+    {
+      "id": "scene-019",
+      "section": "Act 3",
+      "startTime": 448,
+      "endTime": 486,
+      "voiceover": "The regional data reveals a clear pattern. East Asia is at the bottom of global sleep rankings. Japan averages around six hours and twenty-two minutes per night. South Korea is comparable, around six hours and thirty minutes. These are among the shortest average sleep durations in any large national dataset. Northern Europe sits at the other extreme. The Netherlands averages over eight hours — the highest in any major study. France and Germany cluster around seven hours.",
+      "visual": {
+        "type": "ai-image",
+        "description": "World map — sleep duration gradient. East Asia red/orange, Northern Europe cool blue/green."
+      },
+      "transition": "fade",
+      "sceneFile": "scenes/scene-019.json"
+    },
+    {
+      "id": "scene-020",
+      "section": "Act 3",
+      "startTime": 486,
+      "endTime": 540,
+      "voiceover": "Now take South Korea. GDP of 1.67 trillion dollars. One of the most intense work cultures in the world. OECD data shows South Korean workers average around 1,872 hours of work per year. Japan, already extreme, averages 1,626. South Korea works more. Applying Japan's RAND-measured GDP loss percentage to South Korea's economy gives an estimated loss of 31 to 49 billion dollars per year. That estimate is almost certainly conservative. South Korea works 246 more hours per year than Japan. RAND's own model identifies long work hours and high psychosocial stress as primary drivers of sleep deprivation costs. The true figure for South Korea is likely higher than what this proxy suggests.",
+      "visual": {
+        "type": "data-chart",
+        "description": "South Korea vs Japan comparison — GDP, work hours, estimated sleep-loss cost."
+      },
+      "transition": "cut",
+      "sceneFile": "scenes/scene-020.json"
+    },
+    {
+      "id": "scene-021",
+      "section": "Act 3",
+      "startTime": 540,
+      "endTime": 579,
+      "voiceover": "What about India? India's average sleep data — mostly from wearable devices skewed toward affluent, urban populations — suggests around seven hours per night. On the surface, that sounds fine. But we do not have RAND numbers for India. Not yet. And the direction of travel matters. India is urbanising at speed. Commutes in megacities are lengthening. The conditions that produced Japan's sleep crisis — long hours, financial stress, screen culture — are actively developing in India right now.",
+      "visual": {
+        "type": "stock-video",
+        "description": "India megacity footage — crowded Mumbai local train, Delhi traffic, construction cranes, office workers in late-night cubicles."
+      },
+      "transition": "cut",
+      "sceneFile": "scenes/scene-021.json"
+    },
+    {
+      "id": "scene-022",
+      "section": "Act 3",
+      "startTime": 579,
+      "endTime": 594,
+      "voiceover": "The economic cost of sleep deprivation in India is not a current data point. It is a trajectory. And trajectories, unlike snapshots, are where the real cost is counted.",
+      "visual": {
+        "type": "ai-image",
+        "description": "India map silhouette with upward trajectory arrow — 'not a data point, a trajectory'."
+      },
+      "transition": "fade",
+      "sceneFile": "scenes/scene-022.json"
+    },
+    {
+      "id": "scene-023",
+      "section": "Close",
+      "startTime": 594,
+      "endTime": 632,
+      "voiceover": "Here is what makes the sleep deprivation crisis different from almost every other economic problem. Most major economic challenges — inequality, inflation, housing — require policy, investment, political will, years of effort. They involve trade-offs. Sleep deprivation has a fix. And the fix is free. RAND modelled what happens if everyone sleeping under six hours per night shifts to just six to seven hours. Not a wellness retreat. Not a new drug. Just one more hour of sleep.",
+      "visual": {
+        "type": "text-overlay",
+        "description": "Contrast card — big economic problems vs sleep fix (free, immediate)."
+      },
+      "transition": "cut",
+      "sceneFile": "scenes/scene-023.json"
+    },
+    {
+      "id": "scene-024",
+      "section": "Close",
+      "startTime": 632,
+      "endTime": 669,
+      "voiceover": "Four hundred and eleven billion dollars is what the United States is currently losing every year. RAND then modelled one specific intervention: just pushing everyone sleeping under six hours up to six to seven hours. That alone recovers two hundred and twenty-six billion dollars. The rest of the gap — getting those same people to seven hours or more — would recover the full four hundred and eleven billion. Two different targets. Both within reach.",
+      "visual": {
+        "type": "data-chart",
+        "description": "Before/after scenario bars — $411B current loss, $226B recovery (6-7h), full $411B recovery (7h+)."
+      },
+      "transition": "cut",
+      "sceneFile": "scenes/scene-024.json"
+    },
+    {
+      "id": "scene-025",
+      "section": "Close",
+      "startTime": 669,
+      "endTime": 706,
+      "voiceover": "Now here is the calculation you can run yourself. Take your country's GDP. Find the percentage of the workforce sleeping under six hours per night — your national statistics office likely publishes this. Apply a loss coefficient between 1.3 and 2.3 percent. That is a rough but defensible estimate of what your economy is losing every year to tired workers. The data is public. The methodology is documented. The problem is hiding in plain sight.",
+      "visual": {
+        "type": "text-overlay",
+        "description": "DIY formula card — GDP × %workforce(<6h) × 1.3-2.3% coefficient."
+      },
+      "transition": "cut",
+      "sceneFile": "scenes/scene-025.json"
+    },
+    {
+      "id": "scene-026",
+      "section": "Close",
+      "startTime": 706,
+      "endTime": 737,
+      "voiceover": "The world is losing hundreds of billions of dollars every year to something as fixable as going to bed an hour earlier. That is not a health crisis or an economics crisis. It is both. You are probably losing thousands of dollars a year in economic output — and you don't even know it. The cure costs nothing. It costs exactly one earlier bedtime.",
+      "visual": {
+        "type": "stock-video",
+        "description": "Evening commute — mirror of the hook's morning commute."
+      },
+      "transition": "fade",
+      "sceneFile": "scenes/scene-026.json"
+    },
+    {
+      "id": "scene-027",
+      "section": "Close",
+      "startTime": 737,
+      "endTime": 740,
+      "voiceover": null,
+      "visual": {
+        "type": "text-overlay",
+        "description": "Dark gradient bg (#1A1824 → #2D2B3D)."
+      },
+      "transition": "fade",
+      "sceneFile": "scenes/scene-027.json"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "scene-024",
+  "visual": {
+    "type": "data-chart",
+    "description": "Dark bg (#1A1824). 'Before and After' scenario bars, vertical layout. Top bar (full width): 'Current annual loss: $411B' in #E06070 negative red. Below, two recovery scenario bars animate in sequence: Scenario 1 (partial width, ~55%): '$226B recovered — push <6h sleepers to 6–7h' in #5BBF8C positive green. Scenario 2 (full width): '$411B recovered — push all under-sleepers to 7h+' in brighter #5BBF8C. Each bar has a clear distinct label. Source: RAND RB-9962.",
+    "searchQuery": null,
+    "textOverlay": null,
+    "dataVisualization": {
+      "type": "bar-chart",
+      "data": {
+        "orientation": "vertical-scenario",
+        "bars": [
+          {
+            "label": "Current annual loss",
+            "value": "$411B",
+            "color": "#E06070",
+            "scenario": "status-quo"
+          },
+          {
+            "label": "Recovery: <6h → 6–7h",
+            "value": "$226B",
+            "color": "#5BBF8C",
+            "scenario": "intervention-1"
+          },
+          {
+            "label": "Recovery: all → 7h+",
+            "value": "$411B",
+            "color": "#5BBF8C",
+            "scenario": "intervention-2"
+          }
+        ],
+        "source": "RAND RB-9962, 2017",
+        "note": "$226B and $411B are TWO DISTINCT intervention targets, not a split of one figure"
+      }
+    }
+  },
+  "transition": "cut",
+  "notes": "CRITICAL: $226B and $411B are TWO DISTINCT intervention scenarios. $226B = push <6h to 6–7h. $411B = push all to 7h+. Do NOT conflate in graphics. Production flag #4."
+}

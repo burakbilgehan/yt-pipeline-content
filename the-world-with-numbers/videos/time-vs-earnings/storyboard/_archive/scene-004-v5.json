@@ -1,0 +1,235 @@
+{
+  "id": "scene-004",
+  "visual": {
+    "type": "data-chart",
+    "description": "THE BIG REVEAL. PPP bar chart from scene-003 tilts 90° — salary axis becomes Y-axis. New X-axis 'Annual Hours Worked' extends. Grid lines fade in. Dashed crosshairs at origin ($59,200 / 1,633 hrs). Label: '34-country average.' Four quadrant fills fade in with labels: DREAM (top-left, green), GRIND (top-right, amber), CHILL (bottom-left, blue), TRAP (bottom-right, red). Then ALL 34 country dots animate in simultaneously with spring physics — no labels yet. Dots are anonymous white circles. The scatter plot is now centered and fills the screen.",
+    "searchQuery": null,
+    "textOverlay": null,
+    "dataVisualization": {
+      "component": "QuadrantScatter",
+      "config": {
+        "state": "intro-all-dots-anonymous",
+        "showAxes": true,
+        "showGrid": true,
+        "showCrosshair": true,
+        "showQuadrantFills": true,
+        "showQuadrantLabels": true,
+        "showDots": true,
+        "showDotLabels": false,
+        "centered": true,
+        "origin": {
+          "x": 1633,
+          "y": 59200
+        },
+        "xAxis": {
+          "label": "Annual Hours Worked",
+          "min": 1250,
+          "max": 2350
+        },
+        "yAxis": {
+          "label": "PPP-Adjusted Annual Salary ($)",
+          "min": 20000,
+          "max": 100000
+        },
+        "quadrantLabels": {
+          "topLeft": "DREAM",
+          "topRight": "GRIND",
+          "bottomLeft": "CHILL",
+          "bottomRight": "TRAP"
+        },
+        "quadrantColors": {
+          "topLeft": "rgba(91,191,140,0.08)",
+          "topRight": "rgba(216,167,177,0.08)",
+          "bottomLeft": "rgba(144,175,197,0.08)",
+          "bottomRight": "rgba(224,96,112,0.08)"
+        },
+        "dots": [
+          {
+            "code": "LUX",
+            "x": 1473,
+            "y": 94447
+          },
+          {
+            "code": "ISL",
+            "x": 1449,
+            "y": 89947
+          },
+          {
+            "code": "CHE",
+            "x": 1528,
+            "y": 87468
+          },
+          {
+            "code": "USA",
+            "x": 1810,
+            "y": 82933
+          },
+          {
+            "code": "BEL",
+            "x": 1525,
+            "y": 76109
+          },
+          {
+            "code": "AUT",
+            "x": 1443,
+            "y": 75767
+          },
+          {
+            "code": "NLD",
+            "x": 1427,
+            "y": 75370
+          },
+          {
+            "code": "NOR",
+            "x": 1424,
+            "y": 74864
+          },
+          {
+            "code": "DNK",
+            "x": 1371,
+            "y": 74022
+          },
+          {
+            "code": "AUS",
+            "x": 1707,
+            "y": 70763
+          },
+          {
+            "code": "DEU",
+            "x": 1340,
+            "y": 69433
+          },
+          {
+            "code": "CAN",
+            "x": 1686,
+            "y": 69417
+          },
+          {
+            "code": "GBR",
+            "x": 1531,
+            "y": 63691
+          },
+          {
+            "code": "NZL",
+            "x": 1748,
+            "y": 62437
+          },
+          {
+            "code": "SVN",
+            "x": 1619,
+            "y": 61776
+          },
+          {
+            "code": "FRA",
+            "x": 1511,
+            "y": 60608
+          },
+          {
+            "code": "IRL",
+            "x": 1657,
+            "y": 60431
+          },
+          {
+            "code": "FIN",
+            "x": 1498,
+            "y": 59597
+          },
+          {
+            "code": "SWE",
+            "x": 1440,
+            "y": 59058
+          },
+          {
+            "code": "ISR",
+            "x": 1891,
+            "y": 54736
+          },
+          {
+            "code": "ESP",
+            "x": 1643,
+            "y": 54564
+          },
+          {
+            "code": "LTU",
+            "x": 1624,
+            "y": 52898
+          },
+          {
+            "code": "ITA",
+            "x": 1694,
+            "y": 51019
+          },
+          {
+            "code": "KOR",
+            "x": 1901,
+            "y": 50947
+          },
+          {
+            "code": "JPN",
+            "x": 1607,
+            "y": 49446
+          },
+          {
+            "code": "LVA",
+            "x": 1553,
+            "y": 45567
+          },
+          {
+            "code": "POL",
+            "x": 1814,
+            "y": 44211
+          },
+          {
+            "code": "PRT",
+            "x": 1635,
+            "y": 40002
+          },
+          {
+            "code": "EST",
+            "x": 1770,
+            "y": 38975
+          },
+          {
+            "code": "CZE",
+            "x": 1754,
+            "y": 38489
+          },
+          {
+            "code": "SVK",
+            "x": 1622,
+            "y": 36105
+          },
+          {
+            "code": "HUN",
+            "x": 1699,
+            "y": 34996
+          },
+          {
+            "code": "GRC",
+            "x": 1886,
+            "y": 32257
+          },
+          {
+            "code": "MEX",
+            "x": 2226,
+            "y": 20433
+          }
+        ],
+        "dotColor": "rgba(234,224,213,0.6)",
+        "dotSize": 8,
+        "animationSequence": [
+          "barToAxes",
+          "grid",
+          "crosshair",
+          "quadrantFills",
+          "quadrantLabels",
+          "allDotsSpring"
+        ],
+        "animationStagger": "0.5s",
+        "dotsEntranceStyle": "spring-simultaneous"
+      }
+    }
+  },
+  "transition": "seamless",
+  "notes": "QUADRANT INTRO. This is the last scene transition — from this point, the camera STAYS on the quadrant scatter plot for the rest of the video (scenes 005-010). All 34 dots visible but anonymous (no country labels). The quadrant is CENTERED on screen per feedback #13. Dots use neutral color (muted text color) — they'll take on quadrant colors as each section is explored. IMPORTANT: The chart must NEVER be empty from this point forward."
+}

@@ -1,0 +1,46 @@
+{
+  "fetchedAt": "2026-03-21T23:49:12.363Z",
+  "videoId": "WeVrejS9Wf8",
+  "views": 181,
+  "watchTimeHours": 4.55,
+  "averageViewDuration": 90,
+  "averageViewPercentage": 17.48,
+  "impressions": 0,
+  "clickThroughRate": 0,
+  "likes": 6,
+  "dislikes": 1,
+  "comments": 1,
+  "shares": 0,
+  "subscribersGained": 1,
+  "subscribersLost": 0,
+  "trafficSources": {
+    "NO_LINK_OTHER": {
+      "views": 22,
+      "watchTimeMinutes": 45
+    },
+    "SUBSCRIBER": {
+      "views": 121,
+      "watchTimeMinutes": 184
+    },
+    "YT_CHANNEL": {
+      "views": 25,
+      "watchTimeMinutes": 2
+    },
+    "RELATED_VIDEO": {
+      "views": 1,
+      "watchTimeMinutes": 0
+    },
+    "YT_OTHER_PAGE": {
+      "views": 4,
+      "watchTimeMinutes": 6
+    },
+    "EXT_URL": {
+      "views": 5,
+      "watchTimeMinutes": 17
+    },
+    "PLAYLIST": {
+      "views": 3,
+      "watchTimeMinutes": 17
+    }
+  }
+}

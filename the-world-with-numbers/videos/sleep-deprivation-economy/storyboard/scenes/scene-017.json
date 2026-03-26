@@ -1,0 +1,12 @@
+{
+  "id": "scene-017",
+  "visual": {
+    "type": "text-overlay",
+    "description": "Dark bg (#1A1824). A list appears item by item, each with a strikethrough or 'NOT INCLUDED' stamp in muted text (#rgba(232,224,212,0.6)): '❌ Cardiovascular costs', '❌ Diabetes treatment', '❌ Accident liability'. Then at bottom, a single line in accent #D47FA6 pulses: 'RAND measured ONLY lost labour. The real cost is larger.' Clean, stark — lets the omission speak for itself.",
+    "searchQuery": null,
+    "textOverlay": "RAND measured ONLY lost labour.\nThe real cost is larger.",
+    "dataVisualization": null
+  },
+  "transition": "fade",
+  "notes": "Section closer — sets up Act 3 by establishing that even the $680B figure is an undercount. Fade transition to Act 3."
+}

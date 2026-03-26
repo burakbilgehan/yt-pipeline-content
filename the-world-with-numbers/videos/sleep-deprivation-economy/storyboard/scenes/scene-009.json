@@ -1,0 +1,36 @@
+{
+  "id": "scene-009",
+  "visual": {
+    "type": "data-chart",
+    "description": "Mortality risk curve on dark bg. X-axis: sleep hours (4, 5, 6, 7, 8, 9). Y-axis: relative mortality risk. The <6h zone is shaded in negative red (#E06070) with '+10%' label. The 6–7h zone in muted warning with '+4%'. The 7–9h zone is baseline green (#5BBF8C). Clean, minimal chart. Source: RAND RR-1791.",
+    "searchQuery": null,
+    "textOverlay": "<6h: +10% mortality | 6–7h: +4% | 7–9h: baseline",
+    "dataVisualization": {
+      "type": "line-chart",
+      "data": {
+        "xAxis": "Sleep hours per night",
+        "yAxis": "Relative mortality risk",
+        "zones": [
+          {
+            "range": "<6h",
+            "risk": "+10%",
+            "color": "#E06070"
+          },
+          {
+            "range": "6–7h",
+            "risk": "+4%",
+            "color": "#C97B9F"
+          },
+          {
+            "range": "7–9h",
+            "risk": "baseline",
+            "color": "#5BBF8C"
+          }
+        ],
+        "source": "RAND RR-1791, 2016"
+      }
+    }
+  },
+  "transition": "cut",
+  "notes": "Key visual — this mortality curve gets referenced later. Uses RAND's <6h threshold, not CDC's <7h."
+}

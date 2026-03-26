@@ -1,0 +1,26 @@
+{
+  "id": "scene-001",
+  "visual": {
+    "type": "data-chart",
+    "description": "Black screen (#1A1B22). '$82,933' fades in center-screen in Montserrat Bold 72px (#EAE0D5) with small USA text badge. Then '$69,433' appears below with DEU badge. Text animates: 'USA earns 19% more.' Beat. Then new line: 'But Germany earns 13% more per hour.' Germany number glows (#D8A7B1), USA dims. Calendar icon shows '470 hours = 59 workdays' crossed out.",
+    "searchQuery": null,
+    "textOverlay": null,
+    "dataVisualization": {
+      "component": "SalaryShuffleScene",
+      "config": {
+        "countries": [
+          { "code": "USA", "label": "United States", "salary": 82933, "hourlyRate": 45.82 },
+          { "code": "DEU", "label": "Germany", "salary": 69433, "hourlyRate": 51.82 },
+          { "code": "DNK", "label": "Denmark", "salary": 74022, "hourlyRate": 53.99 },
+          { "code": "JPN", "label": "Japan", "salary": 49446, "hourlyRate": 30.77 }
+        ],
+        "initialSort": "salary",
+        "resortTo": "hourlyRate",
+        "resortLabel": "$ per Hour",
+        "resortTriggerFrame": 60
+      }
+    }
+  },
+  "transition": "crossfade",
+  "notes": "Opening hook — salary numbers appear, then re-sort by hourly rate shatters the assumption. Germany and Denmark rise, USA drops. No Big Mac reference. Use text country code badges (NOT emoji flags — Remotion can't render them). Stagger fade-ins 0.3s apart, spring-animated re-sort. Numbers glow #D8A7B1 as they move."
+}

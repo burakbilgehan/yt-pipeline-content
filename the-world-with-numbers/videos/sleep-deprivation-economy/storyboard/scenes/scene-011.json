@@ -1,0 +1,13 @@
+{
+  "id": "scene-011",
+  "visual": {
+    "type": "stock-video",
+    "description": "Night highway footage — headlights streaking, slightly blurred to suggest impaired vision. Then cut to a stark stat card on dark bg: '6,000+ fatal crashes/year — drowsy driving, US alone' in #E8E0D4 with '6,000+' in large #E06070 negative red. Final beat: text fades to 'The body keeps score. So does the economy.' in accent #D47FA6.",
+    "assetPath": "production/visuals/pexels-853969-night-highway-driving-headligh.mp4",
+    "searchQuery": "night highway driving headlights blurred",
+    "textOverlay": "6,000+ fatal crashes/year — drowsy driving, US alone",
+    "dataVisualization": null
+  },
+  "transition": "fade",
+  "notes": "Section closer — bridges from human cost to economic cost. Fade transition into Act 2."
+}
