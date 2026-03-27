@@ -1,0 +1,35 @@
+{
+  "id": "scene-003",
+  "section": "THE METRIC",
+  "startTime": 25.702,
+  "endTime": 56.78,
+  "duration": 31.078,
+  "voiceover": "Imagine you earned five hundred seventy-two dollars a week in two thousand. A dozen eggs cost ninety-one cents. Today you earn twelve hundred — but eggs cost four twenty-five. Did eggs get more expensive... or did your paycheck grow faster? <break time=\"500ms\"/> That's the question behind what we call the Real Unit Price Index — RUPI. Take twenty-five years of Bureau of Labor Statistics prices — per pound, per gallon, per dozen — and divide each product's price growth by median wage growth.",
+  "wordCount": 81,
+  "visual": {
+    "type": "remotion-component",
+    "description": "Split comparison card. Left side: '2000' header — '$572/week' (JetBrains Mono, Muted Pink), 'Eggs: $0.91/dozen' below. Right side: '2025' header — '$1,206/week' (JetBrains Mono, Muted Blue), 'Eggs: $4.25/dozen'. Thin vertical divider in Sage Silver. Numbers animate in with spring counters. At the 500ms break, the comparison fades and the RUPI formula builds: 'Price Growth ÷ Wage Growth = RUPI' — each term animates in sequence. BLS logo watermark bottom-right, small, at 30% opacity.",
+    "textOverlay": null,
+    "dataVisualization": {
+      "type": "comparison-then-formula",
+      "phase1": {
+        "left": {
+          "year": 2000,
+          "wage": "$572/week",
+          "eggs": "$0.91/doz"
+        },
+        "right": {
+          "year": 2025,
+          "wage": "$1,206/week",
+          "eggs": "$4.25/doz"
+        }
+      },
+      "phase2": {
+        "formula": "Price Growth ÷ Wage Growth = RUPI",
+        "animateSequential": true
+      }
+    }
+  },
+  "transition": "crossfade",
+  "notes": "This is the educational foundation scene. The concrete wage/egg comparison makes it tangible before introducing the abstract formula. Phase 1 (comparison card) holds for ~20s, then phase 2 (formula) builds for the remaining ~19s. Numbers use JetBrains Mono with tabular figures. Spring animation for counter: stiffness 100, damping 20. BLS source footnote in Inter 14px, Sage Silver, bottom-right."
+}

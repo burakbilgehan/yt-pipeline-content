@@ -1,0 +1,44 @@
+{
+  "id": "scene-009",
+  "section": "THE RACE — ACT 1: 2000–2009",
+  "startTime": 142.863,
+  "endTime": 164.035,
+  "duration": 21.172,
+  "voiceover": "<break time=\"500ms\"/> Chips, milk, peanut butter, ice cream — they all hover near the baseline. Wages are roughly keeping pace. Nothing dramatic. Nothing alarming. <break time=\"500ms\"/> Then two thousand eight — the financial crisis. Milk and chips push briefly above one as commodity prices surge, but by two thousand nine, most products settle back down.",
+  "wordCount": 51,
+  "visual": {
+    "type": "data-visualization",
+    "description": "Same race chart — all 6 lines at equal visual weight. The middle 4 products (chips, milk, peanut butter, ice cream) are now highlighted with slightly brighter opacity, hovering around the 1.0 baseline (all between ~0.85 and ~1.07). At 2008, a brief event marker appears: '2008: Financial Crisis' in Accent Cream, small. Milk and chips briefly spike above 1.0 in 2008, then settle back by 2009. Eggs remain elevated. Coffee remains low.",
+    "textOverlay": null,
+    "dataVisualization": {
+      "chartType": "race-line-chart",
+      "state": "continuing",
+      "yearRange": [
+        2000,
+        2009
+      ],
+      "highlightProducts": [
+        "Chips",
+        "Milk",
+        "Peanut Butter",
+        "Ice Cream"
+      ],
+      "eventMarker": {
+        "year": 2008,
+        "text": "Financial Crisis"
+      },
+      "keyDataPoints": {
+        "Chips": {
+          "2008": 0.948,
+          "2009": 1.056
+        },
+        "Milk": {
+          "2008": 1.081,
+          "2009": 0.868
+        }
+      }
+    }
+  },
+  "transition": "cut",
+  "notes": "Now showing the 'boring middle' — which is actually the story of wages keeping pace. All product lines visible at moderate opacity. The financial crisis event marker should appear as a vertical dashed line at 2008 with label. The brief surge of milk/chips above 1.0 should be visible but not overemphasized — they return below by 2009. This sets up the 'everything is fine' narrative that will be complicated later. Note: Chips is the exception — it stayed slightly above 1.0 in 2009 (1.056). The voiceover hedges with 'most products'. Consider dimming the chips line slightly during 2009 to avoid viewer confusion, or adding a brief tooltip annotation."
+}

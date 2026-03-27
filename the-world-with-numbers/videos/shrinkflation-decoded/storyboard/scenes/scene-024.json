@@ -1,0 +1,43 @@
+{
+  "id": "scene-024",
+  "section": "THE LENS SWITCH",
+  "startTime": 630.826,
+  "endTime": 665.479,
+  "duration": 34.653,
+  "voiceover": "<break time=\"500ms\"/> Coffee. Chips. Milk. Ice cream. All above the line. Products that looked like bargains under median wages are now MORE expensive for anyone stuck at the federal floor. <break time=\"500ms\"/> Only peanut butter stays below — barely. Just under one. The last holdout. <break time=\"1200ms\"/> The median worker gained purchasing power over twenty-five years. The minimum wage worker lost it. Same economy. Same products. Same quarter century. A completely different experience depending on where you sit in the income distribution.",
+  "wordCount": 76,
+  "visual": {
+    "type": "data-visualization",
+    "description": "Race chart with minimum wage deflator — full view. The minutes-of-work overlay fades out. Each product line is now labeled with its min-wage RUPI at the 2025 endpoint: Eggs 3.31, Coffee 1.68, Chips 1.42, Milk 1.04, Ice Cream 1.08 — ALL in the red zone above 1.0. Peanut Butter 0.95 is the lone holdout in the green zone — highlighted with a small green badge: 'Last holdout'. The $7.25 ticker continues. Split summary card fades in at the bottom: Left: 'Median Worker: 4 of 6 cheaper' (Muted Green). Right: 'Min Wage Worker: 5 of 6 more expensive' (Muted Red). Thin divider between them.",
+    "textOverlay": {
+      "peanutButterBadge": "Last holdout"
+    },
+    "dataVisualization": {
+      "chartType": "race-line-chart",
+      "state": "deflator-minwage-conclusion",
+      "deflator": "Federal Minimum Wage",
+      "finalPositionsMinWage": {
+        "Eggs": 3.308,
+        "Coffee": 1.684,
+        "Chips": 1.418,
+        "Milk": 1.039,
+        "Peanut Butter": 0.95,
+        "Ice Cream": 1.083
+      },
+      "splitSummary": {
+        "left": {
+          "label": "Median Worker",
+          "stat": "4 of 6 cheaper",
+          "color": "#5BBF8C"
+        },
+        "right": {
+          "label": "Min Wage Worker",
+          "stat": "5 of 6 more expensive",
+          "color": "#E06070"
+        }
+      }
+    }
+  },
+  "transition": "cut",
+  "notes": "This is the conclusion of the minimum wage section — the emotional peak. As the voiceover lists 'Coffee. Chips. Milk. Ice cream.' — each product's label should flash briefly (10-frame stagger) to draw the eye. The peanut butter 'Last holdout' badge should feel poignant, not celebratory. The split summary card is the key takeaway — 'Same economy. Different experience.' The visual contrast between green (left) and red (right) tells the story at a glance. Hold this frame during the 1200ms break to let it sink in."
+}

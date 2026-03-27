@@ -1,0 +1,38 @@
+{
+  "id": "scene-015",
+  "section": "THE RACE — ACT 2: 2010–2019",
+  "startTime": 309.423,
+  "endTime": 368.866,
+  "duration": 59.443,
+  "voiceover": "And there's one more thing the data can't capture. Skimpflation. Same package, same size, same price — but cheaper ingredients. Thinner chips. Waterier ice cream. Less cocoa in the chocolate. Unlike shrinkflation, there's no government data series for this. No BLS measurement. It's real — economists acknowledge it — but it lives in the gap between what statistics can track and what your taste buds notice. <break time=\"500ms\"/> If you were shopping during this decade, it probably didn't FEEL like things were getting cheaper. And in one sense, they weren't — per trip to the store. You were buying the same number of packages, paying roughly the same at checkout, getting less in the bag each time, and sometimes getting a lesser product too. The per-unit math works out. The grocery receipt doesn't care about per-unit math. <break time=\"1000ms\"/> The lines are drifting down. Everything looks calm.",
+  "wordCount": 143,
+  "visual": {
+    "type": "remotion-component",
+    "description": "Phase 1 (~30s): Skimpflation concept visual. Three identical product cards side by side — same package icon, same size label, same price tag. But a subtle indicator shows degrading quality: stars/quality bar going from 5→4→3. Text label: 'SKIMPFLATION' in Montserrat Bold 48px, Muted Pink, centered above. Below: 'Same package. Cheaper ingredients. No data series.' in Inter 20px, Accent Cream. Phase 2 (~25s): Transition back to the race chart at 2019 showing the downward-drifting lines — now with a subtle question mark overlay at 30% opacity, suggesting the data may not tell the full story. Phase 3 (~15s): Chart holds still. 'The lines are drifting down. Everything looks calm.' — ominous still frame before Act 3.",
+    "textOverlay": {
+      "title": "SKIMPFLATION",
+      "subtitle": "Same package. Cheaper ingredients. No data series.",
+      "position": "center"
+    },
+    "dataVisualization": null
+  },
+  "phases": [
+    {
+      "name": "skimpflation-concept",
+      "startOffset": 0,
+      "endOffset": 30
+    },
+    {
+      "name": "return-to-chart-with-shrink-data",
+      "startOffset": 30,
+      "endOffset": 55
+    },
+    {
+      "name": "ominous-still",
+      "startOffset": 55,
+      "endOffset": 69.67
+    }
+  ],
+  "transition": "crossfade",
+  "notes": "Longest scene in Act 2 — 70 seconds. Needs clear phase transitions to avoid visual monotony. Phase 1 (skimpflation concept, 0–30s) uses the Remotion component style — no chart, just clean graphic design. Phase 2 (30–55s) transitions BACK to the race chart — crossfade over 8 frames. Phase 3 (55–69.67s) is the ominous hold. The 1000ms break before the final sentence is where the question mark overlay should pulse. The final line 'Everything looks calm' should feel unsettling — a calm before the storm. Film grain 3%."
+}

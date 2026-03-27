@@ -1,0 +1,45 @@
+{
+  "id": "scene-011",
+  "section": "THE RACE — ACT 2: 2010–2019",
+  "startTime": 198.749,
+  "endTime": 220.836,
+  "duration": 22.087,
+  "voiceover": "The twenty-tens. The quiet decade. <break time=\"500ms\"/> Coffee spikes above one in twenty eleven and twelve — a global commodity boom — then falls back below. It would stay below one for years. Eggs remain volatile. The twenty fifteen avian flu outbreak pushes them nearly twice as expensive as the baseline — then they crash back down by twenty seventeen.",
+  "wordCount": 58,
+  "visual": {
+    "type": "data-visualization",
+    "description": "Race chart continues from 2009 into 2010–2019. Chapter marker 'ACT 2: THE QUIET DECADE' fades in top-left (Montserrat Bold 36px), then fades to 20%. Coffee line (Muted Blue) spikes above 1.0 in 2011 (RUPI ~1.14) and 2012 (~1.22), then falls back. Eggs line (Muted Pink) is volatile — dramatic peak in 2015 (RUPI ~1.93), then crash to ~1.07 by 2017. Event marker at 2015: 'Avian Flu Outbreak'. Both highlighted products get value tooltips at key points.",
+    "textOverlay": {
+      "chapterMarker": "ACT 2: THE QUIET DECADE",
+      "position": "top-left"
+    },
+    "dataVisualization": {
+      "chartType": "race-line-chart",
+      "state": "animating",
+      "yearRange": [
+        2010,
+        2019
+      ],
+      "highlightProducts": [
+        "Coffee",
+        "Eggs"
+      ],
+      "eventMarker": {
+        "year": 2015,
+        "text": "Avian Flu Outbreak"
+      },
+      "keyDataPoints": {
+        "Coffee": {
+          "2011": 1.142,
+          "2012": 1.219
+        },
+        "Eggs": {
+          "2015": 1.926,
+          "2017": 1.065
+        }
+      }
+    }
+  },
+  "transition": "cut",
+  "notes": "The decade starts with two volatile products. Coffee and eggs both get 3px highlighted lines. The other 4 products should be visible but dim. The 2015 egg spike is dramatic — nearly 2.0 — make sure the Y-axis scale accommodates this. The egg crash from 1.93 to 1.07 should be visually rapid (compressed timeline animation). Coffee's brief excursion above 1.0 should be clearly visible — use a small callout when it crosses the baseline."
+}

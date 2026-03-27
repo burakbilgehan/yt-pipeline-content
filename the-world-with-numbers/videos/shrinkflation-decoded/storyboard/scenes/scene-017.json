@@ -1,0 +1,44 @@
+{
+  "id": "scene-017",
+  "section": "THE RACE — ACT 3: 2020–2025",
+  "startTime": 402.238,
+  "endTime": 430.547,
+  "duration": 28.309,
+  "voiceover": "<break time=\"500ms\"/> By twenty twenty-one, workers return — and the median normalizes. Then twenty twenty-two. Inflation surges. Supply chains still broken. Energy costs cascading through every product. Eggs spike — avian flu again, this time the worst outbreak in American history. Tens of millions of birds culled. <break time=\"500ms\"/> Everything on the chart rises. For the first time in years, the lines are moving UP.",
+  "wordCount": 61,
+  "visual": {
+    "type": "data-visualization",
+    "description": "Race chart animation accelerates through 2021–2022. COVID annotation fades out. 2021: lines recover from the dip, mostly normalizing. 2022: dramatic upward movement. ALL lines rise visibly. Eggs (Muted Pink) spike sharply — from ~1.05 to ~1.71. Event marker at 2022: 'Inflation Surge + Avian Flu' in Muted Red text. The upward movement of all lines should feel urgent — faster animation than previous years. A subtle red tint washes over the chart background (5% opacity) as lines cross above 1.0. The 'moving UP' moment should synchronize with arrows appearing next to each line.",
+    "textOverlay": null,
+    "dataVisualization": {
+      "chartType": "race-line-chart",
+      "state": "animating-fast",
+      "yearRange": [
+        2020,
+        2023
+      ],
+      "allProducts": true,
+      "eventMarker": {
+        "year": 2022,
+        "text": "Inflation Surge + Avian Flu",
+        "color": "#E06070"
+      },
+      "keyDataPoints": {
+        "Eggs": {
+          "2021": 1.053,
+          "2022": 1.708
+        },
+        "Coffee": {
+          "2022": 0.932
+        },
+        "Chips": {
+          "2022": 0.947
+        }
+      },
+      "urgentAnimation": true,
+      "redTintOnSurge": true
+    }
+  },
+  "transition": "cut",
+  "notes": "This is the storm scene. The animation speed should notably increase compared to the 'quiet decade' — convey urgency. The red tint on the chart background is subtle but effective. Eggs shooting from ~1.0 to ~1.7 in a single year should be the most dramatic line movement in the video so far. The event marker should be larger than previous ones — this is a major event. Use 30-frame animation for the 2022 surge."
+}

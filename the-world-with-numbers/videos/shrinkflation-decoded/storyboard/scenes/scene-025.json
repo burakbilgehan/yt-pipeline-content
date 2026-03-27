@@ -1,0 +1,33 @@
+{
+  "id": "scene-025",
+  "section": "THE LENS SWITCH",
+  "startTime": 665.479,
+  "endTime": 688.2,
+  "duration": 22.721,
+  "voiceover": "<break time=\"1200ms\"/> And one more lens. Gold. <break time=\"500ms\"/> If you'd measured your groceries against gold's twelve-fold rise over this period... everything collapses toward zero. Eggs, coffee, chips — all on sale. Deep, deep on sale. <break time=\"500ms\"/> But no one buys eggs with gold.",
+  "wordCount": 39,
+  "visual": {
+    "type": "data-visualization",
+    "description": "The deflator indicator switches to 'GOLD'. All 6 lines collapse dramatically downward — from their minimum-wage positions high above 1.0, they plummet toward zero. Every single line ends well below 1.0 (all between 0.107 and 0.371). The visual effect should be striking: the chart that just showed catastrophe now shows everything as a bargain. Brief tally: '0 of 6: More expensive'. The animation should feel surreal — too good to be true. A small footnote appears: 'Gold: +1,155% since 2000'. The final line 'But no one buys eggs with gold' is punctuated by the gold deflator label fading slightly — suggesting its irrelevance.",
+    "textOverlay": {
+      "tally": "0 of 6: More expensive"
+    },
+    "dataVisualization": {
+      "chartType": "race-line-chart",
+      "state": "deflator-switch-gold",
+      "deflator": "Gold",
+      "morphAnimation": true,
+      "finalPositionsGold": {
+        "Eggs": 0.371,
+        "Coffee": 0.189,
+        "Chips": 0.159,
+        "Milk": 0.117,
+        "Peanut Butter": 0.107,
+        "Ice Cream": 0.122
+      },
+      "footnote": "Gold: +1,155% since 2000"
+    }
+  },
+  "transition": "crossfade",
+  "notes": "BRIEF AND PHILOSOPHICAL. This scene should feel like an afterthought — per the script note, 10-15 seconds of actual visual focus on gold. The 1200ms leading break provides transition time. The collapse animation should be fast (30 frames) and dramatic — the opposite of the slow drifts in earlier scenes. All values near zero create a visually flat chart near the bottom — which itself makes the point: gold makes everything look irrelevant. Don't linger. The footnote is dismissive in tone. The punchline 'no one buys eggs with gold' should land during the visual still."
+}

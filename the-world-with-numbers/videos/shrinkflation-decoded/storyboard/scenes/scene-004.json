@@ -1,0 +1,35 @@
+{
+  "id": "scene-004",
+  "section": "THE METRIC",
+  "startTime": 56.78,
+  "endTime": 67.972,
+  "duration": 11.192,
+  "voiceover": "<break time=\"500ms\"/> One means a product costs the same share of your paycheck as in two thousand. Above one — it's taking a bigger bite. Below one — wages won.",
+  "wordCount": 28,
+  "visual": {
+    "type": "data-visualization",
+    "description": "RUPI baseline reference diagram. Horizontal line at RUPI = 1.0 (Sage Silver). Above the line: red-tinted zone with upward arrow and label 'More expensive relative to wages' (Muted Red #E06070). Below the line: green-tinted zone with downward arrow and label 'Cheaper relative to wages' (Muted Green #5BBF8C). At the line: label '= Same as 2000' (Accent Cream). Clean, minimal — this is the visual legend for the rest of the video.",
+    "textOverlay": null,
+    "dataVisualization": {
+      "chartType": "baseline-reference",
+      "baselineValue": 1,
+      "zones": {
+        "above": {
+          "color": "#E06070",
+          "label": "More expensive relative to wages",
+          "opacity": 0.15
+        },
+        "below": {
+          "color": "#5BBF8C",
+          "label": "Cheaper relative to wages",
+          "opacity": 0.15
+        },
+        "at": {
+          "label": "= Same as 2000"
+        }
+      }
+    }
+  },
+  "transition": "crossfade",
+  "notes": "Critical visual legend. This diagram will be referenced visually throughout. Keep it extremely clean — no chart data yet, just the conceptual framework. Labels animate in with 10-frame stagger: first the baseline, then above zone, then below zone. Each zone has a subtle gradient fill (15% opacity). This scene is brief but essential for comprehension."
+}

@@ -1,0 +1,77 @@
+{
+  "id": "scene-006",
+  "section": "THE METRIC",
+  "startTime": 90.876,
+  "endTime": 97.225,
+  "duration": 6.349,
+  "voiceover": "<break time=\"500ms\"/> Six products. All starting at one point zero. <break time=\"1000ms\"/> Let the race begin.",
+  "wordCount": 12,
+  "visual": {
+    "type": "data-visualization",
+    "description": "Race start lineup. The full race chart appears for the first time — X-axis: 2000–2025 (JetBrains Mono), Y-axis: RUPI scale. Six colored dots clustered at the starting position (Year 2000, RUPI 1.0), each with a small product icon label. Product labels stagger in. Baseline reference line prominent. Dot grid background active. At 'Let the race begin' — a subtle glow/pulse on the starting dots.",
+    "textOverlay": null,
+    "dataVisualization": {
+      "chartType": "race-line-chart",
+      "state": "start-position",
+      "yearRange": [
+        2000,
+        2025
+      ],
+      "lineStyles": "See storyboard sharedComponents.raceChart.products",
+      "products": [
+        {
+          "name": "Eggs",
+          "color": "#D8A7B1",
+          "opacity": 1,
+          "strokeDash": "none",
+          "strokeWidth": 3,
+          "icon": true
+        },
+        {
+          "name": "Coffee",
+          "color": "#90AFC5",
+          "opacity": 1,
+          "strokeDash": "none",
+          "strokeWidth": 3,
+          "icon": true
+        },
+        {
+          "name": "Chips",
+          "color": "#EAE0D5",
+          "opacity": 0.5,
+          "strokeDash": "6,3",
+          "strokeWidth": 2,
+          "icon": true
+        },
+        {
+          "name": "Milk",
+          "color": "#EAE0D5",
+          "opacity": 0.4,
+          "strokeDash": "none",
+          "strokeWidth": 2,
+          "icon": true
+        },
+        {
+          "name": "Peanut Butter",
+          "color": "#EAE0D5",
+          "opacity": 0.6,
+          "strokeDash": "10,5",
+          "strokeWidth": 2,
+          "icon": true
+        },
+        {
+          "name": "Ice Cream",
+          "color": "#EAE0D5",
+          "opacity": 0.35,
+          "strokeDash": "3,3",
+          "strokeWidth": 2,
+          "icon": true
+        }
+      ],
+      "allAtBaseline": true,
+      "startGlow": true
+    }
+  },
+  "transition": "cut",
+  "notes": "Dramatic pause before the race. The 500ms break at the start gives time for the chart to establish. The 1000ms break after 'one point zero' is where the dots should pulse/glow — building anticipation. At 'Let the race begin' the dots should brighten momentarily. LINE STYLES: Defined in sharedComponents.raceChart.products. Only 2 vivid colors (Pink=Eggs, Blue=Coffee); remaining 4 use Accent Cream at varying opacity/dash patterns for differentiation without violating brand guide's 2-color max."
+}

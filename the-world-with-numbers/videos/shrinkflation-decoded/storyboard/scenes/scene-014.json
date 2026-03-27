@@ -1,0 +1,37 @@
+{
+  "id": "scene-014",
+  "section": "THE RACE — ACT 2: 2010–2019",
+  "startTime": 266.84,
+  "endTime": 309.423,
+  "duration": 42.583,
+  "voiceover": "Except — look at the shelf, not the chart. On the chart, chips sit just below the line — barely cheaper per ounce. But on the shelf, a standard Doritos bag reportedly shrank from twelve ounces to nine and a quarter. Twenty-three percent less product. Folgers, according to consumer tracking, went from a full one-pound can to ten point three ounces — thirty-six percent less coffee in the same-looking can. <break time=\"500ms\"/> According to the BLS, the snack food category alone saw a cumulative two point six four percent price impact from downsizing between twenty fifteen and twenty nineteen. The price per ounce held steady. The package just got smaller. <break time=\"500ms\"/>",
+  "wordCount": 108,
+  "visual": {
+    "type": "remotion-component",
+    "description": "FULL-SCREEN pattern interrupt — NO race chart on screen. Two before/after split cards stacked vertically. Top card: Doritos — left side shows '12 oz' bag (full-size icon), right side shows '9.25 oz' bag (visibly smaller icon). A red '-23%' badge animates in between them (spring, 15 frames). Bottom card: Folgers — left '16 oz' can, right '10.3 oz' can, '-36%' badge. Cards use surface background rgba(255,255,255,0.06) with border. Brand names in Inter 20px Accent Cream, weights in JetBrains Mono 28px. At voiceover mention of BLS stat, a callout card fades in at bottom: 'Snack food downsizing: 2.64% cumulative (2015–2019)' in JetBrains Mono 18px on surface card. This scene deliberately breaks from the chart to give the viewer's eyes a reset before the skimpflation concept scene.",
+    "textOverlay": null,
+    "dataVisualization": null,
+    "splitCards": [
+      {
+        "product": "Doritos",
+        "from": "12 oz",
+        "to": "9.25 oz",
+        "change": "-23%",
+        "changeColor": "#E06070"
+      },
+      {
+        "product": "Folgers",
+        "from": "16 oz",
+        "to": "10.3 oz",
+        "change": "-36%",
+        "changeColor": "#E06070"
+      }
+    ],
+    "blsStat": {
+      "text": "Snack food downsizing: 2.64% cumulative (2015–2019)",
+      "source": "BLS"
+    }
+  },
+  "transition": "cut",
+  "notes": "PATTERN INTERRUPT: This scene deliberately exits the race chart entirely. The viewer has been staring at the chart since scene 006 (~3.5 minutes). Full-screen before/after split cards break visual monotony. Shrink animations should be dramatic — spring stiffness 100, damping 20. The -23% and -36% badges animate in with a slight bounce. BLS stat card uses surface background. Voiceover says 'reportedly' and 'according to consumer tracking' — these are hedged claims (⚠️ unverified in research). After this scene, viewer returns to chart context in scene 015."
+}

@@ -1,0 +1,38 @@
+{
+  "id": "scene-013",
+  "section": "THE RACE — ACT 2: 2010–2019",
+  "startTime": 238.714,
+  "endTime": 266.84,
+  "duration": 28.126,
+  "voiceover": "<break time=\"500ms\"/> Why? The post-recovery economy. Unemployment fell. Labor markets tightened, especially after twenty sixteen. Wages started climbing — not dramatically, but persistently. And food commodity prices stayed relatively flat. <break time=\"500ms\"/> By twenty nineteen, every product sits below the baseline — most of them well below it. The chart says things are getting better. It looks like the story has a happy ending. <break time=\"1000ms\"/>",
+  "wordCount": 60,
+  "visual": {
+    "type": "data-visualization",
+    "description": "Race chart freezes at 2019. All 6 lines visible — ALL below the 1.0 baseline. A subtle annotation: '2019: All below 1.0' appears centered below the chart title. The 1000ms break at the end is a dramatic pause — the chart holds static with a slight vignette darkening at the edges, creating a 'false ending' feeling. Small text at bottom: 'Wages: +60% since 2000 | Food prices: held relatively flat.' Source footnote: 'BLS, FRED.'",
+    "textOverlay": {
+      "annotation": "2019: All below 1.0",
+      "position": "center-below-title"
+    },
+    "dataVisualization": {
+      "chartType": "race-line-chart",
+      "state": "frozen-at-2019",
+      "yearRange": [
+        2000,
+        2019
+      ],
+      "allProducts": true,
+      "allBelowBaseline": true,
+      "endPositions2019": {
+        "Eggs": 0.957,
+        "Coffee": 0.751,
+        "Chips": 0.835,
+        "Milk": 0.683,
+        "Peanut Butter": 0.656,
+        "Ice Cream": 0.867
+      },
+      "contextStat": "Wages: +60% since 2000"
+    }
+  },
+  "transition": "cut",
+  "notes": "The false happy ending. This scene should feel conclusive — as if the video could end here. The vignette darkening at the edges during the 1000ms pause creates unease. All lines below 1.0 is the visual proof of 'wages won'. But the 1000ms dramatic pause signals to the viewer that something is about to change. Don't rush this — let the chart breathe. Even eggs dipped below 1.0 in 2019 (0.957). Note: the voiceover says 'every product sits below' — verify this matches 2019 wage-RUPI data."
+}

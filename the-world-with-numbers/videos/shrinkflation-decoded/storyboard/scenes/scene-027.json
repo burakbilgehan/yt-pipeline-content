@@ -1,0 +1,44 @@
+{
+  "id": "scene-027",
+  "section": "CLOSING",
+  "startTime": 718.729,
+  "endTime": 732.421,
+  "duration": 13.692,
+  "voiceover": "It's in the question we forgot to ask. <break time=\"500ms\"/> Cheaper for whom? <break time=\"500ms\"/> Same data. Same math. Different ruler. <break time=\"500ms\"/> Different reality.",
+  "wordCount": 19,
+  "visual": {
+    "type": "text-overlay",
+    "description": "Clean dark background (#1A1B22). Text sequence with timed reveals: 1) 'Cheaper for whom?' in Montserrat Bold 56px, Accent Cream, centered (holds for 3s). 2) Fades to: 'Same data. Same math. Different ruler.' in Montserrat 36px (holds for 3s). 3) Below it, 'Different reality.' fades in, slightly larger (40px), with a subtle Muted Pink underline. 4) Final 2 seconds: channel logo (The World With Numbers) fades in below, plus subscribe prompt. End screen compatible — leave right 20% of frame clear for YouTube end screen elements.",
+    "textOverlay": {
+      "sequence": [
+        {
+          "text": "Cheaper for whom?",
+          "font": "Montserrat",
+          "weight": 700,
+          "size": "56px",
+          "hold": 3
+        },
+        {
+          "text": "Same data. Same math. Different ruler.",
+          "font": "Montserrat",
+          "weight": 400,
+          "size": "36px",
+          "hold": 3
+        },
+        {
+          "text": "Different reality.",
+          "font": "Montserrat",
+          "weight": 600,
+          "size": "40px",
+          "underline": "#D8A7B1"
+        }
+      ],
+      "channelLogo": true,
+      "subscribePrompt": true,
+      "endScreenSafe": true
+    },
+    "dataVisualization": null
+  },
+  "transition": "crossfade",
+  "notes": "FINAL FRAME. Minimalist. The text sequence should feel deliberate and weighty. Each text element crossfades (8 frames) to the next. 'Cheaper for whom?' echoes the hook's question. 'Different reality.' gets the Muted Pink underline — the only color accent in the scene. Channel logo should be the meridian-line arc logo, small, bottom-center. Subscribe prompt in Inter 18px, Sage Silver. End screen overlay zone: right 20% of frame kept clear per YouTube end screen requirements. Film grain 3%. Hold final frame for 5+ seconds for end screen."
+}

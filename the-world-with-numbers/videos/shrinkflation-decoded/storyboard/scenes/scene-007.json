@@ -1,0 +1,38 @@
+{
+  "id": "scene-007",
+  "section": "THE RACE — ACT 1: 2000–2009",
+  "startTime": 97.225,
+  "endTime": 128.157,
+  "duration": 30.932,
+  "voiceover": "Two thousand to two thousand nine. <break time=\"500ms\"/> Right away, eggs break from the pack. An avian flu scare in two thousand three pushes them up. By two thousand four, they're already about thirty percent above the baseline — more of your paycheck for the same dozen. Then a global commodity surge in two thousand seven and eight drives them higher. By two thousand eight, eggs are the clear outlier — nearly seventy-five percent more of your weekly wage than they cost in two thousand.",
+  "wordCount": 83,
+  "visual": {
+    "type": "data-visualization",
+    "description": "Race chart animates 2000→2009. Chapter marker 'ACT 1: THE DIVERGENCE' fades in top-left in Montserrat Bold 36px, then fades to 20% opacity. All 6 lines begin moving from the starting position. Eggs (Muted Pink, thick line) immediately breaks upward — reaching ~1.31 by 2004, then surging to ~1.73 by 2008. At year 2001, a brief 'how to read' overlay appears for 3 seconds: arrow up = 'More expensive relative to wages', arrow down = 'Cheaper', horizontal = 'Same as 2000'. Egg RUPI value tooltip tracks the line: '1.31' at 2004, '1.73' at 2008. Other lines visible but not highlighted.",
+    "textOverlay": {
+      "chapterMarker": "ACT 1: THE DIVERGENCE",
+      "position": "top-left"
+    },
+    "dataVisualization": {
+      "chartType": "race-line-chart",
+      "state": "animating",
+      "yearRange": [
+        2000,
+        2009
+      ],
+      "highlightProduct": "Eggs",
+      "keyDataPoints": {
+        "Eggs": {
+          "2004": 1.308,
+          "2008": 1.725
+        }
+      },
+      "howToReadOverlay": {
+        "showAt": 2001,
+        "durationSec": 3
+      }
+    }
+  },
+  "transition": "cut",
+  "notes": "The race begins. Use strokeDashoffset reveal for line animation, left-to-right, synchronized with the voiceover timeline. The 'how to read' overlay at 2001 should be semi-transparent (surface color bg), appear for exactly 3 seconds, then fade. Eggs should be the ONLY prominently colored line (Muted Pink, 3px). Other lines in Sage Silver or Accent Cream at 60% opacity, 1.5px. Egg line animation: spring stiffness 100, damping 20 for the vertical movement. Show year marker advancing along x-axis as chart animates."
+}

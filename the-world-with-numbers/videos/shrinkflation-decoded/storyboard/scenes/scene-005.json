@@ -1,0 +1,17 @@
+{
+  "id": "scene-005",
+  "section": "THE METRIC",
+  "startTime": 67.972,
+  "endTime": 90.876,
+  "duration": 22.904,
+  "voiceover": "<break time=\"500ms\"/> Now — a common objection. If companies are shrinking packages, doesn't that hide inflation? Actually, the BLS already accounts for this. When your coffee can shrinks from sixteen ounces to ten at the same sticker price, BLS records that as a price INCREASE per pound. Shrinkflation is already baked into the numbers you're about to see.",
+  "wordCount": 56,
+  "visual": {
+    "type": "remotion-component",
+    "description": "Shrinkflation explanation animation. A coffee can (stylized, minimal, Muted Pink fill) starts at '16 oz' — then visually shrinks to '10 oz' while the price tag next to it stays fixed at '$4.99'. After the shrink, a 'per pound' price counter animates upward: '$4.99/lb → $7.99/lb' in JetBrains Mono, Muted Red. Small BLS logo with text 'BLS tracks per-unit price' fades in below. Background: solid #1A1B22.",
+    "textOverlay": null,
+    "dataVisualization": null
+  },
+  "transition": "crossfade",
+  "notes": "This is a preemptive objection handler — addresses the viewer's likely skepticism before the race starts. The coffee can animation should feel smooth: shrink over 45 frames using spring (stiffness 100, damping 20). The price counter should use the number interpolation animation (30 frames). The BLS attribution should be subtle — Inter 16px, Sage Silver. The key visual moment is when the per-pound price ticks up despite the sticker price staying the same."
+}

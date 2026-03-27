@@ -1,0 +1,76 @@
+{
+  "id": "scene-026",
+  "section": "CLOSING",
+  "startTime": 688.2,
+  "endTime": 718.729,
+  "duration": 30.529,
+  "voiceover": "Same six products. Same twenty-five years. Same Bureau of Labor Statistics data. <break time=\"500ms\"/> Under median wages — four out of six got cheaper. Under CPI — three got more expensive. Under the minimum wage — five out of six. Under gold — everything's a bargain. <break time=\"1000ms\"/> Shrinkflation is real. Your chip bag lost twenty-three percent of its weight. Your coffee can lost more than a third. But the biggest shrinkage isn't in the package. <break time=\"1000ms\"/>",
+  "wordCount": 72,
+  "visual": {
+    "type": "data-visualization",
+    "description": "Split-screen summary — 4 grouped bar charts in a 2×2 grid. Each chart shows the number of products above/below 1.0 for one deflator. Top-left: 'Median Wage' — 2 red bars (above), 4 green bars (below). Top-right: 'CPI' — 3 red, 3 green. Bottom-left: 'Minimum Wage' — 5 red, 1 green. Bottom-right: 'Gold' — 0 red, 6 green. Each bar chart animates in sequence (10-frame stagger between charts). The bars use Muted Red (#E06070) for above-1.0 and Muted Green (#5BBF8C) for below. Product names labeled on each bar. Common title: 'Same Data. Different Ruler.' in Montserrat Bold 36px. Source: 'BLS, FRED, DOL, LBMA' in Sage Silver, bottom.",
+    "textOverlay": {
+      "title": "Same Data. Different Ruler.",
+      "position": "top-center"
+    },
+    "dataVisualization": {
+      "chartType": "grouped-bar-summary",
+      "layout": "2x2-grid",
+      "charts": [
+        {
+          "deflator": "Median Wage",
+          "above": [
+            "Eggs",
+            "Coffee"
+          ],
+          "below": [
+            "Chips",
+            "Milk",
+            "Peanut Butter",
+            "Ice Cream"
+          ]
+        },
+        {
+          "deflator": "CPI",
+          "above": [
+            "Eggs",
+            "Coffee",
+            "Chips"
+          ],
+          "below": [
+            "Milk",
+            "Peanut Butter",
+            "Ice Cream"
+          ]
+        },
+        {
+          "deflator": "Minimum Wage",
+          "above": [
+            "Eggs",
+            "Coffee",
+            "Chips",
+            "Milk",
+            "Ice Cream"
+          ],
+          "below": [
+            "Peanut Butter"
+          ]
+        },
+        {
+          "deflator": "Gold",
+          "above": [],
+          "below": [
+            "Eggs",
+            "Coffee",
+            "Chips",
+            "Milk",
+            "Peanut Butter",
+            "Ice Cream"
+          ]
+        }
+      ]
+    }
+  },
+  "transition": "crossfade",
+  "notes": "THE VISUAL SUMMARY. This 2×2 grid should be the clearest, most information-dense frame in the video. Each mini-chart is simple: bars going up (red) or down (green) from a baseline. The progression from top-left (2 red) to bottom-left (5 red) visually tells the story of shifting perspectives. Stagger the 4 charts: top-left first, top-right second, bottom-left third (the punch), bottom-right last (the absurdity). 6-frame stagger for bars within each chart, 10-frame stagger between charts. Dot grid background active. The 1000ms break at the end creates space before the final scene."
+}

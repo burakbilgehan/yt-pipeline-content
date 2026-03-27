@@ -1,0 +1,41 @@
+{
+  "id": "scene-012",
+  "section": "THE RACE — ACT 2: 2010–2019",
+  "startTime": 220.836,
+  "endTime": 238.714,
+  "duration": 17.878,
+  "voiceover": "<break time=\"500ms\"/> But look at the rest of the field. They're drifting down. Slowly. Steadily. No single dramatic moment — just a gradual slide. Peanut butter. Milk. Chips. Ice cream. All sinking below one. Wages growing just a little faster than these prices, year after year.",
+  "wordCount": 44,
+  "visual": {
+    "type": "data-visualization",
+    "description": "Same race chart, focus shifts to the bottom 4 products. Eggs and coffee dim to 30% opacity. The 4 remaining lines (chips, milk, peanut butter, ice cream) are highlighted — all clearly below the 1.0 baseline and trending downward. Each line gets a subtle trailing glow in green (#5BBF8C at 10% opacity) as it sinks deeper into the green zone. Product names label each line at their 2019 position. The green zone below 1.0 has a faint pulse.",
+    "textOverlay": null,
+    "dataVisualization": {
+      "chartType": "race-line-chart",
+      "state": "continuing",
+      "yearRange": [
+        2010,
+        2019
+      ],
+      "highlightProducts": [
+        "Chips",
+        "Milk",
+        "Peanut Butter",
+        "Ice Cream"
+      ],
+      "dimProducts": [
+        "Eggs",
+        "Coffee"
+      ],
+      "endPositions2019": {
+        "Peanut Butter": 0.656,
+        "Milk": 0.683,
+        "Ice Cream": 0.867,
+        "Chips": 0.835
+      },
+      "greenZoneGlow": true
+    }
+  },
+  "transition": "cut",
+  "notes": "The 'quiet' visual. The downward drift should feel gentle and persistent — not dramatic. Use the slow strokeDashoffset reveal. Each product name should fade in near its line as the voice mentions it (10-frame stagger between products). The green zone glow reinforces 'this is good news'. Peanut butter is the lowest — label it prominently. This scene creates the false sense of security that Act 3 will shatter."
+}

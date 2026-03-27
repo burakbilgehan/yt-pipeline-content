@@ -1,0 +1,42 @@
+{
+  "id": "scene-010",
+  "section": "THE RACE — ACT 1: 2000–2009",
+  "startTime": 164.035,
+  "endTime": 198.749,
+  "duration": 34.714,
+  "voiceover": "<break time=\"500ms\"/> And behind the scenes — something quieter is happening. Häagen-Dazs shrinks its container from sixteen to fourteen ounces. Skippy redesigns its peanut butter jar — same height, deeper indent in the bottom — dropping from eighteen to sixteen point three ounces. <break time=\"500ms\"/> Why? Because three ninety-nine is a magic number. Consumers notice when a price crosses four dollars. They don't notice when two ounces disappear. The BLS tracks price per unit, so the shrinkage shows up in the data. But the sticker price at the register? That barely moved.",
+  "wordCount": 88,
+  "visual": {
+    "type": "data-visualization",
+    "description": "Race chart background at 30% opacity — two shrinkflation annotation overlays appear on the chart near 2009. Annotation 1: 'Häagen-Dazs: 16 → 14 oz' with a small ice cream container icon that shrinks. Annotation 2: 'Skippy: 18 → 16.3 oz' with a peanut butter jar icon showing the indent. Each annotation has an arrow pointing to its product's line on the chart. Price tag overlay: '$3.99' in JetBrains Mono stays static while the package visually shrinks. Callout box: 'BLS records this as a price increase per unit.'",
+    "textOverlay": null,
+    "dataVisualization": {
+      "chartType": "race-line-chart",
+      "state": "paused-at-2009",
+      "overlays": [
+        {
+          "type": "shrinkflation-annotation",
+          "product": "Ice Cream",
+          "year": 2009,
+          "from": "16 oz",
+          "to": "14 oz",
+          "brand": "Häagen-Dazs"
+        },
+        {
+          "type": "shrinkflation-annotation",
+          "product": "Peanut Butter",
+          "year": 2009,
+          "from": "18 oz",
+          "to": "16.3 oz",
+          "brand": "Skippy"
+        }
+      ],
+      "priceTag": {
+        "value": "$3.99",
+        "static": true
+      }
+    }
+  },
+  "transition": "cut",
+  "notes": "First major shrinkflation showcase. The chart pauses at 2009 and the annotations overlay ON TOP of the chart — keeping the race context visible. The shrink animations should be smooth springs (stiffness 80, damping 18). The $3.99 price tag is the psychological anchor — it should be prominent, JetBrains Mono 36px, Accent Cream. The 'deeper indent' for Skippy is a nice detail — if feasible, show a side-view jar silhouette with the bottom dimple growing. Annotations should stagger in: Häagen-Dazs first (10-frame stagger), then Skippy."
+}

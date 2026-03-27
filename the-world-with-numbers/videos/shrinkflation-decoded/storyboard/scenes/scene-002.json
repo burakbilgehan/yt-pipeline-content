@@ -1,0 +1,38 @@
+{
+  "id": "scene-002",
+  "section": "HOOK",
+  "startTime": 20,
+  "endTime": 25.702,
+  "duration": 5.702,
+  "voiceover": "<break time=\"1000ms\"/> The data says you're winning. <break time=\"500ms\"/> So why doesn't it feel that way?",
+  "wordCount": 12,
+  "visual": {
+    "type": "data-visualization",
+    "description": "Race chart preview flash — a 2-second animation showing 4 of 6 lines dipping below the RUPI 1.0 baseline (green zone) and 2 lines shooting above (red zone). This is a rapid preview of the final chart state to create intrigue. Then the chart blurs/fades and text appears: 'So why doesn't it feel that way?' in Montserrat Bold 48px, centered.",
+    "textOverlay": {
+      "text": "So why doesn't it feel that way?",
+      "position": "center",
+      "font": "Montserrat",
+      "weight": 700,
+      "size": "48px",
+      "fadeIn": true
+    },
+    "dataVisualization": {
+      "chartType": "race-line-chart",
+      "state": "2025-preview-blur",
+      "showGreenRedZones": true,
+      "aboveLine": [
+        "Eggs",
+        "Coffee"
+      ],
+      "belowLine": [
+        "Chips",
+        "Milk",
+        "Peanut Butter",
+        "Ice Cream"
+      ]
+    }
+  },
+  "transition": "crossfade",
+  "notes": "Short dramatic beat. The 1000ms leading break gives visual time to transition. Flash the end-state chart for 2 seconds (blurred, quick), then crossfade to the question text. The question hangs for 3 seconds. This is the hook's punchline — leave it breathing. Film grain 3%."
+}

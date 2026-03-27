@@ -1,0 +1,30 @@
+{
+  "id": "scene-020",
+  "section": "THE LENS SWITCH",
+  "startTime": 499.365,
+  "endTime": 517.486,
+  "duration": 18.121,
+  "voiceover": "Four out of six products, cheaper relative to wages. <break time=\"1000ms\"/> But cheaper... for whom? <break time=\"1000ms\"/> That index used median wages — the middle of the income distribution. The typical worker. What if we change the ruler?",
+  "wordCount": 34,
+  "visual": {
+    "type": "text-overlay",
+    "description": "Phase 1 (~6s): The frozen race chart from scene-019 holds. The '4 of 6' tally is visible. Phase 2 (~6s): Chart slowly darkens to 20% opacity. Large text fades in center: 'But cheaper… for whom?' in Montserrat Bold 64px, Accent Cream. The ellipsis after 'cheaper' should appear with a 500ms delay — a typographic pause. Phase 3 (~6s): The question text fades, replaced by: 'What if we change the ruler?' in Montserrat 36px. Below it, three ruler icons representing different deflators emerge: 'Median Wage ✓', 'CPI ?', 'Min Wage ?'",
+    "textOverlay": {
+      "phase1": {
+        "text": "But cheaper… for whom?",
+        "font": "Montserrat",
+        "weight": 700,
+        "size": "64px"
+      },
+      "phase2": {
+        "text": "What if we change the ruler?",
+        "font": "Montserrat",
+        "weight": 400,
+        "size": "36px"
+      }
+    },
+    "dataVisualization": null
+  },
+  "transition": "crossfade",
+  "notes": "THE PIVOT MOMENT. This scene bridges the wage-deflated race chart and the lens switch reveal. The 'for whom?' text is the emotional hinge of the entire video. Let it breathe — the two 1000ms breaks mean 2 full seconds of visual pause. The text should be the ONLY thing on screen during phase 2 — dark background, large type, no distractions. The question mark after 'CPI' and 'Min Wage' in phase 3 creates anticipation. 8-frame crossfade between phases."
+}

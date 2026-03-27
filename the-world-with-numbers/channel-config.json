@@ -147,10 +147,10 @@
     "speed": 1.15,
     "sampleRateHertz": 24000,
     "calibration": {
-      "measuredWPM": 126.8,
-      "naturalPauseRatio": 0.057,
-      "sampleCount": 6,
-      "lastCalibratedAt": "2026-03-22T15:41:17.786Z",
+      "measuredWPM": 125.6,
+      "naturalPauseRatio": 0.063,
+      "sampleCount": 8,
+      "lastCalibratedAt": "2026-03-26T22:44:38.182Z",
       "measurements": [
         {
           "wordCount": 1850,
@@ -193,6 +193,20 @@
           "actualDuration": 735,
           "speed": 1.15,
           "date": "2026-03-22"
+        },
+        {
+          "wordCount": 1854,
+          "predictedDuration": 927.3,
+          "actualDuration": 1051.9,
+          "speed": 1.15,
+          "date": "2026-03-26"
+        },
+        {
+          "wordCount": 1854,
+          "predictedDuration": 957,
+          "actualDuration": 806.5,
+          "speed": 1.15,
+          "date": "2026-03-26"
         }
       ]
     }

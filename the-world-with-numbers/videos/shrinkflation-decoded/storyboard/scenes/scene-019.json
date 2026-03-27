@@ -1,0 +1,39 @@
+{
+  "id": "scene-019",
+  "section": "THE RACE — ACT 3: 2020–2025",
+  "startTime": 473.801,
+  "endTime": 499.365,
+  "duration": 25.564,
+  "voiceover": "<break time=\"1000ms\"/> But when the chart freezes at twenty twenty-five... look at the full picture. Peanut butter — down more than a third from the baseline. The biggest winner for your wallet. Milk and ice cream — both well below one. Even chips, despite all the shrinkage, sit just below the line. <break time=\"500ms\"/> Four out of six products. Cheaper relative to wages. After twenty-five years. After everything.",
+  "wordCount": 64,
+  "visual": {
+    "type": "data-visualization",
+    "description": "Race chart freezes at 2025. Full 2000–2025 view. All 6 lines visible with final RUPI values labeled at their endpoints in JetBrains Mono: Eggs 2.21 (Muted Pink, above), Coffee 1.13 (Muted Blue, above), Chips 0.95 (below), Milk 0.69 (below), Peanut Butter 0.64 (below, labeled 'Biggest winner'), Ice Cream 0.72 (below). A clear visual divide: 2 lines above the red zone, 4 lines in the green zone. Running tally appears bottom-center: '4 of 6: Cheaper relative to wages' in Montserrat Bold 28px. The chart holds static for the final beats.",
+    "textOverlay": {
+      "tally": "4 of 6: Cheaper relative to wages",
+      "position": "bottom-center"
+    },
+    "dataVisualization": {
+      "chartType": "race-line-chart",
+      "state": "frozen-at-2025",
+      "yearRange": [
+        2000,
+        2025
+      ],
+      "allProducts": true,
+      "finalPositions": {
+        "Eggs": 2.21,
+        "Coffee": 1.125,
+        "Chips": 0.947,
+        "Milk": 0.694,
+        "Peanut Butter": 0.635,
+        "Ice Cream": 0.724
+      },
+      "labels": true,
+      "greenRedZones": true,
+      "peanutButterHighlight": "Biggest winner"
+    }
+  },
+  "transition": "cut",
+  "notes": "The race conclusion under wage deflation. The 1000ms leading break gives the previous scene's energy time to settle. This should feel like a completed story — but it's not. The final RUPI values should be prominently labeled. Use JetBrains Mono with tabular figures so numbers align cleanly. Peanut Butter gets a special callout: 'Biggest winner' in Muted Green. The '4 of 6' tally should animate in with a subtle spring. Hold this frame for the full 32s — it needs time to breathe before the lens switch."
+}

@@ -1,0 +1,43 @@
+{
+  "id": "scene-021",
+  "section": "THE LENS SWITCH",
+  "startTime": 517.486,
+  "endTime": 566.864,
+  "duration": 49.378,
+  "voiceover": "<break time=\"1200ms\"/> Switch to the Consumer Price Index — CPI. This is the government's standard measure of inflation. It tracks roughly eighty thousand prices across the economy every month. When we use CPI instead of wages, we're asking a simpler question: did food prices outpace general inflation? <break time=\"500ms\"/> The lines shift up. Chips crosses above one. Coffee jumps higher. Eggs climb further. Now three products cost more in inflation-adjusted terms than they did twenty-five years ago. <break time=\"500ms\"/> Why the difference? Because median wages grew faster than inflation over this period — about a hundred and eleven percent versus eighty-seven percent. The median worker gained real purchasing power. That's a good thing. But it means the wage-deflated view is the OPTIMISTIC one.",
+  "wordCount": 117,
+  "visual": {
+    "type": "data-visualization",
+    "description": "The race chart re-animates with CPI deflator. A 'deflator' indicator in the top-right corner switches from 'MEDIAN WAGE' to 'CPI' with a slide animation. The same 6 product lines visibly shift UPWARD — this is the key visual: identical chart structure, but all lines move up. Chips crosses above 1.0 (0.947 → 1.067) — show crossing indicator. Coffee jumps (1.125 → 1.268). Eggs climb (2.210 → 2.490). New tally: '3 of 6: More expensive (CPI-adjusted)'. Side stat panel shows: 'Wages: +111% | CPI: +87%' explaining the gap. Final positions labeled with CPI-RUPI values.",
+    "textOverlay": {
+      "deflatorIndicator": "CPI",
+      "tally": "3 of 6: More expensive"
+    },
+    "dataVisualization": {
+      "chartType": "race-line-chart",
+      "state": "deflator-switch-cpi",
+      "deflator": "CPI",
+      "previousDeflator": "Median Wage",
+      "morphAnimation": true,
+      "finalPositionsCPI": {
+        "Eggs": 2.49,
+        "Coffee": 1.268,
+        "Chips": 1.067,
+        "Milk": 0.782,
+        "Peanut Butter": 0.715,
+        "Ice Cream": 0.816
+      },
+      "crossings": [
+        {
+          "product": "Chips",
+          "direction": "up",
+          "from": 0.947,
+          "to": 1.067
+        }
+      ],
+      "sideStat": "Wages: +111% vs CPI: +87%"
+    }
+  },
+  "transition": "crossfade",
+  "notes": "FIRST LENS SWITCH. The morph animation is crucial — viewers must see the SAME chart with the SAME data but different lines positions. Use smooth spring animation (stiffness 100, damping 20) over 60 frames for the line position shift. The deflator indicator top-right should be a persistent UI element that stays through scenes 021-025. Chips crossing above 1.0 is the key visual surprise — use a flash at the crossing point. The side stat panel (wage vs CPI growth) should be in a surface-color card, right side. 1200ms leading break gives time for the deflator switch animation."
+}

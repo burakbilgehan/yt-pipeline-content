@@ -3,11 +3,18 @@
   "title": "Shrinkflation Decoded",
   "description": "Tracking how everyday products have secretly shrunk over the past two decades — with hard data from government statistical agencies, not anecdotes.",
   "createdAt": "2026-03-26T15:30:36.811Z",
-  "updatedAt": "2026-03-26T15:30:36.812Z",
+  "updatedAt": "2026-03-26T22:44:38.183Z",
   "currentWork": null,
-  "tags": ["shrinkflation", "inflation", "consumer-products", "data-driven", "trends-over-time", "hidden-statistics"],
+  "tags": [
+    "shrinkflation",
+    "inflation",
+    "consumer-products",
+    "data-driven",
+    "trends-over-time",
+    "hidden-statistics"
+  ],
   "metadata": {
-    "targetLength": 480,
+    "targetLength": 840,
     "tone": "neutral-analytic, authoritative, curiosity-driven — numbers speak for themselves",
     "targetAudience": "18-35, globally curious, English-speaking, prefers facts over opinions",
     "language": "en",
@@ -15,20 +22,21 @@
   },
   "pipeline": {
     "research": {
-      "status": "pending",
-      "version": 0
+      "status": "completed",
+      "version": 4
     },
     "content": {
-      "status": "pending",
-      "version": 0
+      "status": "completed",
+      "version": 2
     },
     "storyboard": {
-      "status": "pending",
-      "version": 0
+      "status": "completed",
+      "version": 1
     },
     "production": {
-      "status": "pending",
-      "version": 0
+      "status": "in_progress",
+      "version": 0,
+      "startedAt": "2026-03-26T22:44:38.183Z"
     },
     "publishing": {
       "status": "pending",
@@ -39,5 +47,84 @@
       "version": 0
     }
   },
-  "history": []
+  "history": [
+    {
+      "event": "research.started",
+      "timestamp": "2026-03-26T18:00:00.000Z",
+      "agent": "researcher",
+      "details": "Initial shrinkflation data research — USA market, 2000-2025. Wage data from BLS/FRED, product data from BLS BTN Feb 2023, Wikipedia, news sources."
+    },
+    {
+      "event": "research.reopened",
+      "timestamp": "2026-03-26T22:00:00.000Z",
+      "agent": "researcher",
+      "details": "v2: Solved BLS price data gap via BLS Public API v2. Full 2000-2025 price data for 6 products (coffee, eggs, chips, milk, peanut butter, ice cream). Computed RUPI indices. Developed narrative analysis, prediction segment plan, race chart specs. Key finding: most products cheaper relative to wages; eggs are the runaway outlier."
+    },
+    {
+      "event": "research.reopened",
+      "timestamp": "2026-03-26T23:30:00.000Z",
+      "agent": "researcher",
+      "details": "v3: Cross-validated RUPI with 3 alternative deflators (CPI-U, gold, federal minimum wage). Big Mac excluded due to insufficient longitudinal US data. Key finding: deflators agree on product ordering but disagree on threshold — 2/6 products expensive under wages, 3/6 under CPI, 5/6 under minimum wage. Minimum wage perspective reveals dramatic inequality story. Proposed video finale structure with 'lens switch' reveal."
+    },
+    {
+      "event": "research.reopened",
+      "timestamp": "2026-03-26T23:55:00.000Z",
+      "agent": "researcher",
+      "details": "v4: Fixed systematic RUPI computation errors in CPI/Gold/MinWage columns for eggs, coffee, and chips time series (errors grew with distance from base year, up to 35% off by 2020). Added full 26-year time series for milk, peanut butter, and ice cream (v3 only had 2025 snapshots). Neutralized editorial language in Section 4.4 ('policy failure' → 'stagnation'). Corrected v2 coffee narrative ('~13 years' → 'since ~2014'). Key finding from corrected data: min-wage eggs were NEVER below 1.0 since 2001, contrary to what v3 erroneously showed."
+    },
+    {
+      "event": "research.completed",
+      "timestamp": "2026-03-26T23:59:00.000Z",
+      "agent": "critic",
+      "details": "Critic review PASS (A-). 12/12 math spot-checks passed. All 624 RUPI values verified. Minor rounding fix applied (Chips MinWage 2025: 1.417→1.418). Research stage complete."
+    },
+    {
+      "event": "content.started",
+      "timestamp": "2026-03-26T21:00:00.000Z",
+      "agent": "content-writer",
+      "details": "script-v1.md created. 1,013 voiceover words (~8.0 min at 126.8 WPM). Based on research-v4. Structure: Hook → Metric → 3-act race chart → Lens switch (CPI/MinWage/Gold) → Closing."
+    },
+    {
+      "event": "content.completed",
+      "timestamp": "2026-03-27T00:30:00.000Z",
+      "agent": "critic",
+      "details": "Critic review PASS (A-). Two review rounds: R1 B+ (3 blocking factual fixes + 4 non-blocking), R2 A- (4 elevation improvements: intuitive metric, hedged unverified claims, reduced decimal fatigue, Act 2 tension). Final: 1,042 words, all numbers verified, ready for storyboard."
+    },
+    {
+      "event": "content.reopened",
+      "timestamp": "2026-03-27T10:00:00.000Z",
+      "agent": "content-writer",
+      "details": "v2: Expanded from ~8min to ~13-15min (1,042→1,681 voiceover words). Key changes: (1) Drastically reduced verbatim RUPI readings per user feedback — voice tells the story, chart shows the numbers. (2) Added shrinkflation-in-BLS explanation to Metric section. (3) Expanded all 3 acts with breathing room and world context. (4) Lens Switch section significantly expanded — CPI explained, min wage section gets concrete 'minutes of work' example, transition beats between deflators. (5) Added SSML markup throughout. (6) Added chapter markers and chart-reading overlay in visual notes."
+    },
+    {
+      "event": "content.completed",
+      "timestamp": "2026-03-26T12:00:00.000Z",
+      "agent": "director",
+      "details": "Applied 6 minor edits from Critic A- review: (1) neutralized 'cheap coffee era', (2) neutralized 'who got left behind', (3) removed 4 stray <break> tags outside VOICEOVER blocks, (4) fixed '4 of 6' → 'every product' for 2019 accuracy, (5) added breathing pause after '1.1 million workers', (6) trimmed Lehman Brothers to 2 sentences. Script v2 finalized."
+    },
+    {
+      "event": "storyboard.started",
+      "timestamp": "2026-03-26T14:00:00.000Z",
+      "agent": "storyboard",
+      "details": "storyboard-v1.json created. 27 scenes, 874s calculated duration (+4.1% over 840s target, within tolerance). Based on script-v2. Race chart is central visual across 17 scenes. Lens switch section (scenes 020-025) with CPI/MinWage/Gold deflator morphs. All Remotion-rendered — no stock media or AI images."
+    },
+    {
+      "event": "storyboard.completed",
+      "timestamp": "2026-03-26T15:30:00.000Z",
+      "agent": "critic",
+      "details": "Critic B+ PASS. 2 blocking fixes applied (shared race chart config, product line styles). 4 non-blocking fixes applied (summary type count, scene-015 phases, scene-009 notes, film grain). YouTube Expert 4/5 confidence — 2 suggestions applied (hook visual-first micro-animation, Act 2 pattern interrupt in scene-014). Storyboard v1 finalized."
+    },
+    {
+      "action": "production.started",
+      "version": 1,
+      "at": "2026-03-26T22:39:30.428Z",
+      "reason": "Generated TTS audio (google) from script-v2.md (27 blocks, 914.7s total, speed=1.15)"
+    },
+    {
+      "action": "production.started",
+      "version": 1,
+      "at": "2026-03-26T22:44:38.183Z",
+      "reason": "Generated TTS audio (google) from script-v2.md (27 blocks, 701.3s total, speed=1.15)"
+    }
+  ]
 }

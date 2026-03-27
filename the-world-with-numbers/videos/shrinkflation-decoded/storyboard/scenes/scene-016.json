@@ -1,0 +1,43 @@
+{
+  "id": "scene-016",
+  "section": "THE RACE — ACT 3: 2020–2025",
+  "startTime": 368.866,
+  "endTime": 402.238,
+  "duration": 33.372,
+  "voiceover": "Twenty twenty. <break time=\"500ms\"/> A dip across the board. Every product appears to get cheaper overnight. But this isn't because food prices dropped. During COVID, lower-wage workers disproportionately lost their jobs — retail, hospitality, food service. The people who remained employed skewed higher-income. So the median wage jumped. Not because anyone got a raise. Because the composition of who was still working changed. <break time=\"500ms\"/> The prices on the chart were real. The wage improvement was a statistical artifact.",
+  "wordCount": 75,
+  "visual": {
+    "type": "data-visualization",
+    "description": "Race chart continues into 2020. Chapter marker: 'ACT 3: THE RECKONING' fades in (Montserrat Bold 36px). All 6 lines dip downward at 2020 — a dramatic synchronized drop. COVID annotation callout: a bordered card overlaid on the chart at 2020 with text 'COVID Wage Anomaly: Median jumped as lower-wage workers lost jobs. Not a real improvement.' Card uses surface background, Accent Cream text, Inter 16px. Red exclamation icon. The dip is visually striking — from various 2019 positions, all lines drop ~10-15% simultaneously.",
+    "textOverlay": {
+      "chapterMarker": "ACT 3: THE RECKONING",
+      "position": "top-left"
+    },
+    "dataVisualization": {
+      "chartType": "race-line-chart",
+      "state": "animating",
+      "yearRange": [
+        2019,
+        2025
+      ],
+      "allProducts": true,
+      "eventMarker": {
+        "year": 2020,
+        "type": "covid-annotation",
+        "title": "COVID Wage Anomaly",
+        "text": "Median jumped as lower-wage workers lost jobs. Not a real improvement.",
+        "icon": "warning"
+      },
+      "keyDataPoints2020": {
+        "Eggs": 0.936,
+        "Coffee": 0.729,
+        "Chips": 0.831,
+        "Milk": 0.677,
+        "Peanut Butter": 0.63,
+        "Ice Cream": 0.814
+      }
+    }
+  },
+  "transition": "cut",
+  "notes": "The COVID dip is one of the most deceptive moments in the data. The annotation card is ESSENTIAL — without it, viewers might think food actually got cheaper during COVID. The card should appear 2 seconds after the dip becomes visible, with a subtle bounce entrance (spring stiffness 80, damping 18). The warning icon should be in Muted Red. All 6 lines dropping simultaneously is visually dramatic — animate them dropping over 15 frames."
+}

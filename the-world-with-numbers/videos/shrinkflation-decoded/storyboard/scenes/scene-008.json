@@ -1,0 +1,38 @@
+{
+  "id": "scene-008",
+  "section": "THE RACE — ACT 1: 2000–2009",
+  "startTime": 128.157,
+  "endTime": 142.863,
+  "duration": 14.706,
+  "voiceover": "<break time=\"500ms\"/> Coffee does the opposite. It drifts steadily downward through the early two thousands. By two thousand four, a pound of ground roast takes about a quarter less of your paycheck than it did at the start of the decade. Coffee kept getting cheaper.",
+  "wordCount": 43,
+  "visual": {
+    "type": "data-visualization",
+    "description": "Same race chart, now highlighting coffee line (Muted Blue, thick). Eggs line remains visible but dimmed to 40% opacity. Coffee drifts from 1.0 down to ~0.74 by 2004. A tooltip tracks the coffee line showing the RUPI value. Small annotation near the coffee line at 2004: '~25% cheaper'. Green zone below baseline subtly glows as coffee enters it.",
+    "textOverlay": null,
+    "dataVisualization": {
+      "chartType": "race-line-chart",
+      "state": "continuing",
+      "yearRange": [
+        2000,
+        2009
+      ],
+      "highlightProduct": "Coffee",
+      "dimProducts": [
+        "Eggs"
+      ],
+      "keyDataPoints": {
+        "Coffee": {
+          "2004": 0.736
+        }
+      },
+      "annotation": {
+        "year": 2004,
+        "text": "~25% cheaper",
+        "product": "Coffee"
+      }
+    }
+  },
+  "transition": "cut",
+  "notes": "Visual focus shift from eggs to coffee. The chart doesn't reset — it continues from scene-007's state but shifts emphasis. Coffee line becomes Muted Blue 3px, eggs dims to 40% opacity. The green zone below 1.0 should have a subtle glow pulse when coffee enters it. Other product lines remain as thin background lines. This creates contrast with the egg story."
+}

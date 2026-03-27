@@ -1,0 +1,45 @@
+{
+  "id": "scene-023",
+  "section": "THE LENS SWITCH",
+  "startTime": 599.162,
+  "endTime": 630.826,
+  "duration": 31.664,
+  "voiceover": "<break time=\"500ms\"/> Watch the lines. <break time=\"1000ms\"/> Five of six products jump above one. The chart transforms. What looked like a story about affordability becomes a very different story. <break time=\"500ms\"/> Eggs — a minimum wage worker now needs more than three times the work hours to buy a dozen compared to two thousand. Think about that concretely. In two thousand, a dozen eggs at ninety-one cents cost a minimum wage worker about eleven minutes of work. Today, at four twenty-five, it costs over thirty-five minutes. Same dozen eggs. Same job. Three times the effort.",
+  "wordCount": 89,
+  "visual": {
+    "type": "data-visualization",
+    "description": "Phase 1 (~10s): The chart snaps to full opacity and lines JUMP upward with spring animation. Five of six lines are now above 1.0. Only peanut butter barely stays below. The red zone above 1.0 intensifies. Tally updates: '5 of 6: More expensive'. The $7.25 ticker persists in the corner. Phase 2 (~35s): A comparison card overlays the bottom portion of the chart. Left side: '2000' — clock icon showing '11 min' of work, egg icon, '$0.91', '$5.15/hr'. Right side: '2025' — clock icon showing '35 min' of work, same egg icon, '$4.25', '$7.25/hr'. The clock hands animate: left clock fills to 11 min mark, right clock fills to 35 min mark. '3×' multiplier pulses between them in JetBrains Mono 56px, Muted Red.",
+    "textOverlay": {
+      "tally": "5 of 6: More expensive"
+    },
+    "dataVisualization": {
+      "chartType": "race-line-chart",
+      "state": "deflator-switch-minwage-reveal",
+      "deflator": "Federal Minimum Wage",
+      "finalPositionsMinWage": {
+        "Eggs": 3.308,
+        "Coffee": 1.684,
+        "Chips": 1.418,
+        "Milk": 1.039,
+        "Peanut Butter": 0.95,
+        "Ice Cream": 1.083
+      },
+      "minutesOfWorkComparison": {
+        "product": "Eggs (1 dozen)",
+        "year2000": {
+          "price": "$0.91",
+          "wage": "$5.15/hr",
+          "minutes": 11
+        },
+        "year2025": {
+          "price": "$4.25",
+          "wage": "$7.25/hr",
+          "minutes": 35
+        },
+        "multiplier": "3×"
+      }
+    }
+  },
+  "transition": "cut",
+  "notes": "THE GUT PUNCH. Phase 1 (the line jump) is the single most dramatic visual moment in the video. All lines should jump simultaneously over 45 frames using spring animation (stiffness 100, damping 20). The jump should feel PHYSICAL — like the chart just got hit. Phase 2 (the minutes-of-work comparison) makes the abstraction concrete. The clock icon animation: left clock fills quickly (11 min is small), right clock fills slowly (35 min is large) — the visual speed difference itself tells the story. The '3×' should pulse once in Muted Red. The $7.25 ticker continues in the corner throughout."
+}

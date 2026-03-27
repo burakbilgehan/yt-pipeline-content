@@ -1,0 +1,59 @@
+{
+  "id": "scene-018",
+  "section": "THE RACE — ACT 3: 2020–2025",
+  "startTime": 430.547,
+  "endTime": 473.801,
+  "duration": 43.254,
+  "voiceover": "<break time=\"500ms\"/> Twenty twenty-three and twenty-four — most products stabilize or edge back down. But not eggs. Avian flu keeps returning. And by twenty twenty-five, eggs have more than doubled relative to the baseline. More than doubled. The chart shows you exactly how far. This isn't about shrinkflation or corporate strategy — it's biology. Disease. The egg market runs on chickens, and the chickens keep getting sick. <break time=\"500ms\"/> Coffee crosses back above one in twenty twenty-five — the first time in over a decade. Drought in Brazil. Crop failures in Vietnam. A pound of coffee now takes a bigger slice of your paycheck than it did twenty-five years ago.",
+  "wordCount": 106,
+  "visual": {
+    "type": "data-visualization",
+    "description": "Race chart continues 2023–2025. Most lines stabilize or edge down — chips, milk, peanut butter, ice cream all settle back toward their positions. But eggs (Muted Pink, thickened to 4px) keep climbing: 2023 ~1.58, 2024 ~1.73, 2025 → 2.21. A dramatic RUPI counter next to the egg line counts up: '2.21×' in JetBrains Mono 40px, Muted Pink. The '2×' threshold crossing should trigger a brief flash. Coffee line (Muted Blue) crosses back above 1.0 in 2025 with a small crossing indicator. Brief text annotations near relevant lines: 'Avian flu' near eggs, 'Brazil drought' near coffee.",
+    "textOverlay": null,
+    "dataVisualization": {
+      "chartType": "race-line-chart",
+      "state": "animating",
+      "yearRange": [
+        2022,
+        2025
+      ],
+      "highlightProducts": [
+        "Eggs",
+        "Coffee"
+      ],
+      "keyDataPoints": {
+        "Eggs": {
+          "2023": 1.581,
+          "2024": 1.726,
+          "2025": 2.21
+        },
+        "Coffee": {
+          "2025": 1.125
+        }
+      },
+      "eggCounter": {
+        "value": "2.21×",
+        "flash": true,
+        "threshold": 2
+      },
+      "coffeeCrossing": {
+        "year": 2025,
+        "direction": "up"
+      },
+      "annotations": [
+        {
+          "text": "Avian flu",
+          "near": "Eggs",
+          "year": 2024
+        },
+        {
+          "text": "Brazil drought",
+          "near": "Coffee",
+          "year": 2025
+        }
+      ]
+    }
+  },
+  "transition": "cut",
+  "notes": "Eggs are the dramatic outlier — the counter tracking the RUPI value creates tension as it climbs. When it crosses 2.0, flash the number briefly in Muted Red before returning to Muted Pink. The egg line should be the thickest in the video (4px) during this scene. Coffee crossing above 1.0 is secondary but important — show it with a small upward-arrow indicator at the crossing point. The stabilization of other products provides visual contrast to the egg explosion."
+}

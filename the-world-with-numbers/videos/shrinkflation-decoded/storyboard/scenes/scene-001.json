@@ -1,0 +1,37 @@
+{
+  "id": "scene-001",
+  "section": "HOOK",
+  "startTime": 0,
+  "endTime": 20,
+  "duration": 20,
+  "voiceover": "Your bag of chips is smaller. Your coffee can lost a third of its weight. Everyone says groceries are more expensive. <break time=\"500ms\"/> But when you measure the actual price per unit against median wages... four out of six common grocery products cost LESS of your paycheck today than they did in the year two thousand.",
+  "wordCount": 54,
+  "visual": {
+    "type": "remotion-component",
+    "description": "Opens with a visual provocation synced to voiceover: 0–2s a chips bag visibly shrinks (spring animation, 20 frames), 2–4s a coffee can shrinks alongside a weight counter ticking down '16 oz → 10 oz'. At ~5s, title 'Shrinkflation Decoded' fades in Montserrat ExtraBold 72px, Accent Cream — then fades out by ~8s. By ~10s the shrink props dissolve and 6 product icons (eggs, coffee, chips, milk, peanut butter, ice cream) emerge at a starting line, all at RUPI = 1.0 baseline. Baseline reference line pulses gently in Sage Silver. Background: solid #1A1B22 with dot grid at 10% opacity.",
+    "textOverlay": {
+      "title": "Shrinkflation Decoded",
+      "position": "center-top",
+      "font": "Montserrat",
+      "weight": 800,
+      "size": "72px"
+    },
+    "dataVisualization": {
+      "chartType": "race-line-chart",
+      "state": "initial",
+      "products": [
+        "Eggs",
+        "Coffee",
+        "Chips",
+        "Milk",
+        "Peanut Butter",
+        "Ice Cream"
+      ],
+      "allAtBaseline": true,
+      "baselineValue": 1,
+      "baselinePulse": true
+    }
+  },
+  "transition": "cut",
+  "notes": "HOOK VISUAL-FIRST: First 5 seconds must grab attention visually. 0–2s: chips bag shrink micro-animation (spring stiffness 120, damping 18, 20 frames). 2–4s: coffee can shrink with weight counter (JetBrains Mono tnum, count from 16→10). These sync with voiceover 'bag of chips is smaller' and 'coffee can lost a third.' Title fade-in at ~5s with muted easing (bezier 0.33,1,0.68,1) over 30 frames — NOT at 0s. Title fades out by ~8s. Product icons stagger in at 10-frame intervals starting ~10s. Baseline reference line (RUPI = 1.0) pulses subtly — 2s cycle, opacity 0.6→1.0→0.6. Film grain overlay 3%."
+}

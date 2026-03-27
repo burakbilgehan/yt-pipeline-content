@@ -1,0 +1,34 @@
+{
+  "id": "scene-022",
+  "section": "THE LENS SWITCH",
+  "startTime": 566.864,
+  "endTime": 599.162,
+  "duration": 32.298,
+  "voiceover": "<break time=\"1200ms\"/> Now switch to the federal minimum wage. <break time=\"1000ms\"/> Seven dollars and twenty-five cents an hour. That's the federal minimum wage in the United States. It was set in July of two thousand nine. <break time=\"500ms\"/> It hasn't changed since. Not once. Sixteen years. Through a pandemic. Through the worst inflation in forty years. Through everything. <break time=\"500ms\"/> Roughly one point one million American workers earn exactly this amount. <break time=\"500ms\"/> Millions more earn close to it.",
+  "wordCount": 69,
+  "visual": {
+    "type": "data-visualization",
+    "description": "The deflator indicator switches from 'CPI' to 'FEDERAL MINIMUM WAGE' — this switch should feel heavier/more dramatic than the CPI switch. Lines begin to shift but the main visual focus is on the minimum wage context: A large counter appears center-screen: '$7.25/hr' in JetBrains Mono 72px, Muted Red. Below it: 'Unchanged since July 2009' in Inter 24px. A running ticker starts: '16 years, 8 months and counting…' in JetBrains Mono 20px, with the months incrementing in real-time style. Small stat: '~1.1 million workers at this rate'. The chart is dimmed to 40% during this context build — it will snap to full visibility in scene-023.",
+    "textOverlay": {
+      "counter": "$7.25/hr",
+      "subtitle": "Unchanged since July 2009",
+      "ticker": "16 years, 8 months and counting…",
+      "stat": "~1.1 million workers"
+    },
+    "dataVisualization": {
+      "chartType": "race-line-chart",
+      "state": "deflator-switch-minwage-prelude",
+      "deflator": "Federal Minimum Wage",
+      "chartOpacity": 0.4,
+      "minimumWageCounter": {
+        "rate": "$7.25/hr",
+        "setSince": "July 2009",
+        "yearsUnchanged": 16,
+        "runningTicker": true,
+        "workersAffected": "~1.1 million"
+      }
+    }
+  },
+  "transition": "crossfade",
+  "notes": "EMOTIONAL CORE SETUP. This scene builds context before showing the devastating chart. The $7.25 counter should dominate the screen — it's the most important number in this section. The running ticker ('16 years, 8 months and counting') creates urgency. Use Muted Red for the $7.25 to convey the stagnation. The multiple breaks in the voiceover (1200+1000+500+500+500 = 3.7s of pauses) mean this scene has lots of breathing room — use it for visual emphasis. Don't rush the chart transformation — let the context sink in first."
+}
