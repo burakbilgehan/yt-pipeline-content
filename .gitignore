@@ -8,8 +8,7 @@
 *.mov
 *.webm
 
-# Audio (TTS, BGM)
-*.wav
+# Audio (only BGM excluded — TTS wav tracked for cross-machine sync)
 *.mp3
 *.ogg
 *.flac
@@ -39,8 +38,10 @@
 # Collected visuals (stock media, AI images)
 **/production/visuals/
 
-# Audio directory (TTS + BGM)
-**/production/audio/
+# BGM subdirectory (large music files)
+**/production/audio/bgm/
+# Audio archive
+**/production/audio/_archive/
 
 # Cache
 **/cache/
