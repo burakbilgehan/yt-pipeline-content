@@ -38,8 +38,6 @@
 # Collected visuals (stock media, AI images)
 **/production/visuals/
 
-# BGM subdirectory (large music files)
-**/production/audio/bgm/
 # Audio archive
 **/production/audio/_archive/
 
