@@ -1,29 +1,31 @@
-# "The World With Numbers" — Visual Brand Guide (v2.0)
+# "The World With Numbers" — Visual Brand Guide (v3.0)
 
-This is the **definitive visual ruleset** for all video rendering. Every agent (storyboard, video-production, collector) MUST read and follow this guide. No exceptions.
+This is the **visual ruleset** for all video rendering. Every agent (storyboard, video-production, collector) MUST read and follow this guide. No exceptions.
 
-## 1. Color Palette (Source of Truth)
+> **Color Source of Truth:** `channel-assets/design-system.json`
+> All color values below are derived from that file. Do NOT hardcode hex values in code — import from `src/remotion/palette.ts` (auto-generated via `npm run sync-palette`).
 
-Do not use any hex codes not defined here. All color decisions reference these values.
+## 1. Color Palette
 
-| Role | Name | Hex | Usage |
-|:-----|:-----|:----|:------|
-| **Background** | Deep Base | `#1A1B22` | Master video background |
-| **Data Set A** | Muted Pink | `#D8A7B1` | Primary data series, highlights, accented elements |
-| **Data Set B** | Muted Blue | `#90AFC5` | Secondary data series, stable/comparative data |
-| **Text** | Accent Cream | `#EAE0D5` | All readable text — titles, labels, callouts |
-| **Grid/Detail** | Sage Silver | `#A3B18A` | Grid lines, axis labels, tertiary data, subtle elements |
-| **Positive** | Muted Green | `#5BBF8C` | Positive change, growth indicators |
-| **Negative** | Muted Red | `#E06070` | Negative change, decline indicators |
+| Role | Name | Value | Usage |
+|:-----|:-----|:------|:------|
+| **Background** | Deep Base | `#2A2A32` | Master video background |
+| **Data Set A** | Accent Pink | `#E88CA5` | Primary data series, highlights, accented elements |
+| **Data Set B** | Accent Blue | `#7BA7C9` | Secondary data series, stable/comparative data |
+| **Text** | Warm Cream | `#F0EDE8` | All readable text — titles, labels, callouts |
+| **Grid/Detail** | Sage | `#8A9A7A` | Grid lines, axis labels, tertiary data, subtle elements |
+| **Positive** | Green | `#5BBF8C` | Positive change, growth indicators |
+| **Negative** | Red | `#E06070` | Negative change, decline indicators |
 | **Surface** | — | `rgba(255,255,255,0.06)` | Card/panel backgrounds |
-| **Border** | — | `rgba(234,224,213,0.12)` | Subtle borders and dividers |
+| **Border** | — | `rgba(240,237,232,0.12)` | Subtle borders and dividers |
 
 ### Color Rules
 - **Max 2 data colors per chart** — Pink + Blue. Never add a third vivid color.
-- **Sage Silver** is only for grid/structural elements — never for primary data.
+- **Sage** is only for grid/structural elements — never for primary data.
 - **No gradient text.** Ever.
-- **No pure white (`#FFF`).** Use Accent Cream for all text.
-- Background is always solid `#1A1B22` — no gradient backgrounds unless explicitly specified in storyboard.
+- **No pure white (`#FFF`).** Use Warm Cream for all text.
+- Background is always solid `#2A2A32` — no gradient backgrounds unless explicitly specified in storyboard.
+- **Never hardcode hex values in source code.** Import from `src/remotion/palette.ts`.
 
 ## 2. Typography
 
@@ -37,7 +39,7 @@ Do not use any hex codes not defined here. All color decisions reference these v
 - **Heading sizes:** Hook/hero titles 64–80px, section titles 36–48px, labels 16–22px
 - **Line height:** 1.2 for headings, 1.5 for body
 - **Letter spacing:** -0.02em for headings, normal for body
-- **All text color is Accent Cream** (`#EAE0D5`) unless it's a data value using Pink or Blue
+- **All text color is Warm Cream** (`#F0EDE8`) unless it's a data value using Pink or Blue
 
 ## 3. Visual Texture (CSS/SVG Generated — No External Files)
 
@@ -54,7 +56,7 @@ Implementation: SVG `<feTurbulence>` filter — see Remotion shared components.
 
 ### Dot Grid (Data Visualization Scenes)
 Background dot pattern for data-heavy scenes:
-- 20px spacing, `#A3B18A` (Sage Silver), 10% opacity
+- 20px spacing, Sage (`#8A9A7A`), 10% opacity
 - Creates subtle "graph paper" feel without being distracting
 
 ## 4. Animation Principles
@@ -94,7 +96,7 @@ All motion must feel **smooth, weighted, and deliberate**. Never mechanical. Nev
 - Title centered or left-aligned, large (64–80px Montserrat Bold)
 - Subtitle below in Inter, muted
 - Clean background — no charts, no clutter
-- Single accent element (underline, small stat) in Muted Pink
+- Single accent element (underline, small stat) in Accent Pink
 
 **Data Visualization (Charts):**
 - Chart occupies 60–70% of frame
@@ -104,13 +106,13 @@ All motion must feel **smooth, weighted, and deliberate**. Never mechanical. Nev
 
 **Comparison / Duel:**
 - Side-by-side layout, equal weight
-- Thin vertical divider (Sage Silver, 1px)
+- Thin vertical divider (Sage, 1px)
 - Entity names 24px, key stat 48px JetBrains Mono
 - Flag/icon max 48px — don't overshadow the data
 
 **Leaderboard / List:**
 - Vertical stack, full-width items
-- Rank number (JetBrains Mono, Muted Pink), name (Inter), value (JetBrains Mono, right-aligned)
+- Rank number (JetBrains Mono, Accent Pink), name (Inter), value (JetBrains Mono, right-aligned)
 - Max 6–8 visible items, staggered entrance
 - Horizontal bars behind values showing relative scale
 
@@ -129,7 +131,7 @@ All motion must feel **smooth, weighted, and deliberate**. Never mechanical. Nev
 When generating images via Gemini or DALL-E:
 
 ### Always
-- Dark background, close to `#1A1B22`
+- Dark background, close to `#2A2A32`
 - Cinematic lighting, single light source preferred
 - Minimal composition — one subject, clean negative space
 - Muted, desaturated color grading matching the palette

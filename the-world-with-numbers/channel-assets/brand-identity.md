@@ -94,13 +94,16 @@ New videos weekly. Subscribe and turn on notifications.
 
 ### Color Reference
 
+> **Source of Truth:** `channel-assets/design-system.json`
+> The values below are kept in sync. If they ever conflict, `design-system.json` wins.
+
 | Role | Hex | Use |
 |------|-----|-----|
-| Background top | `#1A1824` | Deep dark purple-black |
-| Background bottom | `#2D2B3D` | Slightly lighter purple-charcoal |
-| Accent (primary) | `#D47FA6` | Pink-mauve — highlights, data callouts, logo mark |
-| Accent (secondary) | `#C97B9F` | Hover states, subtle gradients |
-| Text | `#E8E0D4` | Warm off-white — not pure white, feels premium |
+| Background | `#2A2A32` | Dusty grey with subtle blue-purple undertone |
+| Accent (primary) | `#E88CA5` | Soft pink — highlights, data callouts, logo mark |
+| Accent (secondary) | `#7BA7C9` | Muted blue — secondary data, comparative |
+| Text | `#F0EDE8` | Warm cream off-white — not pure white, feels premium |
+| Grid/Detail | `#8A9A7A` | Sage — grid lines, axis labels, subtle elements |
 | Positive data | `#5BBF8C` | Green for upward trends |
 | Negative data | `#E06070` | Red for downward trends / extreme stats |
 
@@ -114,7 +117,7 @@ Don't be literal (no globe + bar chart = looks like every other edu channel).
 **Recommended direction — Abstract Geometric:**
 - A **meridian-line arc** (single longitude/latitude curve) that simultaneously reads as a **rising graph line**. The arc is not a full globe — just one clean curve. Feels precise, not clipart.
 - The wordmark sits next to or below this mark. `The World With Numbers` in Inter (or similar geometric sans — Space Grotesk, DM Sans). All caps for `THE WORLD`, regular weight for `WITH NUMBERS` to create visual hierarchy.
-- The mark should work in: full color (accent `#D47FA6` on dark), single-color white, single-color black.
+- The mark should work in: full color (accent `#E88CA5` on dark), single-color white, single-color black.
 - Favicon/profile crop: just the arc mark, no text, fills a square frame cleanly.
 
 **Alternate direction — Typographic:**
@@ -133,7 +136,7 @@ Don't be literal (no globe + bar chart = looks like every other edu channel).
 
 **Safe zone:** 1546×423px center (all devices see this). Design for the safe zone first.
 
-**Concept:** Dark background (`#1A1824` → `#2D2B3D` gradient, left to right). The **safe zone** contains:
+**Concept:** Dark background (`#2A2A32` solid). The **safe zone** contains:
 - Left side: Channel name in clean wordmark typography, tagline below in muted warm text
 - Right side: A **data visualization motif** — a subtle, partially rendered line graph or scatter plot in the accent color, low opacity (~20-30%), fading at the edges. Not a real chart — purely decorative, communicates "data" without being literal.
 - Optional: A fine dot-grid or coordinate-grid texture at very low opacity (5-8%) over the full background. Adds depth without competing with text.
@@ -141,8 +144,8 @@ Don't be literal (no globe + bar chart = looks like every other edu channel).
 **Extended areas** (visible on desktop, not on mobile): Can include faint repeated numeral patterns, country silhouettes as texture, or nothing. Less is more.
 
 **Typography on banner:**
-- `THE WORLD WITH NUMBERS` — Inter Bold or Space Grotesk Bold, `#E8E0D4`
-- Tagline — Inter Regular, `rgba(232,224,212,0.65)`, smaller, tracked out
+- `THE WORLD WITH NUMBERS` — Inter Bold or Space Grotesk Bold, `#F0EDE8`
+- Tagline — Inter Regular, `rgba(240,237,232,0.65)`, smaller, tracked out
 - No YouTube icon/handle needed — YouTube auto-overlays this
 
 **Avoid:**
@@ -159,7 +162,7 @@ Don't be literal (no globe + bar chart = looks like every other edu channel).
 **Size:** ~60-80px height in 1080p  
 **Opacity:** 35-45% — visible but non-intrusive
 
-**Design:** Just the logo arc mark (no text). Monochrome warm white (`#E8E0D4`). If the arc mark feels too complex at this size, a stylized **"W#"** (W for World, # for Numbers/data) in the brand font is a clean fallback.
+**Design:** Just the logo arc mark (no text). Monochrome warm white (`#F0EDE8`). If the arc mark feels too complex at this size, a stylized **"W#"** (W for World, # for Numbers/data) in the brand font is a clean fallback.
 
 ---
 
@@ -235,7 +238,7 @@ This deserves its own section. Thumbnails make or break CTR.
 **Rules:**
 - Max 2 lines of text, total. Numbers are better than words.
 - One dominant visual (not a collage)
-- Use `#D47FA6` accent sparingly — one highlight element only
+- Use `#E88CA5` accent sparingly — one highlight element only
 - Never use red clickbait arrows or circles
 - High contrast: viewer must read the thumbnail in 0.3 seconds at 120px wide
 - Test every thumbnail at 120px (mobile feed size) before approving

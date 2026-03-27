@@ -1,18 +1,18 @@
 {
-  "name": "muted-documentary",
-  "version": 2,
+  "name": "dusty-editorial",
+  "version": 3,
   "colors": {
-    "bgTop": "#1A1B22",
-    "bgBottom": "#1A1B22",
-    "accent1": "#D8A7B1",
-    "accent2": "#90AFC5",
-    "text": "#EAE0D5",
-    "textMuted": "rgba(234, 224, 213, 0.6)",
+    "bgTop": "#2A2A32",
+    "bgBottom": "#2A2A32",
+    "accent1": "#E88CA5",
+    "accent2": "#7BA7C9",
+    "text": "#F0EDE8",
+    "textMuted": "rgba(240, 237, 232, 0.6)",
     "positive": "#5BBF8C",
     "negative": "#E06070",
-    "surface": "rgba(255, 255, 255, 0.06)",
-    "border": "rgba(234, 224, 213, 0.12)",
-    "grid": "#A3B18A"
+    "surface": "rgba(255, 255, 255, 0.08)",
+    "border": "rgba(240, 237, 232, 0.12)",
+    "grid": "#8A9A7A"
   },
   "typography": {
     "fontFamily": "Montserrat, sans-serif",
@@ -44,6 +44,6 @@
     "stagger": 10,
     "easingCurve": [0.33, 1, 0.68, 1]
   },
-  "exportedAt": "2026-03-19T23:00:00.000Z",
-  "exportedFrom": "brand-guide-v2-gemini-pivot"
+  "exportedAt": "2026-03-27T00:00:00.000Z",
+  "exportedFrom": "brand-guide-v3-dusty-editorial"
 }
