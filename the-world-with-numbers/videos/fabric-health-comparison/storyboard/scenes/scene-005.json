@@ -1,0 +1,36 @@
+{
+  "id": "scene-005",
+  "visual": {
+    "type": "data-chart",
+    "atmosphere": "dot-grid",
+    "atmosphereConfig": { "opacity": 0.08 },
+    "surface": null,
+    "surfaceConfig": null,
+    "description": "Donut chart with two segments: Synthetic 69% (Accent Pink) and Natural 31% (Accent Blue). Segments sweep clockwise with spring animation. Center label: '69%' in JetBrains Mono large. Title: 'Global Textile Production' top-left. Legend below chart. Source text bottom-right in Inter muted. 67% of 4,000+ fast fashion products contained synthetic fibers — small annotation.",
+    "sourceText": "Source: Changing Markets Foundation, Synthetics Anonymous",
+    "dataChart": {
+      "type": "pie-chart",
+      "title": "Fast Fashion Fiber Analysis",
+      "items": [
+        {
+          "label": "Synthetic",
+          "value": 67
+        },
+        {
+          "label": "Natural / Other",
+          "value": 33
+        }
+      ],
+      "colors": [
+        "#E88CA5",
+        "#7BA7C9"
+      ],
+      "source": "Changing Markets Foundation, 4,000+ products"
+    },
+    "textOverlay": null,
+    "motion": "blur-fade-in",
+    "motionConfig": {}
+  },
+  "transition": "cut",
+  "notes": "Simple two-slice donut — visually clean. The 69% dominance should feel overwhelming. Keep it minimal — just two colors per brand guide rules."
+}

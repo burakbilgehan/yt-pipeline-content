@@ -1,0 +1,25 @@
+{
+  "id": "scene-018",
+  "visual": {
+    "type": "ai-image",
+    "assetPath": "production/visuals/scene-018-fabric-skin-cross-section.png",
+    "atmosphere": null,
+    "atmosphereConfig": null,
+    "surface": null,
+    "surfaceConfig": null,
+    "description": "AI-generated cross-section illustration showing two fabric-skin interactions side by side. Left: Polyester — tightly woven synthetic fabric pressing against skin, sweat droplets trapped between fabric and skin, red-tinted chemical particles migrating into skin layers. Right: Natural fiber (linen/cotton) — loose weave with visible air gaps, moisture wicking away, clean skin surface. Labels: 'Occlusive Microenvironment' (left, Accent Pink) and 'Breathable' (right, Accent Blue). Dark background, cinematic lighting.",
+    "sourceText": "Source: Nedorost & Babineau, Dermatitis, 2020",
+    "dataChart": null,
+    "textOverlay": {
+      "lines": [
+        { "text": "Occlusive Microenvironment", "position": "left-label", "color": "#E88CA5" },
+        { "text": "Breathable", "position": "right-label", "color": "#7BA7C9" }
+      ]
+    },
+    "motion": "blur-fade-in",
+    "motionConfig": {},
+    "aiImagePrompt": "Cross-section illustration of two fabrics against human skin, left side tight synthetic polyester trapping sweat against skin with chemical particles, right side loose natural fiber with air gaps and moisture wicking away, dark moody background, cinematic lighting, muted color palette, minimal composition, scientific illustration style, high detail, no text, no faces"
+  },
+  "transition": "cut",
+  "notes": "Visual metaphor for occlusive microenvironment concept. AI image should clearly show the contrast between trapping and breathing. This is an educational moment — the illustration helps viewers understand WHY synthetics are problematic at the skin level."
+}

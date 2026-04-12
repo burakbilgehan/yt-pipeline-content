@@ -1,0 +1,47 @@
+{
+  "id": "scene-016",
+  "visual": {
+    "type": "data-chart",
+    "atmosphere": "dot-grid",
+    "atmosphereConfig": { "opacity": 0.08 },
+    "surface": null,
+    "surfaceConfig": null,
+    "description": "Counter scene showing synthetic microfiber persistence in natural environments. Main counter ticks up to 1,200 (years) with subtitle context. Breakdown bars compare the range (58-1200 years) with human lifespan (80 years) for visceral impact.",
+    "sourceText": "Source: De Falco et al., Scientific Reports, 2019",
+    "dataChart": {
+      "type": "counter",
+      "counterValue": 1200,
+      "counterPrefix": "",
+      "counterSuffix": " years",
+      "title": "Synthetic Microfiber Persistence",
+      "subtitle": "Estimated degradation time in natural environments",
+      "items": [
+        {
+          "label": "Minimum",
+          "value": 58,
+          "displayValue": "58 years"
+        },
+        {
+          "label": "Maximum",
+          "value": 1200,
+          "displayValue": "1,200 years"
+        },
+        {
+          "label": "Human lifespan",
+          "value": 80,
+          "displayValue": "~80 years",
+          "color": "#7BA7C9"
+        }
+      ]
+    },
+    "textOverlay": null,
+    "motion": "counter-up",
+    "motionConfig": {
+      "from": 0,
+      "to": 1200,
+      "duration": 50
+    }
+  },
+  "transition": "cut",
+  "notes": "Counter format better suits a single dramatic stat than a lone bar chart. The breakdown bars show the range (58-1200 years) with human lifespan (80 years) as reference — making the persistence tangible. Log-scale bars will be used automatically since the range is extreme."
+}

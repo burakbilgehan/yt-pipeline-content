@@ -1,0 +1,416 @@
+{
+  "title": "The Healthiest Fabrics to Wear (Data-Backed)",
+  "version": 1,
+  "basedOn": {
+    "content": 2
+  },
+  "totalDuration": 636.3,
+  "calibratedWPM": 125.6,
+  "scenes": [
+    {
+      "id": "scene-001",
+      "section": "Hook",
+      "startTime": 0,
+      "endTime": 9.7,
+      "wordCount": 23,
+      "pauseTime": 0.4,
+      "voiceover": "When you sweat in polyester activewear, your skin absorbs BPA at up to five hundred and seventy times the EU safe daily limit. [pause long]",
+      "visual": {
+        "type": "data-chart",
+        "description": "570x BPA exceedance hero counter with glow surface"
+      },
+      "transition": "cut",
+      "sceneFile": "scenes/scene-001.json"
+    },
+    {
+      "id": "scene-002",
+      "section": "Hook",
+      "startTime": 10,
+      "endTime": 29.6,
+      "wordCount": 36,
+      "pauseTime": 0.8,
+      "voiceover": "That's one chemical... in one fabric. [pause] The clothing industry uses roughly eight thousand synthetic chemicals in manufacturing. Over one hundred and fifty are classified as hazardous. [pause short] And some of the worst offenders? Products labeled \"eco-friendly.\" <break time=\"1200ms\"/>",
+      "visual": {
+        "type": "data-chart",
+        "description": "Chemical counter ticking to 8,000 + 'eco-friendly ≠ safe' glitch text reveal"
+      },
+      "transition": "cut",
+      "sceneFile": "scenes/scene-002.json"
+    },
+    {
+      "id": "scene-003",
+      "section": "Hook",
+      "startTime": 29.9,
+      "endTime": 34.6,
+      "wordCount": 17,
+      "pauseTime": 0.3,
+      "voiceover": "Here's what the data actually says about the clothes touching your skin — every single day.",
+      "visual": {
+        "type": "data-chart",
+        "description": "Video title card: 'The Healthiest Fabrics to Wear'"
+      },
+      "transition": "crossfade",
+      "sceneFile": "scenes/scene-003.json"
+    },
+    {
+      "id": "scene-004",
+      "section": "The Synthetic Takeover",
+      "startTime": 34.9,
+      "endTime": 62.5,
+      "wordCount": 51,
+      "pauseTime": 1.2,
+      "voiceover": "In nineteen fifty, the world produced two point one million tons of synthetic fiber. [pause short] By twenty ten — fifty million tons. That's a twenty-four-fold increase in sixty years. [pause] Today, synthetic materials make up sixty-nine percent of ALL global textile production. Polyester alone accounts for more than half. [pause short] And that share is projected to climb to seventy-five percent by twenty thirty. <break time=\"1200ms\"/>",
+      "visual": {
+        "type": "data-chart",
+        "description": "Animated timeline: synthetic fiber production 1950→2010 with 2030 projection"
+      },
+      "transition": "cut",
+      "sceneFile": "scenes/scene-004.json"
+    },
+    {
+      "id": "scene-005",
+      "section": "The Synthetic Takeover",
+      "startTime": 62.8,
+      "endTime": 73.7,
+      "wordCount": 26,
+      "pauseTime": 0.3,
+      "voiceover": "The Changing Markets Foundation analyzed over four thousand products from major fast fashion brands — H&M, Zara, and others. Sixty-seven percent contained synthetic fibers. [pause]",
+      "visual": {
+        "type": "data-chart",
+        "description": "Donut chart: 69% synthetic vs 31% natural global textile production"
+      },
+      "transition": "cut",
+      "sceneFile": "scenes/scene-005.json"
+    },
+    {
+      "id": "scene-006",
+      "section": "The Synthetic Takeover",
+      "startTime": 74,
+      "endTime": 87.1,
+      "wordCount": 30,
+      "pauseTime": 0.5,
+      "voiceover": "But here's where it gets interesting. [pause short] H&M's \"Conscious Collection\" — their sustainability line — is seventy-two percent synthetic. That's HIGHER than their regular collection at sixty-one percent. [pause long]",
+      "visual": {
+        "type": "data-chart",
+        "description": "H&M Regular 61% vs Conscious 72% synthetic — irony highlight"
+      },
+      "transition": "cut",
+      "sceneFile": "scenes/scene-006.json"
+    },
+    {
+      "id": "scene-007",
+      "section": "The Synthetic Takeover",
+      "startTime": 87.4,
+      "endTime": 104,
+      "wordCount": 41,
+      "pauseTime": 0.3,
+      "voiceover": "The average fast fashion garment is worn just seven times before it's discarded. [pause] And the reason synthetics took over? Cotton uses two point four percent of the world's cultivated land. There simply isn't enough farmland to clothe eight billion people in natural fiber alone.",
+      "visual": {
+        "type": "data-chart",
+        "description": "Large '7 wears' counter with cotton land-use context"
+      },
+      "transition": "crossfade",
+      "sceneFile": "scenes/scene-007.json"
+    },
+    {
+      "id": "scene-008",
+      "section": "The Chemical Cocktail",
+      "startTime": 104.3,
+      "endTime": 130.8,
+      "wordCount": 51,
+      "pauseTime": 1.4,
+      "voiceover": "Let's talk about what's actually IN your clothes. <break time=\"1200ms\"/> About eight thousand synthetic chemicals are used in textile manufacturing. Roughly nineteen hundred distinct chemical components — and over one hundred and fifty are classified as hazardous. [pause] Researchers screened seventy-eight clothing items for ninety-eight target chemicals. [pause short] They found ninety-three of them. [pause long]",
+      "visual": {
+        "type": "data-chart",
+        "description": "8,000 chemicals counter → 93/98 detected grid"
+      },
+      "transition": "cut",
+      "sceneFile": "scenes/scene-008.json"
+    },
+    {
+      "id": "scene-009",
+      "section": "The Chemical Cocktail",
+      "startTime": 131.1,
+      "endTime": 151.2,
+      "wordCount": 47,
+      "pauseTime": 1,
+      "voiceover": "And chemical concentrations in children's clothing were THREE times higher than in adult garments. <break time=\"1200ms\"/> Formaldehyde. It's classified by the International Agency for Research on Cancer as a Group One carcinogen — the highest category. [pause short] It was found in twenty percent of clothing tested in Spain. [pause]",
+      "visual": {
+        "type": "data-chart",
+        "description": "Children 3x vs Adult + formaldehyde Group 1 classification"
+      },
+      "transition": "cut",
+      "sceneFile": "scenes/scene-009.json"
+    },
+    {
+      "id": "scene-010",
+      "section": "The Chemical Cocktail",
+      "startTime": 151.5,
+      "endTime": 182.4,
+      "wordCount": 63,
+      "pauseTime": 1.4,
+      "voiceover": "Now here's the paradox. [pause short] Garments labeled \"eco-friendly\" averaged ten point four milligrams per kilogram of formaldehyde. Conventional clothing? Eight point two three. [pause] The eco-friendly option had MORE of a known carcinogen. [pause long] An unwashed permanent-press T-shirt emits formaldehyde at one hundred and seven micrograms per square meter per hour. After washing — forty-two. [pause short] A single wash cuts emissions by more than half. <break time=\"1200ms\"/>",
+      "visual": {
+        "type": "data-chart",
+        "description": "Eco-friendly vs Conventional formaldehyde + Unwashed vs Washed emission"
+      },
+      "transition": "cut",
+      "sceneFile": "scenes/scene-010.json"
+    },
+    {
+      "id": "scene-011",
+      "section": "The Chemical Cocktail",
+      "startTime": 182.7,
+      "endTime": 221.8,
+      "wordCount": 86,
+      "pauseTime": 0.9,
+      "voiceover": "Then there are PFAS — the so-called \"forever chemicals.\" [pause short] Researchers tested children's school uniforms in North America. One hundred percent cotton uniforms with a stain-resistant finish contained nineteen thousand one hundred nanograms per gram of PFAS. [pause] Cotton-polyester blends without the treatment? One point seven. [pause long] That's an eleven-thousand-fold difference. And the pure cotton was worse. [pause] The dominant compound? Six-two F-T-O-H — found at concentrations up to one hundred and fifty-three thousand nanograms per gram in some samples.",
+      "visual": {
+        "type": "data-chart",
+        "description": "PFAS: cotton 19,100 vs blend 1.7 ng/g — massive proportional circles"
+      },
+      "transition": "crossfade",
+      "sceneFile": "scenes/scene-011.json"
+    },
+    {
+      "id": "scene-012",
+      "section": "The BPA Problem",
+      "startTime": 222.1,
+      "endTime": 261.6,
+      "wordCount": 75,
+      "pauseTime": 1.4,
+      "voiceover": "BPA — bisphenol A — deserves its own spotlight. <break time=\"1200ms\"/> The European Food Safety Authority set a tolerable daily intake of zero point two nanograms per kilogram of body weight per day. [pause short] A dry polyester T-shirt puts you near that limit just from skin contact. [pause] Add sweat — and the numbers explode. [pause short] Sweat-soaked polyester activewear delivers BPA at twenty-four point eight to one hundred and fourteen nanograms per kilogram of body weight per day. That's one hundred and twenty-five to five hundred and seventy times the safe limit. [pause long]",
+      "visual": {
+        "type": "data-chart",
+        "description": "BPA escalation: dry (~1x) → sweat-soaked (125–570x)"
+      },
+      "transition": "cut",
+      "sceneFile": "scenes/scene-012.json"
+    },
+    {
+      "id": "scene-013",
+      "section": "The BPA Problem",
+      "startTime": 261.9,
+      "endTime": 290,
+      "wordCount": 52,
+      "pauseTime": 1.3,
+      "voiceover": "Sports bras and athletic shirts tested by the Center for Environmental Health exceeded California's Proposition sixty-five safe harbor limit by twenty-two to forty times. <break time=\"1200ms\"/> Recycled polyester — marketed as the greener choice — contains nearly double the BPA of virgin polyester. Thirteen point five nanograms per gram versus seven point six six. [pause] Recycling concentrates the plastic residues. [pause long]",
+      "visual": {
+        "type": "data-chart",
+        "description": "Recycled vs Virgin polyester BPA + Sports bras 22–40x Prop 65"
+      },
+      "transition": "cut",
+      "sceneFile": "scenes/scene-013.json"
+    },
+    {
+      "id": "scene-014",
+      "section": "The BPA Problem",
+      "startTime": 290.3,
+      "endTime": 316.7,
+      "wordCount": 63,
+      "pauseTime": 0.5,
+      "voiceover": "Used clothing is even worse. [pause short] Median BPA in used garments: thirty-four point two nanograms per gram, compared to seventeen point seven in new clothing. Chemicals don't fade with age — they accumulate. [pause] In Spanish infant socks, BPA was detected in over ninety percent of samples. [pause short] And in Chinese underwear, total bisphenol concentrations reached up to fifty-two thousand nine hundred and sixty-seven nanograms per gram.",
+      "visual": {
+        "type": "data-chart",
+        "description": "Used vs New BPA + infant socks 90.6% + Chinese underwear 52,967"
+      },
+      "transition": "crossfade",
+      "sceneFile": "scenes/scene-014.json"
+    },
+    {
+      "id": "scene-015",
+      "section": "The Microplastic Problem",
+      "startTime": 317,
+      "endTime": 341.1,
+      "wordCount": 46,
+      "pauseTime": 1,
+      "voiceover": "Every time you wash a polyester fleece jacket, it releases roughly one hundred and ten thousand microplastic fibers into the water. [pause long] Standard knit polyester sheds about eighty-seven fibers per square meter per liter of wash water. [pause short] Fleece? Seven thousand three hundred and sixty. That's roughly eighty-five times more from the same base material. <break time=\"1200ms\"/>",
+      "visual": {
+        "type": "data-chart",
+        "description": "Standard polyester 87 vs Fleece 7,360 fibers — 85x difference"
+      },
+      "transition": "cut",
+      "sceneFile": "scenes/scene-015.json"
+    },
+    {
+      "id": "scene-016",
+      "section": "The Microplastic Problem",
+      "startTime": 341.4,
+      "endTime": 366.4,
+      "wordCount": 49,
+      "pauseTime": 0.9,
+      "voiceover": "On average, synthetic garments release over five hundred thousand microfibers per kilogram per wash. [pause] A single domestic laundry cycle can send anywhere from one hundred and twenty to seven hundred and thirty thousand microfibers into wastewater. [pause long] These fibers don't break down. [pause short] Synthetic microfibers persist in the environment for fifty-eight to twelve hundred years. [pause]",
+      "visual": {
+        "type": "data-chart",
+        "description": "Microfiber persistence: 58–1,200 years with human lifespan reference"
+      },
+      "transition": "cut",
+      "sceneFile": "scenes/scene-016.json"
+    },
+    {
+      "id": "scene-017",
+      "section": "The Microplastic Problem",
+      "startTime": 366.7,
+      "endTime": 385.9,
+      "wordCount": 46,
+      "pauseTime": 1,
+      "voiceover": "They've been found in human lung tissue. [pause short] In human brains. [pause short] In placentas. [pause long] And older, worn-out garments shed significantly more than new ones. [pause short] The longer you own a synthetic garment, the more it fragments — and the more fibers it releases with every wash.",
+      "visual": {
+        "type": "ai-image",
+        "description": "Human body silhouette with microfibers in lungs, brain, placenta"
+      },
+      "transition": "crossfade",
+      "sceneFile": "scenes/scene-017.json"
+    },
+    {
+      "id": "scene-018",
+      "section": "Your Skin on Synthetics",
+      "startTime": 386.2,
+      "endTime": 405.8,
+      "wordCount": 39,
+      "pauseTime": 0.7,
+      "voiceover": "So we've talked about the chemicals and the microplastics. But what happens at the surface — right where fabric meets skin? <break time=\"1200ms\"/> Polyester creates what researchers call an occlusive microenvironment. It seals against the skin, traps sweat, and maximizes dermal absorption of whatever chemicals are present. [pause]",
+      "visual": {
+        "type": "ai-image",
+        "description": "Cross-section: polyester trapping vs natural fiber breathing — AI image"
+      },
+      "transition": "cut",
+      "sceneFile": "scenes/scene-018.json"
+    },
+    {
+      "id": "scene-019",
+      "section": "Your Skin on Synthetics",
+      "startTime": 406.1,
+      "endTime": 424.2,
+      "wordCount": 34,
+      "pauseTime": 0.6,
+      "voiceover": "Bacteria thrive in that environment. [pause short] Odor-causing Micrococci reached one point seven two times ten to the seventh colony-forming units per square centimeter on polyester. [pause short] On viscose? Zero growth. None. [pause long]",
+      "visual": {
+        "type": "data-chart",
+        "description": "Bacterial growth: Polyester 1.72×10^7 vs Viscose 0 CFU/cm²"
+      },
+      "transition": "cut",
+      "sceneFile": "scenes/scene-019.json"
+    },
+    {
+      "id": "scene-020",
+      "section": "Your Skin on Synthetics",
+      "startTime": 424.5,
+      "endTime": 457,
+      "wordCount": 56,
+      "pauseTime": 1.2,
+      "voiceover": "Heavy metals add another layer. [pause short] Titanium was measured at eighteen hundred and forty-four milligrams per kilogram in polyamide swimsuits. Chromium — six hundred and twenty-four to nine hundred and thirty-two milligrams per kilogram in dark nylon. [pause] Antimony — one hundred and forty-one milligrams per kilogram in polyester clothing. <break time=\"1200ms\"/> Phthalates in infant clothing reached up to two hundred and twenty-three micrograms per gram across a seven-country study in Asia. [pause long]",
+      "visual": {
+        "type": "data-chart",
+        "description": "Heavy metals table: Ti, Cr, Sb concentrations in synthetic fabrics"
+      },
+      "transition": "cut",
+      "sceneFile": "scenes/scene-020.json"
+    },
+    {
+      "id": "scene-021",
+      "section": "Your Skin on Synthetics",
+      "startTime": 457.3,
+      "endTime": 480.3,
+      "wordCount": 47,
+      "pauseTime": 0.6,
+      "voiceover": "And then there are azo dyes. [pause short] Researchers tested three hundred pregnant women for aromatic amines — the breakdown products of azo dyes used in textile coloring. [pause short] One hundred percent tested positive. Every single one. [pause] Their urinary levels correlated directly with elevated eight-O-H-d-G — a biomarker for DNA damage.",
+      "visual": {
+        "type": "data-chart",
+        "description": "300/300 pregnant women positive + DNA damage biomarker"
+      },
+      "transition": "crossfade",
+      "sceneFile": "scenes/scene-021.json"
+    },
+    {
+      "id": "scene-022",
+      "section": "What's Actually Safe",
+      "startTime": 480.6,
+      "endTime": 512.2,
+      "wordCount": 56,
+      "pauseTime": 1,
+      "voiceover": "So — after all that — what should you actually wear? <break time=\"1200ms\"/> Based on the research, the safest fabrics are organic cotton, linen, hemp, Tencel — which is a type of lyocell — and superfine merino wool. [pause] Merino is worth highlighting. [pause short] At seventeen point five microns or finer, it doesn't just avoid irritation. A twelve-week clinical trial showed it actively REDUCES eczema symptoms. [pause long]",
+      "visual": {
+        "type": "data-chart",
+        "description": "5 safest fabric cards with properties"
+      },
+      "transition": "cut",
+      "sceneFile": "scenes/scene-022.json"
+    },
+    {
+      "id": "scene-023",
+      "section": "What's Actually Safe",
+      "startTime": 512.5,
+      "endTime": 535.6,
+      "wordCount": 48,
+      "pauseTime": 0.8,
+      "voiceover": "Wool can absorb up to thirty percent of its weight in moisture vapor without feeling damp. [pause short] Polyester does the opposite — it traps everything against your skin. [pause] Linen and hemp are naturally antimicrobial. They don't need chemical treatments to resist bacteria. [pause short] Hemp is also the most durable natural fiber — and it softens with every wash. <break time=\"1200ms\"/>",
+      "visual": {
+        "type": "data-chart",
+        "description": "Merino wool vs Polyester duel + linen/hemp antimicrobial"
+      },
+      "transition": "cut",
+      "sceneFile": "scenes/scene-023.json"
+    },
+    {
+      "id": "scene-024",
+      "section": "What's Actually Safe",
+      "startTime": 535.9,
+      "endTime": 565.6,
+      "wordCount": 60,
+      "pauseTime": 1.5,
+      "voiceover": "But here's the critical nuance. [pause] Natural fiber does NOT automatically mean safe. [pause long] Remember those cotton school uniforms? One hundred percent cotton. Treated with a stain-resistant finish. They contained eleven thousand times more PFAS than a polyester blend without the treatment. [pause] The FINISH matters as much as the fiber. [pause short] A chemically treated cotton shirt can be worse than untreated polyester. <break time=\"1200ms\"/>",
+      "visual": {
+        "type": "data-chart",
+        "description": "PFAS callback: cotton 19,100 vs blend 1.7 + 'FIBER ≠ SAFETY' warning"
+      },
+      "transition": "cut",
+      "sceneFile": "scenes/scene-024.json"
+    },
+    {
+      "id": "scene-025",
+      "section": "What's Actually Safe",
+      "startTime": 565.9,
+      "endTime": 594.3,
+      "wordCount": 62,
+      "pauseTime": 0.6,
+      "voiceover": "So what should you actually look for? [pause short] Third-party certifications. [pause short] Oeko-Tex Standard one hundred is one of the most recognized — it tests for over three hundred fifty harmful substances. [pause short] GOTS certification covers organic textiles from raw material to final product. [pause] And when possible — choose unfinished, undyed fabrics. The fewer chemical treatments applied, the fewer chemicals end up on your skin.",
+      "visual": {
+        "type": "data-chart",
+        "description": "Oeko-Tex vs GOTS certifications + 'fewer finishes = fewer chemicals'"
+      },
+      "transition": "crossfade",
+      "sceneFile": "scenes/scene-025.json"
+    },
+    {
+      "id": "scene-026",
+      "section": "CTA",
+      "startTime": 594.6,
+      "endTime": 616,
+      "wordCount": 59,
+      "pauseTime": 0.6,
+      "voiceover": "Three things you can do right now. [pause] One — check the label. Know what fiber you're wearing and how it's been treated. [pause short] Two — wash new clothes before wearing them. Unwashed garments emit two and a half times more formaldehyde than washed ones. [pause short] Three — look for Oeko-Tex or GOTS certification on the tag. [pause]",
+      "visual": {
+        "type": "data-chart",
+        "description": "3 actionable steps with numbered text reveals"
+      },
+      "transition": "cut",
+      "sceneFile": "scenes/scene-026.json"
+    },
+    {
+      "id": "scene-027",
+      "section": "CTA",
+      "startTime": 616.3,
+      "endTime": 636.3,
+      "wordCount": 28,
+      "pauseTime": 0.3,
+      "voiceover": "Every source cited in this video is linked in the description below. [pause short] If you want more data-driven breakdowns like this — subscribe. We'll see you in the next one.",
+      "visual": {
+        "type": "data-chart",
+        "description": "End card with subscribe CTA + YouTube end screen"
+      },
+      "transition": "cut",
+      "sceneFile": "scenes/scene-027.json"
+    }
+  ]
+}

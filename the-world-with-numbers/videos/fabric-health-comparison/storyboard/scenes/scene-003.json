@@ -1,0 +1,27 @@
+{
+  "id": "scene-003",
+  "visual": {
+    "type": "data-chart",
+    "atmosphere": "dot-grid",
+    "atmosphereConfig": { "opacity": 0.08 },
+    "surface": null,
+    "surfaceConfig": null,
+    "description": "Clean title card. 'The Healthiest Fabrics to Wear' in Montserrat ExtraBold 72px, Warm Cream, centered. Accent Pink underline draws left-to-right beneath title. Subtitle: '(Data-Backed)' in Inter 400 24px fades in below. Minimal — no charts, no icons. Film grain overlay.",
+    "sourceText": null,
+    "dataChart": {
+      "type": "title-card",
+      "title": "The Healthiest Fabrics to Wear",
+      "subtitle": "(Data-Backed)",
+      "titleColor": "#F0EDE8",
+      "subtitleColor": "#E88CA5"
+    },
+    "textOverlay": null,
+    "motion": "stagger-text-reveal",
+    "motionConfig": {
+      "splitBy": "words",
+      "staggerFrom": "center"
+    }
+  },
+  "transition": "crossfade",
+  "notes": "End of hook section. Crossfade into Section 1 (The Synthetic Takeover). Title should feel authoritative and clean — no clutter. Stagger text reveal gives each word weight."
+}

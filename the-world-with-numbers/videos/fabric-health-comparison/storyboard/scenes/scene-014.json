@@ -1,0 +1,50 @@
+{
+  "id": "scene-014",
+  "visual": {
+    "type": "data-chart",
+    "atmosphere": "dot-grid",
+    "atmosphereConfig": { "opacity": 0.08 },
+    "surface": null,
+    "surfaceConfig": null,
+    "description": "Multi-item horizontal bar chart with three data points. Bar 1: 'Used clothing' — 34.2 ng/g (Accent Pink). Bar 2: 'New clothing' — 17.7 ng/g (Accent Blue). Bars grow left-to-right with 6-frame stagger. Below bars: two callout cards. Card 1: Baby sock icon + '90.6% BPA detection rate in infant socks' (Negative Red border). Card 2: Shock stat — '52,967 ng/g' in JetBrains Mono large + 'Chinese underwear' label. This last stat gets a brief glow pulse for emphasis.",
+    "sourceText": "Source: ACS study; Jurikova et al., 2024",
+    "dataChart": {
+      "type": "bar-chart",
+      "title": "BPA in Clothing by Condition",
+      "items": [
+        {
+          "label": "Used Clothing",
+          "value": 34.2
+        },
+        {
+          "label": "New Clothing",
+          "value": 17.7
+        }
+      ],
+      "orientation": "horizontal",
+      "colors": [
+        "#E88CA5",
+        "#7BA7C9"
+      ],
+      "unit": "ng/g",
+      "callouts": [
+        {
+          "text": "Spanish infant socks: 90.6% BPA detection",
+          "style": "warning"
+        },
+        {
+          "text": "Chinese underwear: 52,967 ng/g",
+          "style": "shock"
+        }
+      ]
+    },
+    "textOverlay": null,
+    "motion": "bar-grow",
+    "motionConfig": {
+      "direction": "horizontal",
+      "stagger": 6
+    }
+  },
+  "transition": "crossfade",
+  "notes": "Closing scene of BPA section. Three data reveals in sequence: bars → infant socks → Chinese underwear shock stat. The 52,967 number is the section's climax — hold it for at least 2 seconds. Crossfade into Microplastic section."
+}

@@ -1,0 +1,48 @@
+{
+  "id": "scene-025",
+  "visual": {
+    "type": "data-chart",
+    "atmosphere": "dot-grid",
+    "atmosphereConfig": { "opacity": 0.08 },
+    "surface": null,
+    "surfaceConfig": null,
+    "description": "Two certification cards displayed as horizontal bars with properties. Bar 1: 'Oeko-Tex Standard 100' — bar shows '350+ substances tested' with Accent Pink fill. Bar 2: 'GOTS' — bar shows 'Raw material → Final product' with Accent Blue fill. Below bars: clean text card — 'Fewer finishes = Fewer chemicals' in Montserrat 36px, Warm Cream. Minimal closing advice. Dot-grid background.",
+    "sourceText": null,
+    "dataChart": {
+      "type": "horizontal-bar-chart",
+      "title": "Certification Standards",
+      "bars": [
+        {
+          "label": "Oeko-Tex Standard 100",
+          "value": 350,
+          "displayValue": "350+ harmful substances tested"
+        },
+        {
+          "label": "GOTS",
+          "value": 100,
+          "displayValue": "Full supply chain coverage"
+        }
+      ],
+      "gradientColors": [
+        "#E88CA5",
+        "#7BA7C9"
+      ],
+      "annotation": "When possible — choose unfinished, undyed fabrics"
+    },
+    "textOverlay": {
+      "text": "Fewer finishes = Fewer chemicals",
+      "style": "flip-pill",
+      "position": "bottom-center",
+      "phase": 2,
+      "color": "#D94F4F",
+      "keepChartVisible": true
+    },
+    "motion": "bar-grow",
+    "motionConfig": {
+      "direction": "horizontal",
+      "stagger": 10
+    }
+  },
+  "transition": "crossfade",
+  "notes": "Practical takeaway scene — certifications viewers can actually look for. Horizontal bars work well for comparing scope/coverage. The closing 'fewer finishes' text is the simplest actionable advice. Crossfade into CTA section."
+}

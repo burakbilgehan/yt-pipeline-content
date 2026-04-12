@@ -1,0 +1,37 @@
+{
+  "id": "scene-011",
+  "visual": {
+    "type": "data-chart",
+    "atmosphere": "dot-grid",
+    "atmosphereConfig": { "opacity": 0.08 },
+    "surface": null,
+    "surfaceConfig": null,
+    "description": "Two proportional circles showing massive PFAS difference. Left: tiny circle for Cotton-Polyester Blend (1.7 ng/g, Accent Blue). Right: massive circle for 100% Cotton Uniforms (19,100 ng/g, Accent Pink). The cotton circle dwarfs the blend circle — area-proportional sqrt scaling. Title: 'PFAS in School Uniforms'. Label below: '11,000× difference' in JetBrains Mono. Annotation: 'Stain-resistant finish is the culprit' in Inter. Small note: '6:2 FTOH up to 153,000 ng/g in some samples'.",
+    "sourceText": "Source: Xia et al., Environ. Sci. Technol., 2022",
+    "dataChart": {
+      "type": "scale-comparison",
+      "title": "PFAS in Children's School Uniforms",
+      "items": [
+        {
+          "label": "Cotton-Poly Blend\n(no finish)",
+          "value": 1.7
+        },
+        {
+          "label": "100% Cotton\n(stain-resistant)",
+          "value": 19100
+        }
+      ],
+      "colors": [
+        "#7BA7C9",
+        "#E88CA5"
+      ],
+      "unit": "ng/g",
+      "annotation": "11,000× difference — stain-resistant FINISH is the culprit, not the fiber"
+    },
+    "textOverlay": null,
+    "motion": "blur-fade-in",
+    "motionConfig": {}
+  },
+  "transition": "crossfade",
+  "notes": "This is one of the most dramatic scale comparisons in the video. The 11,000x difference makes the small circle almost invisible next to the large one. The paradox — 100% cotton being worse — is the key takeaway. This same comparison will callback in scene-024. Crossfade into BPA section."
+}

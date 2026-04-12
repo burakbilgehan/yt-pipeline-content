@@ -1,0 +1,44 @@
+{
+  "id": "scene-020",
+  "visual": {
+    "type": "data-chart",
+    "atmosphere": "dot-grid",
+    "atmosphereConfig": { "opacity": 0.08 },
+    "surface": null,
+    "surfaceConfig": null,
+    "description": "Heavy metals data table. Three rows in flat surface card: Row 1: Titanium — 1,844 mg/kg (polyamide swimsuits). Row 2: Chromium — 624–932 mg/kg (dark nylon). Row 3: Antimony — 141 mg/kg (polyester). Each row has metal name (Inter), value (JetBrains Mono, Accent Pink), and fabric source (Inter muted). Staggered row entrance (10-frame delay). Below table: 'Phthalates in infant clothing: up to 223 μg/g (7-country study)' callout in Negative Red border.",
+    "sourceText": "Source: Rovira et al., Environ. Res., 2015",
+    "dataChart": {
+      "type": "comparison",
+      "title": "Heavy Metal Concentrations in Synthetic Fabrics",
+      "items": [
+        {
+          "label": "Titanium (polyamide)",
+          "value": 1844,
+          "displayValue": "1,844 mg/kg"
+        },
+        {
+          "label": "Chromium (dark nylon)",
+          "value": 932,
+          "displayValue": "624–932 mg/kg"
+        },
+        {
+          "label": "Antimony (polyester)",
+          "value": 141,
+          "displayValue": "141 mg/kg"
+        }
+      ],
+      "colors": [
+        "#E88CA5",
+        "#7BA7C9",
+        "#E88CA5"
+      ],
+      "annotation": "Phthalates in infant clothing: up to 223 μg/g across 7 Asian countries"
+    },
+    "textOverlay": null,
+    "motion": "none",
+    "motionConfig": null
+  },
+  "transition": "cut",
+  "notes": "Data table format for heavy metals — three distinct metals, three distinct fabric types. Flat surface keeps it readable. The phthalates callout below adds an additional alarming data point without cluttering the main table. Stagger entrance so each row gets its moment."
+}

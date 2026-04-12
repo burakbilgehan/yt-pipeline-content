@@ -1,0 +1,55 @@
+{
+  "id": "scene-019",
+  "visual": {
+    "type": "data-chart",
+    "atmosphere": "dot-grid",
+    "atmosphereConfig": { "opacity": 0.08 },
+    "surface": null,
+    "surfaceConfig": null,
+    "description": "Vertical bar chart comparing bacterial growth by fabric type. Bars: Polyester (1.72×10^7 CFU/cm², tall, Accent Pink), Cotton (moderate, Sage), Wool (low, Accent Blue), Viscose (0, flat line). The polyester bar towers over others. '0' label with emphasis for Viscose — 'Zero growth. None.' annotation in Inter. Title: 'Bacterial Growth by Fabric'. Y-axis in scientific notation (JetBrains Mono). Dot-grid background for data scene.",
+    "sourceText": "Source: Callewaert et al., Appl. Environ. Microbiol., 2014",
+    "dataChart": {
+      "type": "bar-chart",
+      "title": "Odor-Causing Bacteria Growth (Micrococci)",
+      "items": [
+        {
+          "label": "Polyester",
+          "value": 17200000,
+          "displayValue": "1.72×10⁷"
+        },
+        {
+          "label": "Cotton",
+          "value": 5000000,
+          "displayValue": "5×10⁶"
+        },
+        {
+          "label": "Wool",
+          "value": 1000000,
+          "displayValue": "1×10⁶"
+        },
+        {
+          "label": "Viscose",
+          "value": 0,
+          "displayValue": "0"
+        }
+      ],
+      "orientation": "vertical",
+      "colors": [
+        "#E88CA5",
+        "#B0BEC5",
+        "#7BA7C9",
+        "#5BBF8C"
+      ],
+      "unit": "CFU/cm²",
+      "annotation": "Viscose: Zero growth. None."
+    },
+    "textOverlay": null,
+    "motion": "bar-grow",
+    "motionConfig": {
+      "direction": "vertical",
+      "stagger": 6
+    }
+  },
+  "transition": "cut",
+  "notes": "The extreme height difference between polyester and viscose bars is the visual punchline. Use only Accent Pink and Accent Blue for the two highlighted fabrics (polyester and viscose), with Sage for the middle values. Brand guide allows max 2 data colors — Cotton and Wool bars use muted Sage to keep focus on the extremes. Exception: Viscose gets Positive Green to highlight 'zero' as a good outcome."
+}

@@ -1,0 +1,36 @@
+{
+  "id": "scene-002",
+  "visual": {
+    "type": "data-chart",
+    "atmosphere": "dot-grid",
+    "atmosphereConfig": { "opacity": 0.08 },
+    "surface": null,
+    "surfaceConfig": null,
+    "description": "Two-phase scene. Phase 1: Counter ticks from 0 to 8,000 ('synthetic chemicals') in JetBrains Mono, glass surface card. Below: '150+ classified as hazardous' in Accent Pink with blur-fade-in. Phase 2: Text swap — glitch text effect reveals 'eco-friendly ≠ safe' in Montserrat Bold, center screen. The ≠ symbol pulses in Negative Red (#E06070).",
+    "sourceText": "Source: Rovira et al., Qeios, 2025",
+    "dataChart": {
+      "type": "counter",
+      "counterValue": 8000,
+      "counterPrefix": "",
+      "counterSuffix": "",
+      "title": "Synthetic Chemicals in Textiles",
+      "subtitle": "150+ classified as hazardous",
+      "items": null
+    },
+    "textOverlay": {
+      "text": "does not mean safe",
+      "texts": ["eco-friendly", "does not mean safe"],
+      "phase": 2,
+      "style": "flip-pill",
+      "color": "#E06070"
+    },
+    "motion": "counter-up",
+    "motionConfig": {
+      "from": 0,
+      "to": 8000,
+      "duration": 40
+    }
+  },
+  "transition": "cut",
+  "notes": "Two-phase counter scene. Phase 1 runs ~8s (counter + subtitle), Phase 2 runs ~7s (glitch text reveal). The glitch-text for 'eco-friendly ≠ safe' creates a jarring digital effect that underscores the paradox. Use composite-phases if implementation needs two distinct visual phases."
+}

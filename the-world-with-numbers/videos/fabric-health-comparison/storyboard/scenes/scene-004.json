@@ -1,0 +1,30 @@
+{
+  "id": "scene-004",
+  "visual": {
+    "type": "data-chart",
+    "atmosphere": "dot-grid",
+    "atmosphereConfig": { "opacity": 0.08 },
+    "surface": null,
+    "surfaceConfig": null,
+    "description": "Horizontal timeline with markers at 1950 (2.1M tons), 1980, 2010 (50M tons), and projected 2030 (75%). Timeline draws left-to-right with staggered marker reveals. Values in JetBrains Mono. '24× increase' callout text in Accent Pink between 1950 and 2010 markers. 2030 projection marker uses dashed style to indicate future estimate. Dot-grid background for data scene.",
+    "sourceText": "Source: Aizenshtein, 2012; Essel & Ahrens, 2015",
+    "dataChart": {
+      "type": "timeline",
+      "title": "Global Synthetic Fiber Production",
+      "items": [
+        { "label": "1950", "value": 2.1, "displayValue": "2.1M tons" },
+        { "label": "1980", "value": 15, "displayValue": "~15M tons" },
+        { "label": "2010", "value": 50, "displayValue": "50M tons" },
+        { "label": "2030", "value": 75, "displayValue": "75% share (proj.)", "projection": true }
+      ],
+      "unit": "M tons",
+      "colors": ["#E88CA5", "#7BA7C9"],
+      "annotation": "24× increase in 60 years"
+    },
+    "textOverlay": null,
+    "motion": "blur-fade-in",
+    "motionConfig": {}
+  },
+  "transition": "cut",
+  "notes": "First data scene of the video — sets the analytical tone. Timeline reveals sequentially from left to right. The '24x' annotation should appear after the 2010 marker lands. 2030 projection dashed to distinguish from historical data."
+}

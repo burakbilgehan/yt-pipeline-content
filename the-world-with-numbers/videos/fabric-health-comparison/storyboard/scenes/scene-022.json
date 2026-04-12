@@ -1,0 +1,50 @@
+{
+  "id": "scene-022",
+  "visual": {
+    "type": "data-chart",
+    "atmosphere": "dot-grid",
+    "atmosphereConfig": { "opacity": 0.08 },
+    "surface": null,
+    "surfaceConfig": null,
+    "description": "Vertical tab layout with 5 fabric cards. Left side: tab list with progress indicator. Tabs: (1) Organic Cotton, (2) Linen, (3) Hemp, (4) Tencel (Lyocell), (5) Merino Wool. Each tab activates in sequence synced to voiceover. Right side: for each active tab, show a glass surface card with fabric properties (antimicrobial, durable, moisture-wicking, etc.). Active tab highlighted in Accent Pink, inactive in Sage. Dot-grid background.",
+    "sourceText": null,
+    "dataChart": {
+      "type": "vertical-tabs",
+      "title": "Safest Fabrics to Wear",
+      "items": [
+        {
+          "id": "organic-cotton",
+          "title": "Organic Cotton",
+          "description": "No pesticide residue, soft, breathable"
+        },
+        {
+          "id": "linen",
+          "title": "Linen",
+          "description": "Naturally antimicrobial, highly breathable"
+        },
+        {
+          "id": "hemp",
+          "title": "Hemp",
+          "description": "Most durable natural fiber, softens with washing"
+        },
+        {
+          "id": "tencel",
+          "title": "Tencel (Lyocell)",
+          "description": "Closed-loop solvent process, silky smooth"
+        },
+        {
+          "id": "merino",
+          "title": "Merino Wool",
+          "description": "17.5μm fiber, eczema-reducing, 30% moisture absorption"
+        }
+      ],
+      "showProgress": true,
+      "imagePosition": "right"
+    },
+    "textOverlay": null,
+    "motion": "blur-fade-in",
+    "motionConfig": {}
+  },
+  "transition": "cut",
+  "notes": "Tone shift — from problem to solution. Vertical tabs give each fabric its moment as the voiceover names them. Glass surface cards for the right-side detail panels. Progress bar shows how many fabrics have been covered. Merino (last tab) gets extra time since the voiceover highlights the eczema trial."
+}

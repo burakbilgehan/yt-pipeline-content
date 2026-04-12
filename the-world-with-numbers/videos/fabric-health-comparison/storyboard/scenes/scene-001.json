@@ -1,0 +1,26 @@
+{
+  "id": "scene-001",
+  "visual": {
+    "type": "data-chart",
+    "atmosphere": "film-grain",
+    "atmosphereConfig": { "opacity": 0.06 },
+    "surface": null,
+    "surfaceConfig": null,
+    "description": "Hero stat reveal. Large '570x' counter animates from 0 to 570 in JetBrains Mono, centered on screen. Suffix '×' in Accent Pink. Below the counter: 'the EU safe daily BPA limit' in Inter 400. Glow surface pulses once on landing. Dark background with film grain overlay.",
+    "sourceText": "Source: Jurikova et al., Environ. Sci. Pollut. Res., 2024",
+    "dataChart": {
+      "type": "counter",
+      "counterValue": 570,
+      "counterPrefix": "",
+      "counterSuffix": "×",
+      "title": "BPA Exceedance Factor",
+      "subtitle": "Sweat-soaked polyester activewear vs EU safe daily limit",
+      "items": null
+    },
+    "textOverlay": null,
+    "motion": "none",
+    "motionConfig": null
+  },
+  "transition": "cut",
+  "notes": "Opening hook — the most shocking stat upfront. Counter should complete by ~frame 60 (2s) then hold. Glow surface emphasizes this is the headline number. No dot-grid here — film-grain keeps it cinematic for the hook."
+}

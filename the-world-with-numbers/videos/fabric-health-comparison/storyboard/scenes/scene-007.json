@@ -1,0 +1,31 @@
+{
+  "id": "scene-007",
+  "visual": {
+    "type": "data-chart",
+    "atmosphere": "dot-grid",
+    "atmosphereConfig": { "opacity": 0.08 },
+    "surface": null,
+    "surfaceConfig": null,
+    "description": "Hero counter: large '7' in JetBrains Mono 80px animates from 0, with subtitle 'average wears before discarded' in Inter. Glass surface card. Below: contextual text 'Cotton uses 2.4% of cultivated land' fades in after counter lands, providing the systemic reason for synthetic dominance. Film grain for narrative tone shift.",
+    "sourceText": "Source: European Environment Agency (EEA)",
+    "dataChart": {
+      "type": "counter",
+      "counterValue": 7,
+      "counterPrefix": "",
+      "counterSuffix": " wears",
+      "title": "Average Fast Fashion Garment Lifespan",
+      "subtitle": "Cotton uses 2.4% of world's cultivated land",
+      "items": null
+    },
+    "textOverlay": {
+      "text": "Not enough farmland for 8 billion in natural fiber",
+      "phase": 2,
+      "style": "flip-pill",
+      "color": "#D94F4F"
+    },
+    "motion": "none",
+    "motionConfig": null
+  },
+  "transition": "crossfade",
+  "notes": "Closing scene of Section 1. The '7 wears' stat is sobering — counter should be quick (30 frames) since it's a small number. The land-use context provides the 'why' for synthetic dominance. Crossfade into Section 2 (Chemical Cocktail)."
+}

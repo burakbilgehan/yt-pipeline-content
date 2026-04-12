@@ -1,0 +1,55 @@
+{
+  "id": "scene-023",
+  "visual": {
+    "type": "data-chart",
+    "atmosphere": "dot-grid",
+    "atmosphereConfig": { "opacity": 0.08 },
+    "surface": null,
+    "surfaceConfig": null,
+    "description": "Duel-mode comparison: Merino Wool vs Polyester. Left: Merino — '30% weight in moisture' stat, 'Eczema reduction (12-week trial)' in Positive Green, '17.5μm fiber' spec. Right: Polyester — 'Traps sweat against skin', 'Occlusive microenvironment' in Negative Red, 'Bacterial growth 1.72×10⁷'. Below: Linen/Hemp callout card — 'Naturally antimicrobial, no chemical treatment needed' in Accent Blue. Flat surface for readability.",
+    "sourceText": "Source: Hon et al., Am. J. Clin. Dermatol., 2020",
+    "dataChart": {
+      "type": "comparison",
+      "title": "Natural Fiber Properties",
+      "duel": {
+        "left": {
+          "label": "Merino Wool",
+          "subtitle": "17.5μm superfine"
+        },
+        "right": {
+          "label": "Polyester",
+          "subtitle": "standard synthetic"
+        }
+      },
+      "items": [
+        {
+          "metric": "Moisture",
+          "leftValue": "30% absorption",
+          "rightValue": "Traps sweat"
+        },
+        {
+          "metric": "Skin Health",
+          "leftValue": "Reduces eczema",
+          "rightValue": "Occlusive environment"
+        },
+        {
+          "metric": "Bacteria",
+          "leftValue": "Low growth",
+          "rightValue": "1.72×10⁷ CFU/cm²"
+        }
+      ],
+      "colors": [
+        "#5BBF8C",
+        "#E06070"
+      ],
+      "annotation": "Linen & Hemp: Naturally antimicrobial — no chemical treatment needed"
+    },
+    "textOverlay": null,
+    "motion": "bar-grow",
+    "motionConfig": {
+      "direction": "horizontal"
+    }
+  },
+  "transition": "cut",
+  "notes": "Head-to-head duel using Positive Green (merino) vs Negative Red (polyester) to clearly signal which is better. The 12-week clinical trial detail for eczema adds scientific credibility. Linen/hemp callout below keeps those fabrics in the conversation."
+}

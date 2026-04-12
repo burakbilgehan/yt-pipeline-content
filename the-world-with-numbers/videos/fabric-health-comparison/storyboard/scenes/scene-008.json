@@ -1,0 +1,36 @@
+{
+  "id": "scene-008",
+  "visual": {
+    "type": "data-chart",
+    "atmosphere": "dot-grid",
+    "atmosphereConfig": { "opacity": 0.08 },
+    "surface": null,
+    "surfaceConfig": null,
+    "description": "Multi-phase counter scene. Phase 1: Counter ticks to 8,000 ('chemicals in textile manufacturing'). Phase 2: Split into '1,900 distinct components' and '150+ hazardous' — two smaller counters. Phase 3: Detection grid — 93 filled cells out of 98 total in a grid layout (each cell represents a target chemical). 93 cells in Accent Pink, 5 empty in Sage. '93/98 detected' label in JetBrains Mono. Dot-grid background.",
+    "sourceText": "Source: Rovira et al., Qeios, 2025",
+    "dataChart": {
+      "type": "counter",
+      "counterValue": 8000,
+      "counterPrefix": "",
+      "counterSuffix": "",
+      "title": "Chemicals in Textile Manufacturing",
+      "subtitle": "93/98 chemicals detected in clothing",
+      "items": [
+        {
+          "label": "Distinct components",
+          "value": 1900
+        },
+        {
+          "label": "Hazardous",
+          "value": 150,
+          "displayValue": "150+"
+        }
+      ]
+    },
+    "textOverlay": null,
+    "motion": "none",
+    "motionConfig": null
+  },
+  "transition": "cut",
+  "notes": "Opening of Chemical Cocktail section. Three-phase reveal: big number → breakdown → detection grid. The 93/98 grid is a powerful visual — nearly all cells filled. Consider implementing as a small dot grid where each dot represents a chemical, lighting up one by one."
+}

@@ -1,0 +1,42 @@
+{
+  "id": "scene-006",
+  "visual": {
+    "type": "data-chart",
+    "atmosphere": "dot-grid",
+    "atmosphereConfig": { "opacity": 0.08 },
+    "surface": null,
+    "surfaceConfig": null,
+    "description": "Two vertical bars side-by-side: H&M Regular Collection (61%, Accent Blue) and H&M Conscious Collection (72%, Accent Pink). The Conscious bar is taller — the irony is the visual punchline. Title: 'H&M Synthetic Content' in Montserrat. A small annotation arrow or label: 'sustainability line has MORE synthetic' in Warm Cream below. Bars grow with spring stagger (6-frame delay).",
+    "sourceText": "Source: Changing Markets Foundation, 2023",
+    "dataChart": {
+      "type": "bar-chart",
+      "title": "H&M Synthetic Fiber Content",
+      "items": [
+        {
+          "label": "Regular Collection",
+          "value": 61
+        },
+        {
+          "label": "\"Conscious\" Collection",
+          "value": 72
+        }
+      ],
+      "orientation": "horizontal",
+      "colors": [
+        "#7BA7C9",
+        "#E88CA5"
+      ],
+      "unit": "%",
+      "annotation": "The \"sustainability\" line is 11% MORE synthetic",
+      "maxValue": 100
+    },
+    "textOverlay": null,
+    "motion": "bar-grow",
+    "motionConfig": {
+      "direction": "horizontal",
+      "stagger": 6
+    }
+  },
+  "transition": "cut",
+  "notes": "Key irony moment — Conscious Collection bar should visually exceed Regular. Use Accent Pink for Conscious to draw attention to the higher (worse) bar. Annotation text appears after both bars complete their animation."
+}

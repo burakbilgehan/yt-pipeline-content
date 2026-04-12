@@ -1,0 +1,40 @@
+{
+  "id": "scene-026",
+  "visual": {
+    "type": "data-chart",
+    "atmosphere": "dot-grid",
+    "atmosphereConfig": { "opacity": 0.10, "spacing": 20 },
+    "surface": null,
+    "surfaceConfig": null,
+    "description": "Vertical tabs showing three actionable steps the viewer can take. Each tab reveals on click/auto-advance with a title and short description. Accent Pink active indicator. Dot-grid background for data-feel, frosted-panel surface for depth. Text stays in upper 65% for YouTube end screen safety.",
+    "sourceText": null,
+    "dataChart": {
+      "type": "vertical-tabs",
+      "title": "3 Things You Can Do Today",
+      "items": [
+        {
+          "id": "check-label",
+          "title": "Check the Label",
+          "description": "Look for fabric composition before buying. Choose certified natural fibers or tested blends to reduce chemical exposure."
+        },
+        {
+          "id": "wash-before-wearing",
+          "title": "Wash Before Wearing",
+          "description": "A single pre-wash removes ~61% of residual formaldehyde (emission drops from 107 to 42 μg/m²/h). Always wash new clothes before wearing."
+        },
+        {
+          "id": "look-for-certifications",
+          "title": "Look for Oeko-Tex / GOTS",
+          "description": "These certifications guarantee tested limits on harmful substances. Oeko-Tex Standard 100 is the most widely recognized."
+        }
+      ],
+      "showProgress": true,
+      "imagePosition": "right"
+    },
+    "textOverlay": null,
+    "motion": null,
+    "motionConfig": null
+  },
+  "transition": "cut",
+  "notes": "CTA section — three actionable steps as vertical tabs. Uses VerticalTabScene template. Active tab indicator uses Accent Pink (#E88CA5), inactive tabs use Warm Cream at reduced opacity. No Sage as accent — only for dot-grid background. Tabs auto-advance with staggered reveal timing."
+}

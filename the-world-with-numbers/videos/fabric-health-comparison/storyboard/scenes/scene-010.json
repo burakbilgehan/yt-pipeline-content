@@ -1,0 +1,61 @@
+{
+  "id": "scene-010",
+  "visual": {
+    "type": "data-chart",
+    "atmosphere": "dot-grid",
+    "atmosphereConfig": { "opacity": 0.08 },
+    "surface": null,
+    "surfaceConfig": null,
+    "description": "Two bar chart groups stacked vertically. Group 1: 'Formaldehyde Content (mg/kg)' — Eco-friendly 10.4 (Accent Pink) vs Conventional 8.23 (Accent Blue). Eco-friendly bar is longer — paradox highlighted with small '↑ 26% more' annotation. Group 2: 'Formaldehyde Emission (ug/m2/h)' — Unwashed 107 (Negative Red) vs Washed 42 (Positive Green). '−61%' annotation on washed bar. Title: 'The Eco-Friendly Paradox'. Bars grow with 6-frame stagger.",
+    "sourceText": "Source: Herrero et al. (Spain study)",
+    "dataChart": {
+      "type": "bar-chart",
+      "title": "The Eco-Friendly Paradox",
+      "items": [
+        {
+          "label": "\"Eco-Friendly\"",
+          "value": 10.4
+        },
+        {
+          "label": "Conventional",
+          "value": 8.23
+        }
+      ],
+      "orientation": "horizontal",
+      "colors": [
+        "#E88CA5",
+        "#7BA7C9"
+      ],
+      "unit": "mg/kg",
+      "groupTitle": "Formaldehyde Content",
+      "annotation": "↑ 26% more formaldehyde in \"eco-friendly\" clothing",
+      "secondaryChart": {
+        "title": "Formaldehyde Emission",
+        "items": [
+          {
+            "label": "Unwashed",
+            "value": 107
+          },
+          {
+            "label": "Washed",
+            "value": 42
+          }
+        ],
+        "colors": [
+          "#E88CA5",
+          "#7BA7C9"
+        ],
+        "unit": "μg/m²/h",
+        "annotation": "−61% emission after a single wash"
+      }
+    },
+    "textOverlay": null,
+    "motion": "bar-grow",
+    "motionConfig": {
+      "direction": "horizontal",
+      "stagger": 6
+    }
+  },
+  "transition": "cut",
+  "notes": "Key paradox scene — eco-friendly having MORE formaldehyde is the surprise. Group 1 bars should complete first, hold for the voiceover beat, then Group 2 appears. The wash comparison uses Positive/Negative colors from the brand guide. Consider composite-phases for the two chart groups if timing requires separate reveals."
+}

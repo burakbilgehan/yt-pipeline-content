@@ -1,0 +1,37 @@
+{
+  "id": "scene-027",
+  "visual": {
+    "type": "data-chart",
+    "atmosphere": "film-grain",
+    "atmosphereConfig": { "opacity": 0.06 },
+    "surface": null,
+    "surfaceConfig": null,
+    "description": "End card with channel branding. 'The World With Numbers' channel name in Montserrat Bold centered, held for full duration. 'Sources in description' in Inter below. YouTube end screen safe zones: two rectangular placeholders (lower-right for next video, lower-left for subscribe). No fade-to-black — content stays fully visible for the entire 20 seconds so end screen elements remain clickable. Film grain overlay throughout. Clean, minimal — no charts, no data.",
+    "sourceText": null,
+    "dataChart": {
+      "type": "end-card",
+      "channelName": "The World With Numbers",
+      "fadeToBlack": false,
+      "finalQuestion": null,
+      "showSourcesNote": true,
+      "contentHoldDuration": 20,
+      "youtubeEndScreen": {
+        "enabled": true,
+        "startTime": 583,
+        "duration": 20,
+        "elements": [
+          { "type": "video", "position": "bottom-right" },
+          { "type": "subscribe", "position": "bottom-left" }
+        ]
+      }
+    },
+    "textOverlay": null,
+    "motion": "blur-fade-in",
+    "motionConfig": {
+      "entranceDurationFrames": 30,
+      "holdAfterEntrance": true
+    }
+  },
+  "transition": "cut",
+  "notes": "Final scene — 20 seconds of end card with YouTube end screen elements. fadeToBlack disabled to prevent premature content disappearance. Channel name and 'Sources in description' text appear via blur-fade-in in first ~1 second, then hold static for remaining 19 seconds. No image assets — text-only end card avoids the brief image flash issue. Subscribe CTA is subtle per brand guide (accent underline only). No busy backgrounds."
+}

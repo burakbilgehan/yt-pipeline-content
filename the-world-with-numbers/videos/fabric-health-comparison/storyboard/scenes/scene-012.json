@@ -1,0 +1,39 @@
+{
+  "id": "scene-012",
+  "visual": {
+    "type": "data-chart",
+    "atmosphere": "dot-grid",
+    "atmosphereConfig": { "opacity": 0.08 },
+    "surface": null,
+    "surfaceConfig": null,
+    "description": "BPA exposure escalation counter. Multi-phase: Phase 1 — 'Dry contact' label, counter shows '~1×' (near limit), neutral tone. Phase 2 — 'Add sweat' text-rotate transition, counter rapidly climbs from 1 to 570 with glow surface intensifying. Final state: '570×' in large JetBrains Mono with 'the EU safe daily limit' subtitle. The escalation from ~1x to 570x is the dramatic arc. Film grain for cinematic weight.",
+    "sourceText": "Source: EFSA; Jurikova et al., 2024",
+    "dataChart": {
+      "type": "counter",
+      "counterValue": 570,
+      "counterPrefix": "",
+      "counterSuffix": "×",
+      "title": "BPA Exposure: Polyester Activewear",
+      "subtitle": "vs EU tolerable daily intake (0.2 ng/kg bw/day)",
+      "items": [
+        {
+          "label": "Dry contact",
+          "value": 1,
+          "displayValue": "~1×",
+          "color": "#7BA7C9"
+        },
+        {
+          "label": "Sweat-soaked",
+          "value": 570,
+          "displayValue": "570×",
+          "color": "#E88CA5"
+        }
+      ]
+    },
+    "textOverlay": null,
+    "motion": "none",
+    "motionConfig": null
+  },
+  "transition": "cut",
+  "notes": "Second use of glow surface in the video — justified because this is the BPA section's headline stat and echoes the opening hook (scene-001). The escalation from dry to sweat-soaked is the key narrative moment. Counter should accelerate non-linearly (slow start, fast finish) for dramatic effect."
+}

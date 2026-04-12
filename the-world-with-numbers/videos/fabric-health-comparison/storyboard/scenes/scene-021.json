@@ -1,0 +1,31 @@
+{
+  "id": "scene-021",
+  "visual": {
+    "type": "data-chart",
+    "atmosphere": "dot-grid",
+    "atmosphereConfig": { "opacity": 0.08 },
+    "surface": null,
+    "surfaceConfig": null,
+    "description": "Dramatic counter scene. Phase 1: Counter ticks from 0 to 300 — '300 pregnant women tested'. Phase 2: '100%' appears large in JetBrains Mono 80px with glow pulse — 'tested positive for aromatic amines'. Phase 3: DNA double helix icon (simple, geometric) with '8-OHdG' biomarker label and 'DNA damage correlation' text in Negative Red. Film grain for documentary weight. Third glow usage — justified as section climax.",
+    "sourceText": "Source: Souza et al., 2023",
+    "dataChart": {
+      "type": "counter",
+      "counterValue": 300,
+      "counterPrefix": "",
+      "counterSuffix": "/300",
+      "title": "Azo Dye Exposure in Pregnant Women",
+      "subtitle": "100% tested positive for aromatic amines — DNA damage biomarker (8-OHdG) elevated",
+      "items": []
+    },
+    "textOverlay": null,
+    "motion": "counter-up",
+    "motionConfig": {
+      "from": 0,
+      "to": 300,
+      "suffix": "/300",
+      "duration": 40
+    }
+  },
+  "transition": "crossfade",
+  "notes": "Closing scene of Skin section — the most emotionally weighty stat in the video. 300/300 with 100% detection is devastating. Glow surface justified here as the section's peak moment. DNA damage callout in Negative Red adds the health consequence. Crossfade into the solutions section."
+}

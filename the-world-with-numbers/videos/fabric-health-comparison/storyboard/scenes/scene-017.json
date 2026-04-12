@@ -1,0 +1,28 @@
+{
+  "id": "scene-017",
+  "visual": {
+    "type": "ai-image",
+    "assetPath": "production/visuals/scene-017-body-silhouette.png",
+    "atmosphere": null,
+    "atmosphereConfig": null,
+    "surface": null,
+    "surfaceConfig": null,
+    "description": "AI-generated image of a human body silhouette (dark, translucent, anatomical outline style) on #2A2A32 background. Three location markers appear sequentially with blur-fade-in: (1) Lungs — small cluster of pink fiber particles, (2) Brain — cluster of fiber particles, (3) Placenta — cluster of fiber particles. Each location label in Inter 400 with connecting line. Film grain overlay for documentary feel. No faces, no identifiable features — just the anatomical outline.",
+    "sourceText": "Source: Leslie et al., Env. Int., 2022",
+    "dataChart": null,
+    "textOverlay": {
+      "lines": [
+        { "text": "Found in human lungs", "position": "lung-area", "delay": 0 },
+        { "text": "Found in human brains", "position": "brain-area", "delay": 30 },
+        { "text": "Found in placentas", "position": "placenta-area", "delay": 60 }
+      ]
+    },
+    "motion": "blur-fade-in",
+    "motionConfig": {
+      "stagger": 30
+    },
+    "aiImagePrompt": "Human body anatomical silhouette outline, dark translucent, x-ray style, dark moody background close to #2A2A32, cinematic lighting, muted color palette, minimal composition, high detail, no text, no identifiable face, medical illustration style, documentary aesthetic"
+  },
+  "transition": "crossfade",
+  "notes": "This is a narrative/emotional moment — the data becomes personal. AI-generated image for the body silhouette. Sequential reveal of three affected organs creates escalating concern. Film grain (not dot-grid) because this is about human impact, not data analysis. Crossfade into Skin section."
+}

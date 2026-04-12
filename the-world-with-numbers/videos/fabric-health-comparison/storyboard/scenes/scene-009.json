@@ -1,0 +1,38 @@
+{
+  "id": "scene-009",
+  "visual": {
+    "type": "data-chart",
+    "atmosphere": "dot-grid",
+    "atmosphereConfig": { "opacity": 0.08 },
+    "surface": null,
+    "surfaceConfig": null,
+    "description": "Two-part scene. Top: '3×' large stat in JetBrains Mono with 'higher chemical concentration in children's clothing vs adult' subtitle — uses tug-of-war bar format with Children (Accent Pink, higher) vs Adult. Bottom: Formaldehyde classification card — 'Group 1 Carcinogen' text in Negative Red, 'IARC Classification' label, '20% of clothing tested in Spain' stat. Flat surface for readability.",
+    "sourceText": "Source: IARC; Ji et al.; Herrero et al.",
+    "dataChart": {
+      "type": "comparison",
+      "title": "Chemical Concentrations by Garment Type",
+      "items": [
+        {
+          "label": "Children's Clothing",
+          "value": 3,
+          "displayValue": "3×",
+          "color": "#E88CA5"
+        },
+        {
+          "label": "Adult Clothing",
+          "value": 1,
+          "displayValue": "1×",
+          "color": "#7BA7C9"
+        }
+      ],
+      "annotation": "Formaldehyde: Group 1 Carcinogen (IARC) — found in 20% of clothing tested"
+    },
+    "textOverlay": null,
+    "motion": "bar-grow",
+    "motionConfig": {
+      "direction": "horizontal"
+    }
+  },
+  "transition": "cut",
+  "notes": "The children's 3x stat is alarming — make the size difference visceral. Formaldehyde classification card should use Negative Red for 'Group 1 Carcinogen' to signal danger without being gratuitous."
+}
