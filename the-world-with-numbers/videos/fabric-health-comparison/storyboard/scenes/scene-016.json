@@ -19,12 +19,14 @@
         {
           "label": "Minimum",
           "value": 58,
-          "displayValue": "58 years"
+          "displayValue": "58 years",
+          "color": "#E88CA5"
         },
         {
           "label": "Maximum",
           "value": 1200,
-          "displayValue": "1,200 years"
+          "displayValue": "1,200 years",
+          "color": "#E88CA5"
         },
         {
           "label": "Human lifespan",

@@ -12,9 +12,9 @@
       "type": "timeline",
       "title": "Global Synthetic Fiber Production",
       "items": [
-        { "label": "1950", "value": 2.1, "displayValue": "2.1M tons" },
-        { "label": "1980", "value": 15, "displayValue": "~15M tons" },
-        { "label": "2010", "value": 50, "displayValue": "50M tons" },
+        { "label": "1950", "value": 2.1, "displayValue": "2.1M tons (≈20% share)" },
+        { "label": "1980", "value": 15, "displayValue": "~15M tons (≈38% share)" },
+        { "label": "2010", "value": 50, "displayValue": "50M tons (≈60% share)" },
         { "label": "2030", "value": 75, "displayValue": "75% share (proj.)", "projection": true }
       ],
       "unit": "M tons",

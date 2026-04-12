@@ -9,22 +9,24 @@
     "description": "PFAS callback from scene-011 — same proportional circles but now with warning framing. Tiny circle: Cotton-Poly Blend 1.7 ng/g (Accent Blue). Massive circle: 100% Cotton (stain-resistant) 19,100 ng/g (Accent Pink). Above: 'FIBER ≠ SAFETY' in Montserrat Bold 48px with glitch-text effect, Negative Red. Below circles: 'The FINISH matters as much as the fiber' in Inter. New annotation: 'A chemically treated cotton shirt can be worse than untreated polyester'. Dot-grid background.",
     "sourceText": "Source: Xia et al., Env. Sci. & Tech., 2022",
     "dataChart": {
-      "type": "scale-comparison",
+      "type": "bar-chart",
       "title": "The Finish Matters",
       "items": [
         {
-          "label": "Cotton-Poly Blend\n(no treatment)",
-          "value": 1.7
+          "label": "100% Cotton\n(stain-resistant finish)",
+          "value": 19100,
+          "displayValue": "19,100 ng/g PFAS",
+          "color": "#E88CA5"
         },
         {
-          "label": "100% Cotton\n(stain-resistant finish)",
-          "value": 19100
+          "label": "Cotton-Poly Blend\n(no treatment)",
+          "value": 1.7,
+          "displayValue": "1.7 ng/g PFAS",
+          "color": "#7BA7C9"
         }
       ],
-      "colors": [
-        "#7BA7C9",
-        "#E88CA5"
-      ],
+      "orientation": "horizontal",
+      "colors": ["#E88CA5", "#7BA7C9"],
       "unit": "ng/g PFAS",
       "annotation": "Chemically treated cotton can be worse than untreated polyester"
     },
@@ -32,11 +34,15 @@
       "text": "FIBER ≠ SAFETY",
       "style": "flip-pill",
       "color": "#D94F4F",
-      "position": "center",
-      "phase": 2
+      "position": "top-center",
+      "phase": 2,
+      "keepChartVisible": true
     },
-    "motion": "glitch-text",
-    "motionConfig": {}
+    "motion": "bar-grow",
+    "motionConfig": {
+      "direction": "horizontal",
+      "stagger": 6
+    }
   },
   "transition": "cut",
   "notes": "Intentional callback to scene-011 — same data, but now reframed as a warning. The 'FIBER ≠ SAFETY' headline with glitch text is the key message of this entire section. This is the nuance that separates this video from simplistic 'natural good, synthetic bad' takes."

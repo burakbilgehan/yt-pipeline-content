@@ -6,50 +6,43 @@
     "atmosphereConfig": { "opacity": 0.08 },
     "surface": null,
     "surfaceConfig": null,
-    "description": "Duel-mode comparison: Merino Wool vs Polyester. Left: Merino — '30% weight in moisture' stat, 'Eczema reduction (12-week trial)' in Positive Green, '17.5μm fiber' spec. Right: Polyester — 'Traps sweat against skin', 'Occlusive microenvironment' in Negative Red, 'Bacterial growth 1.72×10⁷'. Below: Linen/Hemp callout card — 'Naturally antimicrobial, no chemical treatment needed' in Accent Blue. Flat surface for readability.",
+    "description": "Dual-container duel: Merino Wool (frosted-panel, pink accent) vs Polyester (neon-gradient, blue accent). Each panel shows material name, subtitle, and 3 metric rows. TiltCard motion on both. Annotation below for Linen/Hemp callout.",
     "sourceText": "Source: Hon et al., Am. J. Clin. Dermatol., 2020",
     "dataChart": {
-      "type": "comparison",
+      "type": "split-comparison",
       "title": "Natural Fiber Properties",
-      "duel": {
-        "left": {
-          "label": "Merino Wool",
-          "subtitle": "17.5μm superfine"
-        },
-        "right": {
-          "label": "Polyester",
-          "subtitle": "standard synthetic"
-        }
+      "mode": "material-duel",
+      "left": {
+        "title": "Merino Wool",
+        "subtitle": "17.5μm superfine",
+        "metrics": [
+          { "label": "Moisture", "value": "30% absorption" },
+          { "label": "Skin Health", "value": "Reduces eczema" },
+          { "label": "Bacteria", "value": "Low growth" }
+        ],
+        "color": "#E88CA5",
+        "surfaceType": "backlight"
       },
-      "items": [
-        {
-          "metric": "Moisture",
-          "leftValue": "30% absorption",
-          "rightValue": "Traps sweat"
-        },
-        {
-          "metric": "Skin Health",
-          "leftValue": "Reduces eczema",
-          "rightValue": "Occlusive environment"
-        },
-        {
-          "metric": "Bacteria",
-          "leftValue": "Low growth",
-          "rightValue": "1.72×10⁷ CFU/cm²"
-        }
-      ],
-      "colors": [
-        "#5BBF8C",
-        "#E06070"
-      ],
+      "right": {
+        "title": "Polyester",
+        "subtitle": "standard synthetic",
+        "metrics": [
+          { "label": "Moisture", "value": "Traps sweat" },
+          { "label": "Skin Health", "value": "Occlusive environment" },
+          { "label": "Bacteria", "value": "17.2 million CFU/cm²" }
+        ],
+        "color": "#7BA7C9",
+        "surfaceType": "frosted-panel"
+      },
       "annotation": "Linen & Hemp: Naturally antimicrobial — no chemical treatment needed"
     },
     "textOverlay": null,
-    "motion": "bar-grow",
+    "motion": "tilt-card",
     "motionConfig": {
-      "direction": "horizontal"
+      "maxTilt": 6,
+      "speed": 0.6
     }
   },
   "transition": "cut",
-  "notes": "Head-to-head duel using Positive Green (merino) vs Negative Red (polyester) to clearly signal which is better. The 12-week clinical trial detail for eczema adds scientific credibility. Linen/hemp callout below keeps those fabrics in the conversation."
+  "notes": "Dual-container duel with DS surface treatments. Merino in frosted-panel (soft, natural feel), Polyester in neon-gradient (synthetic/artificial feel). TiltCard on both for subtle 3D motion. Annotation card at bottom for Linen/Hemp."
 }

@@ -15,17 +15,20 @@
         {
           "id": "check-label",
           "title": "Check the Label",
-          "description": "Look for fabric composition before buying. Choose certified natural fibers or tested blends to reduce chemical exposure."
+          "description": "Look for fabric composition before buying. Choose certified natural fibers or tested blends to reduce chemical exposure.",
+          "image": "production/visuals/scene-026-check-label.jpg"
         },
         {
           "id": "wash-before-wearing",
           "title": "Wash Before Wearing",
-          "description": "A single pre-wash removes ~61% of residual formaldehyde (emission drops from 107 to 42 μg/m²/h). Always wash new clothes before wearing."
+          "description": "A single pre-wash removes ~61% of residual formaldehyde (emission drops from 107 to 42 μg/m²/h). Always wash new clothes before wearing.",
+          "image": "production/visuals/scene-026-wash-before-wearing.jpg"
         },
         {
           "id": "look-for-certifications",
           "title": "Look for Oeko-Tex / GOTS",
-          "description": "These certifications guarantee tested limits on harmful substances. Oeko-Tex Standard 100 is the most widely recognized."
+          "description": "These certifications guarantee tested limits on harmful substances. Oeko-Tex Standard 100 is the most widely recognized.",
+          "image": "production/visuals/scene-026-certifications.jpg"
         }
       ],
       "showProgress": true,

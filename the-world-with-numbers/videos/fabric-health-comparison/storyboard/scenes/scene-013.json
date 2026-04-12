@@ -9,34 +9,34 @@
     "description": "Duel-mode butterfly comparison. Left: 'Recycled Polyester' (marketed as green), Right: 'Virgin Polyester'. Center metric: BPA content — 13.5 vs 7.66 ng/g. Recycled bar extends further left (Accent Pink), Virgin bar extends right (Accent Blue). Below: 'Recycling concentrates plastic residues' annotation. Above the duel: 'Sports Bras & Athletic Shirts: 22–40× Prop 65 Limit' as a separate callout card in Negative Red border.",
     "sourceText": "Source: Jurikova et al., Environ. Sci. Pollut. Res., 2024",
     "dataChart": {
-      "type": "comparison",
+      "type": "bar-chart",
       "title": "BPA in Polyester",
-      "duel": {
-        "left": {
-          "label": "Recycled Polyester",
-          "subtitle": "\"greener choice\""
-        },
-        "right": {
-          "label": "Virgin Polyester",
-          "subtitle": "standard"
-        }
-      },
       "items": [
         {
-          "metric": "BPA (ng/g)",
-          "leftValue": 13.5,
-          "rightValue": 7.66
+          "label": "Recycled Polyester\n(\"greener choice\")",
+          "value": 13.5,
+          "displayValue": "13.5 ng/g",
+          "color": "#E88CA5"
+        },
+        {
+          "label": "Virgin Polyester\n(standard)",
+          "value": 7.66,
+          "displayValue": "7.66 ng/g",
+          "color": "#7BA7C9"
         }
       ],
-      "colors": [
-        "#E88CA5",
-        "#7BA7C9"
-      ],
+      "orientation": "horizontal",
+      "colors": ["#E88CA5", "#7BA7C9"],
+      "unit": "ng/g",
+      "maxValue": 15,
       "annotation": "Sports bras & athletic shirts: 22–40× California Prop 65 limit"
     },
     "textOverlay": null,
-    "motion": "none",
-    "motionConfig": null
+    "motion": "bar-grow",
+    "motionConfig": {
+      "direction": "horizontal",
+      "stagger": 6
+    }
   },
   "transition": "cut",
   "notes": "Butterfly/duel comparison for recycled vs virgin polyester. The 'greener choice' having nearly double the BPA is the insight. Sports bra Prop 65 stat adds urgency — consider a small warning-style card above the duel chart. Flat surface for clean readability."

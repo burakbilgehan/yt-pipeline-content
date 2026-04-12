@@ -22,7 +22,9 @@
       "texts": ["eco-friendly", "does not mean safe"],
       "phase": 2,
       "style": "flip-pill",
-      "color": "#E06070"
+      "color": "#E06070",
+      "keepChartVisible": true,
+      "position": "top-center"
     },
     "motion": "counter-up",
     "motionConfig": {

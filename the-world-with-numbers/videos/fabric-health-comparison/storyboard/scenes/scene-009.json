@@ -9,28 +9,33 @@
     "description": "Two-part scene. Top: '3×' large stat in JetBrains Mono with 'higher chemical concentration in children's clothing vs adult' subtitle — uses tug-of-war bar format with Children (Accent Pink, higher) vs Adult. Bottom: Formaldehyde classification card — 'Group 1 Carcinogen' text in Negative Red, 'IARC Classification' label, '20% of clothing tested in Spain' stat. Flat surface for readability.",
     "sourceText": "Source: IARC; Ji et al.; Herrero et al.",
     "dataChart": {
-      "type": "comparison",
+      "type": "bar-chart",
       "title": "Chemical Concentrations by Garment Type",
       "items": [
         {
           "label": "Children's Clothing",
           "value": 3,
-          "displayValue": "3×",
+          "displayValue": "3× concentration",
           "color": "#E88CA5"
         },
         {
           "label": "Adult Clothing",
           "value": 1,
-          "displayValue": "1×",
+          "displayValue": "1× (baseline)",
           "color": "#7BA7C9"
         }
       ],
+      "orientation": "horizontal",
+      "colors": ["#E88CA5", "#7BA7C9"],
+      "unit": "×",
+      "maxValue": 3,
       "annotation": "Formaldehyde: Group 1 Carcinogen (IARC) — found in 20% of clothing tested"
     },
     "textOverlay": null,
     "motion": "bar-grow",
     "motionConfig": {
-      "direction": "horizontal"
+      "direction": "horizontal",
+      "stagger": 6
     }
   },
   "transition": "cut",

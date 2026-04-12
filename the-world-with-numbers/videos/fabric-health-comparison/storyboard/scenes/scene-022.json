@@ -15,27 +15,32 @@
         {
           "id": "organic-cotton",
           "title": "Organic Cotton",
-          "description": "No pesticide residue, soft, breathable"
+          "description": "No pesticide residue, soft, breathable",
+          "image": "production/visuals/scene-022-organic-cotton.jpg"
         },
         {
           "id": "linen",
           "title": "Linen",
-          "description": "Naturally antimicrobial, highly breathable"
+          "description": "Naturally antimicrobial, highly breathable",
+          "image": "production/visuals/scene-022-linen.jpg"
         },
         {
           "id": "hemp",
           "title": "Hemp",
-          "description": "Most durable natural fiber, softens with washing"
+          "description": "Most durable natural fiber, softens with washing",
+          "image": "production/visuals/scene-022-hemp.jpg"
         },
         {
           "id": "tencel",
           "title": "Tencel (Lyocell)",
-          "description": "Closed-loop solvent process, silky smooth"
+          "description": "Closed-loop solvent process, silky smooth",
+          "image": "production/visuals/scene-022-tencel.jpg"
         },
         {
           "id": "merino",
           "title": "Merino Wool",
-          "description": "17.5μm fiber, eczema-reducing, 30% moisture absorption"
+          "description": "17.5μm fiber, eczema-reducing, 30% moisture absorption",
+          "image": "production/visuals/scene-022-merino-wool.jpg"
         }
       ],
       "showProgress": true,

@@ -5,16 +5,18 @@
     "assetPath": "production/visuals/scene-018-fabric-skin-cross-section.png",
     "atmosphere": null,
     "atmosphereConfig": null,
-    "surface": null,
-    "surfaceConfig": null,
+    "surface": "frosted-panel",
+    "surfaceConfig": { "blur": 16, "opacity": 0.12, "borderRadius": 20 },
     "description": "AI-generated cross-section illustration showing two fabric-skin interactions side by side. Left: Polyester — tightly woven synthetic fabric pressing against skin, sweat droplets trapped between fabric and skin, red-tinted chemical particles migrating into skin layers. Right: Natural fiber (linen/cotton) — loose weave with visible air gaps, moisture wicking away, clean skin surface. Labels: 'Occlusive Microenvironment' (left, Accent Pink) and 'Breathable' (right, Accent Blue). Dark background, cinematic lighting.",
     "sourceText": "Source: Nedorost & Babineau, Dermatitis, 2020",
     "dataChart": null,
     "textOverlay": {
-      "lines": [
-        { "text": "Occlusive Microenvironment", "position": "left-label", "color": "#E88CA5" },
-        { "text": "Breathable", "position": "right-label", "color": "#7BA7C9" }
-      ]
+      "texts": ["Occlusive Microenvironment", "Polyester traps sweat against skin"],
+      "text": "Occlusive Microenvironment",
+      "style": "flip-pill",
+      "color": "#E88CA5",
+      "position": "bottom-center",
+      "showPill": true
     },
     "motion": "blur-fade-in",
     "motionConfig": {},

@@ -21,7 +21,9 @@
       "text": "Not enough farmland for 8 billion in natural fiber",
       "phase": 2,
       "style": "flip-pill",
-      "color": "#D94F4F"
+      "color": "#D94F4F",
+      "keepChartVisible": true,
+      "position": "top-center"
     },
     "motion": "none",
     "motionConfig": null

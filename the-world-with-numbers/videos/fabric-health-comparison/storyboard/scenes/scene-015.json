@@ -9,22 +9,24 @@
     "description": "Two proportional circles showing microfiber shedding difference. Left: Standard knit polyester — small circle (87 fibers/m²/L, Accent Blue). Right: Fleece — large circle (7,360 fibers/m²/L, Accent Pink). '85×' callout between circles in JetBrains Mono. Title: 'Microfiber Shedding per Wash'. Above: opening stat '110,000 fibers per fleece jacket wash' as a header counter that ticks up before the circles appear. Source label bottom-right.",
     "sourceText": "Source: Vassilenko et al., PLoS One, 2021",
     "dataChart": {
-      "type": "scale-comparison",
+      "type": "bar-chart",
       "title": "Microfiber Shedding per Wash",
       "items": [
         {
-          "label": "Standard Polyester",
-          "value": 87
+          "label": "Fleece",
+          "value": 7360,
+          "displayValue": "7,360 fibers/m²/L",
+          "color": "#E88CA5"
         },
         {
-          "label": "Fleece",
-          "value": 7360
+          "label": "Standard Polyester",
+          "value": 87,
+          "displayValue": "87 fibers/m²/L",
+          "color": "#7BA7C9"
         }
       ],
-      "colors": [
-        "#7BA7C9",
-        "#E88CA5"
-      ],
+      "orientation": "horizontal",
+      "colors": ["#E88CA5", "#7BA7C9"],
       "unit": "fibers/m²/L",
       "annotation": "85× more shedding from fleece"
     },
@@ -35,8 +37,11 @@
       "color": "#E88CA5",
       "position": "center"
     },
-    "motion": "blur-fade-in",
-    "motionConfig": {}
+    "motion": "bar-grow",
+    "motionConfig": {
+      "direction": "horizontal",
+      "stagger": 6
+    }
   },
   "transition": "cut",
   "notes": "Opening of Microplastic section. The 110K header counter draws attention first, then the scale comparison explains why fleece is particularly bad. 85x difference is dramatic enough for scale-comparison circles."
