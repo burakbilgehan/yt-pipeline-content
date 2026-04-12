@@ -1,0 +1,115 @@
+{
+  "generatedAt": "2026-04-12T14:00:00Z",
+  "channel": "the-world-with-numbers",
+  "summary": {
+    "total": 5,
+    "published": 4,
+    "cancelled": 1,
+    "in_progress": 0
+  },
+  "videos": [
+    {
+      "slug": "fabric-health-comparison",
+      "title": "The Healthiest Fabrics to Wear (Data-Backed)",
+      "status": "published",
+      "createdAt": "2026-04-04T10:06:51.343Z",
+      "format": "long",
+      "youtube": {
+        "videoId": "ZEtBjJpJPtk",
+        "url": "https://youtu.be/ZEtBjJpJPtk",
+        "publishedAt": "2026-04-12T13:46:48Z",
+        "privacyStatus": "public",
+        "durationSeconds": 639
+      },
+      "pipeline": {
+        "research": "completed",
+        "content": "completed",
+        "storyboard": "completed",
+        "production": "completed",
+        "publishing": "completed",
+        "analytics": "in_progress"
+      }
+    },
+    {
+      "slug": "shrinkflation-decoded",
+      "title": "Shrinkflation Decoded",
+      "status": "published",
+      "createdAt": "2026-03-26T15:30:36.811Z",
+      "format": "long",
+      "youtube": {
+        "videoId": "_mKke2IxhJg",
+        "url": "https://youtu.be/_mKke2IxhJg",
+        "publishedAt": "2026-03-29T00:00:00Z",
+        "privacyStatus": "public",
+        "durationSeconds": 648
+      },
+      "pipeline": {
+        "research": "completed",
+        "content": "completed",
+        "storyboard": "completed",
+        "production": "completed",
+        "publishing": "completed",
+        "analytics": "in_progress"
+      }
+    },
+    {
+      "slug": "time-vs-earnings",
+      "title": "Time vs Earnings",
+      "status": "published",
+      "createdAt": "2026-03-21T01:43:20.638Z",
+      "format": "long",
+      "youtube": {
+        "videoId": "-QPYHM3ER-I",
+        "url": "https://youtu.be/-QPYHM3ER-I",
+        "publishedAt": "2026-03-23T11:10:40.195Z",
+        "privacyStatus": "public",
+        "durationSeconds": 756
+      },
+      "pipeline": {
+        "research": "completed",
+        "content": "completed",
+        "storyboard": "completed",
+        "production": "completed",
+        "publishing": "completed",
+        "analytics": "in_progress"
+      }
+    },
+    {
+      "slug": "gold-vs-commodities-100-years",
+      "title": "What If You Priced Everything in Gold? (100 Years of Data)",
+      "status": "published",
+      "createdAt": "2026-03-15T00:00:00Z",
+      "format": "long",
+      "youtube": {
+        "videoId": "WeVrejS9Wf8",
+        "url": "https://youtu.be/WeVrejS9Wf8",
+        "publishedAt": "2026-03-17T19:42:24Z",
+        "privacyStatus": "public",
+        "durationSeconds": 230
+      },
+      "pipeline": {
+        "research": "completed",
+        "content": "completed",
+        "storyboard": "completed",
+        "production": "completed",
+        "publishing": "completed",
+        "analytics": "in_progress"
+      }
+    },
+    {
+      "slug": "sleep-deprivation-economy",
+      "title": "The Hidden Cost of Not Sleeping: What Sleep Deprivation Does to the Economy",
+      "status": "cancelled",
+      "createdAt": "2026-03-17T22:45:41.866Z",
+      "format": "long",
+      "pipeline": {
+        "research": "completed",
+        "content": "completed",
+        "storyboard": "completed",
+        "production": "completed",
+        "publishing": "cancelled",
+        "analytics": "cancelled"
+      }
+    }
+  ]
+}

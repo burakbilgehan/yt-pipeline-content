@@ -20,6 +20,13 @@
     "language": "en",
     "format": "long"
   },
+  "youtube": {
+    "videoId": "_mKke2IxhJg",
+    "url": "https://youtu.be/_mKke2IxhJg",
+    "publishedAt": "2026-03-29T00:00:00Z",
+    "privacyStatus": "public",
+    "durationSeconds": 648
+  },
   "pipeline": {
     "research": {
       "status": "completed",
@@ -34,17 +41,19 @@
       "version": 1
     },
     "production": {
-      "status": "in_progress",
-      "version": 0,
-      "startedAt": "2026-03-26T22:44:38.183Z"
+      "status": "completed",
+      "version": 1,
+      "startedAt": "2026-03-26T22:44:38.183Z",
+      "completedAt": "2026-03-29T00:00:00Z"
     },
     "publishing": {
-      "status": "pending",
-      "version": 0
+      "status": "completed",
+      "version": 1,
+      "completedAt": "2026-03-29T00:00:00Z"
     },
     "analytics": {
-      "status": "pending",
-      "version": 0
+      "status": "in_progress",
+      "version": 1
     }
   },
   "history": [

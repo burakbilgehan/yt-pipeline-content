@@ -47,7 +47,7 @@
       "completedAt": "2026-03-17T19:42:24Z"
     },
     "analytics": {
-      "status": "active",
+      "status": "in_progress",
       "version": 1,
       "note": "Analytics sync running since 2026-03-18. 187 views, 4.57 watch hours, 88s avg duration as of 2026-03-23."
     }
@@ -157,7 +157,9 @@
   ],
   "youtube": {
     "videoId": "WeVrejS9Wf8",
-    "url": "https://www.youtube.com/watch?v=WeVrejS9Wf8",
-    "publishedAt": "2026-03-17T19:42:24Z"
+    "url": "https://youtu.be/WeVrejS9Wf8",
+    "publishedAt": "2026-03-17T19:42:24Z",
+    "privacyStatus": "public",
+    "durationSeconds": 230
   }
 }

@@ -3,7 +3,7 @@
   "title": "The Healthiest Fabrics to Wear (Data-Backed)",
   "description": "Data-driven comparison of the most common fabrics used by major clothing brands — polyester, cotton, nylon, linen, wool, and others — ranked by health impact using peer-reviewed studies, chemical exposure data, microplastic shedding rates, and skin irritation statistics.",
   "createdAt": "2026-04-04T10:06:51.343Z",
-  "updatedAt": "2026-04-06T11:57:24.637Z",
+  "updatedAt": "2026-04-12T00:00:00.000Z",
   "currentWork": null,
   "tags": [],
   "metadata": {
@@ -12,6 +12,13 @@
     "targetAudience": "18-35, globally curious, English-speaking, prefers facts over opinions",
     "language": "en",
     "format": "long"
+  },
+  "youtube": {
+    "videoId": "ZEtBjJpJPtk",
+    "url": "https://youtu.be/ZEtBjJpJPtk",
+    "publishedAt": "2026-04-12T13:46:48Z",
+    "privacyStatus": "public",
+    "durationSeconds": 639
   },
   "pipeline": {
     "research": {
@@ -37,13 +44,14 @@
       "completedAt": "2026-04-06T11:57:24.636Z"
     },
     "publishing": {
-      "status": "in_progress",
+      "status": "completed",
       "version": 1,
-      "activePath": "channels/the-world-with-numbers/videos/fabric-health-comparison/publishing/metadata-v1.json"
+      "activePath": "channels/the-world-with-numbers/videos/fabric-health-comparison/publishing/metadata-v1.json",
+      "completedAt": "2026-04-12T00:00:00.000Z"
     },
     "analytics": {
-      "status": "pending",
-      "version": 0,
+      "status": "in_progress",
+      "version": 1,
       "activePath": null
     }
   },
@@ -125,6 +133,19 @@
       "version": 1,
       "at": "2026-04-06T11:57:24.636Z",
       "reason": "Rendered 636.5s video (19163 frames)"
+    },
+    {
+      "action": "publishing.completed",
+      "version": 1,
+      "at": "2026-04-12T00:00:00.000Z",
+      "reason": "Published to YouTube: https://youtu.be/ZEtBjJpJPtk",
+      "agent": "director"
+    },
+    {
+      "action": "analytics.started",
+      "version": 1,
+      "at": "2026-04-12T00:00:00.000Z",
+      "agent": "director"
     }
   ]
 }

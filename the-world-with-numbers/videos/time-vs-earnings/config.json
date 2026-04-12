@@ -70,7 +70,7 @@
       "completedAt": "2026-03-23T11:10:40.196Z"
     },
     "analytics": {
-      "status": "active",
+      "status": "in_progress",
       "version": 1,
       "note": "Analytics sync started 2026-03-23. Video just published, no meaningful data yet."
     }
@@ -207,7 +207,9 @@
   ],
   "youtube": {
     "videoId": "-QPYHM3ER-I",
-    "url": "https://www.youtube.com/watch?v=-QPYHM3ER-I",
-    "publishedAt": "2026-03-23T11:10:40.195Z"
+    "url": "https://youtu.be/-QPYHM3ER-I",
+    "publishedAt": "2026-03-23T11:10:40.195Z",
+    "privacyStatus": "public",
+    "durationSeconds": 756
   }
 }

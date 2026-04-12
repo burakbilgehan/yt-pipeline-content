@@ -1,0 +1,71 @@
+When you sweat in polyester activewear, your skin absorbs BPA at up to 570 times the EU safe daily limit. That's one chemical, in one fabric. We analyzed peer-reviewed studies covering 8,000+ textile chemicals, microplastic shedding, BPA exposure, and fabric-to-skin health impacts to find out which fabrics are actually safe to wear.
+
+⏱️ Timestamps:
+0:00 — Hook
+0:35 — The Synthetic Takeover
+1:44 — The Chemical Cocktail
+3:42 — The BPA Problem
+5:17 — The Microplastic Problem
+6:26 — Your Skin on Synthetics
+8:01 — What's Actually Safe
+9:55 — What You Can Do Today
+
+📊 Key findings:
+• 69% of global textile production is synthetic — projected to reach 75% by 2030
+• Researchers found 93 out of 98 targeted chemicals in clothing samples
+• Children's clothing had 3x higher chemical concentrations than adult garments
+• "Eco-friendly" garments averaged MORE formaldehyde than conventional ones (10.4 vs 8.23 mg/kg)
+• Sweat-soaked polyester activewear delivers BPA at 125–570x the EU safe limit
+• Polyester fleece sheds 7,360 fibers/m²/L per wash vs 87 for standard knit — 85x more
+• Synthetic microfibers persist 58–1,200 years in the environment
+• 100% cotton with stain-resistant finish: 19,100 ng/g PFAS vs untreated blend: 1.7 ng/g
+
+📚 Data sources & references:
+
+[0:00] BPA in polyester activewear:
+• Jurikova et al. "Bisphenols in daily clothes: evaluation of dermal exposure." Environ. Sci. Pollut. Res., 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11415442/
+
+[0:10] 8,000 chemicals, 93/98 detected, children 3x higher:
+• Rovira, Souza, Nadal, Domingo. "Human Health Risks from Textile Chemicals: A Critical Review." Qeios, 2025. https://doi.org/10.32388/0GADTB.2
+
+[0:35] Synthetic fiber production data:
+• Aizenshtein (2012); Essel & Ahrens (2015) - Production growth 2.1M→50M tons
+• Changing Markets Foundation. "Synthetics Anonymous." - 69% synthetic share, H&M analysis
+
+[1:44] Formaldehyde in clothing:
+• Herrero et al. - 20% of Spanish clothing contained formaldehyde
+• Priyanka et al. "Formaldehyde Usage in Fashion Industry." J. Textile Assoc., 2025
+
+[2:30] PFAS in school uniforms:
+• Xia, Diamond, Peaslee et al. "Per- and Polyfluoroalkyl Substances in North American School Uniforms." Environ. Sci. Technol., 2022. https://pmc.ncbi.nlm.nih.gov/articles/PMC9535897/
+
+[3:42] BPA dermal exposure:
+• Jurikova et al. (2024) - cited above
+• CEH (Center for Environmental Health) - Prop 65 exceedance in sports bras
+
+[5:17] Microplastic fiber shedding:
+• Vassilenko et al. "Domestic laundry and microfiber pollution." PLoS One, 2021. https://pmc.ncbi.nlm.nih.gov/articles/PMC8270180/
+• Carney Almroth et al. "Quantifying shedding of synthetic fibers." Environ. Sci. Pollut. Res., 2018. https://pmc.ncbi.nlm.nih.gov/articles/PMC5766707/
+
+[6:26] Bacterial growth on fabrics:
+• Callewaert et al. "Microbial Odor Profile of Polyester and Cotton Clothes after Fitness." Appl. Environ. Microbiol., 2014. https://pmc.ncbi.nlm.nih.gov/articles/PMC4249026/
+
+[6:50] Heavy metals in clothing:
+• Rovira, Nadal, Schuhmacher, Domingo. "Human exposure to trace elements through the skin via clothing." Environ. Res., 2015. PMID: 25889781
+
+[7:30] Azo dyes - 300 pregnant women:
+• Souza et al. (2023) - Aromatic amines in pregnant women, 8OHdG DNA damage correlation
+
+[8:01] Merino wool eczema trial:
+• Hon et al. "Fabric Selection in Atopic Dermatitis: Evidence-Based Review." Am. J. Clin. Dermatol., 2020. PMID: 32440827
+
+[9:00] FIBER ≠ SAFETY - treated cotton vs untreated polyester:
+• Xia et al. (2022) - cited above
+
+🎵 Music: Noir Et Blanc Vie - QuangerineCream, Goestories, True Art Real Affection Part 2
+
+Every number in this video comes from peer-reviewed research or official reports. The fabric you wear is a health decision - treat it like one.
+
+👉 Subscribe to The World With Numbers for more data-driven breakdowns that cut through the noise.
+
+#FabricHealth #TextileChemicals #DataDriven
