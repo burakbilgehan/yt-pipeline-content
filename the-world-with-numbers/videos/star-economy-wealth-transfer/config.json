@@ -1,0 +1,68 @@
+{
+  "slug": "star-economy-wealth-transfer",
+  "title": "The Star Economy: How Entertainment Wealth Transfer Actually Works",
+  "description": "",
+  "createdAt": "2026-04-15T12:53:12.055Z",
+  "updatedAt": "2026-04-15T18:00:00.000Z",
+  "currentWork": null,
+  "tags": [],
+  "metadata": {
+    "targetLength": 540,
+    "tone": "neutral-analytic, authoritative, curiosity-driven — numbers speak for themselves",
+    "targetAudience": "18-35, globally curious, English-speaking, prefers facts over opinions",
+    "language": "en",
+    "format": "long",
+    "series": {
+      "name": "The Star Economy",
+      "totalParts": 3,
+      "partTargetLength": [540, 540, 540],
+      "partTitles": [
+        "Part 1: How Much Stars Actually Earn",
+        "Part 2: The Rising Price of Entertainment",
+        "Part 3: The Wealth Transfer — From Fans to Fame"
+      ],
+      "notes": "Single research, split at script/storyboard stage. Each ~8-10min."
+    }
+  },
+  "pipeline": {
+    "research": {
+      "status": "in_progress",
+      "version": 1,
+      "activePath": "channels/the-world-with-numbers/videos/star-economy-wealth-transfer/research/research-v1.md"
+    },
+    "content": {
+      "status": "pending",
+      "version": 0,
+      "activePath": null
+    },
+    "storyboard": {
+      "status": "pending",
+      "version": 0,
+      "activePath": null
+    },
+    "production": {
+      "status": "pending",
+      "version": 0,
+      "activePath": null
+    },
+    "publishing": {
+      "status": "pending",
+      "version": 0,
+      "activePath": null
+    },
+    "analytics": {
+      "status": "pending",
+      "version": 0,
+      "activePath": null
+    }
+  },
+  "history": [
+    {
+      "action": "research.draft",
+      "at": "2026-04-15T18:00:00.000Z",
+      "version": 1,
+      "reason": "research-v1.md written — all gathered data (NBA salaries, Hollywood pay, consumer costs, household income, Peak TV) formatted into unified research document",
+      "agent": "researcher"
+    }
+  ]
+}
