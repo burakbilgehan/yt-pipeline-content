@@ -1,4 +1,4 @@
-# "The World With Numbers" — Visual Brand Guide (v3.0)
+# "The World With Numbers" — Visual Brand Guide (v6.0)
 
 This is the **visual ruleset** for all video rendering. Every agent (storyboard, video-production, collector) MUST read and follow this guide. No exceptions.
 
@@ -13,15 +13,15 @@ This is the **visual ruleset** for all video rendering. Every agent (storyboard,
 | **Data Set A** | Accent Pink | `#E88CA5` | Primary data series, highlights, accented elements |
 | **Data Set B** | Accent Blue | `#7BA7C9` | Secondary data series, stable/comparative data |
 | **Text** | Warm Cream | `#F0EDE8` | All readable text — titles, labels, callouts |
-| **Grid/Detail** | Sage | `#8A9A7A` | Grid lines, axis labels, tertiary data, subtle elements |
+| **Axis/Grid** | — | `rgba(240,237,232,0.35)` | Axis labels, tick marks, structural elements (not a brand color) |
 | **Positive** | Green | `#5BBF8C` | Positive change, growth indicators |
 | **Negative** | Red | `#E06070` | Negative change, decline indicators |
-| **Surface** | — | `rgba(255,255,255,0.06)` | Card/panel backgrounds |
+| **Surface** | — | `#2E2E38` | Card/panel backgrounds |
 | **Border** | — | `rgba(240,237,232,0.12)` | Subtle borders and dividers |
 
 ### Color Rules
 - **Max 2 data colors per chart** — Pink + Blue. Never add a third vivid color.
-- **Sage** is only for grid/structural elements — never for primary data.
+- **Sage** (`#8A9A7A`) removed from v6 palette. Grid/axis elements use `rgba(240,237,232,0.35)` (AXIS token). Grid lines use `rgba(240,237,232,0.08)` — max 10% opacity (VB-5).
 - **No gradient text.** Ever.
 - **No pure white (`#FFF`).** Use Warm Cream for all text.
 - Background is always solid `#2A2A32` — no gradient backgrounds unless explicitly specified in storyboard.
@@ -32,8 +32,8 @@ This is the **visual ruleset** for all video rendering. Every agent (storyboard,
 | Role | Font | Weight | Notes |
 |:-----|:-----|:-------|:------|
 | **Headings / Hook Titles** | `Montserrat` | 700–800 (Bold/ExtraBold) | Impact titles, section headers |
-| **Data Labels & Numbers** | `JetBrains Mono` | 400–500 | `font-feature-settings: "tnum"` — tabular nums MANDATORY so digits don't shift width |
-| **Body Text** | `Inter` | 400 | Subtitles, explanations, small labels |
+| **Data Labels & Numbers** | `Montserrat` | 600–700 | `fontVariantNumeric: "tabular-nums lining-nums"` — tabular nums MANDATORY so digits don't shift width |
+| **Body Text** | `Montserrat` | 400 | Subtitles, explanations, small labels |
 
 ### Typography Rules
 - **Heading sizes:** Hook/hero titles 64–80px, section titles 36–48px, labels 16–22px
@@ -56,7 +56,7 @@ Implementation: SVG `<feTurbulence>` filter — see Remotion shared components.
 
 ### Dot Grid (Data Visualization Scenes)
 Background dot pattern for data-heavy scenes:
-- 20px spacing, Sage (`#8A9A7A`), 10% opacity
+- 28px spacing, `rgba(240,237,232,0.04)` — 4% opacity (VB-5: data-ink ratio)
 - Creates subtle "graph paper" feel without being distracting
 
 ## 4. Animation Principles
@@ -94,7 +94,7 @@ All motion must feel **smooth, weighted, and deliberate**. Never mechanical. Nev
 
 **Hero / Hook:**
 - Title centered or left-aligned, large (64–80px Montserrat Bold)
-- Subtitle below in Inter, muted
+- Subtitle below in Montserrat, muted
 - Clean background — no charts, no clutter
 - Single accent element (underline, small stat) in Accent Pink
 
@@ -102,23 +102,23 @@ All motion must feel **smooth, weighted, and deliberate**. Never mechanical. Nev
 - Chart occupies 60–70% of frame
 - Title top-left, source bottom-right (small, muted)
 - Dot grid background active
-- Y-axis labels in JetBrains Mono
+- Y-axis labels in Montserrat, `fontVariantNumeric: "tabular-nums lining-nums"`
 
 **Comparison / Duel:**
 - Side-by-side layout, equal weight
-- Thin vertical divider (Sage, 1px)
-- Entity names 24px, key stat 48px JetBrains Mono
+- Thin vertical divider (`rgba(240,237,232,0.35)`, 1px)
+- Entity names 24px Montserrat, key stat 48px Montserrat
 - Flag/icon max 48px — don't overshadow the data
 
 **Leaderboard / List:**
 - Vertical stack, full-width items
-- Rank number (JetBrains Mono, Accent Pink), name (Inter), value (JetBrains Mono, right-aligned)
+- Rank number (Montserrat, Accent Pink), name (Montserrat), value (Montserrat, right-aligned, tabular-nums)
 - Max 6–8 visible items, staggered entrance
 - Horizontal bars behind values showing relative scale
 
 **Narrative / Explanation:**
 - Large key stat or quote centered
-- Supporting text below in Inter
+- Supporting text below in Montserrat
 - Optional subtle background visual at 15% opacity
 
 **CTA / Closing:**

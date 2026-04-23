@@ -1,6 +1,6 @@
 {
   "name": "dusty-editorial",
-  "version": 5,
+  "version": 6,
   "tokens": {
     "colors": {
       "bgTop": "#2A2A32",
@@ -8,24 +8,26 @@
       "accent1": "#E88CA5",
       "accent2": "#7BA7C9",
       "text": "#F0EDE8",
-      "textMuted": "rgba(240, 237, 232, 0.6)",
+      "textMuted": "rgba(240, 237, 232, 0.55)",
       "positive": "#5BBF8C",
       "negative": "#E06070",
-      "surface": "rgba(255, 255, 255, 0.08)",
+      "surface": "#2E2E38",
       "border": "rgba(240, 237, 232, 0.12)",
-      "grid": "#8A9A7A"
+      "grid": "rgba(240, 237, 232, 0.08)"
     },
     "typography": {
       "fontFamily": "Montserrat, sans-serif",
       "headingWeight": 700,
       "bodyWeight": 400,
       "monoFont": "JetBrains Mono, monospace",
+      "_monoNote": "monoFont is docs/code only — NOT used in video. All number elements use fontFamily (Montserrat).",
       "bodyFont": "Inter, sans-serif"
     },
     "spacing": {
-      "cornerRadius": 8,
+      "cornerRadius": 0,
       "borderWidth": 1,
-      "screenUtilization": 0.85,
+      "screenUtilizationMin": 0.85,
+      "screenUtilizationTarget": 0.90,
       "padding": 40
     },
     "effects": {
@@ -34,8 +36,8 @@
       "shadowDepth": "none",
       "gradientAngle": 180,
       "filmGrainOpacity": 0.03,
-      "dotGridOpacity": 0.1,
-      "dotGridSpacing": 20
+      "dotGridOpacity": 0.04,
+      "dotGridSpacing": 28
     },
     "animation": {
       "speed": "normal",
@@ -80,12 +82,6 @@
       "motions": ["blur-fade-in"]
     }
   },
-  "_legacy": {
-    "geometry": {
-      "asymmetry": 0,
-      "alignment": "left"
-    }
-  },
-  "exportedAt": "2026-04-04T00:00:00.000Z",
-  "exportedFrom": "design-system-v5-migration"
+  "exportedAt": "2026-04-23T00:00:00.000Z",
+  "exportedFrom": "design-system-v6-sync"
 }

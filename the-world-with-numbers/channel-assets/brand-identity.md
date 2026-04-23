@@ -103,7 +103,7 @@ New videos weekly. Subscribe and turn on notifications.
 | Accent (primary) | `#E88CA5` | Soft pink — highlights, data callouts, logo mark |
 | Accent (secondary) | `#7BA7C9` | Muted blue — secondary data, comparative |
 | Text | `#F0EDE8` | Warm cream off-white — not pure white, feels premium |
-| Grid/Detail | `#8A9A7A` | Sage — grid lines, axis labels, subtle elements |
+| Axis/Grid | `rgba(240,237,232,0.35)` | Axis labels, tick marks — structural only, not a brand color |
 | Positive data | `#5BBF8C` | Green for upward trends |
 | Negative data | `#E06070` | Red for downward trends / extreme stats |
 
@@ -116,7 +116,7 @@ Don't be literal (no globe + bar chart = looks like every other edu channel).
 
 **Recommended direction — Abstract Geometric:**
 - A **meridian-line arc** (single longitude/latitude curve) that simultaneously reads as a **rising graph line**. The arc is not a full globe — just one clean curve. Feels precise, not clipart.
-- The wordmark sits next to or below this mark. `The World With Numbers` in Inter (or similar geometric sans — Space Grotesk, DM Sans). All caps for `THE WORLD`, regular weight for `WITH NUMBERS` to create visual hierarchy.
+- The wordmark sits next to or below this mark. `The World With Numbers` in Montserrat. All caps for `THE WORLD`, regular weight for `WITH NUMBERS` to create visual hierarchy.
 - The mark should work in: full color (accent `#E88CA5` on dark), single-color white, single-color black.
 - Favicon/profile crop: just the arc mark, no text, fills a square frame cleanly.
 
@@ -144,8 +144,8 @@ Don't be literal (no globe + bar chart = looks like every other edu channel).
 **Extended areas** (visible on desktop, not on mobile): Can include faint repeated numeral patterns, country silhouettes as texture, or nothing. Less is more.
 
 **Typography on banner:**
-- `THE WORLD WITH NUMBERS` — Inter Bold or Space Grotesk Bold, `#F0EDE8`
-- Tagline — Inter Regular, `rgba(240,237,232,0.65)`, smaller, tracked out
+- `THE WORLD WITH NUMBERS` — Montserrat Bold, `#F0EDE8`
+- Tagline — Montserrat Regular, `rgba(240,237,232,0.65)`, smaller, tracked out
 - No YouTube icon/handle needed — YouTube auto-overlays this
 
 **Avoid:**
