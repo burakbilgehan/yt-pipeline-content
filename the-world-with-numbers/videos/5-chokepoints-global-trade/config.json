@@ -3,8 +3,8 @@
   "title": "The 5 Chokepoints That Control Global Trade",
   "description": "Five narrow waterways carry over half the world's oil. For each: geography, daily volume, historical crises, price impact, current risk level, and what happens if they close.",
   "createdAt": "2026-04-20T00:00:00Z",
-  "updatedAt": "2026-04-24T12:15:30.340Z",
-  "currentWork": "storyboard",
+  "updatedAt": "2026-04-24T19:56:07.759Z",
+  "currentWork": null,
   "tags": [
     "chokepoints",
     "global-trade",
@@ -53,11 +53,12 @@
       "status": "completed",
       "version": 0,
       "startedAt": "2026-04-23T19:29:35.862Z",
-      "completedAt": "2026-04-24T12:15:30.339Z"
+      "completedAt": "2026-04-24T19:34:30.597Z"
     },
     "publishing": {
-      "status": "not_started",
-      "version": 0
+      "status": "completed",
+      "version": 0,
+      "completedAt": "2026-04-24T19:56:07.758Z"
     },
     "analytics": {
       "status": "not_started",
@@ -169,6 +170,29 @@
       "version": 1,
       "at": "2026-04-24T12:15:30.339Z",
       "reason": "Rendered 693.759s video (20881 frames)"
+    },
+    {
+      "action": "production.completed",
+      "version": 1,
+      "at": "2026-04-24T17:11:19.962Z",
+      "reason": "Rendered 693.759s video (20881 frames)"
+    },
+    {
+      "action": "production.completed",
+      "version": 1,
+      "at": "2026-04-24T19:34:30.597Z",
+      "reason": "Rendered 691.685s video (20819 frames)"
+    },
+    {
+      "action": "publishing.completed",
+      "version": 1,
+      "at": "2026-04-24T19:56:07.758Z",
+      "reason": "Uploaded to YouTube as w3accIcVtOg"
     }
-  ]
+  ],
+  "youtube": {
+    "videoId": "w3accIcVtOg",
+    "url": "https://www.youtube.com/watch?v=w3accIcVtOg",
+    "publishedAt": "2026-04-24T19:56:07.756Z"
+  }
 }

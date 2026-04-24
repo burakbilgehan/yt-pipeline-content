@@ -51,7 +51,7 @@ By March nineteenth, Brent crude — the global oil benchmark — had gone from 
 
 What about alternatives? The combined pipeline bypass capacity around Hormuz is about nine million barrels per day — less than half the normal flow. There is no adequate workaround. The gap is simply too large to fill.
 
-As of today — April twentieth, twenty-twenty-six — the blockade is still in effect.
+As of April twenty-twenty-six — the blockade is still in effect.
 
 [VISUAL NOTE: Open with a zoomed map of the Persian Gulf — Iran north, Oman/UAE south. Animate the two 2-mile shipping lanes in contrasting colors (inbound/outbound). Callout boxes: "21 miles wide", "20.9 mb/d oil", "20% of world LNG". Then a timeline card: "Mar 2 — IRGC closes strait" → price chart showing $73 → $119 arc. Final card: pipeline bypass capacity gauge — 9 mb/d vs 20.9 mb/d needed — showing the deficit visually. "GAP: 11.9 mb/d" in red.]
 

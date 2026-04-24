@@ -20,15 +20,23 @@
         },
         {
           "type": "horizontal-bar-chart",
-          "durationSec": 16,
-          "title": "BAB EL-MANDEB — BEFORE & AFTER",
+          "durationSec": 10,
+          "title": "BAB EL-MANDEB — OIL",
           "bars": [
             { "label": "Oil (pre-crisis)", "code": "PRE", "value": 9.3, "displayValue": "9.3 mb/d" },
-            { "label": "Oil (H1 2025)", "code": "POST", "value": 4.2, "displayValue": "4.2 mb/d (-55%)" },
-            { "label": "LNG (pre-crisis)", "code": "LPRE", "value": 4.2, "displayValue": "4.2 bcf/d" },
-            { "label": "LNG (H1 2025)", "code": "LPOST", "value": 0, "displayValue": "0.0 bcf/d (-100%)" }
+            { "label": "Oil (H1 2025)", "code": "POST", "value": 4.2, "displayValue": "4.2 mb/d (-55%)" }
           ],
-          "gradientColors": ["#E06070", "#7BA7C9"]
+          "gradientColors": ["#E88CA5", "#E06070"]
+        },
+        {
+          "type": "horizontal-bar-chart",
+          "durationSec": 6,
+          "title": "BAB EL-MANDEB — LNG",
+          "bars": [
+            { "label": "LNG (pre-crisis)", "code": "LPRE", "value": 4.2, "displayValue": "4.2 bcf/d" },
+            { "label": "LNG (H1 2025)", "code": "LPOST", "value": 0.001, "displayValue": "0.0 bcf/d (-100%)" }
+          ],
+          "gradientColors": ["#E88CA5", "#E06070"]
         },
         {
           "type": "counter",

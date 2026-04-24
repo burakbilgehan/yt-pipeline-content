@@ -18,8 +18,8 @@
           "durationSec": 17,
           "title": "SUEZ VS CAPE OF GOOD HOPE",
           "duel": {
-            "left": { "name": "Via Suez", "color": "#5BBF8C" },
-            "right": { "name": "Via Cape", "color": "#E06070" }
+            "left": { "label": "Suez", "color": "#5BBF8C" },
+            "right": { "label": "Cape of Good Hope", "color": "#E06070" }
           },
           "items": [
             { "metric": "Extra Distance (mi)", "leftValue": 0, "rightValue": 6738 },

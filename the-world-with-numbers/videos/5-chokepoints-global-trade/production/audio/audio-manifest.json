@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-04-23T19:29:35.841Z",
+  "generatedAt": "2026-04-24T19:17:52.018Z",
   "scriptVersion": 1,
   "scriptFile": "script-v1.md",
   "provider": "google",
   "modelId": "chirp3-hd",
   "speed": 1.15,
-  "totalDuration": 677.9093333333334,
-  "totalWordCount": 1711,
+  "totalDuration": 675.8353333333333,
+  "totalWordCount": 1708,
   "blocks": [
     {
       "id": "scene-001",
@@ -100,12 +100,12 @@
       "id": "scene-009",
       "section": "strait-of-hormuz",
       "file": "strait-of-hormuz--scene-009.wav",
-      "text": "As of today — April twentieth, twenty-twenty-six — the blockade is still in effect.",
-      "duration": 5.849333333333333,
-      "wordCount": 14,
+      "text": "As of April twenty-twenty-six — the blockade is still in effect.",
+      "duration": 3.775333333333333,
+      "wordCount": 11,
       "speed": 1.15,
       "startTime": 179.668,
-      "endTime": 185.517
+      "endTime": 183.443
     },
     {
       "id": "scene-010",
@@ -115,8 +115,8 @@
       "duration": 31.16433333333333,
       "wordCount": 82,
       "speed": 1.15,
-      "startTime": 186.167,
-      "endTime": 217.331
+      "startTime": 184.093,
+      "endTime": 215.257
     },
     {
       "id": "scene-011",
@@ -126,8 +126,8 @@
       "duration": 42.815333333333335,
       "wordCount": 104,
       "speed": 1.15,
-      "startTime": 217.981,
-      "endTime": 260.797
+      "startTime": 215.907,
+      "endTime": 258.723
     },
     {
       "id": "scene-012",
@@ -137,8 +137,8 @@
       "duration": 14.694333333333333,
       "wordCount": 37,
       "speed": 1.15,
-      "startTime": 261.447,
-      "endTime": 276.141
+      "startTime": 259.373,
+      "endTime": 274.067
     },
     {
       "id": "scene-013",
@@ -148,8 +148,8 @@
       "duration": 26.406333333333333,
       "wordCount": 79,
       "speed": 1.15,
-      "startTime": 276.791,
-      "endTime": 303.197
+      "startTime": 274.717,
+      "endTime": 301.123
     },
     {
       "id": "scene-014",
@@ -159,8 +159,8 @@
       "duration": 34.092333333333336,
       "wordCount": 88,
       "speed": 1.15,
-      "startTime": 303.847,
-      "endTime": 337.94
+      "startTime": 301.773,
+      "endTime": 335.866
     },
     {
       "id": "scene-015",
@@ -170,8 +170,8 @@
       "duration": 25.613333333333333,
       "wordCount": 62,
       "speed": 1.15,
-      "startTime": 338.59,
-      "endTime": 364.203
+      "startTime": 336.516,
+      "endTime": 362.129
     },
     {
       "id": "scene-016",
@@ -181,8 +181,8 @@
       "duration": 32.44533333333333,
       "wordCount": 75,
       "speed": 1.15,
-      "startTime": 364.853,
-      "endTime": 397.298
+      "startTime": 362.779,
+      "endTime": 395.224
     },
     {
       "id": "scene-017",
@@ -192,8 +192,8 @@
       "duration": 37.99633333333333,
       "wordCount": 91,
       "speed": 1.15,
-      "startTime": 397.948,
-      "endTime": 435.945
+      "startTime": 395.874,
+      "endTime": 433.871
     },
     {
       "id": "scene-018",
@@ -203,8 +203,8 @@
       "duration": 24.332333333333334,
       "wordCount": 57,
       "speed": 1.15,
-      "startTime": 436.595,
-      "endTime": 460.927
+      "startTime": 434.521,
+      "endTime": 458.853
     },
     {
       "id": "scene-019",
@@ -214,8 +214,8 @@
       "duration": 31.835333333333335,
       "wordCount": 85,
       "speed": 1.15,
-      "startTime": 461.577,
-      "endTime": 493.412
+      "startTime": 459.503,
+      "endTime": 491.338
     },
     {
       "id": "scene-020",
@@ -225,8 +225,8 @@
       "duration": 45.19433333333333,
       "wordCount": 115,
       "speed": 1.15,
-      "startTime": 494.062,
-      "endTime": 539.257
+      "startTime": 491.988,
+      "endTime": 537.183
     },
     {
       "id": "scene-021",
@@ -236,8 +236,8 @@
       "duration": 21.648333333333333,
       "wordCount": 56,
       "speed": 1.15,
-      "startTime": 539.907,
-      "endTime": 561.555
+      "startTime": 537.833,
+      "endTime": 559.481
     },
     {
       "id": "scene-022",
@@ -247,8 +247,8 @@
       "duration": 42.022333333333336,
       "wordCount": 107,
       "speed": 1.15,
-      "startTime": 562.205,
-      "endTime": 604.227
+      "startTime": 560.131,
+      "endTime": 602.153
     },
     {
       "id": "scene-023",
@@ -258,8 +258,8 @@
       "duration": 45.98733333333333,
       "wordCount": 116,
       "speed": 1.15,
-      "startTime": 604.877,
-      "endTime": 650.865
+      "startTime": 602.803,
+      "endTime": 648.791
     },
     {
       "id": "scene-024",
@@ -269,8 +269,8 @@
       "duration": 34.885333333333335,
       "wordCount": 77,
       "speed": 1.15,
-      "startTime": 651.515,
-      "endTime": 686.4
+      "startTime": 649.441,
+      "endTime": 684.326
     },
     {
       "id": "scene-025",
@@ -280,10 +280,10 @@
       "duration": 6.459333333333333,
       "wordCount": 16,
       "speed": 1.15,
-      "startTime": 687.05,
-      "endTime": 693.509
+      "startTime": 684.976,
+      "endTime": 691.435
     }
   ],
-  "regeneratedAt": "2026-04-24T11:55:51.938Z",
+  "regeneratedAt": "2026-04-24T19:17:57.176Z",
   "timingSource": "rebuild-scene-timing.ts"
 }

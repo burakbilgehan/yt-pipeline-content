@@ -2,25 +2,45 @@
   "id": "scene-024",
   "visual": {
     "type": "data-chart",
-    "description": "Recap scoreboard: all 5 chokepoints with their key stat. Bars stagger in as each is named. Light editorial style scoreboard.",
+    "description": "Vertical tabs recap — each chokepoint gets a tab with its key stat and context.",
     "dataChart": {
-      "type": "scoreboard",
-      "showBars": false,
-      "title": "FIVE CHOKEPOINTS — THE NUMBERS",
+      "type": "vertical-tabs",
+      "title": "Five Chokepoints",
+      "subtitle": "THE NUMBERS",
+      "showProgress": true,
+      "activeTimings": [0, 399, 548, 643, 834],
       "items": [
-        { "label": "Malacca", "value": 23.2, "color": "#7BA7C9", "suffix": " mb/d", "period": "#1 BY VOLUME" },
-        { "label": "Hormuz", "value": 63, "color": "#E06070", "suffix": "%", "period": "PRICE SPIKE · BLOCKED" },
-        { "label": "Suez", "value": 60, "color": "#E88CA5", "suffix": "%", "period": "BELOW NORMAL · 2023" },
-        { "label": "Panama", "value": 2.85, "color": "#7BA7C9", "suffix": "M", "period": "ONE CROSSING (USD)" },
-        { "label": "Bab el-Mandeb", "value": 0, "color": "#E06070", "suffix": "", "period": "ZERO LNG" }
-      ],
-      "footerText": "The numbers are the story."
+        {
+          "id": "malacca",
+          "title": "Malacca",
+          "description": "+23.2 mb/d — #1 by volume. Shaped China's entire foreign policy."
+        },
+        {
+          "id": "hormuz",
+          "title": "Hormuz",
+          "description": "+63% oil price spike in 3 weeks. Currently shut."
+        },
+        {
+          "id": "suez",
+          "title": "Suez",
+          "description": "60% below normal since 2023. $7B revenue loss for Egypt."
+        },
+        {
+          "id": "panama",
+          "title": "Panama",
+          "description": "$2.85M for one crossing. LNG carriers never came back."
+        },
+        {
+          "id": "bab-el-mandeb",
+          "title": "Bab el-Mandeb",
+          "description": "Zero LNG passing through. Now threatened again."
+        }
+      ]
     },
-    "motion": "stagger-text-reveal",
-    "motionConfig": { "splitBy": "words", "staggerFrom": "first" },
+    "motion": "blur-fade-in",
     "atmosphere": "dot-grid",
     "surface": "frosted-panel"
   },
   "transition": "cut",
-  "notes": "Scoreboard recap — each chokepoint gets one line with its most impactful number. Dot-grid + frosted-panel for clean editorial close. Bars stagger in top-to-bottom as narrator names each."
+  "notes": "Vertical tabs recap — each chokepoint gets one tab with its most impactful stat. Dot-grid + frosted-panel for clean editorial close."
 }
