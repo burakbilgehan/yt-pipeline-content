@@ -5,6 +5,28 @@
     "content": 1
   },
   "totalDuration": 691.685,
+  "backgroundMusic": {
+    "tracks": [
+      {
+        "file": "QuangerineCream - Noir Et Blanc Vie.mp3",
+        "duration": 166.3
+      },
+      {
+        "file": "Goestories - Noir Et Blanc Vie.mp3",
+        "duration": 133.5
+      },
+      {
+        "file": "True Art Real Affection Part 2 - Noir Et Blanc Vie.mp3",
+        "duration": 218
+      }
+    ],
+    "volume": 0.08,
+    "crossfadeSec": 3,
+    "fadeInSec": 3,
+    "fadeOutSec": 4,
+    "loop": true,
+    "order": "sequential"
+  },
   "scenes": [
     {
       "id": "scene-001",
