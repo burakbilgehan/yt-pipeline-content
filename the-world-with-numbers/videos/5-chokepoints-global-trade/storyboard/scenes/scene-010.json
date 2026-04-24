@@ -1,0 +1,19 @@
+{
+  "id": "scene-010",
+  "visual": {
+    "type": "data-chart",
+    "description": "Section opener: Strait of Malacca title card with key stats. Tilt card wrapper. Dot-grid atmosphere, frosted panel surface.",
+    "dataChart": {
+      "type": "title-card",
+      "title": "STRAIT OF MALACCA",
+      "subtitle": "550 mi long · <2 mi wide · 160+ ships/day · 23.2 mb/d",
+      "titleColor": "#E88CA5"
+    },
+    "motion": "tilt-card",
+    "motionConfig": { "maxTilt": 6, "speed": 0.8 },
+    "atmosphere": "dot-grid",
+    "surface": "frosted-panel"
+  },
+  "transition": "cut",
+  "notes": "Converted from location-map to title-card. Different atmosphere (dot-grid) and surface (frosted-panel) from scene-006 for variety."
+}

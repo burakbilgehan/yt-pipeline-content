@@ -1,0 +1,19 @@
+{
+  "id": "scene-019",
+  "visual": {
+    "type": "data-chart",
+    "description": "Section opener: Bab el-Mandeb title card. Film grain atmosphere for 'Gate of Grief' mood. Frosted panel surface.",
+    "dataChart": {
+      "type": "title-card",
+      "title": "BAB EL-MANDEB",
+      "subtitle": "Gate of Grief · 18 mi wide · 9.3 mb/d oil · 4.2 bcf/d LNG",
+      "titleColor": "#E88CA5"
+    },
+    "motion": "tilt-card",
+    "motionConfig": { "maxTilt": 6, "speed": 0.8 },
+    "atmosphere": "film-grain",
+    "surface": "frosted-panel"
+  },
+  "transition": "cut",
+  "notes": "Converted from location-map to title-card. Film grain kept for ominous tone."
+}

@@ -1,0 +1,174 @@
+{
+  "slug": "5-chokepoints-global-trade",
+  "title": "The 5 Chokepoints That Control Global Trade",
+  "description": "Five narrow waterways carry over half the world's oil. For each: geography, daily volume, historical crises, price impact, current risk level, and what happens if they close.",
+  "createdAt": "2026-04-20T00:00:00Z",
+  "updatedAt": "2026-04-24T12:15:30.340Z",
+  "currentWork": "storyboard",
+  "tags": [
+    "chokepoints",
+    "global-trade",
+    "oil",
+    "maritime",
+    "strait-of-hormuz",
+    "malacca",
+    "suez-canal",
+    "panama-canal",
+    "bab-el-mandeb",
+    "shipping",
+    "geopolitics",
+    "data-driven"
+  ],
+  "metadata": {
+    "targetLength": 750,
+    "tone": "neutral-analytic, data-focused, no opinion",
+    "targetAudience": "18-35, globally curious, English-speaking",
+    "language": "en",
+    "format": "long"
+  },
+  "pipeline": {
+    "research": {
+      "status": "completed",
+      "version": 1,
+      "activePath": "channels/the-world-with-numbers/videos/5-chokepoints-global-trade/research/research-v1.md",
+      "startedAt": "2026-04-20T00:00:00Z",
+      "completedAt": "2026-04-20T12:00:00Z"
+    },
+    "content": {
+      "status": "completed",
+      "version": 1,
+      "activePath": "channels/the-world-with-numbers/videos/5-chokepoints-global-trade/content/script-v1.md",
+      "startedAt": "2026-04-20T12:00:00Z",
+      "completedAt": "2026-04-23T00:00:00Z",
+      "basedOn": "research-v1"
+    },
+    "storyboard": {
+      "status": "completed",
+      "version": 2,
+      "activePath": "channels/the-world-with-numbers/videos/5-chokepoints-global-trade/storyboard/storyboard-v2.json",
+      "startedAt": "2026-04-23T12:00:00Z",
+      "completedAt": "2026-04-23T12:00:00Z"
+    },
+    "production": {
+      "status": "completed",
+      "version": 0,
+      "startedAt": "2026-04-23T19:29:35.862Z",
+      "completedAt": "2026-04-24T12:15:30.339Z"
+    },
+    "publishing": {
+      "status": "not_started",
+      "version": 0
+    },
+    "analytics": {
+      "status": "not_started",
+      "version": 0
+    }
+  },
+  "history": [
+    {
+      "event": "project.created",
+      "timestamp": "2026-04-20T00:00:00Z",
+      "agent": "researcher"
+    },
+    {
+      "event": "research.started",
+      "timestamp": "2026-04-20T00:00:00Z",
+      "agent": "researcher",
+      "details": "NotebookLM research on 5 maritime chokepoints. Sources: EIA, Wikipedia, Oxford Martin, INSS, UNDP, DOE, academic papers. 30+ sources imported."
+    },
+    {
+      "event": "research.in_review",
+      "timestamp": "2026-04-20T00:00:00Z",
+      "agent": "researcher",
+      "details": "research-v1.md complete. Pending user approval. Data gaps flagged with [VERIFY]."
+    },
+    {
+      "event": "research.approved",
+      "timestamp": "2026-04-20T12:00:00Z",
+      "agent": "user",
+      "details": "User approved research-v1. Proceeded to script writing."
+    },
+    {
+      "event": "content.started",
+      "timestamp": "2026-04-20T12:00:00Z",
+      "agent": "content-writer",
+      "details": "script-v1.md written. 1,711 VO words (~13:30 at 126.4 WPM). 8 sections. Pending user review."
+    },
+    {
+      "action": "content.completed",
+      "version": 1,
+      "at": "2026-04-23T00:00:00Z",
+      "agent": "director",
+      "reason": "User approved script-v1 for storyboard."
+    },
+    {
+      "action": "storyboard.started",
+      "version": 1,
+      "at": "2026-04-23T00:00:00Z",
+      "agent": "director"
+    },
+    {
+      "action": "storyboard.drafted",
+      "version": 1,
+      "at": "2026-04-23T12:00:00Z",
+      "agent": "storyboard",
+      "reason": "25 scenes, 785s total. WorldMapScene component needed (14/25 scenes). Pending approval."
+    },
+    {
+      "action": "production.started",
+      "version": 1,
+      "at": "2026-04-22T23:41:35.342Z",
+      "reason": "Generated TTS audio (google) from script-v1.md (25 blocks, 673.9s total, speed=1.15)"
+    },
+    {
+      "action": "production.completed",
+      "version": 1,
+      "at": "2026-04-23T00:13:51.554Z",
+      "reason": "Rendered 702.8s video (21152 frames)"
+    },
+    {
+      "action": "production.completed",
+      "version": 1,
+      "at": "2026-04-23T00:28:31.345Z",
+      "reason": "Rendered 702.8s video (21152 frames)"
+    },
+    {
+      "action": "storyboard.started",
+      "version": 2,
+      "at": "2026-04-23T12:00:00Z",
+      "agent": "storyboard",
+      "reason": "Full visual redesign — v1 visuals unsatisfactory. New DS components (blurry-blob, shooting-stars, retro-grid, frosted-panel, card, backlight, neon-gradient, text-shimmer, glitch-text, typing-text, tilt-card, location-map, vertical-tabs, scene-visual, scoreboard, closing-cta). 25 scenes with varied atmosphere/surface/motion combinations."
+    },
+    {
+      "action": "storyboard.completed",
+      "version": 2,
+      "at": "2026-04-23T12:00:00Z",
+      "agent": "storyboard",
+      "reason": "storyboard-v2.json + 25 scene detail files. Production reset to pending for TTS+render redo."
+    },
+    {
+      "action": "production.started",
+      "version": 1,
+      "at": "2026-04-23T19:24:10.914Z",
+      "reason": "Generated TTS audio (google) from script-v1.md (25 blocks, 120.9s total, speed=1.15)"
+    },
+    {
+      "action": "production.started",
+      "version": 1,
+      "at": "2026-04-23T19:29:35.862Z",
+      "reason": "Generated TTS audio (google) from script-v1.md (25 blocks, 677.9s total, speed=1.15)"
+    },
+    {
+      "action": "production.completed",
+      "version": 1,
+      "at": "2026-04-23T20:57:26.900Z",
+      "reason": "Rendered 702.8s video (21152 frames)"
+    },
+    {
+      "action": "production.completed",
+      "version": 1,
+      "at": "2026-04-24T12:15:30.339Z",
+      "reason": "Rendered 693.759s video (20881 frames)"
+    }
+  ]
+}

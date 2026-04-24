@@ -1,0 +1,19 @@
+{
+  "id": "scene-006",
+  "visual": {
+    "type": "data-chart",
+    "description": "Section opener: Strait of Hormuz title card with key stats as subtitle. Tilt card wrapping for 3D depth. Blurry blob atmosphere.",
+    "dataChart": {
+      "type": "title-card",
+      "title": "STRAIT OF HORMUZ",
+      "subtitle": "104 mi long · 21 mi wide · 20.9 mb/d oil · 20% world LNG",
+      "titleColor": "#E06070"
+    },
+    "motion": "tilt-card",
+    "motionConfig": { "maxTilt": 6, "speed": 0.8 },
+    "atmosphere": "blurry-blob",
+    "surface": "card"
+  },
+  "transition": "cut",
+  "notes": "Converted from location-map to title-card. Stats moved to subtitle line."
+}

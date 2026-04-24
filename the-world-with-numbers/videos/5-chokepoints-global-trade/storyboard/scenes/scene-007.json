@@ -1,0 +1,42 @@
+{
+  "id": "scene-007",
+  "visual": {
+    "type": "data-chart",
+    "description": "Composite: Phase 1 — Pie chart showing Hormuz oil destination split (Asia 89%, China 33%, Japan etc.). Phase 2 — Timeline chart: Feb 28 strikes → Mar 2 IRGC closure → traffic drops to zero.",
+    "dataChart": {
+      "type": "composite-phases",
+      "phases": [
+        {
+          "type": "pie-chart",
+          "durationSec": 14,
+          "title": "WHERE HORMUZ OIL GOES",
+          "items": [
+            { "label": "China", "value": 33 },
+            { "label": "Japan", "value": 18 },
+            { "label": "India", "value": 15 },
+            { "label": "South Korea", "value": 12 },
+            { "label": "Other Asia", "value": 11 },
+            { "label": "Rest of World", "value": 11 }
+          ],
+          "colors": ["#E06070", "#E88CA5", "#7BA7C9", "#5BBF8C", "#F0EDE8", "#2E2E38"]
+        },
+        {
+          "type": "timeline",
+          "durationSec": 21,
+          "title": "HORMUZ CLOSURE TIMELINE",
+          "items": [
+            { "label": "Feb 28 '26", "value": "US-Israel strikes on Iran" },
+            { "label": "Mar 2 '26", "value": "IRGC closes strait" },
+            { "label": "Mar 3 '26", "value": "Ship traffic → near zero" }
+          ],
+          "colors": ["#E06070"]
+        }
+      ]
+    },
+    "motion": "blur-fade-in",
+    "atmosphere": "shooting-stars",
+    "surface": "glass"
+  },
+  "transition": "cut",
+  "notes": "Two-phase data scene. Pie chart shows dependency, then timeline shows how fast the closure happened. Shooting stars atmosphere adds tension. Glass surface on the pie chart container."
+}

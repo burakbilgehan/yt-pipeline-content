@@ -1,0 +1,35 @@
+{
+  "id": "scene-018",
+  "visual": {
+    "type": "data-chart",
+    "description": "Summary card for Panama: pie chart showing 3% of global maritime petroleum, plus El Niño warning indicator. Title card style with weather icon hint.",
+    "dataChart": {
+      "type": "composite-phases",
+      "phases": [
+        {
+          "type": "pie-chart",
+          "durationSec": 12,
+          "title": "PANAMA'S SHARE",
+          "highlightLabel": "Panama Canal",
+          "items": [
+            { "label": "Panama Canal", "value": 3 },
+            { "label": "Other Routes", "value": 97 }
+          ],
+          "colors": ["#7BA7C9", "#2E2E38"]
+        },
+        {
+          "type": "title-card",
+          "durationSec": 12,
+          "title": "EL NIÑO WATCH",
+          "subtitle": "April 2026 — conditions that could trigger another severe drought",
+          "titleColor": "#E06070"
+        }
+      ]
+    },
+    "motion": "blur-fade-in",
+    "atmosphere": "dot-grid",
+    "surface": "glass"
+  },
+  "transition": "fade",
+  "notes": "Pie chart makes the 3% visual (small slice). Then El Niño warning card in red. Dot-grid + glass for clean analytical close to Panama section."
+}

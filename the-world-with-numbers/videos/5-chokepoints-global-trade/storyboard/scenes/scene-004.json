@@ -1,0 +1,32 @@
+{
+  "id": "scene-004",
+  "visual": {
+    "type": "data-chart",
+    "description": "Composite: Phase 1 — Counter animation 0→80M barrels. Phase 2 — Title card about sea transport dependency.",
+    "dataChart": {
+      "type": "composite-phases",
+      "phases": [
+        {
+          "type": "counter",
+          "durationSec": 12,
+          "counterValue": 80,
+          "counterSuffix": "M",
+          "title": "DAILY GLOBAL OIL CONSUMPTION",
+          "subtitle": "barrels per day"
+        },
+        {
+          "type": "title-card",
+          "durationSec": 19,
+          "title": "TRANSPORTED BY SEA",
+          "subtitle": "Most of it travels through the same narrow routes",
+          "titleColor": "#E88CA5"
+        }
+      ]
+    },
+    "motion": "blur-fade-in",
+    "atmosphere": "film-grain",
+    "surface": "card"
+  },
+  "transition": "cut",
+  "notes": "Phase 2 converted from scene-visual (stock video unavailable) to title-card. Counter phase unchanged."
+}

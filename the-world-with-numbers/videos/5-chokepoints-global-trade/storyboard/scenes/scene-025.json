@@ -1,0 +1,19 @@
+{
+  "id": "scene-025",
+  "visual": {
+    "type": "data-chart",
+    "description": "Closing CTA: channel name reveal with subscribe text. Light editorial closing card with end screen placeholders.",
+    "dataChart": {
+      "type": "closing-cta",
+      "channelName": "The World With Numbers",
+      "message": "Every video is one topic, measured carefully.",
+      "ctaText": "Subscribe",
+      "showEndScreen": true
+    },
+    "motion": "text-shimmer",
+    "atmosphere": "dot-grid",
+    "surface": null
+  },
+  "transition": "fade",
+  "notes": "Clean closing. Text shimmer on channel name for premium feel. Dot-grid atmosphere maintains brand consistency. End screen placeholders for YouTube."
+}

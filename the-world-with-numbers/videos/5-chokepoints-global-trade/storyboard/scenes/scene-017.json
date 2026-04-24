@@ -1,0 +1,38 @@
+{
+  "id": "scene-017",
+  "visual": {
+    "type": "data-chart",
+    "description": "Composite: Phase 1 — Counter: '$2.85M' with neon-gradient surface, subtitle 'for one transit slot'. Phase 2 — Bar chart: LNG transit 2021 (2.5 bcf/d) vs 2025 (<0.3 bcf/d) — 88% drop.",
+    "dataChart": {
+      "type": "composite-phases",
+      "phases": [
+        {
+          "type": "counter",
+          "durationSec": 15,
+          "counterValue": 2.85,
+          "counterPrefix": "$",
+          "counterSuffix": "M",
+          "title": "ONE TRANSIT SLOT",
+          "subtitle": "LPG carrier bid — Panama drought 2023"
+        },
+        {
+          "type": "bar-chart",
+          "durationSec": 24,
+          "title": "LNG TRANSIT — PANAMA CANAL",
+          "items": [
+            { "label": "FY2021", "value": 2.5 },
+            { "label": "FY2025", "value": 0.3 }
+          ],
+          "unit": "bcf/d",
+          "colors": ["#5BBF8C", "#E06070"]
+        }
+      ]
+    },
+    "motion": "stagger-text-reveal",
+    "motionConfig": { "splitBy": "words", "staggerFrom": "center" },
+    "atmosphere": "blurry-blob",
+    "surface": "neon-gradient"
+  },
+  "transition": "cut",
+  "notes": "$2.85M is the shock number — neon-gradient surface makes it pop. Then bar chart showing LNG collapse. Blurry blob atmosphere for premium feel."
+}

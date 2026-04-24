@@ -1,0 +1,258 @@
+{
+  "title": "The 5 Chokepoints That Control Global Trade",
+  "version": 1,
+  "basedOn": { "content": 1 },
+  "totalDuration": 702.8,
+  "scenes": [
+    {
+      "id": "scene-001",
+      "section": "Hook",
+      "startTime": 0.0,
+      "endTime": 12.6,
+      "voiceover": "Right now, as you watch this, one of these five waterways is completely shut. Another is under threat of full blockade. Together, they carry more than half the world's oil.",
+      "visual": { "type": "data-chart", "description": "Dark world map with 5 pulsing chokepoint dots" },
+      "transition": "cut",
+      "sceneFile": "scenes/scene-001.json"
+    },
+    {
+      "id": "scene-002",
+      "section": "Hook",
+      "startTime": 12.6,
+      "endTime": 23.5,
+      "voiceover": "In three weeks, oil prices jumped sixty-three percent. Not because of a war in an oil field. Because of a gap in the water — twenty-one miles wide.",
+      "visual": { "type": "data-chart", "description": "Stat card: Brent crude $73→$119 in 3 weeks" },
+      "transition": "cut",
+      "sceneFile": "scenes/scene-002.json"
+    },
+    {
+      "id": "scene-003",
+      "section": "Hook",
+      "startTime": 23.5,
+      "endTime": 26.7,
+      "voiceover": "Five chokepoints. Let's look at each one.",
+      "visual": { "type": "data-chart", "description": "World map zoom out, title card transition" },
+      "transition": "fade",
+      "sceneFile": "scenes/scene-003.json"
+    },
+    {
+      "id": "scene-004",
+      "section": "The Five Chokepoints",
+      "startTime": 27.2,
+      "endTime": 58.1,
+      "voiceover": "Every day, roughly eighty million barrels of oil are consumed around the world. Most of it travels by sea — through tankers the length of four football fields, moving through water, following the same narrow routes they have for decades. The Energy Information Administration — the United States government's energy statistics agency — tracks how much oil moves through each major passage. Based on their first-half twenty-twenty-five data, five chokepoints stand out.",
+      "visual": { "type": "data-chart", "description": "Title card intro, then animated bar chart builds" },
+      "transition": "cut",
+      "sceneFile": "scenes/scene-004.json"
+    },
+    {
+      "id": "scene-005",
+      "section": "The Five Chokepoints",
+      "startTime": 58.1,
+      "endTime": 93.7,
+      "voiceover": "The Strait of Malacca leads with twenty-three point two million barrels per day — that's twenty-nine percent of all global maritime oil. The Strait of Hormuz handles twenty point nine million barrels per day — twenty-five percent. The Suez Canal and its bypass pipeline together: four point nine million barrels. Bab el-Mandeb — the gateway to Suez — four point two million. And the Panama Canal: two point three million. Together: more than half the world's traded oil flows through one of these five.",
+      "visual": { "type": "data-chart", "description": "Horizontal bar chart — all 5 chokepoints, bars fill as named" },
+      "transition": "fade",
+      "sceneFile": "scenes/scene-005.json"
+    },
+    {
+      "id": "scene-006",
+      "section": "Strait of Hormuz",
+      "startTime": 94.2,
+      "endTime": 119.0,
+      "voiceover": "The Strait of Hormuz. A hundred and four miles long. At its narrowest — twenty-one miles wide. Inside that gap, two shipping lanes, each just two miles across. One in, one out. Through those four miles of moving water: twenty point nine million barrels of oil every day. Plus more than twenty percent of the world's Liquefied Natural Gas — or LNG — trade.",
+      "visual": { "type": "data-chart", "description": "World map zoomed to Persian Gulf, shipping lanes animated" },
+      "transition": "cut",
+      "sceneFile": "scenes/scene-006.json"
+    },
+    {
+      "id": "scene-007",
+      "section": "Strait of Hormuz",
+      "startTime": 119.0,
+      "endTime": 154.3,
+      "voiceover": "Eighty-nine percent of the oil flowing through Hormuz goes to Asia. China alone accounts for thirty-three percent of total flows. Japan sources roughly seventy percent of its Middle Eastern crude through this strait. Before March twenty-twenty-six, one hundred and thirty-eight to one hundred and forty ships passed through daily. Then, on February twenty-eighth twenty-twenty-six, US and Israeli forces launched coordinated strikes on Iran. On March second, Iran's Islamic Revolutionary Guard Corps — the IRGC — officially closed the strait. Ship traffic dropped to near zero.",
+      "visual": { "type": "data-chart", "description": "Callout stats, then timeline: Feb 28 strikes → Mar 2 closure" },
+      "transition": "cut",
+      "sceneFile": "scenes/scene-007.json"
+    },
+    {
+      "id": "scene-008",
+      "section": "Strait of Hormuz",
+      "startTime": 154.3,
+      "endTime": 186.6,
+      "voiceover": "By March nineteenth, Brent crude — the global oil benchmark — had gone from seventy-three dollars a barrel to one hundred and nineteen. A sixty-three percent increase in three weeks. The largest oil price spike from a single chokepoint event in modern history. What about alternatives? The combined pipeline bypass capacity around Hormuz is about nine million barrels per day — less than half the normal flow. There is no adequate workaround. The gap is simply too large to fill.",
+      "visual": { "type": "data-chart", "description": "Price chart $73→$119, then pipeline bypass gauge 9 vs 20.9 mb/d" },
+      "transition": "cut",
+      "sceneFile": "scenes/scene-008.json"
+    },
+    {
+      "id": "scene-009",
+      "section": "Strait of Hormuz",
+      "startTime": 186.6,
+      "endTime": 193.1,
+      "voiceover": "As of today — April twentieth, twenty-twenty-six — the blockade is still in effect.",
+      "visual": { "type": "data-chart", "description": "Map with red 'BLOCKED' status indicator on Hormuz" },
+      "transition": "fade",
+      "sceneFile": "scenes/scene-009.json"
+    },
+    {
+      "id": "scene-010",
+      "section": "Strait of Malacca",
+      "startTime": 193.6,
+      "endTime": 223.9,
+      "voiceover": "Now the one that surprises most people. The Strait of Malacca is not the most famous chokepoint. But by volume, it is the largest oil chokepoint on Earth. Five hundred and fifty miles long. At the narrowest point — Phillips Channel, near Singapore — less than two miles wide. More than sixty thousand vessels pass through every year. That's over one hundred and sixty ships per day. Twenty-three point two million barrels per day. Twenty-nine percent of all globally traded maritime oil.",
+      "visual": { "type": "data-chart", "description": "World map zoomed to Southeast Asia, ship traffic density" },
+      "transition": "cut",
+      "sceneFile": "scenes/scene-010.json"
+    },
+    {
+      "id": "scene-011",
+      "section": "Strait of Malacca",
+      "startTime": 223.9,
+      "endTime": 267.0,
+      "voiceover": "Eighty percent of Northeast Asia's oil imports flow through Malacca. China alone accounts for forty-eight percent of all import volumes through the strait in twenty-twenty-five's first half. Roughly eighty percent of China's imported crude oil enters through this single passage. In two-thousand-three, Chinese President Hu Jintao called this China's strategic nightmare — the \"Malacca Dilemma.\" If the United States Navy ever chose to block this strait, China's oil supply could be severed within weeks. This single geographic fact has driven billions of dollars of Chinese Belt and Road Initiative infrastructure — pipelines through Myanmar, overland routes through Pakistan, port investments across the Indian Ocean.",
+      "visual": { "type": "data-chart", "description": "China dependency graphic 80%, then BRI bypass routes on map" },
+      "transition": "cut",
+      "sceneFile": "scenes/scene-011.json"
+    },
+    {
+      "id": "scene-012",
+      "section": "Strait of Malacca",
+      "startTime": 267.0,
+      "endTime": 281.9,
+      "voiceover": "Unlike the other four chokepoints, Malacca has never been fully closed in modern history. There is no major disruption data. Just a vulnerability so obvious that it quietly reshapes the foreign policy of the world's second-largest economy.",
+      "visual": { "type": "data-chart", "description": "Map with 'NEVER CLOSED' label, subtle pulse" },
+      "transition": "fade",
+      "sceneFile": "scenes/scene-012.json"
+    },
+    {
+      "id": "scene-013",
+      "section": "Suez Canal",
+      "startTime": 282.4,
+      "endTime": 309.2,
+      "voiceover": "One hundred and twenty miles through Egypt. No locks — sea level the whole way. Connecting the Mediterranean to the Red Sea. The Suez Canal is the reason ships don't have to sail around the entire continent of Africa. Without Suez, the journey from the Arabian Gulf to Europe adds six thousand seven hundred and thirty-eight miles — roughly ten to eighteen extra days at sea. Per voyage, that's about one million dollars in additional fuel and operational costs.",
+      "visual": { "type": "data-chart", "description": "Route comparison animation: Suez vs Cape of Good Hope" },
+      "transition": "cut",
+      "sceneFile": "scenes/scene-013.json"
+    },
+    {
+      "id": "scene-014",
+      "section": "Suez Canal",
+      "startTime": 309.2,
+      "endTime": 344.4,
+      "voiceover": "Before the recent crisis, more than nineteen thousand vessels per year used the canal. It carries about twelve percent of all global maritime trade. For oil specifically — the canal and its overland bypass pipeline together move four point nine million barrels per day. In March twenty-twenty-one, a single container ship — the Ever Given — ran aground and blocked the canal for six days. Estimates from a Japanese economic research model put the total GDP impact at seventy-nine point six billion dollars. For six days. One ship.",
+      "visual": { "type": "data-chart", "description": "Ever Given stat card: 6 days → $79.6B GDP impact" },
+      "transition": "cut",
+      "sceneFile": "scenes/scene-014.json"
+    },
+    {
+      "id": "scene-015",
+      "section": "Suez Canal",
+      "startTime": 344.4,
+      "endTime": 373.8,
+      "voiceover": "The Suez Canal has been closed before — for eight years after the nineteen sixty-seven war. When it reopened in nineteen seventy-five, entire shipping routes had been permanently redesigned. Since late twenty-twenty-three, Houthi drone and missile attacks on Red Sea shipping have kept canal traffic sixty percent below its pre-crisis levels. Egypt lost seven billion dollars in canal revenues in twenty-twenty-four alone.",
+      "visual": { "type": "data-chart", "description": "Timeline 1967-75 closure, then traffic drop chart -60%" },
+      "transition": "fade",
+      "sceneFile": "scenes/scene-015.json"
+    },
+    {
+      "id": "scene-016",
+      "section": "Panama Canal",
+      "startTime": 374.3,
+      "endTime": 404.1,
+      "voiceover": "Fifty miles across the isthmus of Panama. Unlike Suez, this canal uses locks — a system of chambers that lift ships up and over a continental divide, using freshwater from Gatun Lake. That dependence on freshwater is a problem. In October twenty-twenty-three, Panama recorded its driest conditions since nineteen-fifty. Gatun Lake levels fell sharply. The Panama Canal Authority cut daily transit slots by roughly half. Large oil tankers and bulk carriers had almost no options.",
+      "visual": { "type": "data-chart", "description": "Panama map with lock system, drought gauge dropping" },
+      "transition": "cut",
+      "sceneFile": "scenes/scene-016.json"
+    },
+    {
+      "id": "scene-017",
+      "section": "Panama Canal",
+      "startTime": 404.1,
+      "endTime": 443.4,
+      "voiceover": "For the limited slots that remained — a bidding war. One Liquefied Petroleum Gas carrier — LPG, a propane and butane mix distinct from LNG — paid two point eight five million dollars for a single transit slot. For one crossing. LNG carriers abandoned the canal entirely. Before the drought, two point five billion cubic feet per day of LNG passed through. By twenty-twenty-five, that was below zero point three. The carriers found alternative routes, recalculated their economics, and have not come back — even after water levels returned to normal.",
+      "visual": { "type": "data-chart", "description": "$2.85M stat card, then LNG comparison bars 2.5→0.3 bcf/d" },
+      "transition": "cut",
+      "sceneFile": "scenes/scene-017.json"
+    },
+    {
+      "id": "scene-018",
+      "section": "Panama Canal",
+      "startTime": 443.4,
+      "endTime": 467.8,
+      "voiceover": "Panama accounts for three percent of global maritime petroleum flows — two point three million barrels per day, mostly refined products. The oil price impact of the twenty-twenty-three drought was modest. But the LNG market felt it. As of April twenty-twenty-six, an El Niño watch has been issued — signaling conditions that could trigger another severe drought.",
+      "visual": { "type": "data-chart", "description": "Summary stat + El Niño warning indicator" },
+      "transition": "fade",
+      "sceneFile": "scenes/scene-018.json"
+    },
+    {
+      "id": "scene-019",
+      "section": "Bab el-Mandeb",
+      "startTime": 468.3,
+      "endTime": 501.1,
+      "voiceover": "Bab el-Mandeb. In Arabic: Gate of Grief. Eighteen miles wide at its narrowest point, between Yemen on the Arabian side and Djibouti and Eritrea on the African side. It is the entry to the Suez Canal from the south. Every ship going to or from Suez must first pass through this gate. Before the current crisis, nine point three million barrels of oil per day flowed through. LNG: four point two billion cubic feet per day. Container traffic: some of the densest in the world.",
+      "visual": { "type": "data-chart", "description": "World map zoomed to Red Sea/Bab el-Mandeb, 18-mile gap" },
+      "transition": "cut",
+      "sceneFile": "scenes/scene-019.json"
+    },
+    {
+      "id": "scene-020",
+      "section": "Bab el-Mandeb",
+      "startTime": 501.1,
+      "endTime": 548.1,
+      "voiceover": "On November nineteenth, twenty-twenty-three, Houthi forces in Yemen hijacked the MV Galaxy Leader — a cargo ship with twenty-five crew members held hostage. That was the opening move. What followed was two years of drone and missile attacks on commercial shipping in the Red Sea. By mid twenty-twenty-four, container vessel traffic had dropped seventy-five percent. Oil flows fell to four point two million barrels per day — a fifty-five percent reduction. LNG carriers stopped completely. Zero LNG passed through Bab el-Mandeb by the first half of twenty-twenty-five. The Shanghai-Rotterdam shipping index spiked two hundred and fifty percent. Freight rates doubled. War risk insurance climbed from zero point three percent to one percent of vessel value.",
+      "visual": { "type": "data-chart", "description": "Timeline: Nov 2023 hijacking → traffic chart -75%, stat cards" },
+      "transition": "cut",
+      "sceneFile": "scenes/scene-020.json"
+    },
+    {
+      "id": "scene-021",
+      "section": "Bab el-Mandeb",
+      "startTime": 548.1,
+      "endTime": 570.5,
+      "voiceover": "The attacks formally paused in late twenty-twenty-five. But traffic is still sixty percent below normal. Now, in April twenty-twenty-six, with Hormuz blocked and Saudi Arabia trying to route oil through its Red Sea port of Yanbu instead — the Houthis have threatened to close Bab el-Mandeb again. The alternative to Hormuz runs directly through this gate.",
+      "visual": { "type": "data-chart", "description": "Cascade arrows: Hormuz→Yanbu→Bab el-Mandeb, red warning" },
+      "transition": "fade",
+      "sceneFile": "scenes/scene-021.json"
+    },
+    {
+      "id": "scene-022",
+      "section": "The Cascade Effect",
+      "startTime": 571.0,
+      "endTime": 616.0,
+      "voiceover": "Here is what makes these five chokepoints different from any other infrastructure on Earth: they are not independent. They interact. When Hormuz closes, Persian Gulf producers can't export normally. Saudi Arabia diverts its oil westward — to Yanbu, on the Red Sea — and ships it out through Bab el-Mandeb. But Bab el-Mandeb is also under threat. So the alternative route to the main chokepoint runs through a second chokepoint that is itself under attack. When Bab el-Mandeb is disrupted, ships reroute around Africa via Cape of Good Hope. More vessel capacity gets consumed on longer routes. Freight rates rise globally. Panama Canal demand shifts. Everything connects.",
+      "visual": { "type": "data-chart", "description": "World map with animated cascade arrows connecting 5 chokepoints" },
+      "transition": "cut",
+      "sceneFile": "scenes/scene-022.json"
+    },
+    {
+      "id": "scene-023",
+      "section": "The Cascade Effect",
+      "startTime": 616.0,
+      "endTime": 660.6,
+      "voiceover": "An Oxford Martin School study, published in Nature Communications, estimated the global economic cost of chokepoint disruptions at fourteen billion dollars per year — across twenty-four chokepoints worldwide. Ten point seven billion in direct losses from delays, three point four billion in shipping cost increases. That fourteen billion number was calculated before twenty-twenty-six. The current Hormuz blockade alone has already disrupted more oil than any single chokepoint event in recorded history — up to nine point one million barrels per day of crude production shut in by April. In twenty-twenty-six, for the first time, two of these five chokepoints are simultaneously at full disruption or near-disruption. The cascade is not theoretical. It is happening right now.",
+      "visual": { "type": "data-chart", "description": "Oxford Martin $14B stat, then dual crisis map — Hormuz red + Bab orange" },
+      "transition": "fade",
+      "sceneFile": "scenes/scene-023.json"
+    },
+    {
+      "id": "scene-024",
+      "section": "CTA",
+      "startTime": 661.1,
+      "endTime": 696.1,
+      "voiceover": "Five straits and canals. Collectively narrower than most cities. And through them flows the energy that runs the modern economy. Malacca: the largest by volume, shaped China's entire foreign policy. Hormuz: currently shut — sixty-three percent oil price spike in three weeks. Suez: sixty percent below normal since twenty-twenty-three. Panama: one drought cost two point eight five million dollars for a single crossing. Bab el-Mandeb: zero LNG passing through. Now threatened again. The numbers are the story.",
+      "visual": { "type": "data-chart", "description": "World map with recap cards per chokepoint as named" },
+      "transition": "cut",
+      "sceneFile": "scenes/scene-024.json"
+    },
+    {
+      "id": "scene-025",
+      "section": "CTA",
+      "startTime": 696.1,
+      "endTime": 702.8,
+      "voiceover": "If this kind of data interests you — subscribe. Every video is one topic, measured carefully.",
+      "visual": { "type": "data-chart", "description": "Closing card: channel name, tagline, subscribe" },
+      "transition": "fade",
+      "sceneFile": "scenes/scene-025.json"
+    }
+  ]
+}

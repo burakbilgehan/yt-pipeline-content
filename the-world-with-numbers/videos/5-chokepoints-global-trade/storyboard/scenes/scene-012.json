@@ -1,0 +1,18 @@
+{
+  "id": "scene-012",
+  "visual": {
+    "type": "data-chart",
+    "description": "Title card with typing text effect: 'NEVER CLOSED' types out character by character. Subtitle: 'No disruption data. Just quiet reshaping of foreign policy.' Film grain atmosphere for documentary gravitas.",
+    "dataChart": {
+      "type": "title-card",
+      "title": "NEVER CLOSED",
+      "subtitle": "No disruption data. Just a vulnerability so obvious it reshapes foreign policy.",
+      "titleColor": "#5BBF8C"
+    },
+    "motion": "typing-text",
+    "atmosphere": "film-grain",
+    "surface": null
+  },
+  "transition": "fade",
+  "notes": "Counterpoint to Hormuz's 'BLOCKED' card. Green title (positive) vs red. Typing text creates contemplative pace. Film grain for weight."
+}

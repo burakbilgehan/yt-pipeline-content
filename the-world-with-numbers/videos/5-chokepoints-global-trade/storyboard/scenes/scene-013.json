@@ -1,0 +1,38 @@
+{
+  "id": "scene-013",
+  "visual": {
+    "type": "data-chart",
+    "description": "Composite: Phase 1 — Suez Canal title card. Phase 2 — Comparison table: Suez route vs Cape of Good Hope route.",
+    "dataChart": {
+      "type": "composite-phases",
+      "phases": [
+        {
+          "type": "title-card",
+          "durationSec": 10,
+          "title": "SUEZ CANAL",
+          "subtitle": "120 mi · 12% of global trade · 15% of world shipping",
+          "titleColor": "#7BA7C9"
+        },
+        {
+          "type": "comparison-table",
+          "durationSec": 17,
+          "title": "SUEZ VS CAPE OF GOOD HOPE",
+          "duel": {
+            "left": { "name": "Via Suez", "color": "#5BBF8C" },
+            "right": { "name": "Via Cape", "color": "#E06070" }
+          },
+          "items": [
+            { "metric": "Extra Distance (mi)", "leftValue": 0, "rightValue": 6738 },
+            { "metric": "Extra Days at Sea", "leftValue": 0, "rightValue": 14 },
+            { "metric": "Extra Cost ($M/voyage)", "leftValue": 0, "rightValue": 1 }
+          ]
+        }
+      ]
+    },
+    "motion": "blur-fade-in",
+    "atmosphere": "dot-grid",
+    "surface": "card"
+  },
+  "transition": "cut",
+  "notes": "Phase 1 converted from location-map to title-card. Phase 2 comparison table unchanged."
+}

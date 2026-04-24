@@ -1,0 +1,24 @@
+{
+  "id": "scene-015",
+  "visual": {
+    "type": "data-chart",
+    "description": "Timeline chart: Suez Canal disruptions history. 1967 closure (8 years) → 2021 Ever Given (6 days) → 2023-ongoing Houthi attacks. Revenue loss callout: '$7B Egypt loss in 2024'.",
+    "dataChart": {
+      "type": "timeline",
+      "title": "SUEZ CANAL — DISRUPTION HISTORY",
+      "items": [
+        { "label": "1967", "value": "Closed 8 years" },
+        { "label": "1975", "value": "Reopened" },
+        { "label": "Mar 2021", "value": "Ever Given (6 days)" },
+        { "label": "Nov 2023", "value": "Houthi attacks" },
+        { "label": "2024", "value": "Traffic −60%" }
+      ],
+      "colors": ["#E06070"]
+    },
+    "motion": "blur-fade-in",
+    "atmosphere": "film-grain",
+    "surface": "frosted-panel"
+  },
+  "transition": "fade",
+  "notes": "Historical timeline. Film grain atmosphere perfect for historical content. Frosted panel gives matte container feel. Timeline markers alternate top/bottom with staggered entrance."
+}

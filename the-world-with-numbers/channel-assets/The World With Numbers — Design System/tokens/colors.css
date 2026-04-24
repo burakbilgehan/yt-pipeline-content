@@ -1,0 +1,81 @@
+/*
+ * The World With Numbers — Color Tokens  (v6 · 2026-04-17)
+ *
+ * SOURCE OF TRUTH: burakbilgehan/yt-pipeline-content
+ *   → channel-assets/design-system.json
+ *
+ * Changes in v6:
+ *   - Sage REMOVED from brand palette. Was #8A9A7A. Grid lines now use
+ *     rgba(240,237,232,0.10) — no named color needed.
+ *   - Surface updated: near-bg value (almost same as --bg), border provides separation.
+ *   - VB-1 screen-utilization raised to 0.85 (min), target 0.90.
+ */
+
+:root {
+  /* ─── Base ─────────────────────────────────────────── */
+  --bg:            #2A2A32;
+  --bg-top:        #2A2A32;
+  --bg-bottom:     #2A2A32;
+
+  /* ─── Text ─────────────────────────────────────────── */
+  --text:           #F0EDE8;
+  --text-muted:     rgba(240, 237, 232, 0.55);
+  --text-secondary: rgba(240, 237, 232, 0.70);
+  --text-faint:     rgba(240, 237, 232, 0.35);
+
+  /* ─── Data Accents (max 2 per chart) ──────────────── */
+  --accent-pink:   #E88CA5;
+  --accent-blue:   #7BA7C9;
+
+  /* ─── Semantic ─────────────────────────────────────── */
+  --positive:      #5BBF8C;
+  --negative:      #E06070;
+
+  /* ─── Structural (no named sage) ──────────────────── */
+  --grid:          rgba(240, 237, 232, 0.08);   /* chart gridlines */
+  --axis:          rgba(240, 237, 232, 0.35);   /* axis labels, tick marks */
+  --track:         rgba(240, 237, 232, 0.06);   /* bar track background */
+  --border-strong: rgba(240, 237, 232, 0.12);
+  --border-subtle: rgba(240, 237, 232, 0.07);
+
+  /* ─── Surface (near-bg, border provides separation) ── */
+  --surface:         #2E2E38;   /* 1 step lighter than --bg */
+  --surface-hover:   #313140;
+  --card-bg:         #2E2E38;
+  --card-border:     rgba(240, 237, 232, 0.10);
+
+  /* ─── Multi-series ordered palette (>2 series, avoid if possible) ─ */
+  --data-1: #E88CA5;  /* accent-pink */
+  --data-2: #7BA7C9;  /* accent-blue */
+  --data-3: #5BBF8C;  /* positive */
+  --data-4: #E06070;  /* negative */
+  --data-5: #7EC8E3;
+  --data-6: #F4A261;
+  --data-7: #C084FC;
+  --data-8: #FB923C;
+
+  /* ─── Spacing ──────────────────────────────────────── */
+  --s-1:  8px;
+  --s-2:  16px;
+  --s-3:  24px;
+  --s-4:  32px;
+  --s-6:  48px;
+  --s-8:  64px;
+  --s-12: 96px;
+  --padding: 40px;
+  --corner-radius: 0px;   /* bars ALWAYS squared */
+  --border-width: 1px;
+  --screen-utilization-min:    0.85;  /* VB-1 updated: was 0.80 */
+  --screen-utilization-target: 0.90;
+
+  /* ─── Animation ───────────────────────────────────── */
+  --spring-stiffness: 100;
+  --spring-damping:   20;
+  --stagger-list:     10;   /* frames between list items */
+  --stagger-chart:    6;    /* frames between chart bars */
+  --ease-out: cubic-bezier(0.33, 1, 0.68, 1);
+
+  /* ─── Effects ─────────────────────────────────────── */
+  --dot-grid-opacity: 0.04;   /* reduced: was 0.10 */
+  --dot-grid-spacing: 28px;
+}

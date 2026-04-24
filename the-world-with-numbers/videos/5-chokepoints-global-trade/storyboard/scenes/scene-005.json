@@ -1,0 +1,26 @@
+{
+  "id": "scene-005",
+  "visual": {
+    "type": "data-chart",
+    "description": "Horizontal bar chart — all 5 chokepoints ranked by oil volume. Bars fill as each is named in VO. Gradient colors from accent1→accent2.",
+    "dataChart": {
+      "type": "horizontal-bar-chart",
+      "title": "OIL FLOW BY CHOKEPOINT",
+      "subtitle": "million barrels per day (H1 2025, EIA)",
+      "bars": [
+        { "label": "Strait of Malacca", "code": "MLK", "value": 23.2, "displayValue": "23.2 mb/d (29%)" },
+        { "label": "Strait of Hormuz", "code": "HMZ", "value": 20.9, "displayValue": "20.9 mb/d (25%)" },
+        { "label": "Suez Canal + SUMED", "code": "SUZ", "value": 4.9, "displayValue": "4.9 mb/d" },
+        { "label": "Bab el-Mandeb", "code": "BAB", "value": 4.2, "displayValue": "4.2 mb/d" },
+        { "label": "Panama Canal", "code": "PAN", "value": 2.3, "displayValue": "2.3 mb/d (3%)" }
+      ],
+      "gradientColors": ["#E88CA5", "#7BA7C9"],
+      "unit": "mb/d"
+    },
+    "motion": "blur-fade-in",
+    "atmosphere": "dot-grid",
+    "surface": "frosted-panel"
+  },
+  "transition": "fade",
+  "notes": "Key data scene. Frosted panel gives matte container feel. Dot grid background maintains analytical tone. Bars stagger in from top to bottom as narrator names each."
+}

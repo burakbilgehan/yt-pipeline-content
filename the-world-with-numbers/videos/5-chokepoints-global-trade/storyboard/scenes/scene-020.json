@@ -1,0 +1,50 @@
+{
+  "id": "scene-020",
+  "visual": {
+    "type": "data-chart",
+    "description": "Composite: Phase 1 — Timeline: Nov 2023 Galaxy Leader hijacking → attacks escalate → mid-2024 -75% container traffic. Phase 2 — Horizontal bar chart showing before/after: Oil 9.3→4.2 mb/d (-55%), LNG 4.2→0.0 bcf/d (-100%), Container -75%. Phase 3 — Counter: '+250%' Shanghai-Rotterdam Index spike.",
+    "dataChart": {
+      "type": "composite-phases",
+      "phases": [
+        {
+          "type": "timeline",
+          "durationSec": 16,
+          "title": "HOUTHI ATTACK TIMELINE",
+          "items": [
+            { "label": "Nov 19 '23", "value": "MV Galaxy Leader hijacked" },
+            { "label": "Dec '23", "value": "Drone & missile attacks escalate" },
+            { "label": "Mid '24", "value": "Container traffic -75%" },
+            { "label": "H1 '25", "value": "LNG transit → ZERO" }
+          ],
+          "colors": ["#E06070"]
+        },
+        {
+          "type": "horizontal-bar-chart",
+          "durationSec": 16,
+          "title": "BAB EL-MANDEB — BEFORE & AFTER",
+          "bars": [
+            { "label": "Oil (pre-crisis)", "code": "PRE", "value": 9.3, "displayValue": "9.3 mb/d" },
+            { "label": "Oil (H1 2025)", "code": "POST", "value": 4.2, "displayValue": "4.2 mb/d (-55%)" },
+            { "label": "LNG (pre-crisis)", "code": "LPRE", "value": 4.2, "displayValue": "4.2 bcf/d" },
+            { "label": "LNG (H1 2025)", "code": "LPOST", "value": 0, "displayValue": "0.0 bcf/d (-100%)" }
+          ],
+          "gradientColors": ["#E06070", "#7BA7C9"]
+        },
+        {
+          "type": "counter",
+          "durationSec": 15,
+          "counterValue": 250,
+          "counterPrefix": "+",
+          "counterSuffix": "%",
+          "title": "SHANGHAI–ROTTERDAM INDEX",
+          "subtitle": "Freight rates doubled. War risk insurance 0.3% → 1.0%"
+        }
+      ]
+    },
+    "motion": "blur-fade-in",
+    "atmosphere": "shooting-stars",
+    "surface": "backlight"
+  },
+  "transition": "cut",
+  "notes": "Dense data scene — 3 phases. Timeline → bar chart → counter. Shooting stars + backlight for drama. This is the longest Bab el-Mandeb data scene."
+}

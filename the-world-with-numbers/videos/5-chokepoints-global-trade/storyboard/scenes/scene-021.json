@@ -1,0 +1,23 @@
+{
+  "id": "scene-021",
+  "visual": {
+    "type": "data-chart",
+    "description": "Cascade preview: Hormuz blocked → Saudi reroutes to Yanbu → must pass Bab el-Mandeb → Houthis threaten again. Vertical tabs showing the cascade logic, or a flow diagram with arrows.",
+    "dataChart": {
+      "type": "vertical-tabs",
+      "title": "THE CASCADE BEGINS",
+      "subtitle": "Hormuz alternative runs through Bab el-Mandeb",
+      "items": [
+        { "id": "hormuz", "title": "Hormuz Blocked", "description": "Persian Gulf exports cut off since March 2026" },
+        { "id": "yanbu", "title": "Saudi → Yanbu", "description": "Oil diverted to Red Sea port" },
+        { "id": "bab", "title": "→ Bab el-Mandeb", "description": "All Yanbu traffic must pass through this gate" },
+        { "id": "threat", "title": "Houthis Threaten", "description": "Second blockade threat — April 2026" }
+      ]
+    },
+    "motion": "blur-fade-in",
+    "atmosphere": "retro-grid",
+    "surface": "glass"
+  },
+  "transition": "fade",
+  "notes": "Vertical tabs walk through the cascade logic step by step. Retro grid atmosphere adds tech/urgency feel. Glass surface on the tab container. Each tab highlights as narrator describes the cascade."
+}

@@ -1,0 +1,31 @@
+{
+  "id": "scene-016",
+  "visual": {
+    "type": "data-chart",
+    "description": "Composite: Phase 1 — Panama Canal title card. Phase 2 — Title card about freshwater dependency and drought crisis.",
+    "dataChart": {
+      "type": "composite-phases",
+      "phases": [
+        {
+          "type": "title-card",
+          "durationSec": 10,
+          "title": "PANAMA CANAL",
+          "subtitle": "51 mi · Lock-based · Freshwater dependent",
+          "titleColor": "#7BA7C9"
+        },
+        {
+          "type": "title-card",
+          "durationSec": 20,
+          "title": "DROUGHT CRISIS",
+          "subtitle": "Oct 2023: driest since 1950 · Transit slots cut ~50%",
+          "titleColor": "#E06070"
+        }
+      ]
+    },
+    "motion": "blur-fade-in",
+    "atmosphere": "retro-grid",
+    "surface": "card"
+  },
+  "transition": "cut",
+  "notes": "Both phases converted to title-card. Phase 2 was scene-visual (stock video unavailable) — now drought crisis title card."
+}

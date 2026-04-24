@@ -1,0 +1,38 @@
+{
+  "id": "scene-014",
+  "visual": {
+    "type": "data-chart",
+    "description": "Composite: Phase 1 — Counter: '$79.6B' counting up with subtitle 'GDP impact — 6 days, 1 ship (Ever Given, Mar 2021)'. Phase 2 — Bar chart showing pre-crisis vs post-Houthi traffic.",
+    "dataChart": {
+      "type": "composite-phases",
+      "phases": [
+        {
+          "type": "counter",
+          "durationSec": 15,
+          "counterValue": 79.6,
+          "counterPrefix": "$",
+          "counterSuffix": "B",
+          "title": "EVER GIVEN — GDP IMPACT",
+          "subtitle": "6 days. One ship. March 2021."
+        },
+        {
+          "type": "bar-chart",
+          "durationSec": 20,
+          "title": "SUEZ CANAL TRAFFIC",
+          "items": [
+            { "label": "Pre-crisis (2023)", "value": 19000 },
+            { "label": "Post-Houthi (2024)", "value": 7600 }
+          ],
+          "unit": "vessels/year",
+          "colors": ["#5BBF8C", "#E06070"]
+        }
+      ]
+    },
+    "motion": "stagger-text-reveal",
+    "motionConfig": { "splitBy": "words", "staggerFrom": "first" },
+    "atmosphere": "shooting-stars",
+    "surface": "backlight"
+  },
+  "transition": "cut",
+  "notes": "Counter animation on $79.6B is the shock moment. Backlight surface makes the counter card glow. Then bar chart showing 60% traffic drop. Shooting stars atmosphere for drama."
+}

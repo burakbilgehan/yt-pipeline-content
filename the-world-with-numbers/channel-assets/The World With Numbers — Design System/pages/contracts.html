@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>Layout Contracts · The World With Numbers</title>
+<link rel="stylesheet" href="../tokens/colors.css">
+<link rel="stylesheet" href="../tokens/type.css">
+<link rel="stylesheet" href="_shared.css">
+<style>
+  .contract { border: 1px solid var(--border-strong); padding: 0; margin: 24px 0; background: var(--bg); }
+  .contract-head { padding: 20px 28px; border-bottom: 1px solid var(--border-strong); display: flex; align-items: baseline; gap: 14px; }
+  .contract-head .id { font-family: var(--font-mono); font-size: 11px; font-weight: 600; letter-spacing: 0.18em; text-transform: uppercase; color: var(--accent-pink); }
+  .contract-head h3 { font-family: var(--font-heading); font-size: 20px; font-weight: 700; letter-spacing: -0.02em; margin: 0; }
+  .contract-head .applies { margin-left: auto; font-family: var(--font-mono); font-size: 11px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.1em; }
+  .contract-body { padding: 24px 28px; display: grid; grid-template-columns: 1fr 1.2fr; gap: 40px; align-items: start; }
+  .contract-body .text p { margin-bottom: 10px; font-size: 14px; }
+  .contract-body .text ul { list-style: none; padding: 0; margin-top: 12px; }
+  .contract-body .text ul li { padding: 6px 0; font-size: 14px; color: var(--text-secondary); display: flex; gap: 10px; align-items: flex-start; }
+  .contract-body .text ul li::before { content: "—"; color: var(--accent-pink); font-family: var(--font-mono); font-weight: 600; flex-shrink: 0; }
+
+  .diagram { background: rgba(0,0,0,0.2); border: 1px solid rgba(240,237,232,0.06); padding: 20px; aspect-ratio: 16/9; position: relative; font-family: var(--font-mono); font-size: 11px; color: var(--text-muted); }
+  .diagram .zone { position: absolute; border: 1px dashed rgba(232,140,165,0.4); padding: 6px 8px; display: flex; align-items: flex-end; }
+  .diagram .zone.filled { background: rgba(232,140,165,0.08); border-style: solid; border-color: var(--accent-pink); color: var(--accent-pink); }
+  .diagram .zone.blue { background: rgba(123,167,201,0.08); border-color: var(--accent-blue); color: var(--accent-blue); }
+  .diagram .zone.sage { background: rgba(138,154,122,0.08); border-color: var(--sage); color: var(--sage); }
+  .diagram .zone.muted { border-color: rgba(240,237,232,0.18); color: var(--text-faint); }
+</style>
+</head><body><div class="wrap">
+<a class="back" href="../README.html">← Design System</a>
+<header class="page-header">
+  <div class="eyebrow">06 · Layout contracts</div>
+  <h1>Where things go — always</h1>
+  <p class="lede">Inconsistency across scenes was the #1 critic failure in v4. These six contracts fix the position of every recurring element. Every template must honour them or explicitly document an exception (e.g. OpeningScene breaks LC-1).</p>
+</header>
+
+<!-- LC-1 -->
+<div class="contract">
+  <div class="contract-head"><span class="id">LC-1</span><h3>Title anchor — varsayılan sol-alt</h3><span class="applies">Başlık içeren sahneler (öneri, kural değil)</span></div>
+  <div class="contract-body">
+    <div class="text">
+      <p>Başlıklar için <strong>varsayılan konum sol-alt</strong>tır. Bu kesin bir kural değil, güçlü bir öneri — tutarlılık açısından değerli, ama sahnenin veri düzeni farklı bir konumu gerektiriyorsa sapılabilir.</p>
+      <ul>
+        <li>Eyebrow (11px, pembe, uppercase) başlığın 4px üstünde</li>
+        <li>Başlık Montserrat — 52–64px, uzunluğa göre</li>
+        <li>Maksimum genişlik frame'in %66'sı</li>
+        <li>BigStatScene başlığı sol-üste taşıyabilir (LC-3 notu)</li>
+      </ul>
+      <p style="margin-top:12px; color:var(--text-muted); font-size:13px"><em>Güncellendi (Burak): Sol-alt artık "tartışmasız kural" değil, "sağlam default". Sapma gerekiyorsa belgelensin.</em></p>
+    </div>
+    <div class="diagram">
+      <div class="zone muted" style="top:4%; left:3%; right:3%; bottom:4%">FRAME</div>
+      <div class="zone filled" style="bottom:8%; left:4%; width:62%; height:18%">TITLE · sol-alt (default)</div>
+      <div class="zone sage" style="bottom:2%; right:3%; width:26%; height:7%">CITATION</div>
+    </div>
+  </div>
+</div>
+
+<!-- LC-2 -->
+<div class="contract">
+  <div class="contract-head"><span class="id">LC-2</span><h3>Citation anchor — bottom-right</h3><span class="applies">All data scenes (not narrative)</span></div>
+  <div class="contract-body">
+    <div class="text">
+      <p>Citations <strong>always</strong> appear bottom-right, 2% from bottom, 3% from right. They use 22px Inter at <code>var(--text-muted)</code>.</p>
+      <ul>
+        <li>Prefix "Source:" in mono, same size, 8px right-margin</li>
+        <li>Source body in Inter regular (not bold, not italic)</li>
+        <li>If source has a URL, underline suppressed — it's print-style</li>
+        <li>Max 2 lines. If longer, abbreviate: "IMF WEO, Oct 2024"</li>
+      </ul>
+    </div>
+    <div class="diagram">
+      <div class="zone muted" style="top:4%; left:3%; right:3%; bottom:4%">FRAME</div>
+      <div class="zone filled" style="bottom:2%; right:3%; width:36%; height:7%">Source: OECD, 2024 · bottom-right</div>
+    </div>
+  </div>
+</div>
+
+<!-- LC-3 -->
+<div class="contract">
+  <div class="contract-head"><span class="id">LC-3</span><h3>Hero number — center, never shares focus</h3><span class="applies">BigStatScene · StatWallSequence</span></div>
+  <div class="contract-body">
+    <div class="text">
+      <p>The hero number (160px mono) <strong>centers both horizontally and vertically</strong> in the primary area. Nothing else competes for focus at that vertical position.</p>
+      <ul>
+        <li>Descriptor sits below the number with 32px gap</li>
+        <li>Never pair two hero numbers in the same frame — use split-scene instead</li>
+        <li>The number can break LC-1 title placement: eyebrow moves to top-left when hero is present</li>
+      </ul>
+    </div>
+    <div class="diagram">
+      <div class="zone muted" style="top:4%; left:3%; right:3%; bottom:4%">FRAME</div>
+      <div class="zone blue" style="top:6%; left:4%; width:30%; height:8%">EYEBROW · top-left (LC-3 exception)</div>
+      <div class="zone filled" style="top:36%; left:24%; width:52%; height:20%">$2.4T · HERO</div>
+      <div class="zone sage" style="top:60%; left:28%; width:44%; height:8%">Descriptor</div>
+      <div class="zone sage" style="bottom:2%; right:3%; width:32%; height:7%">CITATION</div>
+    </div>
+  </div>
+</div>
+
+<!-- LC-4 -->
+<div class="contract">
+  <div class="contract-head"><span class="id">LC-4</span><h3>Chart canvas — 3/4 frame, right-dominant</h3><span class="applies">BarChartScene · LineTrendScene · HorseRaceChart</span></div>
+  <div class="contract-body">
+    <div class="text">
+      <p>Chart scenes give <strong>~75% of the frame to the chart canvas</strong>, with eyebrow + title stacked in the left 25% column. Gridlines and axis labels are inside the chart canvas — not floating.</p>
+      <ul>
+        <li>Chart canvas: 72% wide × 86% tall, right-aligned with 2% gutter</li>
+        <li>Title column: 24% wide, left side, vertically centered on chart</li>
+        <li>Citation per LC-2</li>
+        <li>Direct data labels preferred over legends (VB-5)</li>
+      </ul>
+    </div>
+    <div class="diagram">
+      <div class="zone muted" style="top:4%; left:3%; right:3%; bottom:4%">FRAME</div>
+      <div class="zone filled" style="top:32%; left:4%; width:20%; height:30%">TITLE · left column</div>
+      <div class="zone blue" style="top:7%; right:3%; width:70%; height:78%">CHART CANVAS · 72% × 86%</div>
+      <div class="zone sage" style="bottom:2%; right:3%; width:32%; height:7%">CITATION</div>
+    </div>
+  </div>
+</div>
+
+<!-- LC-5 -->
+<div class="contract">
+  <div class="contract-head"><span class="id">LC-5</span><h3>Duel split — 50/50 vertical, value-dominant</h3><span class="applies">DuelSplitScene · BeforeAfterCards</span></div>
+  <div class="contract-body">
+    <div class="text">
+      <p>Two-value comparisons split the frame down the middle. Each half contains: label (top), big number (center), descriptor (below). A 2% center gutter separates them — no dividing line.</p>
+      <ul>
+        <li>Left half = pink data · Right half = blue data (VB-2 exception allowed if diverging)</li>
+        <li>Proportional bar (VB-3) spans full frame width at the base, showing ratio</li>
+        <li>If a delta between the two matters, put it as a chip in the center gutter</li>
+      </ul>
+    </div>
+    <div class="diagram">
+      <div class="zone muted" style="top:4%; left:3%; right:3%; bottom:4%">FRAME</div>
+      <div class="zone filled" style="top:8%; left:4%; width:46%; height:68%">LEFT · pink</div>
+      <div class="zone blue" style="top:8%; right:4%; width:46%; height:68%">RIGHT · blue</div>
+      <div class="zone sage" style="bottom:12%; left:4%; right:4%; height:4%">Proportional bar (VB-3)</div>
+      <div class="zone sage" style="bottom:2%; right:3%; width:32%; height:7%">CITATION</div>
+    </div>
+  </div>
+</div>
+
+<!-- LC-6 -->
+<div class="contract">
+  <div class="contract-head"><span class="id">LC-6</span><h3>Ranked list — left column, bars extend right</h3><span class="applies">TopNListScene · RankingResortScene</span></div>
+  <div class="contract-body">
+    <div class="text">
+      <p>Ranked lists always align with rank numbers left-flush, item labels immediately right of rank, and proportional bars extending right across ~60% of the frame.</p>
+      <ul>
+        <li>Rank number: 11px mono, sage, 44px gutter</li>
+        <li>Item label: 22–28px Inter medium</li>
+        <li>Value: tabular mono, right-aligned at bar end</li>
+        <li>Stagger entrance 10f between items (VB-6)</li>
+        <li>No stripes, no alternating-row backgrounds — data-ink (VB-5)</li>
+      </ul>
+    </div>
+    <div class="diagram">
+      <div class="zone muted" style="top:4%; left:3%; right:3%; bottom:4%">FRAME</div>
+      <div class="zone filled" style="top:8%; left:4%; width:24%; height:8%">EYEBROW + H1</div>
+      <div class="zone blue" style="top:24%; left:4%; right:4%; bottom:14%">RANK · LABEL · BAR · VALUE</div>
+      <div class="zone sage" style="bottom:2%; right:3%; width:32%; height:7%">CITATION</div>
+    </div>
+  </div>
+</div>
+
+<h2>Spacing scale — the 8-point grid</h2>
+<p>All spacing is a multiple of 8px. This is non-negotiable — it's what makes visually-related templates feel like siblings.</p>
+<table>
+  <thead><tr><th>Token</th><th>Value</th><th>Use</th></tr></thead>
+  <tbody>
+    <tr><td class="mono">--s-1</td><td class="mono">8px</td><td>Icon-to-text, tight inline gaps</td></tr>
+    <tr><td class="mono">--s-2</td><td class="mono">16px</td><td>Stacked metadata, list item inner padding</td></tr>
+    <tr><td class="mono">--s-3</td><td class="mono">24px</td><td>Section internal padding</td></tr>
+    <tr><td class="mono">--s-4</td><td class="mono">32px</td><td>Between related blocks</td></tr>
+    <tr><td class="mono">--s-6</td><td class="mono">48px</td><td>Major vertical rhythm</td></tr>
+    <tr><td class="mono">--s-8</td><td class="mono">64px</td><td>Section separators</td></tr>
+    <tr><td class="mono">--s-12</td><td class="mono">96px</td><td>Hero breathing room</td></tr>
+  </tbody>
+</table>
+
+<h2>Frame-level geometry (1920×1080)</h2>
+<table>
+  <tbody>
+    <tr><td><b>Outer frame padding</b></td><td class="mono">58px horizontal / 32px vertical (min)</td></tr>
+    <tr><td><b>Primary content bounds</b></td><td class="mono">1804×1016 (≥ 88% utilization)</td></tr>
+    <tr><td><b>Safe zone (critical content)</b></td><td class="mono">10% inset on all sides</td></tr>
+    <tr><td><b>End-screen reserved area</b></td><td class="mono">Bottom-right 560×320px (closing scenes only)</td></tr>
+  </tbody>
+</table>
+
+<footer class="page-footer"><span>06 · Layout contracts</span><span>LC-1 through LC-6 · 8-point grid</span></footer>
+</div></body></html>

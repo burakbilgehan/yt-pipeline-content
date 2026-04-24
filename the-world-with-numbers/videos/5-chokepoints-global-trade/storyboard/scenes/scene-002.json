@@ -1,0 +1,21 @@
+{
+  "id": "scene-002",
+  "visual": {
+    "type": "data-chart",
+    "description": "Hook reveal — big number '$73' deflates/transforms to '$119' with dramatic size change. Context: 'Brent Crude · 3 Weeks'. Blurry blob atmosphere for premium drama.",
+    "dataChart": {
+      "type": "hook-reveal",
+      "bigNumber": "$119",
+      "smallNumber": "$73",
+      "subtitle": "in just 3 weeks",
+      "contextLine": "Brent Crude · Feb–Mar 2026",
+      "variant": "counting-ticker"
+    },
+    "motion": "stagger-text-reveal",
+    "motionConfig": { "splitBy": "characters", "staggerFrom": "center" },
+    "atmosphere": "blurry-blob",
+    "surface": "neon-gradient"
+  },
+  "transition": "cut",
+  "notes": "Max drama. Neon gradient surface wrapping the price card. Blurry blob background with accent colors drifting. Counting ticker from 73 to 119."
+}

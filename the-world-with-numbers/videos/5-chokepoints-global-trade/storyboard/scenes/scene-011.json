@@ -1,0 +1,37 @@
+{
+  "id": "scene-011",
+  "visual": {
+    "type": "data-chart",
+    "description": "Composite: Phase 1 — Counter: '80%' with subtitle 'of China's crude oil imports through one strait' (progress-ring style). Phase 2 — Vertical tabs showing BRI bypass routes: Myanmar Pipeline, CPEC Pakistan, Indian Ocean ports.",
+    "dataChart": {
+      "type": "composite-phases",
+      "phases": [
+        {
+          "type": "progress-ring",
+          "durationSec": 14,
+          "counterValue": 80,
+          "counterSuffix": "%",
+          "title": "CHINA'S CRUDE OIL IMPORTS",
+          "subtitle": "through the Strait of Malacca",
+          "colors": ["#E06070"]
+        },
+        {
+          "type": "vertical-tabs",
+          "durationSec": 29,
+          "title": "THE MALACCA DILEMMA",
+          "subtitle": "China's BRI bypass routes",
+          "items": [
+            { "id": "myanmar", "title": "Myanmar Pipeline", "description": "Oil & gas pipeline from Kyaukpyu port to Kunming" },
+            { "id": "cpec", "title": "CPEC (Pakistan)", "description": "Overland corridor from Gwadar port to western China" },
+            { "id": "indian-ocean", "title": "Indian Ocean Ports", "description": "Hambantota (Sri Lanka), Djibouti base, Maldives" }
+          ]
+        }
+      ]
+    },
+    "motion": "blur-fade-in",
+    "atmosphere": "blurry-blob",
+    "surface": "glass"
+  },
+  "transition": "cut",
+  "notes": "Progress ring makes the 80% dependency visually shocking. Vertical tabs with images show the BRI bypass strategy — each tab highlights as narrator discusses it. Blurry blob atmosphere for the geopolitical weight of this scene."
+}

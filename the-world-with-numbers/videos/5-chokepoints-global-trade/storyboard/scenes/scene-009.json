@@ -1,0 +1,18 @@
+{
+  "id": "scene-009",
+  "visual": {
+    "type": "data-chart",
+    "description": "Status card: 'BLOCKED' in red glitch text. Strait of Hormuz status indicator. Short 6.5s dramatic hold.",
+    "dataChart": {
+      "type": "title-card",
+      "title": "STRAIT OF HORMUZ",
+      "subtitle": "BLOCKADE IN EFFECT — April 20, 2026",
+      "titleColor": "#E06070"
+    },
+    "motion": "glitch-text",
+    "atmosphere": "shooting-stars",
+    "surface": "neon-gradient"
+  },
+  "transition": "fade",
+  "notes": "Dramatic punctuation. Glitch text on 'BLOCKED' creates digital-crisis feel. Neon gradient surface pulses red. Short scene — maximum impact."
+}

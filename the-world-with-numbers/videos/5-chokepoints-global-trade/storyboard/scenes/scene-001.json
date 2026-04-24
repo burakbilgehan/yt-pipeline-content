@@ -1,0 +1,24 @@
+{
+  "id": "scene-001",
+  "visual": {
+    "type": "data-chart",
+    "description": "Dark world map with 5 chokepoint locations marked as pulsing dots. Shooting stars atmosphere creates urgency. Each dot pulses #E88CA5 (accent1). Map is minimal outline style.",
+    "dataChart": {
+      "type": "world-map-scene",
+      "markers": [
+        { "id": "hormuz", "label": "Strait of Hormuz", "lat": 26.56, "lng": 56.25, "status": "blocked", "color": "#E06070" },
+        { "id": "malacca", "label": "Strait of Malacca", "lat": 2.5, "lng": 101.8, "status": "active", "color": "#E88CA5" },
+        { "id": "suez", "label": "Suez Canal", "lat": 30.46, "lng": 32.34, "status": "disrupted", "color": "#E88CA5" },
+        { "id": "panama", "label": "Panama Canal", "lat": 9.08, "lng": -79.68, "status": "active", "color": "#E88CA5" },
+        { "id": "bab", "label": "Bab el-Mandeb", "lat": 12.58, "lng": 43.33, "status": "threatened", "color": "#E88CA5" }
+      ],
+      "title": "5 CHOKEPOINTS",
+      "subtitle": "OVER HALF THE WORLD'S OIL"
+    },
+    "motion": "blur-fade-in",
+    "atmosphere": "shooting-stars",
+    "surface": null
+  },
+  "transition": "cut",
+  "notes": "Hook opener. Map should feel ominous — dark background, shooting stars add ambient motion. Hormuz dot is RED (blocked), others pink pulse."
+}

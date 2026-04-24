@@ -1,0 +1,26 @@
+{
+  "id": "scene-024",
+  "visual": {
+    "type": "data-chart",
+    "description": "Recap scoreboard: all 5 chokepoints with their key stat. Bars stagger in as each is named. Light editorial style scoreboard.",
+    "dataChart": {
+      "type": "scoreboard",
+      "showBars": false,
+      "title": "FIVE CHOKEPOINTS — THE NUMBERS",
+      "items": [
+        { "label": "Malacca", "value": 23.2, "color": "#7BA7C9", "suffix": " mb/d", "period": "#1 BY VOLUME" },
+        { "label": "Hormuz", "value": 63, "color": "#E06070", "suffix": "%", "period": "PRICE SPIKE · BLOCKED" },
+        { "label": "Suez", "value": 60, "color": "#E88CA5", "suffix": "%", "period": "BELOW NORMAL · 2023" },
+        { "label": "Panama", "value": 2.85, "color": "#7BA7C9", "suffix": "M", "period": "ONE CROSSING (USD)" },
+        { "label": "Bab el-Mandeb", "value": 0, "color": "#E06070", "suffix": "", "period": "ZERO LNG" }
+      ],
+      "footerText": "The numbers are the story."
+    },
+    "motion": "stagger-text-reveal",
+    "motionConfig": { "splitBy": "words", "staggerFrom": "first" },
+    "atmosphere": "dot-grid",
+    "surface": "frosted-panel"
+  },
+  "transition": "cut",
+  "notes": "Scoreboard recap — each chokepoint gets one line with its most impactful number. Dot-grid + frosted-panel for clean editorial close. Bars stagger in top-to-bottom as narrator names each."
+}

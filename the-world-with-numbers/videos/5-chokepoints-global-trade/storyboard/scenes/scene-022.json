@@ -1,0 +1,25 @@
+{
+  "id": "scene-022",
+  "visual": {
+    "type": "data-chart",
+    "description": "World map with animated cascade arrows connecting all 5 chokepoints. Arrows show: Hormuz→Yanbu→Bab el-Mandeb→Cape of Good Hope→global freight spike→Panama shift. Shooting stars atmosphere for tension.",
+    "dataChart": {
+      "type": "world-map-scene",
+      "markers": [
+        { "id": "hormuz", "label": "Hormuz", "lat": 26.56, "lng": 56.25, "status": "blocked", "color": "#E06070" },
+        { "id": "malacca", "label": "Malacca", "lat": 2.5, "lng": 101.8, "status": "active", "color": "#7BA7C9" },
+        { "id": "suez", "label": "Suez", "lat": 30.46, "lng": 32.34, "status": "disrupted", "color": "#E88CA5" },
+        { "id": "panama", "label": "Panama", "lat": 9.08, "lng": -79.68, "status": "active", "color": "#7BA7C9" },
+        { "id": "bab", "label": "Bab el-Mandeb", "lat": 12.58, "lng": 43.33, "status": "threatened", "color": "#E06070" }
+      ],
+      "cascadeArrows": true,
+      "title": "THE CASCADE EFFECT",
+      "subtitle": "They are not independent. They interact."
+    },
+    "motion": "blur-fade-in",
+    "atmosphere": "shooting-stars",
+    "surface": null
+  },
+  "transition": "cut",
+  "notes": "Key conceptual scene. World map returns but now with cascade arrows. Hormuz and Bab el-Mandeb pulse red. Others blue/pink. Arrows animate sequentially as narrator explains the connections."
+}

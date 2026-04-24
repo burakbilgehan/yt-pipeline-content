@@ -1,0 +1,37 @@
+{
+  "id": "scene-023",
+  "visual": {
+    "type": "data-chart",
+    "description": "Composite: Phase 1 — Counter: '$14B/year' with subtitle 'Oxford Martin School — baseline cost of chokepoint disruptions (24 chokepoints)'. Split: $10.7B direct + $3.4B indirect. Phase 2 — Title card: 'DUAL CHOKEPOINT CRISIS — April 2026' in glitch-text. First time two of five are simultaneously disrupted.",
+    "dataChart": {
+      "type": "composite-phases",
+      "phases": [
+        {
+          "type": "counter",
+          "durationSec": 20,
+          "counterValue": 14,
+          "counterPrefix": "$",
+          "counterSuffix": "B/year",
+          "title": "GLOBAL CHOKEPOINT COST",
+          "subtitle": "Oxford Martin School / Nature Communications",
+          "items": [
+            { "label": "Direct Losses", "value": 10.7 },
+            { "label": "Shipping Cost Increase", "value": 3.4 }
+          ]
+        },
+        {
+          "type": "title-card",
+          "durationSec": 25,
+          "title": "DUAL CHOKEPOINT CRISIS",
+          "subtitle": "April 2026 — for the first time, two of five simultaneously disrupted",
+          "titleColor": "#E06070"
+        }
+      ]
+    },
+    "motion": "glitch-text",
+    "atmosphere": "blurry-blob",
+    "surface": "neon-gradient"
+  },
+  "transition": "fade",
+  "notes": "Counter for $14B baseline → glitch-text 'DUAL CHOKEPOINT CRISIS' is the climactic visual moment. Neon-gradient + blurry-blob for maximum intensity. This is the emotional peak before CTA."
+}

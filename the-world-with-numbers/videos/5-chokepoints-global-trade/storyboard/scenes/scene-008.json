@@ -1,0 +1,43 @@
+{
+  "id": "scene-008",
+  "visual": {
+    "type": "data-chart",
+    "description": "Composite: Phase 1 — Line chart showing Brent crude price $73→$119 over 3 weeks (daily data). Phase 2 — Scale comparison: pipeline bypass 9 mb/d (small circle) vs normal flow 20.9 mb/d (big circle). Gap label: 11.9 mb/d in red.",
+    "dataChart": {
+      "type": "composite-phases",
+      "phases": [
+        {
+          "type": "line-chart",
+          "durationSec": 16,
+          "title": "BRENT CRUDE OIL PRICE",
+          "subtitle": "Feb 28 – Mar 19, 2026",
+          "items": [
+            { "label": "Feb 28", "value": 73 },
+            { "label": "Mar 5", "value": 82 },
+            { "label": "Mar 10", "value": 95 },
+            { "label": "Mar 15", "value": 108 },
+            { "label": "Mar 19", "value": 119 }
+          ],
+          "unit": "$",
+          "colors": ["#E06070"]
+        },
+        {
+          "type": "scale-comparison",
+          "durationSec": 16,
+          "title": "PIPELINE BYPASS VS NORMAL FLOW",
+          "items": [
+            { "label": "Bypass Capacity", "value": 9 },
+            { "label": "Normal Flow", "value": 20.9 }
+          ],
+          "unit": "mb/d",
+          "colors": ["#7BA7C9", "#E06070"]
+        }
+      ]
+    },
+    "motion": "blur-fade-in",
+    "atmosphere": "retro-grid",
+    "surface": "backlight"
+  },
+  "transition": "cut",
+  "notes": "Price spike + bypass gap. Retro grid atmosphere gives tech/data feel. Backlight surface behind the line chart creates spotlight depth. Scale comparison makes the 9 vs 20.9 gap visceral."
+}

@@ -1,0 +1,138 @@
+<!DOCTYPE html><html lang="en"><head>
+
+<meta charset="utf-8"><title>Typography · The World With Numbers</title>
+<link rel="stylesheet" href="../tokens/colors.css">
+<link rel="stylesheet" href="../tokens/type.css">
+<link rel="stylesheet" href="_shared.css">
+<style>
+  .specimen { border: 1px solid var(--border-strong); padding: 56px 48px; margin: 24px 0; display: flex; flex-direction: column; gap: 18px; background: var(--bg); }
+  .specimen .meta { font-family: var(--font-mono); font-size: 11px; color: var(--text-faint); text-transform: uppercase; letter-spacing: 0.14em; }
+  .scale-row { display: grid; grid-template-columns: 140px 1fr; gap: 32px; padding: 24px 0; border-bottom: 1px solid rgba(240,237,232,0.06); align-items: baseline; }
+  .scale-row:last-child { border: none; }
+  .scale-row .meta { font-family: var(--font-mono); font-size: 11px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.12em; padding-top: 10px; }
+  .scale-row .meta b { color: var(--accent-pink); display: block; font-weight: 500; margin-bottom: 4px; }
+  .tnum-demo { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; background: var(--border-strong); margin: 16px 0; }
+  .tnum-demo > div { background: var(--bg); padding: 32px 28px; }
+  .tnum-demo h4 { font-family: var(--font-heading); font-size: 13px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.14em; margin-bottom: 16px; }
+  .tnum-demo .ok-label { color: var(--positive); }
+  .tnum-demo .bad-label { color: var(--negative); }
+  .tnum-demo .num-col { font-size: 32px; font-weight: 700; line-height: 1.4; }
+  .tnum-demo .prop { font-family: 'Montserrat', sans-serif; font-variant-numeric: proportional-nums; }
+  .tnum-demo .tab { font-family: 'Montserrat', sans-serif; font-variant-numeric: tabular-nums lining-nums; }
+</style>
+<link id="gfont-Inter" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;display=swap"><link id="gfont-Montserrat" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&amp;display=swap"></head><body data-cc-id="cc-19" style="font-family: sans-serif; cursor: crosshair;"><div class="wrap" data-cc-id="cc-2">
+<a class="back" href="../README.html">← Design System</a>
+<header class="page-header">
+  <div class="eyebrow">03 · Typography</div>
+  <h1>Three families, strictly enforced</h1>
+  <p class="lede">İki family, katı uygulamayla. Montserrat — başlıklar ve tüm sayılar. Inter — gövde metin. JetBrains Mono yalnızca kod bloklarında. Montserrat tabular-nums destekliyor, JB Mono'ya gerek yok.</p>
+</header>
+
+<h2>İki family sistemi</h2>
+<p>JetBrains Mono kanaldan kaldırıldı (Burak, 2026-04-17). Montserrat, tabular-nums ile sayı görüntülemesini tam destekliyor. JB Mono yalnızca bu tasarım-sistemi dökümanındaki kod örnekleri için kalıyor.</p>
+<div class="specimen" data-cc-id="cc-13">
+  <div class="meta" data-cc-id="cc-15">Montserrat · Headings · 700–800</div>
+  <div style="font-family: var(--font-heading); font-size: 64px; font-weight: 800; line-height: 1.1; letter-spacing: -0.02em;" data-cc-id="cc-14">The world, measured.</div>
+  <div style="font-family:var(--font-heading); font-size:40px; font-weight:700; line-height:1.15; letter-spacing:-0.02em; color:var(--text-secondary)" data-cc-id="cc-16">Every fact has a number.</div>
+</div>
+<div class="specimen" data-cc-id="cc-10">
+  <div class="meta" data-cc-id="cc-12">Inter · Body · 400–500</div>
+  <div style="font-family:var(--font-body); font-size:32px; font-weight:400; line-height:1.45; max-width:820px" data-cc-id="cc-11">For people who are unsatisfied with surface-level knowledge — those who want to understand the world not through opinion, but through the raw weight of data.</div>
+  <div style="font-family:var(--font-body); font-size:22px; font-weight:500; color:var(--text-secondary)">Source: World Bank, 2023</div>
+</div>
+<div class="specimen" data-cc-id="cc-1">
+  <div class="meta">Montserrat · Sayılar · 700–800 · tabular-nums</div>
+  <div style="font-family:'Montserrat',sans-serif;font-size:120px;font-weight:800;line-height:1;font-variant-numeric:tabular-nums lining-nums;letter-spacing:-0.02em">$134,754</div>
+  <div style="font-family:'Montserrat',sans-serif;font-size:32px;font-weight:700;color:var(--text-secondary);font-variant-numeric:tabular-nums">1924 → 2024 · 100 yıl</div>
+</div>
+
+<h2>Type scale — the hierarchy</h2>
+<p>From <code>DESIGN-SYSTEM.md → VB-4</code>. Hard floor is <strong>20px</strong>. If text can't fit at 20px, the <em>layout</em> is wrong — shrink the content, not the type.</p>
+<div class="scale-row" data-cc-id="cc-3">
+  <div class="meta"><b>Hero</b>160px · Mono · 700</div>
+  <div class="mono" style="font-size: 140px; font-weight: 700; line-height: 1; letter-spacing: -0.01em; font-family: Montserrat;" data-cc-id="cc-4">$2.4T</div>
+</div>
+<div class="scale-row" data-cc-id="cc-6" style="">
+  <div class="meta"><b>H1</b>64px · Montserrat · 800</div>
+  <div class="t-h1" data-cc-id="cc-5">The world, measured.</div>
+</div>
+<div class="scale-row" data-cc-id="cc-7">
+  <div class="meta" data-cc-id="cc-9"><b>H2</b>52px · Montserrat · 700</div>
+  <div class="t-h2" data-cc-id="cc-8">Section heading</div>
+</div>
+<div class="scale-row">
+  <div class="meta"><b>H3</b>40px · Montserrat · 600</div>
+  <div class="t-h3">Sub heading</div>
+</div>
+<div class="scale-row">
+  <div class="meta"><b>Body LG</b>36px · Inter · 400</div>
+  <div class="t-body-lg">Emphasized body copy for narrative scenes.</div>
+</div>
+<div class="scale-row">
+  <div class="meta"><b>Body</b>32px · Inter · 400</div>
+  <div class="t-body">Standard body text — this is the minimum for readable narration.</div>
+</div>
+<div class="scale-row">
+  <div class="meta"><b>Label</b>24px · Inter · 500</div>
+  <div class="t-label">Labels, captions, callout subtitles</div>
+</div>
+<div class="scale-row">
+  <div class="meta"><b>Cite</b>22px · Inter · 400 muted</div>
+  <div class="t-cite">Source: OECD Better Life Index, 2024</div>
+</div>
+<div class="scale-row">
+  <div class="meta"><b>Floor</b>20px · absolute min</div>
+  <div style="font-family:var(--font-body); font-size:20px; color:var(--text-faint)">Never go below this. Redesign the frame instead.</div>
+</div>
+
+<h2>Tabular numerals — mandatory</h2>
+<p>Every number in the brand is monospaced AND tabular. Non-tabular numbers shift width during counter animations and make ranked lists stagger — instantly signals unprofessional production.</p>
+<div class="tnum-demo">
+  <div>
+    <h4 class="bad-label">✗ Proportional figures</h4>
+    <div class="num-col prop">
+      <div>1,234,567</div>
+      <div>3,111,111</div>
+      <div>2,848,000</div>
+      <div>9,876,543</div>
+    </div>
+    <div style="margin-top:12px; font-size:12px; color:var(--text-muted)">Digits shift. Right edge jumps.</div>
+  </div>
+  <div>
+    <h4 class="ok-label">✓ Tabular figures (required)</h4>
+    <div class="num-col tab">
+      <div>1,234,567</div>
+      <div>3,111,111</div>
+      <div>2,848,000</div>
+      <div>9,876,543</div>
+    </div>
+    <div style="margin-top:12px; font-size:12px; color:var(--text-muted)">Digits aligned. Right edge locked.</div>
+  </div>
+</div>
+<pre><span class="c">/* Required on every number element */</span>
+font-family: <span class="s">"Montserrat"</span>, sans-serif; <span class="c">/* number elements */</span>
+font-feature-settings: <span class="s">"tnum"</span> 1, <span class="s">"lnum"</span> 1;
+font-variant-numeric: tabular-nums lining-nums;</pre>
+
+<h2>Line-height &amp; spacing</h2>
+<table>
+  <thead><tr><th>Property</th><th>Headings</th><th>Body</th><th>Mono</th></tr></thead>
+  <tbody>
+    <tr><td><b>line-height</b></td><td class="mono">1.2</td><td class="mono">1.5</td><td class="mono">1.2–1.4</td></tr>
+    <tr><td><b>letter-spacing</b></td><td class="mono">-0.02em</td><td class="mono">0</td><td class="mono">0</td></tr>
+    <tr><td><b>text-transform</b></td><td>none</td><td>none</td><td>none (uppercase only for 11px labels)</td></tr>
+    <tr><td><b>color</b></td><td>var(--text)</td><td>var(--text) or var(--text-secondary)</td><td>var(--text) or accent when carrying data</td></tr>
+  </tbody>
+</table>
+
+<h2>Enforcement — where this lives</h2>
+<ul class="plain">
+  <li><b>JSON</b><span><code>channel-assets/design-system.json → tokens.typography</code> — source of truth.</span></li>
+  <li><b>Runtime</b><span><code>src/fonts/font-registry.ts</code> + <code>load-fonts.ts</code> — loads fonts into Remotion.</span></li>
+  <li><b>Review</b><span><code>tokens/type.css</code> in this project — mirror for design review.</span></li>
+  <li><b>Critic check</b><span>VB-4 font-size floor (20px) is a hard FAIL criterion.</span></li>
+</ul>
+
+<footer class="page-footer"><span>03 · Typography</span><span>Source — brand-guide.md + DESIGN-SYSTEM.md VB-4</span></footer>
+</div>
+</body></html>

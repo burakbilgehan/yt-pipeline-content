@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>Colors · The World With Numbers</title>
+<link rel="stylesheet" href="../tokens/colors.css">
+<link rel="stylesheet" href="../tokens/type.css">
+<link rel="stylesheet" href="_shared.css">
+<style>
+  .palette-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px; margin: 24px 0; }
+  .swatch-lg { padding: 0; border: 1px solid var(--border-strong); display: flex; flex-direction: column; min-height: 220px; }
+  .swatch-lg .chip { height: 120px; }
+  .swatch-lg .body { padding: 16px 18px; display: flex; flex-direction: column; gap: 4px; flex: 1; }
+  .swatch-lg .name { font-family: var(--font-heading); font-size: 16px; font-weight: 600; color: var(--text); }
+  .swatch-lg .hex { font-family: var(--font-mono); font-size: 12px; color: var(--text-muted); }
+  .swatch-lg .role { font-family: var(--font-mono); font-size: 10px; color: var(--text-faint); text-transform: uppercase; letter-spacing: 0.14em; margin-top: auto; padding-top: 8px; }
+
+  .usage-row { display: grid; grid-template-columns: 200px 1fr; gap: 24px; padding: 16px 0; border-bottom: 1px solid rgba(240,237,232,0.06); }
+  .usage-row:last-child { border: none; }
+  .sample-chart { display: flex; gap: 3px; align-items: flex-end; height: 80px; }
+  .sample-chart .bar { flex: 1; border-radius: 0; }
+  .sample-chart .bar.pink { background: var(--accent-pink); height: 100%; }
+  .sample-chart .bar.blue { background: var(--accent-blue); height: 65%; }
+  .sample-chart .bar.track { background: rgba(240,237,232,0.06); }
+  .sample-chart.ordered .bar:nth-child(1) { background: var(--data-1); height: 90%; }
+  .sample-chart.ordered .bar:nth-child(2) { background: var(--data-2); height: 70%; }
+  .sample-chart.ordered .bar:nth-child(3) { background: var(--data-3); height: 55%; }
+  .sample-chart.ordered .bar:nth-child(4) { background: var(--data-4); height: 40%; }
+  .sample-chart.ordered .bar:nth-child(5) { background: var(--data-5); height: 30%; }
+  .sample-chart.ordered .bar:nth-child(6) { background: var(--data-6); height: 25%; }
+  .sample-chart.ordered .bar:nth-child(7) { background: var(--data-7); height: 20%; }
+  .sample-chart.ordered .bar:nth-child(8) { background: var(--data-8); height: 15%; }
+
+  .pair-demo { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; background: var(--border-strong); margin: 16px 0; }
+  .pair-demo > div { background: var(--bg); padding: 40px 32px; }
+  .pair-demo h4 { font-family: var(--font-heading); font-size: 13px; font-weight: 600; color: var(--accent-pink); text-transform: uppercase; letter-spacing: 0.14em; margin-bottom: 16px; }
+  .pair-demo .ok-label { color: var(--positive); }
+  .pair-demo .bad-label { color: var(--negative); }
+  .big-num { font-family: var(--font-mono); font-size: 48px; font-weight: 700; line-height: 1; font-variant-numeric: tabular-nums; }
+</style>
+</head><body><div class="wrap">
+<a class="back" href="../README.html">← Design System</a>
+<header class="page-header">
+  <div class="eyebrow">02 · Colors</div>
+  <h1>The palette, with roles</h1>
+  <p class="lede">Seven brand tokens. Two data accents. Max two colors per chart. Sage is structural only. This isn't aesthetic preference — it's the contract that makes every video feel part of the same body of work.</p>
+</header>
+
+<h2>The seven tokens</h2>
+  <div class="palette-grid">
+  <div class="swatch-lg"><div class="chip" style="background:var(--bg)"></div><div class="body"><div class="name">Deep Base</div><div class="hex">#2A2A32</div><div class="role">Background · solid · no gradient</div></div></div>
+  <div class="swatch-lg"><div class="chip" style="background:var(--text)"></div><div class="body"><div class="name">Warm Cream</div><div class="hex">#F0EDE8</div><div class="role">All readable text · never #FFF</div></div></div>
+  <div class="swatch-lg"><div class="chip" style="background:var(--accent-pink)"></div><div class="body"><div class="name">Accent Pink</div><div class="hex">#E88CA5</div><div class="role">Data Set A · highlights · logo mark</div></div></div>
+  <div class="swatch-lg"><div class="chip" style="background:var(--accent-blue)"></div><div class="body"><div class="name">Accent Blue</div><div class="hex">#7BA7C9</div><div class="role">Data Set B · comparative / stable</div></div></div>
+  <div class="swatch-lg"><div class="chip" style="background:var(--positive)"></div><div class="body"><div class="name">Positive</div><div class="hex">#5BBF8C</div><div class="role">Growth · upward trend</div></div></div>
+  <div class="swatch-lg"><div class="chip" style="background:var(--negative)"></div><div class="body"><div class="name">Negative</div><div class="hex">#E06070</div><div class="role">Decline · downward trend</div></div></div>
+  <div class="swatch-lg"><div class="chip" style="background:var(--surface); border:1px solid var(--card-border)"></div><div class="body"><div class="name">Surface</div><div class="hex">#2E2E38</div><div class="role">Cards/panels · near-bg · border separates</div></div></div>
+  <div class="swatch-lg"><div class="chip" style="background:rgba(240,237,232,0.08)"></div><div class="body"><div class="name">Grid / Axis</div><div class="hex">rgba(240,237,232, 0.08–0.35)</div><div class="role">Grid lines 8% · axis labels 35% · no named color</div></div></div>
+</div>
+<div class="callout warn" style="margin-top:16px"><b>Sage kaldırıldı (v6 · Burak)</b>Sage (#8A9A7A) kanalın tonuna uymadığı için palettten çıkarıldı. Grid çizgileri artık <code>rgba(240,237,232,0.08)</code>, eksen etiketleri <code>rgba(240,237,232,0.35)</code> kullanır. Eğer <code>var(--sage)</code> kullanan eski kod varsa güncelle.</div>
+
+<h2>Absolute rules</h2>
+<div class="callout warn"><b>Max 2 data colors per chart</b>Pink + Blue. Never add a third vivid color. If the data has three series, use Pink / Blue / Sage — where Sage is the <em>baseline</em> or <em>reference</em> series, not a peer.</div>
+<div class="callout warn"><b>Sage is structural</b>Grid lines, axis labels, tertiary annotation, reference baselines. Never a primary data series.</div>
+<div class="callout warn"><b>No #FFF. Ever.</b>All text uses Warm Cream <code>#F0EDE8</code>. Pure white breaks the dusty-editorial mood.</div>
+<div class="callout warn"><b>No gradient text. No gradient backgrounds.</b>Background is solid <code>#2A2A32</code>. No text ever has a gradient fill.</div>
+<div class="callout warn"><b>Never hardcode hex in code</b>Import from <code>src/remotion/palette.ts</code>. Token changes flow: <code>design-system.json</code> → <code>npm run sync-palette</code> → <code>palette.ts</code>.</div>
+
+<h2>Role map — what each color is allowed to do</h2>
+<div class="usage-row">
+  <div>
+    <div style="font-family:var(--font-heading); font-size:14px; font-weight:600; margin-bottom:6px">Duel / 2-series</div>
+    <div style="font-family:var(--font-mono); font-size:11px; color:var(--text-muted); text-transform:uppercase; letter-spacing:0.12em">Pink + Blue</div>
+  </div>
+  <div class="sample-chart"><div class="bar pink"></div><div class="bar blue"></div></div>
+</div>
+<div class="usage-row">
+  <div>
+    <div style="font-family:var(--font-heading); font-size:14px; font-weight:600; margin-bottom:6px">Value vs baseline</div>
+    <div style="font-family:var(--font-mono); font-size:11px; color:var(--text-muted); text-transform:uppercase; letter-spacing:0.12em">Pink data + Sage baseline</div>
+  </div>
+  <div class="sample-chart"><div class="bar pink" style="height:85%"></div><div class="bar" style="background:var(--sage);height:40%"></div></div>
+</div>
+<div class="usage-row">
+  <div>
+    <div style="font-family:var(--font-heading); font-size:14px; font-weight:600; margin-bottom:6px">Up / Down trend</div>
+    <div style="font-family:var(--font-mono); font-size:11px; color:var(--text-muted); text-transform:uppercase; letter-spacing:0.12em">Positive + Negative</div>
+  </div>
+  <div class="sample-chart"><div class="bar" style="background:var(--positive);height:80%"></div><div class="bar" style="background:var(--negative);height:45%"></div></div>
+</div>
+<div class="usage-row">
+  <div>
+    <div style="font-family:var(--font-heading); font-size:14px; font-weight:600; margin-bottom:6px">Forced 3+ series</div>
+    <div style="font-family:var(--font-mono); font-size:11px; color:var(--text-muted); text-transform:uppercase; letter-spacing:0.12em">Ordered DATA_PALETTE — avoid if possible</div>
+  </div>
+  <div class="sample-chart ordered"><div class="bar"></div><div class="bar"></div><div class="bar"></div><div class="bar"></div><div class="bar"></div><div class="bar"></div><div class="bar"></div><div class="bar"></div></div>
+</div>
+
+<h2>VB-2 — the chromatic-scale rule</h2>
+<p>When values represent a spectrum (cheap→expensive, short→long), colors <strong>interpolate proportionally</strong>. Never binary. A value at 30% of the range gets a color 30% between <code>--negative</code> and <code>--positive</code>. Implementation uses Remotion's <code>interpolateColors()</code>.</p>
+<div class="pair-demo">
+  <div><h4 class="ok-label">✓ Proportional</h4>
+    <div style="display:flex; flex-direction:column; gap:8px">
+      <div style="display:grid; grid-template-columns:120px 1fr 80px; gap:12px; align-items:center">
+        <span style="font-size:13px">Country A</span><div style="height:24px; background:oklch(0.65 0.12 25); flex:1"></div><span class="mono" style="color:var(--text-muted); font-size:13px">0.91</span>
+      </div>
+      <div style="display:grid; grid-template-columns:120px 1fr 80px; gap:12px; align-items:center">
+        <span style="font-size:13px">Country B</span><div style="height:24px; background:oklch(0.7 0.08 70); flex:1"></div><span class="mono" style="color:var(--text-muted); font-size:13px">0.67</span>
+      </div>
+      <div style="display:grid; grid-template-columns:120px 1fr 80px; gap:12px; align-items:center">
+        <span style="font-size:13px">Country C</span><div style="height:24px; background:oklch(0.72 0.14 150); flex:1"></div><span class="mono" style="color:var(--text-muted); font-size:13px">0.34</span>
+      </div>
+    </div>
+  </div>
+  <div><h4 class="bad-label">✗ Binary</h4>
+    <div style="display:flex; flex-direction:column; gap:8px">
+      <div style="display:grid; grid-template-columns:120px 1fr 80px; gap:12px; align-items:center">
+        <span style="font-size:13px">Country A</span><div style="height:24px; background:var(--negative); flex:1"></div><span class="mono" style="color:var(--text-muted); font-size:13px">0.91</span>
+      </div>
+      <div style="display:grid; grid-template-columns:120px 1fr 80px; gap:12px; align-items:center">
+        <span style="font-size:13px">Country B</span><div style="height:24px; background:var(--negative); flex:1"></div><span class="mono" style="color:var(--text-muted); font-size:13px">0.67</span>
+      </div>
+      <div style="display:grid; grid-template-columns:120px 1fr 80px; gap:12px; align-items:center">
+        <span style="font-size:13px">Country C</span><div style="height:24px; background:var(--positive); flex:1"></div><span class="mono" style="color:var(--text-muted); font-size:13px">0.34</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<h2>Import paths (developer reference)</h2>
+<pre><span class="c">// Remotion scene component</span>
+<span class="k">import</span> { BG, TEXT, ACCENT_PINK, ACCENT_BLUE, SAGE, POSITIVE, NEGATIVE } <span class="k">from</span> <span class="s">"@/remotion/palette"</span>;
+
+<span class="c">// Design-system review pages (this project)</span>
+<span class="k">@import</span> <span class="s">"tokens/colors.css"</span>; <span class="c">/* exposes --bg, --text, --accent-pink, ... */</span></pre>
+
+<footer class="page-footer"><span>02 · Colors</span><span>Mirror — design-system.json v5</span></footer>
+</div></body></html>

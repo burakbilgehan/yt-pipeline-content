@@ -1,0 +1,18 @@
+{
+  "id": "scene-003",
+  "visual": {
+    "type": "data-chart",
+    "description": "Quick title card transition: 'Five Chokepoints' with text shimmer effect. Brief 3.2s scene bridging hook to main content.",
+    "dataChart": {
+      "type": "title-card",
+      "title": "FIVE CHOKEPOINTS",
+      "subtitle": "Let's look at each one.",
+      "titleColor": "#E88CA5"
+    },
+    "motion": "text-shimmer",
+    "atmosphere": "dot-grid",
+    "surface": null
+  },
+  "transition": "fade",
+  "notes": "Short bridge scene. Text shimmer gives metallic premium feel. Dot-grid background is clean analytical tone-setter for what follows."
+}
