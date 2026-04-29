@@ -66,6 +66,25 @@ Templates are content-agnostic. They visualize data shapes — rankings, duels, 
 - **No hardcoded content:** Default props use generic placeholders ("Item A", "$100") — never real-world branded names
 - **Composable over monolithic:** Prefer composing L2+L3 layers over a single 500-line template
 
+## Bauhaus Geometry Primitives
+
+Structural layout elements — not decoration. All live in `src/remotion/design-system/primitives/`, generic, prop-driven, 8pt grid multiples.
+
+| Primitive | Role |
+|:----------|:-----|
+| `EdgeStrip` | Full-thickness accent bar pinned to a frame edge (top/right/bottom/left). |
+| `LogoBlock` | Flat-fill square mark + uppercase wordmark. Follows brand-identity §6 logo direction (no gradient/glow). |
+| `AccentRule` | 120×3 anchor bar below titles. |
+| `SectionHeader` | Eyebrow + title + optional right meta + 2px bottom rule. Standard top strip for bento scenes. |
+| `KpiCell` | Bento KPI cell: micro-eyebrow + large number + descriptor. Tabular-nums applied automatically. |
+
+**Hard rules:**
+- Border radius 0 (use existing `--corner-radius` token).
+- No gradients, no glow, no drop-shadow.
+- Colors always from tokens (`ACCENT_PINK`, `ACCENT_BLUE`, `TEXT`, `TEXT_FAINT`, `SURFACE_BORDER_STRONG`, etc.). Hardcoded hex forbidden.
+- Dimensions must be multiples of the 8pt grid (8/16/24/32/40/56/64/...).
+- Structural separation: 2px = meaningful boundary, 1px = secondary divider, nothing thicker.
+
 ## Effect Tokens (CSS variables)
 
 | Token | Value | Notes |

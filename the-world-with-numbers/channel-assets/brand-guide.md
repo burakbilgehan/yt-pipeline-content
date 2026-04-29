@@ -154,6 +154,6 @@ photorealistic, editorial documentary style, no text, no people
 ## 7. Visual Reference
 
 See `channel-assets/Gemini_Generated_Image_go4311go4311go43.png` for the template screen layouts.
-See `channel-assets/Detaylı_Asset_ve_Animasyon_Talebi.mp4` for animation rhythm reference.
+See `channel-assets/animation-rhythm-reference.mp4` for animation rhythm reference.
 
 These files define the target aesthetic. All renders should match this visual quality and mood.

@@ -10,6 +10,7 @@ Default position for titles is **bottom-left**. Strong recommendation, not absol
 - Title: Montserrat 52–64px (by length)
 - Max width: 66% of frame
 - BigStatScene may move title to top-left (see LC-3)
+- **BauhausHero variant overrides this — see LC-7**
 
 ## LC-2: Citation Anchor — Bottom-Right (Mandatory)
 
@@ -37,6 +38,7 @@ Chart scenes give **~75% of frame to the chart canvas**.
 - Title column: 24% wide, left side, vertically centered on chart
 - Citation per LC-2
 - Direct data labels over legends (VB-5)
+- **Bento variant restructures this — see LC-8**
 
 ## LC-5: Duel Split — 50/50 Vertical, Value-Dominant
 
@@ -55,6 +57,33 @@ Two-value comparisons split frame down the middle.
 - Value: tabular Montserrat, right-aligned at bar end
 - Stagger entrance: 10f between items (VB-6)
 - No stripes, no alternating-row backgrounds (VB-5)
+
+## LC-7: Bauhaus Hero Two-Column
+
+Hero variant for Bauhaus suite. Frame split into a title column (left) and stat block (right).
+
+- **Outer margin:** 56px all sides (48px right edge to leave 8px for edge strip).
+- **Right edge strip:** `<EdgeStrip position="right" thickness={8} color={ACCENT_PINK} />` — full-height accent bar.
+- **Top eyebrow row:** category·subject·year (left) + channel name (right), 13px Montserrat 500, tracked 0.22em uppercase, `text-faint`. Below it a 2px `border-strong` rule.
+- **Body grid:** `grid-template-columns: 1fr 500px`, no gap. 2px `border-strong` between columns.
+- **Left column:** accent eyebrow (14px, pink, tracked 0.22em) → title (Montserrat 100px, weight 800, line-height 1.04, letter-spacing -0.025em, supports `\n`) → AccentRule (120×3, 56px above).
+- **Right column:** primary stat (192px num accent-pink, weight 900, line-height 0.88, letter-spacing -0.045em, tabular-nums) + 30px label + 19px sub. 1px rule. Secondary stat (72px num accent-blue, weight 900) + 18px label.
+- **Bottom 1px rule** above bottom bar.
+- **Bottom bar:** `<LogoBlock />` (left, 28px mark) + citation (right, 13px Inter, `text-faint`).
+- Overrides LC-1 default bottom-left title position. Citation still bottom-right per LC-2.
+
+## LC-8: Bento Data-Viz Grid
+
+Data-viz variant for Bauhaus suite. Bento layout — main slot left, KPI column right, top/bottom strips.
+
+- **Outer margin:** 56px all sides.
+- **Top edge strip:** `<EdgeStrip position="top" thickness={6} color={ACCENT_PINK} />`.
+- **SectionHeader:** eyebrow (13px pink tracked 0.22em uppercase) + title (52px weight 800) + optional `meta` (13px `text-faint` uppercase, right-aligned). 2px `border-strong` bottom.
+- **Body grid:** `grid-template-columns: 1fr 360px`, no gap. 2px `border-strong` between columns.
+- **Main slot (left):** 36px top padding, 48px right padding. Chart fed via `renderChart` render-prop.
+- **KPI column (right):** 40px left padding. 3 equal rows, 1px `border-strong` between cells. Each cell: 11px micro-eyebrow (text-faint, tracked 0.2em uppercase) + 76px num (weight 900, line-height 1, letter-spacing -0.03em, tabular-nums) + 18px Inter descriptor (`text-muted`).
+- **Bottom citation row:** 1px `border-strong` top + 18px padding-top. `<LogoBlock />` (left, 20px mark, 14px wordmark) + source (right, 13px Inter, `text-faint`).
+- 2px inter-cell gap is required by bento aesthetics (the rules above enforce this).
 
 ## Spacing Scale — 8-Point Grid
 

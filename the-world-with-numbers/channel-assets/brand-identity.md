@@ -181,6 +181,22 @@ Don't be literal (no globe + bar chart = looks like every other edu channel).
 
 ---
 
+### Bauhaus Layout Primitives (Video Scenes)
+
+From DS v7, video scenes are built on the Bauhaus × Bento × Sanzo Wada triangle. Structural layout primitives (`src/remotion/design-system/primitives/`):
+
+- **EdgeStrip** — accent color bar pinned to a frame edge. Hero: right 8px, data-viz: top 6px.
+- **LogoBlock** — flat-fill square mark + uppercase wordmark. Matches logo direction above, no effects.
+- **AccentRule** — 120×3 accent bar below titles.
+- **SectionHeader** — eyebrow + title + optional meta + 2px rule.
+- **KpiCell** — bento KPI cell.
+
+Details: `design-system/visual-rules.md` "Bauhaus Geometry Primitives" and `design-system/layout-contracts.md` LC-7 (BauhausHero) / LC-8 (BentoDataViz).
+
+Banner / thumbnail / logo concepts (sections above) are untouched — these primitives are video-scene only.
+
+---
+
 ## 7. Additional Launch Assets Recommended
 
 Beyond logo / banner / watermark / About description:
