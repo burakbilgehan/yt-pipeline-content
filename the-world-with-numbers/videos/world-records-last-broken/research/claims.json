@@ -2254,35 +2254,6 @@
       }
     },
     {
-      "id": "mmar-kipchoge-exhibition-mark",
-      "text": "Eliud Kipchoge's non-record-eligible exhibition marathon time, Vienna, 2019: 1:59:41",
-      "value": 7181,
-      "unit": "seconds",
-      "decimals": 0,
-      "source": {
-        "publisher": "World Athletics",
-        "title": "Sawe breaks two-hour barrier with 1:59:30 world record at London Marathon",
-        "url": "https://worldathletics.org/news/report/sawe-two-hour-assefa-world-record-london-marathon",
-        "published": "2026-04-26",
-        "accessed": "2026-09-27",
-        "quote": "surpassing Eliud Kipchoge's 1:59:41 exhibition performance from 2019"
-      }
-    },
-    {
-      "id": "mmar-sawe-vs-exhibition",
-      "text": "Seconds by which Sawe's 1:59:30 record beat Kipchoge's 1:59:41 exhibition run of 2019",
-      "value": 11,
-      "unit": "seconds",
-      "decimals": 0,
-      "derive": {
-        "op": "diff",
-        "of": [
-          "mmar-kipchoge-exhibition-mark",
-          "mmar-mark"
-        ]
-      }
-    },
-    {
       "id": "m1000-mark",
       "text": "Men's 1000 m world record, Emmanuel Wanyonyi (KEN), Monaco, 10 Jul 2026: 2:11.83 (ratified 3 Sep 2026)",
       "value": 131.83,
