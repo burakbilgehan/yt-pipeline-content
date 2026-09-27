@@ -1,0 +1,1140 @@
+{
+  "results": {
+    "year-now": {
+      "hash": "a6bf544483ee0506",
+      "verdict": "confirmed",
+      "foundValue": 2026,
+      "sourceUrl": "https://worldathletics.org/news/press-releases/ratified-world-records-kiplimo-tharp-wanyonyi",
+      "note": "The WA press release is dated 03 Sep 2026 and ratifies Kiplimo, Tharp and Wanyonyi.",
+      "checkedAt": "2026-09-27"
+    },
+    "m100-mark": {
+      "hash": "d044d264923012a0",
+      "verdict": "confirmed",
+      "foundValue": 9.58,
+      "sourceUrl": "https://worldathletics.org/news/news/bolt-again-958-world-record-in-berlin-updat",
+      "note": "The quote is verbatim: 'Usain Bolt set a new 100m World record of 9.58...' at the 2009 World Championships in Berlin, 16 Aug 2009. Wikipedia's list agrees (+0.9 wind).",
+      "checkedAt": "2026-09-27"
+    },
+    "m100-year": {
+      "hash": "1a06f086e3703a60",
+      "verdict": "confirmed",
+      "foundValue": 2009,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Men%27s_100_metres_world_record_progression",
+      "note": "The last row of the progression table reads 9.58, +0.9, 9.572, Usain Bolt, Berlin, 16 August 2009.",
+      "checkedAt": "2026-09-27"
+    },
+    "m200-mark": {
+      "hash": "69cd15f787492286",
+      "verdict": "confirmed",
+      "foundValue": 19.19,
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+      "note": "19.19, -0.3 wind, Usain Bolt (JAM), 20 Aug 2009, Berlin.",
+      "checkedAt": "2026-09-27"
+    },
+    "m200-year": {
+      "hash": "7401118c9395fbc4",
+      "verdict": "confirmed",
+      "foundValue": 2009,
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+      "note": "Date listed as 20 Aug 2009.",
+      "checkedAt": "2026-09-27"
+    },
+    "m400-mark": {
+      "hash": "c297df186c566fbb",
+      "verdict": "confirmed",
+      "foundValue": 43.03,
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+      "note": "43.03, Wayde van Niekerk (RSA), 14 Aug 2016, Rio de Janeiro.",
+      "checkedAt": "2026-09-27"
+    },
+    "m400-year": {
+      "hash": "12d20f85d1eff9a4",
+      "verdict": "confirmed",
+      "foundValue": 2016,
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+      "note": "Date listed as 14 Aug 2016.",
+      "checkedAt": "2026-09-27"
+    },
+    "m800-mark": {
+      "hash": "ee0e98c264d3ae4e",
+      "verdict": "confirmed",
+      "foundValue": 100.91,
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+      "note": "Source row: 1:40.91, Rudisha KEN, 9 Aug 2012, London; 1:40.91 = 100.91 s (duration notation only). Still the current record.",
+      "checkedAt": "2026-09-27"
+    },
+    "m800-year": {
+      "hash": "9dd9b36b0e642f22",
+      "verdict": "confirmed",
+      "foundValue": 2012,
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+      "note": "Date listed as 9 Aug 2012.",
+      "checkedAt": "2026-09-27"
+    },
+    "m1500-mark": {
+      "hash": "8cb4540a639eb673",
+      "verdict": "confirmed",
+      "foundValue": 206,
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+      "note": "Source row: 3:26.00, El Guerrouj MAR, 14 Jul 1998, Rome; 3:26.00 = 206.00 s. Current record.",
+      "checkedAt": "2026-09-27"
+    },
+    "m1500-year": {
+      "hash": "ccabbe005561763c",
+      "verdict": "confirmed",
+      "foundValue": 1998,
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+      "note": "Date listed as 14 Jul 1998.",
+      "checkedAt": "2026-09-27"
+    },
+    "m5000-mark": {
+      "hash": "26e7c73e15e6dd8b",
+      "verdict": "confirmed",
+      "foundValue": 755.36,
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+      "note": "Source row: 12:35.36, Cheptegei UGA, 14 Aug 2020, Monaco; 12:35.36 = 755.36 s. Current record.",
+      "checkedAt": "2026-09-27"
+    },
+    "m5000-year": {
+      "hash": "d753c5b206a5832e",
+      "verdict": "confirmed",
+      "foundValue": 2020,
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+      "note": "Date listed as 14 Aug 2020.",
+      "checkedAt": "2026-09-27"
+    },
+    "m10000-mark": {
+      "hash": "194e2a5b395578c8",
+      "verdict": "confirmed",
+      "foundValue": 1571,
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+      "note": "Source row: 26:11.00, Cheptegei UGA, 7 Oct 2020, Valencia; 26:11.00 = 1571.00 s. Current record.",
+      "checkedAt": "2026-09-27"
+    },
+    "m10000-year": {
+      "hash": "d5da9e80e4a499b8",
+      "verdict": "confirmed",
+      "foundValue": 2020,
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+      "note": "Date listed as 7 Oct 2020.",
+      "checkedAt": "2026-09-27"
+    },
+    "mmar-mark": {
+      "hash": "91e73fc277b9019a",
+      "verdict": "confirmed",
+      "foundValue": 7170,
+      "sourceUrl": "https://worldathletics.org/news/report/sawe-two-hour-assefa-world-record-london-marathon",
+      "note": "Quote found verbatim (WA, 26 Apr 2026): 1:59:30 = 7170 s. Ratification on Thu 23 Jul 2026 per runningmagazine.ca/the-scene/sabastian-sawes-marathon-world-record-is-officially-ratified/. WA list's 'awaiting ratification' flag is stale.",
+      "checkedAt": "2026-09-27"
+    },
+    "mmar-year": {
+      "hash": "a0c76cb0d718c294",
+      "verdict": "confirmed",
+      "foundValue": 2026,
+      "sourceUrl": "https://worldathletics.org/news/press-releases/ratified-world-records-sawe-ehammer-charlton-mcrae-yan-duplantis-assefa",
+      "note": "The ratification release lists 'Sabastian Sawe (KEN) London, 26 April 2026'.",
+      "checkedAt": "2026-09-27"
+    },
+    "m110h-mark": {
+      "hash": "bb7d3fee95a93d4b",
+      "verdict": "confirmed",
+      "foundValue": 12.75,
+      "sourceUrl": "https://worldathletics.org/news/press-releases/ratified-world-records-kiplimo-tharp-wanyonyi",
+      "note": "The release, dated 03 Sep 2026, reads: '12.75 (1.0m/s) in the 110m hurdles at the NCAA Championships in Eugene on 10 June'.",
+      "checkedAt": "2026-09-27"
+    },
+    "m110h-year": {
+      "hash": "69ba11daa77917b1",
+      "verdict": "confirmed",
+      "foundValue": 2026,
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+      "note": "12.75, Ja'Kobe Tharp (USA), 10 Jun 2026, Eugene. The WA ratification release of 3 Sep 2026 agrees.",
+      "checkedAt": "2026-09-27"
+    },
+    "m110h-prev-year": {
+      "hash": "23d8af53edc181c0",
+      "verdict": "confirmed",
+      "foundValue": 2012,
+      "sourceUrl": "https://worldathletics.org/news/press-releases/ratified-world-records-kiplimo-tharp-wanyonyi",
+      "note": "The quote is verbatim: '12.80 set by fellow US hurdler Aries Merritt in Brussels on 7 September 2012'.",
+      "checkedAt": "2026-09-27"
+    },
+    "m400h-mark": {
+      "hash": "1436d3cffdb66699",
+      "verdict": "confirmed",
+      "foundValue": 45.94,
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+      "note": "45.94 by Warholm (Tokyo, 3 Aug 2021) is still the ratified record. Alison dos Santos ran 45.80 in Zurich on 27 Aug 2026; that mark is pending and not in the 3 Sep 2026 ratification release. Sources: worldathletics.org/competitions/diamond-league/news/zurich-weltklasse-dos-santos-world-400m-hurdles-record and letsrun.com. The script must not call 45.94 the current fastest.",
+      "checkedAt": "2026-09-27"
+    },
+    "m400h-year": {
+      "hash": "d6e87e9a3c3c20fa",
+      "verdict": "confirmed",
+      "foundValue": 2021,
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+      "note": "Date listed as 3 Aug 2021 (ratified record). The same caveat as m400h-mark applies: dos Santos ran 45.80 on 27 Aug 2026 and ratification is pending.",
+      "checkedAt": "2026-09-27"
+    },
+    "msc-mark": {
+      "hash": "c8c935d13aa02712",
+      "verdict": "confirmed",
+      "foundValue": 472.11,
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+      "note": "Source row: 7:52.11, Girma ETH, 9 Jun 2023, Paris; 7:52.11 = 472.11 s. Current record.",
+      "checkedAt": "2026-09-27"
+    },
+    "msc-year": {
+      "hash": "38873e3c4a503060",
+      "verdict": "confirmed",
+      "foundValue": 2023,
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+      "note": "Date listed as 9 Jun 2023.",
+      "checkedAt": "2026-09-27"
+    },
+    "mhj-mark": {
+      "hash": "54a1f28a491d61fa",
+      "verdict": "confirmed",
+      "foundValue": 2.45,
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+      "note": "2.45 m, Javier Sotomayor (CUB), 27 Jul 1993, Salamanca.",
+      "checkedAt": "2026-09-27"
+    },
+    "mhj-year": {
+      "hash": "866594c8835119ed",
+      "verdict": "confirmed",
+      "foundValue": 1993,
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+      "note": "Date listed as 27 Jul 1993.",
+      "checkedAt": "2026-09-27"
+    },
+    "mpv-mark": {
+      "hash": "2931d55eb7df24e0",
+      "verdict": "confirmed",
+      "foundValue": 6.31,
+      "sourceUrl": "https://worldathletics.org/news/press-releases/ratified-world-records-sawe-ehammer-charlton-mcrae-yan-duplantis-assefa",
+      "note": "The release lists '6.31m Mondo Duplantis (SWE) Uppsala, 12 March 2026'. European Athletics (european-athletics.com) and CBC confirm the venue was indoor: the Mondo Classic, a WA Indoor Tour Silver meet. Wikipedia's list agrees.",
+      "checkedAt": "2026-09-27"
+    },
+    "mpv-year": {
+      "hash": "c60370908384cd16",
+      "verdict": "confirmed",
+      "foundValue": 2026,
+      "sourceUrl": "https://worldathletics.org/news/press-releases/ratified-world-records-sawe-ehammer-charlton-mcrae-yan-duplantis-assefa",
+      "note": "The release lists 'Uppsala, 12 March 2026'; ratified 23 Jul 2026.",
+      "checkedAt": "2026-09-27"
+    },
+    "mpv-tokyo-2025-mark": {
+      "hash": "550cbb5e04ea8449",
+      "verdict": "confirmed",
+      "foundValue": 6.3,
+      "sourceUrl": "https://worldathletics.org/news/press-releases/ratified-world-records-duplantis-troscianka-yan-zhang",
+      "note": "The release is dated 22 Oct 2025 and says Duplantis cleared 6.30m at the World Championships in Tokyo on 15 Sep 2025. The page's wording was paraphrased by the fetch tool, but the mark, venue and date all match.",
+      "checkedAt": "2026-09-27"
+    },
+    "mpv-paris-2024-mark": {
+      "hash": "eeab0959f8554a86",
+      "verdict": "confirmed",
+      "foundValue": 6.25,
+      "sourceUrl": "https://worldathletics.org/news/press-releases/ratified-world-records-chebet-duplantis-mclaughlin-levrone-chepngetich-kawano",
+      "note": "The release, dated 11 Dec 2024, reads verbatim: '6.25m Mondo Duplantis (SWE) Paris, 5 August 2024'.",
+      "checkedAt": "2026-09-27"
+    },
+    "mlj-mark": {
+      "hash": "ccae4b8c10d549bd",
+      "verdict": "confirmed",
+      "foundValue": 8.95,
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+      "note": "8.95 m, Mike Powell (USA), 30 Aug 1991, Tokyo.",
+      "checkedAt": "2026-09-27"
+    },
+    "mlj-year": {
+      "hash": "7defe86a8e133d6a",
+      "verdict": "confirmed",
+      "foundValue": 1991,
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+      "note": "Date listed as 30 Aug 1991.",
+      "checkedAt": "2026-09-27"
+    },
+    "mtj-mark": {
+      "hash": "df68f0dcf0a98284",
+      "verdict": "confirmed",
+      "foundValue": 18.29,
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+      "note": "18.29 m, Jonathan Edwards (GBR), 7 Aug 1995, Gothenburg.",
+      "checkedAt": "2026-09-27"
+    },
+    "mtj-year": {
+      "hash": "ba1ec2aa52b400df",
+      "verdict": "confirmed",
+      "foundValue": 1995,
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+      "note": "Date listed as 7 Aug 1995.",
+      "checkedAt": "2026-09-27"
+    },
+    "msp-mark": {
+      "hash": "2a685894e9a4840c",
+      "verdict": "confirmed",
+      "foundValue": 23.56,
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+      "note": "23.56 m, Ryan Crouser (USA), 27 May 2023, Los Angeles.",
+      "checkedAt": "2026-09-27"
+    },
+    "msp-year": {
+      "hash": "30a077d2d3bf87f1",
+      "verdict": "confirmed",
+      "foundValue": 2023,
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+      "note": "Date listed as 27 May 2023.",
+      "checkedAt": "2026-09-27"
+    },
+    "mdt-mark": {
+      "hash": "abf35ecfbd0e37e9",
+      "verdict": "confirmed",
+      "foundValue": 75.56,
+      "sourceUrl": "https://worldathletics.org/news/press-releases/ratified-world-records-alekna-chebet-duplantis",
+      "note": "WA release 10 Sep 2025 lists 75.56m Mykolas Alekna (LTU) Ramona, 13 April 2025 (also 74.89m same day). No newer mark found as of Sep 2026.",
+      "checkedAt": "2026-09-27"
+    },
+    "mdt-year": {
+      "hash": "ef225341502dc4f4",
+      "verdict": "confirmed",
+      "foundValue": 2025,
+      "sourceUrl": "https://worldathletics.org/news/press-releases/ratified-world-records-alekna-chebet-duplantis",
+      "note": "Ramona, 13 April 2025.",
+      "checkedAt": "2026-09-27"
+    },
+    "mdt-2024-mark": {
+      "hash": "5998ffa9c465a2e2",
+      "verdict": "confirmed",
+      "foundValue": 74.35,
+      "sourceUrl": "https://worldathletics.org/news/press-releases/ratified-world-records-mclaughlin-levrone-duplantis-kipyegon-chebet-alekna-ngetich",
+      "note": "Quote found verbatim in WA release dated 27 Jul 2024. The release does not state the date 14 Apr; Wikipedia progression page gives 14 April 2024, Ramona.",
+      "checkedAt": "2026-09-27"
+    },
+    "mdt-2024-year": {
+      "hash": "5e72b5e1da28e347",
+      "verdict": "confirmed",
+      "foundValue": 2024,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Men%27s_discus_throw_world_record_progression",
+      "note": "Progression table (wikitext): 74.35, Mykolas Alekna LTU, 14 April 2024, Ramona.",
+      "checkedAt": "2026-09-27"
+    },
+    "mdt-prev-mark": {
+      "hash": "3e99c849568a8117",
+      "verdict": "confirmed",
+      "foundValue": 74.08,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Men%27s_discus_throw_world_record_progression",
+      "note": "Wikitext row: 74.08, Jurgen Schult GDR, 6 June 1986, Neubrandenburg, East Germany. WA 2024 release confirms Schult's date but not the mark.",
+      "checkedAt": "2026-09-27"
+    },
+    "mdt-prev-year": {
+      "hash": "b77feda2dbfd0501",
+      "verdict": "confirmed",
+      "foundValue": 1986,
+      "sourceUrl": "https://worldathletics.org/news/press-releases/ratified-world-records-mclaughlin-levrone-duplantis-kipyegon-chebet-alekna-ngetich",
+      "note": "Quote found verbatim: record set by Jurgen Schult on 6 June 1986.",
+      "checkedAt": "2026-09-27"
+    },
+    "mht-mark": {
+      "hash": "4d965bbe73cfc5c0",
+      "verdict": "confirmed",
+      "foundValue": 86.74,
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+      "note": "Row: 86.74 m, Yuriy Sedykh URS, 30 Aug 1986, European Championships, Stuttgart.",
+      "checkedAt": "2026-09-27"
+    },
+    "mht-year": {
+      "hash": "ad675fdb021ddfa4",
+      "verdict": "confirmed",
+      "foundValue": 1986,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Men%27s_hammer_throw_world_record_progression",
+      "note": "Last row: 86.74 m, Sedykh, Stuttgart, XIV European Championship, August 30, 1986. Page calls it the longest standing ratified men's world record.",
+      "checkedAt": "2026-09-27"
+    },
+    "mjt-mark": {
+      "hash": "9f6efdd71514ea0b",
+      "verdict": "confirmed",
+      "foundValue": 98.48,
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+      "note": "Row: 98.48 m, Jan Zelezny CZE, 25 May 1996, Jena. Progression page agrees (1986 spec).",
+      "checkedAt": "2026-09-27"
+    },
+    "mjt-year": {
+      "hash": "aed39a954df0858a",
+      "verdict": "confirmed",
+      "foundValue": 1996,
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+      "note": "25 May 1996, Jena.",
+      "checkedAt": "2026-09-27"
+    },
+    "mdec-mark": {
+      "hash": "a60735927cd8163c",
+      "verdict": "confirmed",
+      "foundValue": 9126,
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+      "note": "Row: 9126 pts, Kevin Mayer FRA, 16 Sep 2018, Decastar, Talence. Decathlon progression page agrees.",
+      "checkedAt": "2026-09-27"
+    },
+    "mdec-year": {
+      "hash": "a003e204d1b84211",
+      "verdict": "confirmed",
+      "foundValue": 2018,
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+      "note": "16 Sep 2018, Talence.",
+      "checkedAt": "2026-09-27"
+    },
+    "w100-mark": {
+      "hash": "7a3ec4cc12674b41",
+      "verdict": "confirmed",
+      "foundValue": 10.49,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Women%27s_100_metres_world_record_progression",
+      "note": "Row: 10.49, wind +-0.0*, Florence Griffith Joyner, Indianapolis, 16 July 1988.",
+      "checkedAt": "2026-09-27"
+    },
+    "w100-year": {
+      "hash": "5ccfa278823cbd8d",
+      "verdict": "confirmed",
+      "foundValue": 1988,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Women%27s_100_metres_world_record_progression",
+      "note": "16 July 1988, Indianapolis.",
+      "checkedAt": "2026-09-27"
+    },
+    "w100-tj-anemometer": {
+      "hash": "2e7549b32b468f83",
+      "verdict": "confirmed",
+      "foundValue": 4.3,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Women%27s_100_metres_world_record_progression",
+      "note": "Page: triple-jump anemometer some 10 metres away read 4.3 m/s, more than double the acceptable limit.",
+      "checkedAt": "2026-09-27"
+    },
+    "w200-mark": {
+      "hash": "b80629e293f68cd1",
+      "verdict": "confirmed",
+      "foundValue": 21.34,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Women%27s_200_metres_world_record_progression",
+      "note": "Cited list page's women's table was not reachable via fetch (truncated); confirmed on Wikipedia progression page: 21.34, Griffith Joyner, Seoul, 29 September 1988.",
+      "checkedAt": "2026-09-27"
+    },
+    "w200-year": {
+      "hash": "efcd9f2ad74842bf",
+      "verdict": "confirmed",
+      "foundValue": 1988,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Women%27s_200_metres_world_record_progression",
+      "note": "29 September 1988, Seoul. Confirmed on progression page; cited list page's women's section not reachable via fetch.",
+      "checkedAt": "2026-09-27"
+    },
+    "w400-mark": {
+      "hash": "9a444fd0df325483",
+      "verdict": "confirmed",
+      "foundValue": 47.6,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Women%27s_400_metres_world_record_progression",
+      "note": "Progression page: 47.60, Marita Koch (GDR), Canberra, 6 October 1985. Cited list page's women's section not reachable via fetch.",
+      "checkedAt": "2026-09-27"
+    },
+    "w400-year": {
+      "hash": "b778d209ca50ca85",
+      "verdict": "confirmed",
+      "foundValue": 1985,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Women%27s_400_metres_world_record_progression",
+      "note": "6 October 1985, Canberra. Confirmed on progression page; cited list page's women's section not reachable via fetch.",
+      "checkedAt": "2026-09-27"
+    },
+    "w800-mark": {
+      "hash": "c5c75a3e9d639ec3",
+      "verdict": "confirmed",
+      "foundValue": 113.28,
+      "sourceUrl": "https://worldathletics.org/news/news/30-years-on-jarmila-kratochvilovas-800m-wor",
+      "note": "Quote found verbatim: 1:53.28, Munich, 26 Jul 1983; = 113.28 s. Still current per en.wikipedia.org/wiki/800_metres records box.",
+      "checkedAt": "2026-09-27"
+    },
+    "w800-year": {
+      "hash": "99646b9f10400bab",
+      "verdict": "confirmed",
+      "foundValue": 1983,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Women%27s_800_metres_world_record_progression",
+      "note": "Progression page: 1:53.28, Kratochvilova (TCH), 26 July 1983, Munich. WA 2013 article (30 years before 26 Jul 2013) agrees. Cited list page's women's section not reachable via fetch.",
+      "checkedAt": "2026-09-27"
+    },
+    "w800-oldest-since-year": {
+      "hash": "add5b5f65ba9603a",
+      "verdict": "confirmed",
+      "foundValue": 2011,
+      "sourceUrl": "https://worldathletics.org/news/news/30-years-on-jarmila-kratochvilovas-800m-wor",
+      "note": "Quote found verbatim: Since 4 June 2011, it has been the oldest official IAAF World record.",
+      "checkedAt": "2026-09-27"
+    },
+    "w1500-mark": {
+      "hash": "953ca6ee2c9898d7",
+      "verdict": "confirmed",
+      "foundValue": 228.68,
+      "sourceUrl": "https://worldathletics.org/news/press-releases/ratified-faith-kipyegon-world-1500m-record-eugene",
+      "note": "Quote found verbatim in WA press release of 13 Sep 2025: 3:48.68, Eugene, 5 Jul; = 228.68 s. Still current per en.wikipedia.org/wiki/1500_metres.",
+      "checkedAt": "2026-09-27"
+    },
+    "w1500-year": {
+      "hash": "31a42ca0c5e482d7",
+      "verdict": "confirmed",
+      "foundValue": 2025,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Women%27s_1500_metres_world_record_progression",
+      "note": "Progression page: 3:48.68, Kipyegon, Eugene, 2025-07-05. WA ratification release of 13 Sep 2025 agrees. Cited list page's women's section not reachable via fetch.",
+      "checkedAt": "2026-09-27"
+    },
+    "w1500-prev-mark": {
+      "hash": "a743a4cbce83e736",
+      "verdict": "confirmed",
+      "foundValue": 229.04,
+      "sourceUrl": "https://worldathletics.org/news/press-releases/ratified-faith-kipyegon-world-1500m-record-eugene",
+      "note": "Same WA sentence: previous record 3:49.04, Paris, 7 Jul 2024; = 229.04 s.",
+      "checkedAt": "2026-09-27"
+    },
+    "w5000-mark": {
+      "hash": "4ec2ba80e85dbd72",
+      "verdict": "confirmed",
+      "foundValue": 838.06,
+      "sourceUrl": "https://worldathletics.org/news/press-releases/ratified-world-records-alekna-chebet-duplantis",
+      "note": "Quote found verbatim in WA press release of 10 Sep 2025: 13:58.06, Chebet KEN, Eugene, 5 Jul 2025; = 838.06 s. Still current per en.wikipedia.org/wiki/5000_metres.",
+      "checkedAt": "2026-09-27"
+    },
+    "w5000-year": {
+      "hash": "e4970aa07c27e013",
+      "verdict": "confirmed",
+      "foundValue": 2025,
+      "sourceUrl": "https://worldathletics.org/news/press-releases/ratified-world-records-alekna-chebet-duplantis",
+      "note": "Eugene, 5 July 2025.",
+      "checkedAt": "2026-09-27"
+    },
+    "w5000-prev-mark": {
+      "hash": "c711d736c48d87ef",
+      "verdict": "confirmed",
+      "foundValue": 840.21,
+      "sourceUrl": "https://worldathletics.org/news/press-releases/ratified-world-records-alekna-chebet-duplantis",
+      "note": "Quote found verbatim: 14:00.21, Tsegay, Eugene, 17 Sep 2023; = 840.21 s.",
+      "checkedAt": "2026-09-27"
+    },
+    "w10000-mark": {
+      "hash": "bd031954a7c46876",
+      "verdict": "confirmed",
+      "foundValue": 1734.14,
+      "sourceUrl": "https://worldathletics.org/news/press-releases/ratified-world-records-chebet-duplantis-mclaughlin-levrone-chepngetich-kawano",
+      "note": "Quote found verbatim in WA press release of 11 Dec 2024: 28:54.14, Chebet, Eugene, 25 May 2024; = 1734.14 s. Still current per en.wikipedia.org/wiki/10,000_metres.",
+      "checkedAt": "2026-09-27"
+    },
+    "w10000-year": {
+      "hash": "bc862a5763f7347e",
+      "verdict": "confirmed",
+      "foundValue": 2024,
+      "sourceUrl": "https://worldathletics.org/news/press-releases/ratified-world-records-chebet-duplantis-mclaughlin-levrone-chepngetich-kawano",
+      "note": "Eugene, 25 May 2024.",
+      "checkedAt": "2026-09-27"
+    },
+    "w10000-prev-mark": {
+      "hash": "9d708c48c1a04575",
+      "verdict": "confirmed",
+      "foundValue": 1741.03,
+      "sourceUrl": "https://worldathletics.org/news/press-releases/ratified-world-records-chebet-duplantis-mclaughlin-levrone-chepngetich-kawano",
+      "note": "Quote found verbatim: 29:01.03, Gidey, Hengelo, 8 Jun 2021; = 1741.03 s.",
+      "checkedAt": "2026-09-27"
+    },
+    "wmar-mark": {
+      "hash": "2d8953e5ad61819b",
+      "verdict": "confirmed",
+      "foundValue": 7796,
+      "sourceUrl": "https://worldathletics.org/news/press-releases/ratified-world-records-chebet-duplantis-mclaughlin-levrone-chepngetich-kawano",
+      "note": "Quote found verbatim: 2:09:56 (mx), Chicago, 13 Oct 2024; = 7796 s. The record stands despite her 3-year ban in 2025, per aljazeera.com/sports/2025/10/23/chepngetich-retains-womens-marathon-world-record-despite-three-year-ban. The women-only record is now Assefa's 2:15:41 (London 2026).",
+      "checkedAt": "2026-09-27"
+    },
+    "wmar-year": {
+      "hash": "587c2f9d11fc71df",
+      "verdict": "confirmed",
+      "foundValue": 2024,
+      "sourceUrl": "https://worldathletics.org/news/press-releases/ratified-world-records-chebet-duplantis-mclaughlin-levrone-chepngetich-kawano",
+      "note": "Chicago, 13 October 2024.",
+      "checkedAt": "2026-09-27"
+    },
+    "wmar-prev-mark": {
+      "hash": "41a6fb58775b2d6f",
+      "verdict": "confirmed",
+      "foundValue": 7913,
+      "sourceUrl": "https://worldathletics.org/news/press-releases/ratified-world-records-chebet-duplantis-mclaughlin-levrone-chepngetich-kawano",
+      "note": "Quote found verbatim: 2:11:53, Assefa, Berlin, 24 Sep 2023; = 7913 s.",
+      "checkedAt": "2026-09-27"
+    },
+    "wmar-holder-ban-years": {
+      "hash": "da19b4730d448f0f",
+      "verdict": "confirmed",
+      "foundValue": 3,
+      "sourceUrl": "https://athleticsweekly.com/news/ruth-chepngetich-banned-for-three-years-for-doping-1040008418/",
+      "note": "AW, 23 Oct 2025: banned for three years (four-year sanction reduced by one year for early admission). Substance hydrochlorothiazide, sample 14 March 2025.",
+      "checkedAt": "2026-09-27"
+    },
+    "wmar-holder-sample-concentration": {
+      "hash": "6ed433ebb4439166",
+      "verdict": "confirmed",
+      "foundValue": 3800,
+      "sourceUrl": "https://athleticsweekly.com/news/ruth-chepngetich-banned-for-three-years-for-doping-1040008418/",
+      "note": "Quote found: estimated concentration of 3800 ng/mL in her urine.",
+      "checkedAt": "2026-09-27"
+    },
+    "wmar-holder-sample-year": {
+      "hash": "7f49fb60494b8d58",
+      "verdict": "confirmed",
+      "foundValue": 2025,
+      "sourceUrl": "https://citiusmag.com/articles/ruth-chepngetich-banned-three-years-doping-athletics-integrity-unit-admission",
+      "note": "CITIUS Mag: positive sample for HCTZ on March 14, 2025. The quote 'All of Chepngetich's results prior to March 14th, including the marathon world record, still stand' is on the page word for word. Wikipedia lists the record as 2:09:56 (Chicago, 13 Oct 2024).",
+      "checkedAt": "2026-09-27"
+    },
+    "wmar-wo-mark": {
+      "hash": "f53bf7078cbb6efd",
+      "verdict": "confirmed",
+      "foundValue": 8141,
+      "sourceUrl": "https://worldathletics.org/news/report/sawe-two-hour-assefa-world-record-london-marathon",
+      "note": "WA report, 26 Apr 2026: Assefa won in 2:15:41 (= 8141 s), taking nine seconds off her own mark. Athletics Africa quotes the WA ratification list of 23 Jul 2026: '2:15:41 Tigst Assefa (ETH) London, 26 April 2026'. Wikipedia lists it as the women-only record.",
+      "checkedAt": "2026-09-27"
+    },
+    "wmar-wo-prev-mark": {
+      "hash": "7c5cc3d313b46064",
+      "verdict": "confirmed",
+      "foundValue": 8150,
+      "sourceUrl": "https://worldathletics.org/news/press-releases/ratified-world-records-assefa-stano-dunfee",
+      "note": "WA press release, 04 Jul 2025: '2:15:50 Tigist Assefa (ETH) London, 27 April 2025'. 2:15:50 = 8150 s.",
+      "checkedAt": "2026-09-27"
+    },
+    "w100h-mark": {
+      "hash": "f6cb2b5decff6f14",
+      "verdict": "confirmed",
+      "foundValue": 12.12,
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+      "note": "12.12 (+0.9) Amusan, Eugene, 24 Jul 2022 is still the ratified record. WARNING: Wikipedia also lists Masai Russell 12.09 (0.0), Weltklasse Zurich, 27 Aug 2026, pending ratification (WA report confirms the run). Calling 12.12 the standing record without that caveat would be misleading.",
+      "checkedAt": "2026-09-27"
+    },
+    "w100h-year": {
+      "hash": "2b6d65193e17b18b",
+      "verdict": "confirmed",
+      "foundValue": 2022,
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+      "note": "The ratified record, Amusan's 12.12, was set on 24 Jul 2022. Caveat: Russell's 12.09 from 27 Aug 2026 is pending ratification. If it is counted, the year becomes 2026.",
+      "checkedAt": "2026-09-27"
+    },
+    "w400h-mark": {
+      "hash": "8d7131da65879b75",
+      "verdict": "confirmed",
+      "foundValue": 50.37,
+      "sourceUrl": "https://worldathletics.org/news/press-releases/ratified-world-records-chebet-duplantis-mclaughlin-levrone-chepngetich-kawano",
+      "note": "WA press release, 11 Dec 2024: '50.37 Sydney McLaughlin-Levrone (USA) Paris, 8 August 2024'. Wikipedia gives the venue as Saint-Denis (Olympic Games).",
+      "checkedAt": "2026-09-27"
+    },
+    "w400h-year": {
+      "hash": "4812fe0eddf817f2",
+      "verdict": "confirmed",
+      "foundValue": 2024,
+      "sourceUrl": "https://worldathletics.org/news/press-releases/ratified-world-records-chebet-duplantis-mclaughlin-levrone-chepngetich-kawano",
+      "note": "Set 8 August 2024, per WA ratification release.",
+      "checkedAt": "2026-09-27"
+    },
+    "wsc-mark": {
+      "hash": "123af61b0245bbce",
+      "verdict": "confirmed",
+      "foundValue": 524.32,
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+      "note": "Chepkoech 8:44.32 (= 524.32 s), Herculis, Monaco, 20 Jul 2018. Still listed as the standing record.",
+      "checkedAt": "2026-09-27"
+    },
+    "wsc-year": {
+      "hash": "cc46211419ef3488",
+      "verdict": "confirmed",
+      "foundValue": 2018,
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+      "note": "Set 20 Jul 2018.",
+      "checkedAt": "2026-09-27"
+    },
+    "whj-mark": {
+      "hash": "f03ab9bf776b04e9",
+      "verdict": "confirmed",
+      "foundValue": 2.1,
+      "sourceUrl": "https://worldathletics.org/news/press-releases/ratified-world-records-mahuchikh-eisa-hibbert-yan",
+      "note": "WA press release, 24 Oct 2024: '2.10m Yaroslava Mahuchikh (UKR) Paris 7 July 2024'. Wikipedia still lists it as the standing record.",
+      "checkedAt": "2026-09-27"
+    },
+    "whj-year": {
+      "hash": "3a9d29ef5ba02ebf",
+      "verdict": "confirmed",
+      "foundValue": 2024,
+      "sourceUrl": "https://worldathletics.org/news/press-releases/ratified-world-records-mahuchikh-eisa-hibbert-yan",
+      "note": "Set 7 July 2024.",
+      "checkedAt": "2026-09-27"
+    },
+    "whj-prev-mark": {
+      "hash": "b30a42c3960a1008",
+      "verdict": "confirmed",
+      "foundValue": 2.09,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Women%27s_high_jump_world_record_progression",
+      "note": "Progression table: 2.09 m, Kostadinova (BUL), 30 August 1987, Rome. The WA release of 24 Oct 2024 agrees.",
+      "checkedAt": "2026-09-27"
+    },
+    "whj-prev-year": {
+      "hash": "3f3a59cb25464f56",
+      "verdict": "confirmed",
+      "foundValue": 1987,
+      "sourceUrl": "https://worldathletics.org/news/press-releases/ratified-world-records-mahuchikh-eisa-hibbert-yan",
+      "note": "WA release: Kostadinova set the record at the World Championships in Rome on 30 August 1987.",
+      "checkedAt": "2026-09-27"
+    },
+    "wpv-mark": {
+      "hash": "e46c89cf4223e3b8",
+      "verdict": "confirmed",
+      "foundValue": 5.06,
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+      "note": "Isinbayeva 5.06 m, Weltklasse Zurich, 28 Aug 2009. Still the standing record.",
+      "checkedAt": "2026-09-27"
+    },
+    "wpv-year": {
+      "hash": "eb5be24e1bb15792",
+      "verdict": "confirmed",
+      "foundValue": 2009,
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+      "note": "Set 28 Aug 2009.",
+      "checkedAt": "2026-09-27"
+    },
+    "wlj-mark": {
+      "hash": "c51b61c571abf4d3",
+      "verdict": "confirmed",
+      "foundValue": 7.52,
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+      "note": "Chistyakova 7.52 m (+1.4), Leningrad, 11 Jun 1988.",
+      "checkedAt": "2026-09-27"
+    },
+    "wlj-year": {
+      "hash": "b48ac7d15a90d92e",
+      "verdict": "confirmed",
+      "foundValue": 1988,
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+      "note": "Set 11 Jun 1988.",
+      "checkedAt": "2026-09-27"
+    },
+    "wtj-mark": {
+      "hash": "79ed39ad33ad7f4a",
+      "verdict": "confirmed",
+      "foundValue": 15.74,
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+      "note": "Rojas 15.74 m, World Indoor Championships, Belgrade, 20 Mar 2022. Indoor mark counted as the world record.",
+      "checkedAt": "2026-09-27"
+    },
+    "wtj-year": {
+      "hash": "6071ff7a6945c319",
+      "verdict": "confirmed",
+      "foundValue": 2022,
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+      "note": "Set 20 Mar 2022.",
+      "checkedAt": "2026-09-27"
+    },
+    "wsp-mark": {
+      "hash": "80a9242a72ef2cad",
+      "verdict": "confirmed",
+      "foundValue": 22.63,
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+      "note": "Lisovskaya 22.63 m, Moscow, 7 Jun 1987.",
+      "checkedAt": "2026-09-27"
+    },
+    "wsp-year": {
+      "hash": "15b3010c22957ff8",
+      "verdict": "confirmed",
+      "foundValue": 1987,
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+      "note": "Set 7 Jun 1987.",
+      "checkedAt": "2026-09-27"
+    },
+    "wdt-mark": {
+      "hash": "2a27e6da84ae1491",
+      "verdict": "confirmed",
+      "foundValue": 76.8,
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+      "note": "Reinsch 76.80 m, East Germany-Italy tournament, Neubrandenburg, 9 Jul 1988.",
+      "checkedAt": "2026-09-27"
+    },
+    "wdt-year": {
+      "hash": "50928131815c1866",
+      "verdict": "confirmed",
+      "foundValue": 1988,
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+      "note": "Set 9 Jul 1988.",
+      "checkedAt": "2026-09-27"
+    },
+    "wht-mark": {
+      "hash": "f7f1060bd4dbb46a",
+      "verdict": "confirmed",
+      "foundValue": 82.98,
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+      "note": "Wlodarczyk 82.98 m, Kamila Skolimowska Memorial, Warsaw, 28 Aug 2016.",
+      "checkedAt": "2026-09-27"
+    },
+    "wht-year": {
+      "hash": "5dfa72eb94b04a90",
+      "verdict": "confirmed",
+      "foundValue": 2016,
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+      "note": "Set 28 Aug 2016.",
+      "checkedAt": "2026-09-27"
+    },
+    "wjt-mark": {
+      "hash": "62bce95b0ef9b0c2",
+      "verdict": "confirmed",
+      "foundValue": 72.28,
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+      "note": "Spotakova 72.28 m, World Athletics Final, Stuttgart, 13 Sep 2008. Yan Ziyi's 71.74 m (2026) is a U20 record only.",
+      "checkedAt": "2026-09-27"
+    },
+    "wjt-year": {
+      "hash": "509e11c50ec8cfba",
+      "verdict": "confirmed",
+      "foundValue": 2008,
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+      "note": "Set 13 Sep 2008.",
+      "checkedAt": "2026-09-27"
+    },
+    "whep-mark": {
+      "hash": "8ccfa7c78039c96d",
+      "verdict": "confirmed",
+      "foundValue": 7291,
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+      "note": "Joyner-Kersee 7291 pts, Olympic Games, Seoul, 24 Sep 1988.",
+      "checkedAt": "2026-09-27"
+    },
+    "whep-year": {
+      "hash": "aa286002b32749e8",
+      "verdict": "confirmed",
+      "foundValue": 1988,
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+      "note": "Set 24 Sep 1988.",
+      "checkedAt": "2026-09-27"
+    },
+    "events-men": {
+      "hash": "4948ad7250d6118d",
+      "verdict": "confirmed",
+      "foundValue": 20,
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+      "note": "I counted 20 men's rows on the Wikipedia list (100 m to decathlon) under the stated definition: individual Olympic events, no relays, no race walks. The count follows from that definition; no source states it.",
+      "checkedAt": "2026-09-27"
+    },
+    "events-women": {
+      "hash": "ea80a3530a890c21",
+      "verdict": "confirmed",
+      "foundValue": 20,
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+      "note": "I counted 20 women's rows (100 m to heptathlon) under the same definition. The marathon is counted once, with the mixed-race record.",
+      "checkedAt": "2026-09-27"
+    },
+    "records-pre-1990": {
+      "hash": "81d734350891f6d0",
+      "verdict": "confirmed",
+      "foundValue": 9,
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+      "note": "My recount gives 9: men's hammer (1986) plus the 8 women's records. The men's long jump (1991) and high jump (1993) are after 1990. Unchanged if the pending 27 Aug 2026 marks are counted.",
+      "checkedAt": "2026-09-27"
+    },
+    "records-pre-1990-women": {
+      "hash": "557604da79dddea3",
+      "verdict": "confirmed",
+      "foundValue": 8,
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+      "note": "My recount gives 8: W800 1983, W400 1985, SP 1987, and from 1988 the 100, 200, long jump, discus and heptathlon.",
+      "checkedAt": "2026-09-27"
+    },
+    "records-since-2020": {
+      "hash": "a1676e58cddf4121",
+      "verdict": "confirmed",
+      "foundValue": 17,
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+      "note": "My recount gives 17 on the ratified basis: 9 men's (5000, 10000, marathon, 110H, 400H Warholm 2021, steeplechase, pole vault, shot put, discus) and 8 women's. Unchanged if the pending dos Santos 45.80 and Russell 12.09 (27 Aug 2026) are counted, since they replace 2021 and 2022 records.",
+      "checkedAt": "2026-09-27"
+    },
+    "records-since-2023": {
+      "hash": "b53ea7e0d4e121e1",
+      "verdict": "confirmed",
+      "foundValue": 12,
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+      "note": "My recount gives 12 counting ratified records only (6 men, 6 women). WARNING: Wikipedia lists two pending records from 27 Aug 2026, dos Santos 400H 45.80 (replaces Warholm 2021) and Russell 100H 12.09 (replaces Amusan 2022). Counting them makes it 14. I checked the other 2026 men's rows; none affects this set.",
+      "checkedAt": "2026-09-27"
+    },
+    "median-year": {
+      "hash": "16b1bb6b3509a17a",
+      "verdict": "confirmed",
+      "foundValue": 2016,
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+      "note": "I sorted the 40 years myself: positions 1 to 9 are pre-1990, then 1991, 1993, 1995, 1996, 1998, 2008 and three 2009s (to 18), 2012 (19), then 2016 twice (20 and 21: men's 400 m and women's hammer). The median is 2016. Unchanged if the pending 2026 marks are counted.",
+      "checkedAt": "2026-09-27"
+    },
+    "m100-first-mark": {
+      "hash": "3e25f7048d5aa102",
+      "verdict": "confirmed",
+      "foundValue": 10.6,
+      "sourceUrl": "https://worldathletics.org/news/press-release/100-years-of-the-100-metres-world-record-ia",
+      "note": "WA press release states verbatim: 'On 6 July 1912 Lippincott ran a time of 10.6 in the 100m qualifying rounds'. Wikipedia progression table agrees (Stockholm, 6 July 1912).",
+      "checkedAt": "2026-09-27"
+    },
+    "m100-first-year": {
+      "hash": "701dc7d28abf8fa1",
+      "verdict": "confirmed",
+      "foundValue": 1912,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Men%27s_100_metres_world_record_progression",
+      "note": "Table row: 10.6, Donald Lippincott, United States, Stockholm, 6 July 1912. Also in the WA centenary release.",
+      "checkedAt": "2026-09-27"
+    },
+    "m100-1968-mark": {
+      "hash": "60c0caed4f5de8ba",
+      "verdict": "confirmed",
+      "foundValue": 9.95,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Men%27s_100_metres_world_record_progression",
+      "note": "Row: 9.95, +0.3, Jim Hines, Mexico City, 14 October 1968. The article calls it 'the fastest recorded fully electronic 100 metre race up to that date', which supports the first-FAT-sub-10 framing.",
+      "checkedAt": "2026-09-27"
+    },
+    "m100-1968-year": {
+      "hash": "f2bc301c95ac45df",
+      "verdict": "confirmed",
+      "foundValue": 1968,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Men%27s_100_metres_world_record_progression",
+      "note": "Row: Jim Hines, Mexico City, 14 October 1968.",
+      "checkedAt": "2026-09-27"
+    },
+    "mmar-first-mark": {
+      "hash": "e3cfc2fb274501aa",
+      "verdict": "confirmed",
+      "foundValue": 10518.4,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Marathon_world_record_progression",
+      "note": "Source row: 2:55:18.4, Johnny Hayes, July 24, 1908, London Olympics. Clock notation converted: 2:55:18.4 (h:mm:ss) = 7200+3300+18.4 = 10518.4 s. This is the first entry in the men's table.",
+      "checkedAt": "2026-09-27"
+    },
+    "mmar-first-year": {
+      "hash": "d953376f308779fd",
+      "verdict": "confirmed",
+      "foundValue": 1908,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Marathon_world_record_progression",
+      "note": "Hayes row dated July 24, 1908, London Olympics. It is the first row of the men's progression.",
+      "checkedAt": "2026-09-27"
+    },
+    "mmar-1967-mark": {
+      "hash": "2faa5d1b69accab3",
+      "verdict": "confirmed",
+      "foundValue": 7776.4,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Marathon_world_record_progression",
+      "note": "Source row: 2:09:36.4, Derek Clayton, December 3, 1967, Fukuoka Marathon. Converted: 2:09:36.4 = 7200+540+36.4 = 7776.4 s.",
+      "checkedAt": "2026-09-27"
+    },
+    "mmar-1967-year": {
+      "hash": "87a18fe6b3d713cd",
+      "verdict": "confirmed",
+      "foundValue": 1967,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Marathon_world_record_progression",
+      "note": "Clayton row dated December 3, 1967, Fukuoka.",
+      "checkedAt": "2026-09-27"
+    },
+    "mmar-kiptum-mark": {
+      "hash": "cb5f14c1836d6ed8",
+      "verdict": "confirmed",
+      "foundValue": 7235,
+      "sourceUrl": "https://worldathletics.org/news/press-releases/ratified-world-marathon-record-kelvin-kiptum",
+      "note": "WA 06 Feb 2024 release, verbatim: '2:00:35 Kelvin Kiptum (KEN) Chicago 8 October 2023'. Converted: 2:00:35 = 7200+35 = 7235 s.",
+      "checkedAt": "2026-09-27"
+    },
+    "mmar-kiptum-year": {
+      "hash": "62c0fb3ec8062e6e",
+      "verdict": "confirmed",
+      "foundValue": 2023,
+      "sourceUrl": "https://worldathletics.org/news/press-releases/ratified-world-marathon-record-kelvin-kiptum",
+      "note": "Record line dated Chicago, 8 October 2023.",
+      "checkedAt": "2026-09-27"
+    },
+    "mmar-kipchoge-2022-mark": {
+      "hash": "e00ec6344406b65e",
+      "verdict": "confirmed",
+      "foundValue": 7269,
+      "sourceUrl": "https://worldathletics.org/news/press-releases/ratified-world-marathon-record-kelvin-kiptum",
+      "note": "WA release: 'world record of 2:01:09 set by his compatriot Eliud Kipchoge in Berlin on 25 September 2022'. Converted: 2:01:09 = 7200+60+9 = 7269 s.",
+      "checkedAt": "2026-09-27"
+    },
+    "mmar-kipchoge-exhibition-mark": {
+      "hash": "b60b3001030e8556",
+      "verdict": "mismatch",
+      "foundValue": 7180.2,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ineos_1:59_Challenge",
+      "note": "The WA Sawe report does say '1:59:41 exhibition performance from 2019'. The widely reported official time is 1:59:40.2 (Vienna, 12 Oct 2019), which is 7180.2 s, or 1:59:40 as usually cited. That falls outside the claim's +/-0.5 s. WA's 41 looks like the road-race round-up convention. Viewers know it as 1:59:40, so say 1:59:40.",
+      "checkedAt": "2026-09-27"
+    },
+    "m1000-mark": {
+      "hash": "4f3f98625fbe2612",
+      "verdict": "confirmed",
+      "foundValue": 131.83,
+      "sourceUrl": "https://worldathletics.org/news/press-releases/ratified-world-records-kiplimo-tharp-wanyonyi",
+      "note": "WA 03 Sep 2026 ratification release: '2:11.83 Emmanuel Wanyonyi (KEN) Monaco, 10 July 2026'. Converted: 2:11.83 = 120+11.83 = 131.83 s.",
+      "checkedAt": "2026-09-27"
+    },
+    "m1000-year": {
+      "hash": "f3fbae5d58fd88b4",
+      "verdict": "confirmed",
+      "foundValue": 2026,
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+      "note": "Men's 1000 m row: 2:11.83, Emmanuel Wanyonyi (KEN), 10 Jul 2026, Monaco. The WA ratification release agrees.",
+      "checkedAt": "2026-09-27"
+    },
+    "m1000-prev-year": {
+      "hash": "9f46829e4387fc19",
+      "verdict": "confirmed",
+      "foundValue": 1999,
+      "sourceUrl": "https://worldathletics.org/news/press-releases/ratified-world-records-kiplimo-tharp-wanyonyi",
+      "note": "Verbatim: '2:11.96 set by fellow Kenyan Noah Ngeny in Rieti on 5 September 1999'.",
+      "checkedAt": "2026-09-27"
+    },
+    "pending-mmile-mark": {
+      "hash": "b74cba011db71227",
+      "verdict": "confirmed",
+      "foundValue": 222.66,
+      "sourceUrl": "https://worldathletics.org/news/report/london-athletics-meet-2026-josh-kerr-world-mile-record",
+      "note": "WA report: 3:42.66* on 18 Jul 2026 in London, footnote '*Subject to the usual ratification procedure'. It improves 'El Guerrouj's 3:43.13'. Converted: 3:42.66 = 180+42.66 = 222.66 s. Wikipedia lists it with a P (pending) mark.",
+      "checkedAt": "2026-09-27"
+    },
+    "mmile-mark": {
+      "hash": "1db3d7e1493636fe",
+      "verdict": "confirmed",
+      "foundValue": 223.13,
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+      "note": "Row still present: '3:43.13 ... Hicham El Guerrouj | MAR | 7 Jul 1999 | Golden Gala | Rome'. Kerr's 3:42.66 now tops the mile row as pending, so El Guerrouj stays the ratified record. Converted: 3:43.13 = 223.13 s.",
+      "checkedAt": "2026-09-27"
+    },
+    "mmile-year": {
+      "hash": "05e7b3efe7da2bb3",
+      "verdict": "confirmed",
+      "foundValue": 1999,
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+      "note": "El Guerrouj row dated 7 Jul 1999, Golden Gala, Rome. The WA Kerr report ('set 27 years ago') and the WA 1999 report agree.",
+      "checkedAt": "2026-09-27"
+    },
+    "pending-m400h-mark": {
+      "hash": "65e95e1ac4cb589c",
+      "verdict": "confirmed",
+      "foundValue": 45.8,
+      "sourceUrl": "https://worldathletics.org/news/report/zurich-weltklasse-dos-santos-world-400m-hurdles-record",
+      "note": "Quote verified verbatim in the WA 27 Aug 2026 report: 45.80, taking 0.14 off Warholm's 2021 Tokyo record. Wikipedia lists it as pending. This page has no ratification footnote.",
+      "checkedAt": "2026-09-27"
+    },
+    "pending-w100h-mark": {
+      "hash": "d24af93b8669b6ea",
+      "verdict": "confirmed",
+      "foundValue": 12.09,
+      "sourceUrl": "https://worldathletics.org/news/report/zurich-weltklasse-dos-santos-world-400m-hurdles-record",
+      "note": "Quote verified verbatim: 'Russell stopped the clock at 12.09 to take 0.03 off the previous world record' (Amusan 12.12). Pending status not checked separately: it is not among the records in WA's 3 Sep 2026 ratification release.",
+      "checkedAt": "2026-09-27"
+    },
+    "pending-mhalf-mark": {
+      "hash": "1f25237a47c3a854",
+      "verdict": "confirmed",
+      "foundValue": 3411,
+      "sourceUrl": "https://worldathletics.org/news/press-releases/ratified-world-records-kiplimo-tharp-wanyonyi",
+      "note": "WA: 'clocking 56:51 at the Media Maraton Ciudad de Buenos Aires on 23 August ... Kejelcha's 56:51 is subject to the usual ratification procedure.' Converted: 56:51 = 3360+51 = 3411 s.",
+      "checkedAt": "2026-09-27"
+    },
+    "shoe-rule-year": {
+      "hash": "b64d70506fd97f87",
+      "verdict": "confirmed",
+      "foundValue": 2020,
+      "sourceUrl": "https://worldathletics.org/news/press-releases/modified-rules-shoes",
+      "note": "Release dated 31 Jan 2020. The supplied quote covers retail availability only. The limits themselves are in the release: 'The sole must be no thicker than 40mm' and 'not more than one rigid embedded plate'. The word 'first' is not in the source, so it is unsourced wording.",
+      "checkedAt": "2026-09-27"
+    },
+    "shoe-rule-sole-mm": {
+      "hash": "8608aa0bc7c5bde9",
+      "verdict": "confirmed",
+      "foundValue": 40,
+      "sourceUrl": "https://worldathletics.org/news/press-releases/modified-rules-shoes",
+      "note": "Verbatim: 'The sole must be no thicker than 40mm.' Release dated 31 January 2020.",
+      "checkedAt": "2026-09-27"
+    },
+    "shoe-rule-plates": {
+      "hash": "2403ef24c139ace1",
+      "verdict": "confirmed",
+      "foundValue": 1,
+      "sourceUrl": "https://worldathletics.org/news/press-releases/modified-rules-shoes",
+      "note": "Verbatim: 'The shoe must not contain more than one rigid embedded plate or blade (of any material)...'",
+      "checkedAt": "2026-09-27"
+    },
+    "shoe-rule-retail-months": {
+      "hash": "8160b2013baad273",
+      "verdict": "confirmed",
+      "foundValue": 4,
+      "sourceUrl": "https://worldathletics.org/news/press-releases/modified-rules-shoes",
+      "note": "Verbatim: 'From 30 April 2020, any shoe must have been available for purchase ... for a period of four months before it can be used in competition.'",
+      "checkedAt": "2026-09-27"
+    },
+    "vaporfly-retail-year": {
+      "hash": "d15b2f2e2d213afd",
+      "verdict": "confirmed",
+      "foundValue": 2017,
+      "sourceUrl": "https://www.complex.com/sneakers/a/brendan-dunne/nike-zoomx-vaporfly-4-percent-release-date",
+      "note": "Quote found verbatim (Complex, 18 Jul 2017). It is a pre-release announcement ('will release on July 20'), not confirmation that the shoe went on sale that day. The year 2017 holds either way.",
+      "checkedAt": "2026-09-27"
+    },
+    "citius-forecast-year": {
+      "hash": "0a6dfdf2b0d613fe",
+      "verdict": "confirmed",
+      "foundValue": 2027,
+      "sourceUrl": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0001552",
+      "note": "Verbatim: 'half of all WR will not be improved by more than 0,05% in 2027'. Also: 'By 2027, half of the records will reach 99.95% of their asymptotic value, within a [2002-2120] credibility interval.' The interval is wide.",
+      "checkedAt": "2026-09-27"
+    },
+    "citius-forecast-threshold": {
+      "hash": "d308dfc53f878bf0",
+      "verdict": "confirmed",
+      "foundValue": 0.05,
+      "sourceUrl": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0001552",
+      "note": "Verbatim: 'not be improved by more than 0,05% in 2027' (decimal comma in the source).",
+      "checkedAt": "2026-09-27"
+    },
+    "citius-asymptote-share-2027": {
+      "hash": "58b0333d81775870",
+      "verdict": "confirmed",
+      "foundValue": 99.95,
+      "sourceUrl": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0001552",
+      "note": "Verbatim: 'By 2027, half of the records will reach 99.95% of their asymptotic value, within a [2002-2120] credibility interval.'",
+      "checkedAt": "2026-09-27"
+    },
+    "citius-records-analysed": {
+      "hash": "b9bc64d86214b674",
+      "verdict": "confirmed",
+      "foundValue": 3263,
+      "sourceUrl": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0001552",
+      "note": "Quote is in Materials and Methods, not the abstract, where the abstract also says 3263 WR. The paper says 'Data were gathered from 1896 to 2007'.",
+      "checkedAt": "2026-09-27"
+    },
+    "citius-events-analysed": {
+      "hash": "b16deaa1e091780f",
+      "verdict": "confirmed",
+      "foundValue": 147,
+      "sourceUrl": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0001552",
+      "note": "Quote found verbatim in Materials and Methods: 147 measurable Olympic events from five disciplines.",
+      "checkedAt": "2026-09-27"
+    },
+    "citius-start-share-1896": {
+      "hash": "6b1a9b0d3bcaddb1",
+      "verdict": "confirmed",
+      "foundValue": 75,
+      "sourceUrl": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0001552",
+      "note": "Verbatim: 'Starting at 75% of their estimated asymptotic values in 1896'.",
+      "checkedAt": "2026-09-27"
+    },
+    "citius-share-2008": {
+      "hash": "38609ef6946e0e11",
+      "verdict": "confirmed",
+      "foundValue": 99,
+      "sourceUrl": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0001552",
+      "note": "Verbatim: 'WR have now reached 99%'. 'Now' refers to the paper's data, which covers 1896 to 2007.",
+      "checkedAt": "2026-09-27"
+    },
+    "citius-publication-year": {
+      "hash": "3c0aec5e65b65d7d",
+      "verdict": "confirmed",
+      "foundValue": 2008,
+      "sourceUrl": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0001552",
+      "note": "Citation: Berthelot G et al. (2008) PLoS ONE 3(2): e1552, published February 6, 2008.",
+      "checkedAt": "2026-09-27"
+    }
+  }
+}

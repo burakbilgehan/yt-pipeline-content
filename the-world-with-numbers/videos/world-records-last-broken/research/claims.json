@@ -1,0 +1,2669 @@
+{
+  "claims": [
+    {
+      "id": "year-now",
+      "text": "Current year used for every record age (date of the latest World Athletics ratification release read)",
+      "value": 2026,
+      "unit": "year",
+      "decimals": 0,
+      "source": {
+        "publisher": "World Athletics",
+        "title": "Ratified: world records for Kiplimo, Tharp and Wanyonyi",
+        "url": "https://worldathletics.org/news/press-releases/ratified-world-records-kiplimo-tharp-wanyonyi",
+        "published": "2026-09-03",
+        "accessed": "2026-09-27",
+        "quote": "03 Sep 2026"
+      }
+    },
+    {
+      "id": "m100-mark",
+      "text": "Men's 100 m world record, Usain Bolt (JAM), Berlin, 16 Aug 2009",
+      "value": 9.58,
+      "unit": "seconds",
+      "decimals": 2,
+      "source": {
+        "publisher": "World Athletics",
+        "title": "Bolt again! 9.58 World record in Berlin! - UPDATED",
+        "url": "https://worldathletics.org/news/news/bolt-again-958-world-record-in-berlin-updat",
+        "published": "2009-08-16",
+        "accessed": "2026-09-27",
+        "quote": "Usain Bolt set a new 100m World record of 9.58 on the second evening of the 12th IAAF World Championships in Athletics at the Olympic Stadium in Berlin."
+      }
+    },
+    {
+      "id": "m100-year",
+      "text": "Year the men's 100 m world record was set (Bolt, Berlin, 16 Aug 2009)",
+      "value": 2009,
+      "unit": "year",
+      "decimals": 0,
+      "source": {
+        "publisher": "Wikipedia",
+        "title": "Men's 100 metres world record progression",
+        "url": "https://en.wikipedia.org/wiki/Men%27s_100_metres_world_record_progression",
+        "accessed": "2026-09-27",
+        "quote": "9.58 | +0.9 | 9.572 | Usain Bolt | Jamaica | Berlin, Germany | 16 August 2009"
+      }
+    },
+    {
+      "id": "m200-mark",
+      "text": "Men's 200 m world record, Usain Bolt (JAM), Berlin, 20 Aug 2009",
+      "value": 19.19,
+      "unit": "seconds",
+      "decimals": 2,
+      "source": {
+        "publisher": "Wikipedia",
+        "title": "List of world records in athletics",
+        "url": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+        "accessed": "2026-09-27",
+        "quote": "19.19 | −0.3 | Usain Bolt | JAM | 20 Aug 2009 | Berlin"
+      }
+    },
+    {
+      "id": "m200-year",
+      "text": "Year the men's 200 m world record was set (Bolt, Berlin, 20 Aug 2009)",
+      "value": 2009,
+      "unit": "year",
+      "decimals": 0,
+      "source": {
+        "publisher": "Wikipedia",
+        "title": "List of world records in athletics",
+        "url": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+        "accessed": "2026-09-27",
+        "quote": "19.19 | −0.3 | Usain Bolt | JAM | 20 Aug 2009 | Berlin"
+      }
+    },
+    {
+      "id": "m400-mark",
+      "text": "Men's 400 m world record, Wayde van Niekerk (RSA), Rio de Janeiro, 14 Aug 2016",
+      "value": 43.03,
+      "unit": "seconds",
+      "decimals": 2,
+      "source": {
+        "publisher": "Wikipedia",
+        "title": "List of world records in athletics",
+        "url": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+        "accessed": "2026-09-27",
+        "quote": "43.03 | | Wayde van Niekerk | RSA | 14 Aug 2016 | Rio de Janeiro"
+      }
+    },
+    {
+      "id": "m400-year",
+      "text": "Year the men's 400 m world record was set (van Niekerk, Rio de Janeiro, 14 Aug 2016)",
+      "value": 2016,
+      "unit": "year",
+      "decimals": 0,
+      "source": {
+        "publisher": "Wikipedia",
+        "title": "List of world records in athletics",
+        "url": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+        "accessed": "2026-09-27",
+        "quote": "43.03 | | Wayde van Niekerk | RSA | 14 Aug 2016 | Rio de Janeiro"
+      }
+    },
+    {
+      "id": "m800-mark",
+      "text": "Men's 800 m world record, David Rudisha (KEN), London, 9 Aug 2012: 1:40.91",
+      "value": 100.91,
+      "unit": "seconds",
+      "decimals": 2,
+      "source": {
+        "publisher": "Wikipedia",
+        "title": "List of world records in athletics",
+        "url": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+        "accessed": "2026-09-27",
+        "quote": "1:40.91 | | David Rudisha | KEN | 9 Aug 2012 | London"
+      }
+    },
+    {
+      "id": "m800-year",
+      "text": "Year the men's 800 m world record was set (Rudisha, London, 9 Aug 2012)",
+      "value": 2012,
+      "unit": "year",
+      "decimals": 0,
+      "source": {
+        "publisher": "Wikipedia",
+        "title": "List of world records in athletics",
+        "url": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+        "accessed": "2026-09-27",
+        "quote": "1:40.91 | | David Rudisha | KEN | 9 Aug 2012 | London"
+      }
+    },
+    {
+      "id": "m1500-mark",
+      "text": "Men's 1500 m world record, Hicham El Guerrouj (MAR), Rome, 14 Jul 1998: 3:26.00",
+      "value": 206.0,
+      "unit": "seconds",
+      "decimals": 2,
+      "source": {
+        "publisher": "Wikipedia",
+        "title": "List of world records in athletics",
+        "url": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+        "accessed": "2026-09-27",
+        "quote": "3:26.00 | | Hicham El Guerrouj | MAR | 14 Jul 1998 | Rome"
+      }
+    },
+    {
+      "id": "m1500-year",
+      "text": "Year the men's 1500 m world record was set (El Guerrouj, Rome, 14 Jul 1998)",
+      "value": 1998,
+      "unit": "year",
+      "decimals": 0,
+      "source": {
+        "publisher": "Wikipedia",
+        "title": "List of world records in athletics",
+        "url": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+        "accessed": "2026-09-27",
+        "quote": "3:26.00 | | Hicham El Guerrouj | MAR | 14 Jul 1998 | Rome"
+      }
+    },
+    {
+      "id": "m5000-mark",
+      "text": "Men's 5000 m world record, Joshua Cheptegei (UGA), Monaco, 14 Aug 2020: 12:35.36",
+      "value": 755.36,
+      "unit": "seconds",
+      "decimals": 2,
+      "source": {
+        "publisher": "Wikipedia",
+        "title": "List of world records in athletics",
+        "url": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+        "accessed": "2026-09-27",
+        "quote": "12:35.36 | | Joshua Cheptegei | UGA | 14 Aug 2020 | Monaco"
+      }
+    },
+    {
+      "id": "m5000-year",
+      "text": "Year the men's 5000 m world record was set (Cheptegei, Monaco, 14 Aug 2020)",
+      "value": 2020,
+      "unit": "year",
+      "decimals": 0,
+      "source": {
+        "publisher": "Wikipedia",
+        "title": "List of world records in athletics",
+        "url": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+        "accessed": "2026-09-27",
+        "quote": "12:35.36 | | Joshua Cheptegei | UGA | 14 Aug 2020 | Monaco"
+      }
+    },
+    {
+      "id": "m10000-mark",
+      "text": "Men's 10,000 m world record, Joshua Cheptegei (UGA), Valencia, 7 Oct 2020: 26:11.00",
+      "value": 1571.0,
+      "unit": "seconds",
+      "decimals": 2,
+      "source": {
+        "publisher": "Wikipedia",
+        "title": "List of world records in athletics",
+        "url": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+        "accessed": "2026-09-27",
+        "quote": "26:11.00 | | Joshua Cheptegei | UGA | 7 Oct 2020 | Valencia"
+      }
+    },
+    {
+      "id": "m10000-year",
+      "text": "Year the men's 10,000 m world record was set (Cheptegei, Valencia, 7 Oct 2020)",
+      "value": 2020,
+      "unit": "year",
+      "decimals": 0,
+      "source": {
+        "publisher": "Wikipedia",
+        "title": "List of world records in athletics",
+        "url": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+        "accessed": "2026-09-27",
+        "quote": "26:11.00 | | Joshua Cheptegei | UGA | 7 Oct 2020 | Valencia"
+      }
+    },
+    {
+      "id": "mmar-mark",
+      "text": "Men's marathon world record, Sabastian Sawe (KEN), London, 26 Apr 2026: 1:59:30 (ratified 23 Jul 2026)",
+      "value": 7170,
+      "unit": "seconds",
+      "decimals": 0,
+      "source": {
+        "publisher": "World Athletics",
+        "title": "Sawe breaks two-hour barrier with 1:59:30 world record at London Marathon",
+        "url": "https://worldathletics.org/news/report/sawe-two-hour-assefa-world-record-london-marathon",
+        "published": "2026-04-26",
+        "accessed": "2026-09-27",
+        "quote": "He crossed the line in 1:59:30, taking 65 seconds off the previous world record set by the late Kelvin Kiptum in Chicago in 2023"
+      }
+    },
+    {
+      "id": "mmar-year",
+      "text": "Year the men's marathon world record was set (Sawe, London, 26 Apr 2026)",
+      "value": 2026,
+      "unit": "year",
+      "decimals": 0,
+      "source": {
+        "publisher": "World Athletics",
+        "title": "Ratified: world records for Sawe, Ehammer, Charlton and more",
+        "url": "https://worldathletics.org/news/press-releases/ratified-world-records-sawe-ehammer-charlton-mcrae-yan-duplantis-assefa",
+        "published": "2026-07-23",
+        "accessed": "2026-09-27",
+        "quote": "Sabastian Sawe and Tigst Assefa produced world record performances at the TCS London Marathon on 26 April. Sawe became the first man to break two hours in a record-eligible marathon, clocking 1:59:30."
+      }
+    },
+    {
+      "id": "m110h-mark",
+      "text": "Men's 110 m hurdles world record, Ja'Kobe Tharp (USA), Eugene, 10 Jun 2026 (ratified 3 Sep 2026)",
+      "value": 12.75,
+      "unit": "seconds",
+      "decimals": 2,
+      "source": {
+        "publisher": "World Athletics",
+        "title": "Ratified: world records for Kiplimo, Tharp and Wanyonyi",
+        "url": "https://worldathletics.org/news/press-releases/ratified-world-records-kiplimo-tharp-wanyonyi",
+        "published": "2026-09-03",
+        "accessed": "2026-09-27",
+        "quote": "12.75 (1.0m/s)"
+      }
+    },
+    {
+      "id": "m110h-year",
+      "text": "Year the men's 110 m hurdles world record was set (Tharp, Eugene, 10 Jun 2026)",
+      "value": 2026,
+      "unit": "year",
+      "decimals": 0,
+      "source": {
+        "publisher": "Wikipedia",
+        "title": "List of world records in athletics",
+        "url": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+        "accessed": "2026-09-27",
+        "quote": "12.75 | +1.0 | Ja'Kobe Tharp | USA | 10 Jun 2026 | Eugene"
+      }
+    },
+    {
+      "id": "m110h-prev-year",
+      "text": "Year of the previous men's 110 m hurdles world record, Aries Merritt 12.80, Brussels, 7 Sep 2012",
+      "value": 2012,
+      "unit": "year",
+      "decimals": 0,
+      "source": {
+        "publisher": "World Athletics",
+        "title": "Ratified: world records for Kiplimo, Tharp and Wanyonyi",
+        "url": "https://worldathletics.org/news/press-releases/ratified-world-records-kiplimo-tharp-wanyonyi",
+        "published": "2026-09-03",
+        "accessed": "2026-09-27",
+        "quote": "12.80 set by fellow US hurdler Aries Merritt in Brussels on 7 September 2012"
+      }
+    },
+    {
+      "id": "m400h-mark",
+      "text": "Men's 400 m hurdles ratified world record, Karsten Warholm (NOR), Tokyo, 3 Aug 2021",
+      "value": 45.94,
+      "unit": "seconds",
+      "decimals": 2,
+      "source": {
+        "publisher": "Wikipedia",
+        "title": "List of world records in athletics",
+        "url": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+        "accessed": "2026-09-27",
+        "quote": "45.94 | | Karsten Warholm | NOR | 3 Aug 2021 | Tokyo"
+      }
+    },
+    {
+      "id": "m400h-year",
+      "text": "Year the ratified men's 400 m hurdles world record was set (Warholm, Tokyo, 3 Aug 2021)",
+      "value": 2021,
+      "unit": "year",
+      "decimals": 0,
+      "source": {
+        "publisher": "Wikipedia",
+        "title": "List of world records in athletics",
+        "url": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+        "accessed": "2026-09-27",
+        "quote": "45.94 | | Karsten Warholm | NOR | 3 Aug 2021 | Tokyo"
+      }
+    },
+    {
+      "id": "msc-mark",
+      "text": "Men's 3000 m steeplechase world record, Lamecha Girma (ETH), Paris, 9 Jun 2023: 7:52.11",
+      "value": 472.11,
+      "unit": "seconds",
+      "decimals": 2,
+      "source": {
+        "publisher": "Wikipedia",
+        "title": "List of world records in athletics",
+        "url": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+        "accessed": "2026-09-27",
+        "quote": "7:52.11 | | Lamecha Girma | ETH | 9 Jun 2023 | Paris"
+      }
+    },
+    {
+      "id": "msc-year",
+      "text": "Year the men's 3000 m steeplechase world record was set (Girma, Paris, 9 Jun 2023)",
+      "value": 2023,
+      "unit": "year",
+      "decimals": 0,
+      "source": {
+        "publisher": "Wikipedia",
+        "title": "List of world records in athletics",
+        "url": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+        "accessed": "2026-09-27",
+        "quote": "7:52.11 | | Lamecha Girma | ETH | 9 Jun 2023 | Paris"
+      }
+    },
+    {
+      "id": "mhj-mark",
+      "text": "Men's high jump world record, Javier Sotomayor (CUB), Salamanca, 27 Jul 1993",
+      "value": 2.45,
+      "unit": "m",
+      "decimals": 2,
+      "source": {
+        "publisher": "Wikipedia",
+        "title": "List of world records in athletics",
+        "url": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+        "accessed": "2026-09-27",
+        "quote": "2.45 m | | Javier Sotomayor | CUB | 27 Jul 1993 | Salamanca"
+      }
+    },
+    {
+      "id": "mhj-year",
+      "text": "Year the men's high jump world record was set (Sotomayor, Salamanca, 27 Jul 1993)",
+      "value": 1993,
+      "unit": "year",
+      "decimals": 0,
+      "source": {
+        "publisher": "Wikipedia",
+        "title": "List of world records in athletics",
+        "url": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+        "accessed": "2026-09-27",
+        "quote": "2.45 m | | Javier Sotomayor | CUB | 27 Jul 1993 | Salamanca"
+      }
+    },
+    {
+      "id": "mpv-mark",
+      "text": "Men's pole vault world record, Mondo Duplantis (SWE), Uppsala (indoor), 12 Mar 2026 (ratified 23 Jul 2026)",
+      "value": 6.31,
+      "unit": "m",
+      "decimals": 2,
+      "source": {
+        "publisher": "World Athletics",
+        "title": "Ratified: world records for Sawe, Ehammer, Charlton and more",
+        "url": "https://worldathletics.org/news/press-releases/ratified-world-records-sawe-ehammer-charlton-mcrae-yan-duplantis-assefa",
+        "published": "2026-07-23",
+        "accessed": "2026-09-27",
+        "quote": "6.31m"
+      }
+    },
+    {
+      "id": "mpv-year",
+      "text": "Year the men's pole vault world record was set (Duplantis, Uppsala, 12 Mar 2026)",
+      "value": 2026,
+      "unit": "year",
+      "decimals": 0,
+      "source": {
+        "publisher": "World Athletics",
+        "title": "Ratified: world records for Sawe, Ehammer, Charlton and more",
+        "url": "https://worldathletics.org/news/press-releases/ratified-world-records-sawe-ehammer-charlton-mcrae-yan-duplantis-assefa",
+        "published": "2026-07-23",
+        "accessed": "2026-09-27",
+        "quote": "Uppsala, 12 March 2026"
+      }
+    },
+    {
+      "id": "mpv-tokyo-2025-mark",
+      "text": "Men's pole vault world record before Uppsala: Duplantis 6.30 m, World Championships Tokyo, 15 Sep 2025 (ratified 22 Oct 2025)",
+      "value": 6.3,
+      "unit": "m",
+      "decimals": 2,
+      "source": {
+        "publisher": "World Athletics",
+        "title": "Ratified: world records for Duplantis, Troscianka, Yan and Zhang",
+        "url": "https://worldathletics.org/news/press-releases/ratified-world-records-duplantis-troscianka-yan-zhang",
+        "published": "2025-10-22",
+        "accessed": "2026-09-27",
+        "quote": "6.30m Mondo Duplantis (SWE) Tokyo, 15 September 2025"
+      }
+    },
+    {
+      "id": "mpv-paris-2024-mark",
+      "text": "Men's pole vault world record at the Paris Olympic final, Duplantis 6.25 m, 5 Aug 2024 (ratified 11 Dec 2024)",
+      "value": 6.25,
+      "unit": "m",
+      "decimals": 2,
+      "source": {
+        "publisher": "World Athletics",
+        "title": "Ratified: world records for Chebet, Duplantis, McLaughlin-Levrone, Chepngetich and Kawano",
+        "url": "https://worldathletics.org/news/press-releases/ratified-world-records-chebet-duplantis-mclaughlin-levrone-chepngetich-kawano",
+        "published": "2024-12-11",
+        "accessed": "2026-09-27",
+        "quote": "6.25m Mondo Duplantis (SWE) Paris, 5 August 2024"
+      }
+    },
+    {
+      "id": "mpv-gain-2024-2026",
+      "text": "Centimetres added to the men's pole vault world record from Paris 2024 (6.25) to Uppsala 2026 (6.31), in metres",
+      "value": 0.06,
+      "unit": "m",
+      "decimals": 2,
+      "derive": {
+        "op": "diff",
+        "of": [
+          "mpv-mark",
+          "mpv-paris-2024-mark"
+        ]
+      }
+    },
+    {
+      "id": "mlj-mark",
+      "text": "Men's long jump world record, Mike Powell (USA), Tokyo, 30 Aug 1991",
+      "value": 8.95,
+      "unit": "m",
+      "decimals": 2,
+      "source": {
+        "publisher": "Wikipedia",
+        "title": "List of world records in athletics",
+        "url": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+        "accessed": "2026-09-27",
+        "quote": "8.95 m | +0.3 | Mike Powell | USA | 30 Aug 1991 | Tokyo"
+      }
+    },
+    {
+      "id": "mlj-year",
+      "text": "Year the men's long jump world record was set (Powell, Tokyo, 30 Aug 1991)",
+      "value": 1991,
+      "unit": "year",
+      "decimals": 0,
+      "source": {
+        "publisher": "Wikipedia",
+        "title": "List of world records in athletics",
+        "url": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+        "accessed": "2026-09-27",
+        "quote": "8.95 m | +0.3 | Mike Powell | USA | 30 Aug 1991 | Tokyo"
+      }
+    },
+    {
+      "id": "mtj-mark",
+      "text": "Men's triple jump world record, Jonathan Edwards (GBR), Gothenburg, 7 Aug 1995",
+      "value": 18.29,
+      "unit": "m",
+      "decimals": 2,
+      "source": {
+        "publisher": "Wikipedia",
+        "title": "List of world records in athletics",
+        "url": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+        "accessed": "2026-09-27",
+        "quote": "18.29 m | +1.3 | Jonathan Edwards | GBR | 7 Aug 1995 | Gothenburg"
+      }
+    },
+    {
+      "id": "mtj-year",
+      "text": "Year the men's triple jump world record was set (Edwards, Gothenburg, 7 Aug 1995)",
+      "value": 1995,
+      "unit": "year",
+      "decimals": 0,
+      "source": {
+        "publisher": "Wikipedia",
+        "title": "List of world records in athletics",
+        "url": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+        "accessed": "2026-09-27",
+        "quote": "18.29 m | +1.3 | Jonathan Edwards | GBR | 7 Aug 1995 | Gothenburg"
+      }
+    },
+    {
+      "id": "msp-mark",
+      "text": "Men's shot put world record, Ryan Crouser (USA), Los Angeles, 27 May 2023",
+      "value": 23.56,
+      "unit": "m",
+      "decimals": 2,
+      "source": {
+        "publisher": "Wikipedia",
+        "title": "List of world records in athletics",
+        "url": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+        "accessed": "2026-09-27",
+        "quote": "23.56 m | | Ryan Crouser | USA | 27 May 2023 | Los Angeles"
+      }
+    },
+    {
+      "id": "msp-year",
+      "text": "Year the men's shot put world record was set (Crouser, Los Angeles, 27 May 2023)",
+      "value": 2023,
+      "unit": "year",
+      "decimals": 0,
+      "source": {
+        "publisher": "Wikipedia",
+        "title": "List of world records in athletics",
+        "url": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+        "accessed": "2026-09-27",
+        "quote": "23.56 m | | Ryan Crouser | USA | 27 May 2023 | Los Angeles"
+      }
+    },
+    {
+      "id": "mdt-mark",
+      "text": "Men's discus world record, Mykolas Alekna (LTU), Ramona, 13 Apr 2025 (ratified 10 Sep 2025)",
+      "value": 75.56,
+      "unit": "m",
+      "decimals": 2,
+      "source": {
+        "publisher": "World Athletics",
+        "title": "Ratified: world records for Alekna, Chebet and Duplantis",
+        "url": "https://worldathletics.org/news/press-releases/ratified-world-records-alekna-chebet-duplantis",
+        "published": "2025-09-10",
+        "accessed": "2026-09-27",
+        "quote": "75.56m Mykolas Alekna (LTU) Ramona, 13 April 2025"
+      }
+    },
+    {
+      "id": "mdt-year",
+      "text": "Year the men's discus world record was set (Alekna 75.56, Ramona, 13 Apr 2025)",
+      "value": 2025,
+      "unit": "year",
+      "decimals": 0,
+      "source": {
+        "publisher": "World Athletics",
+        "title": "Ratified: world records for Alekna, Chebet and Duplantis",
+        "url": "https://worldathletics.org/news/press-releases/ratified-world-records-alekna-chebet-duplantis",
+        "published": "2025-09-10",
+        "accessed": "2026-09-27",
+        "quote": "75.56m Mykolas Alekna (LTU) Ramona, 13 April 2025"
+      }
+    },
+    {
+      "id": "mdt-2024-mark",
+      "text": "Men's discus world record set by Alekna in Ramona on 14 Apr 2024 (ratified 27 Jul 2024), later beaten by his 75.56",
+      "value": 74.35,
+      "unit": "m",
+      "decimals": 2,
+      "source": {
+        "publisher": "World Athletics",
+        "title": "Ratified: world records for McLaughlin-Levrone, Duplantis, Kipyegon, Chebet, Alekna and Ngetich",
+        "url": "https://worldathletics.org/news/press-releases/ratified-world-records-mclaughlin-levrone-duplantis-kipyegon-chebet-alekna-ngetich",
+        "published": "2024-07-27",
+        "accessed": "2026-09-27",
+        "quote": "Mykolas Alekna turned heads at the start of the outdoor season earlier this year when he threw 74.35m to win the discus at the Oklahoma Throws Series World Invitational in Ramona. In so doing, the 21-year-old broke the long-standing world record set by East Germany's Jurgen Schult on 6 June 1986."
+      }
+    },
+    {
+      "id": "mdt-2024-year",
+      "text": "Year Alekna first broke the men's discus world record (74.35 m, Ramona, 14 Apr 2024)",
+      "value": 2024,
+      "unit": "year",
+      "decimals": 0,
+      "source": {
+        "publisher": "Wikipedia",
+        "title": "Men's discus throw world record progression",
+        "url": "https://en.wikipedia.org/wiki/Men%27s_discus_throw_world_record_progression",
+        "accessed": "2026-09-27",
+        "quote": "74.35 m (243 ft 11 in) | Mykolas Alekna (LTU) | 14 April 2024 | Ramona, Oklahoma"
+      }
+    },
+    {
+      "id": "mdt-prev-mark",
+      "text": "Men's discus world record before Alekna: Jurgen Schult (GDR), Neubrandenburg, 6 Jun 1986",
+      "value": 74.08,
+      "unit": "m",
+      "decimals": 2,
+      "source": {
+        "publisher": "Wikipedia",
+        "title": "Men's discus throw world record progression",
+        "url": "https://en.wikipedia.org/wiki/Men%27s_discus_throw_world_record_progression",
+        "accessed": "2026-09-27",
+        "quote": "74.08 m (243 ft 0½ in) | Jürgen Schult (GDR) | 6 June 1986 | Neubrandenburg, East Germany"
+      }
+    },
+    {
+      "id": "mdt-prev-year",
+      "text": "Year of the previous men's discus world record (Schult 74.08, 6 Jun 1986)",
+      "value": 1986,
+      "unit": "year",
+      "decimals": 0,
+      "source": {
+        "publisher": "World Athletics",
+        "title": "Ratified: world records for McLaughlin-Levrone, Duplantis, Kipyegon, Chebet, Alekna and Ngetich",
+        "url": "https://worldathletics.org/news/press-releases/ratified-world-records-mclaughlin-levrone-duplantis-kipyegon-chebet-alekna-ngetich",
+        "published": "2024-07-27",
+        "accessed": "2026-09-27",
+        "quote": "In so doing, the 21-year-old broke the long-standing world record set by East Germany's Jurgen Schult on 6 June 1986."
+      }
+    },
+    {
+      "id": "mdt-age-when-broken",
+      "text": "Calendar years the Schult discus record stood before Alekna broke it (1986 to 2024)",
+      "value": 38,
+      "unit": "years",
+      "decimals": 0,
+      "derive": {
+        "op": "diff",
+        "of": [
+          "mdt-2024-year",
+          "mdt-prev-year"
+        ]
+      }
+    },
+    {
+      "id": "mdt-gain-since-1986",
+      "text": "Metres added to the men's discus world record from Schult's 74.08 (1986) to Alekna's 75.56 (2025)",
+      "value": 1.48,
+      "unit": "m",
+      "decimals": 2,
+      "derive": {
+        "op": "diff",
+        "of": [
+          "mdt-mark",
+          "mdt-prev-mark"
+        ]
+      }
+    },
+    {
+      "id": "mht-mark",
+      "text": "Men's hammer throw world record, Yuriy Sedykh (URS), Stuttgart, 30 Aug 1986",
+      "value": 86.74,
+      "unit": "m",
+      "decimals": 2,
+      "source": {
+        "publisher": "Wikipedia",
+        "title": "List of world records in athletics",
+        "url": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+        "accessed": "2026-09-27",
+        "quote": "86.74 m | | Yuriy Sedykh | URS | 30 Aug 1986 | Stuttgart"
+      }
+    },
+    {
+      "id": "mht-year",
+      "text": "Year the men's hammer world record was set (Sedykh, Stuttgart, 30 Aug 1986), the oldest men's record",
+      "value": 1986,
+      "unit": "year",
+      "decimals": 0,
+      "source": {
+        "publisher": "Wikipedia",
+        "title": "Men's hammer throw world record progression",
+        "url": "https://en.wikipedia.org/wiki/Men%27s_hammer_throw_world_record_progression",
+        "accessed": "2026-09-27",
+        "quote": "86.74 m (284 ft 6 in) | Yuriy Sedykh | Soviet Union | Stuttgart, West Germany | XIV European Championship | August 30, 1986"
+      }
+    },
+    {
+      "id": "mht-age",
+      "text": "Age of the men's hammer world record in 2026 (set 1986), the oldest men's record, calendar years",
+      "value": 40,
+      "unit": "years",
+      "decimals": 0,
+      "derive": {
+        "op": "diff",
+        "of": [
+          "year-now",
+          "mht-year"
+        ]
+      }
+    },
+    {
+      "id": "mjt-mark",
+      "text": "Men's javelin world record (current 1986 specification), Jan Zelezny (CZE), Jena, 25 May 1996",
+      "value": 98.48,
+      "unit": "m",
+      "decimals": 2,
+      "source": {
+        "publisher": "Wikipedia",
+        "title": "List of world records in athletics",
+        "url": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+        "accessed": "2026-09-27",
+        "quote": "98.48 m | | Jan Železný | CZE | 25 May 1996 | Jena"
+      }
+    },
+    {
+      "id": "mjt-year",
+      "text": "Year the men's javelin world record was set (Zelezny, Jena, 25 May 1996)",
+      "value": 1996,
+      "unit": "year",
+      "decimals": 0,
+      "source": {
+        "publisher": "Wikipedia",
+        "title": "List of world records in athletics",
+        "url": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+        "accessed": "2026-09-27",
+        "quote": "98.48 m | | Jan Železný | CZE | 25 May 1996 | Jena"
+      }
+    },
+    {
+      "id": "mdec-mark",
+      "text": "Men's decathlon world record, Kevin Mayer (FRA), Talence, 16 Sep 2018",
+      "value": 9126,
+      "unit": "points",
+      "decimals": 0,
+      "source": {
+        "publisher": "Wikipedia",
+        "title": "List of world records in athletics",
+        "url": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+        "accessed": "2026-09-27",
+        "quote": "9126 pts | | Kevin Mayer | FRA | 16 Sep 2018 | Talence"
+      }
+    },
+    {
+      "id": "mdec-year",
+      "text": "Year the men's decathlon world record was set (Mayer, Talence, 16 Sep 2018)",
+      "value": 2018,
+      "unit": "year",
+      "decimals": 0,
+      "source": {
+        "publisher": "Wikipedia",
+        "title": "List of world records in athletics",
+        "url": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+        "accessed": "2026-09-27",
+        "quote": "9126 pts | | Kevin Mayer | FRA | 16 Sep 2018 | Talence"
+      }
+    },
+    {
+      "id": "w100-mark",
+      "text": "Women's 100 m world record, Florence Griffith Joyner (USA), Indianapolis, 16 Jul 1988, wind reading 0.0",
+      "value": 10.49,
+      "unit": "seconds",
+      "decimals": 2,
+      "source": {
+        "publisher": "Wikipedia",
+        "title": "Women's 100 metres world record progression",
+        "url": "https://en.wikipedia.org/wiki/Women%27s_100_metres_world_record_progression",
+        "accessed": "2026-09-27",
+        "quote": "10.49 | ±0.0* | Florence Griffith Joyner | United States | Indianapolis, Indiana | 16 July 1988"
+      }
+    },
+    {
+      "id": "w100-year",
+      "text": "Year the women's 100 m world record was set (Griffith Joyner, Indianapolis, 16 Jul 1988)",
+      "value": 1988,
+      "unit": "year",
+      "decimals": 0,
+      "source": {
+        "publisher": "Wikipedia",
+        "title": "Women's 100 metres world record progression",
+        "url": "https://en.wikipedia.org/wiki/Women%27s_100_metres_world_record_progression",
+        "accessed": "2026-09-27",
+        "quote": "10.49 | ±0.0* | Florence Griffith Joyner | United States | Indianapolis, Indiana | 16 July 1988"
+      }
+    },
+    {
+      "id": "w100-tj-anemometer",
+      "text": "Wind reading on the triple jump anemometer about 10 m away during Griffith Joyner's 10.49, Indianapolis, 16 Jul 1988 (statisticians' dispute)",
+      "value": 4.3,
+      "unit": "m/s",
+      "decimals": 1,
+      "source": {
+        "publisher": "Wikipedia",
+        "title": "Women's 100 metres world record progression",
+        "url": "https://en.wikipedia.org/wiki/Women%27s_100_metres_world_record_progression",
+        "accessed": "2026-09-27",
+        "quote": "The triple-jump anemometer, some 10 metres away, read 4.3 m/s, more than double the acceptable limit. Despite the controversy, the record was ratified by the IAAF."
+      }
+    },
+    {
+      "id": "w100-age",
+      "text": "Age of the women's 100 m world record in 2026 (set 1988), calendar years",
+      "value": 38,
+      "unit": "years",
+      "decimals": 0,
+      "derive": {
+        "op": "diff",
+        "of": [
+          "year-now",
+          "w100-year"
+        ]
+      }
+    },
+    {
+      "id": "w200-mark",
+      "text": "Women's 200 m world record, Florence Griffith Joyner (USA), Seoul, 29 Sep 1988",
+      "value": 21.34,
+      "unit": "seconds",
+      "decimals": 2,
+      "source": {
+        "publisher": "Wikipedia",
+        "title": "List of world records in athletics",
+        "url": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+        "accessed": "2026-09-27",
+        "quote": "21.34 | +1.3 | Florence Griffith Joyner | USA | 29 Sep 1988 | Olympic Games, Seoul"
+      }
+    },
+    {
+      "id": "w200-year",
+      "text": "Year the women's 200 m world record was set (Griffith Joyner, Seoul, 29 Sep 1988)",
+      "value": 1988,
+      "unit": "year",
+      "decimals": 0,
+      "source": {
+        "publisher": "Wikipedia",
+        "title": "List of world records in athletics",
+        "url": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+        "accessed": "2026-09-27",
+        "quote": "21.34 | +1.3 | Florence Griffith Joyner | USA | 29 Sep 1988 | Olympic Games, Seoul"
+      }
+    },
+    {
+      "id": "w400-mark",
+      "text": "Women's 400 m world record, Marita Koch (GDR), Canberra, 6 Oct 1985",
+      "value": 47.6,
+      "unit": "seconds",
+      "decimals": 2,
+      "source": {
+        "publisher": "Wikipedia",
+        "title": "List of world records in athletics",
+        "url": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+        "accessed": "2026-09-27",
+        "quote": "47.60 | — | Marita Koch | GDR | 6 Oct 1985 | World Cup, Canberra"
+      }
+    },
+    {
+      "id": "w400-year",
+      "text": "Year the women's 400 m world record was set (Koch, Canberra, 6 Oct 1985)",
+      "value": 1985,
+      "unit": "year",
+      "decimals": 0,
+      "source": {
+        "publisher": "Wikipedia",
+        "title": "List of world records in athletics",
+        "url": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+        "accessed": "2026-09-27",
+        "quote": "47.60 | — | Marita Koch | GDR | 6 Oct 1985 | World Cup, Canberra"
+      }
+    },
+    {
+      "id": "w800-mark",
+      "text": "Women's 800 m world record, Jarmila Kratochvilova (TCH), Munich, 26 Jul 1983: 1:53.28",
+      "value": 113.28,
+      "unit": "seconds",
+      "decimals": 2,
+      "source": {
+        "publisher": "World Athletics",
+        "title": "30 years on",
+        "url": "https://worldathletics.org/news/news/30-years-on-jarmila-kratochvilovas-800m-wor",
+        "published": "2013-07-26",
+        "accessed": "2026-09-27",
+        "quote": "It was 30 years ago, in the German city of Munich, that Czech runner Jarmila Kratochvilova ran 800m in 1:53.28."
+      }
+    },
+    {
+      "id": "w800-year",
+      "text": "Year the women's 800 m world record was set (Kratochvilova, Munich, 26 Jul 1983), the oldest standing record",
+      "value": 1983,
+      "unit": "year",
+      "decimals": 0,
+      "source": {
+        "publisher": "Wikipedia",
+        "title": "List of world records in athletics",
+        "url": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+        "accessed": "2026-09-27",
+        "quote": "1:53.28 | — | Jarmila Kratochvílová | TCH | 26 Jul 1983 | Munich"
+      }
+    },
+    {
+      "id": "w800-age",
+      "text": "Age of the women's 800 m world record in 2026 (set 1983), the oldest standing record, calendar years",
+      "value": 43,
+      "unit": "years",
+      "decimals": 0,
+      "derive": {
+        "op": "diff",
+        "of": [
+          "year-now",
+          "w800-year"
+        ]
+      }
+    },
+    {
+      "id": "w800-oldest-since-year",
+      "text": "Year since which the women's 800 m mark has been the oldest official world record (4 Jun 2011, per World Athletics)",
+      "value": 2011,
+      "unit": "year",
+      "decimals": 0,
+      "source": {
+        "publisher": "World Athletics",
+        "title": "30 years on",
+        "url": "https://worldathletics.org/news/news/30-years-on-jarmila-kratochvilovas-800m-wor",
+        "published": "2013-07-26",
+        "accessed": "2026-09-27",
+        "quote": "Since 4 June 2011, it has been the oldest official IAAF World record and the standard has withstood assaults from a whole host of talented athletes since Kratochvilova performed her feat."
+      }
+    },
+    {
+      "id": "w1500-mark",
+      "text": "Women's 1500 m world record, Faith Kipyegon (KEN), Eugene, 5 Jul 2025: 3:48.68 (ratified 13 Sep 2025)",
+      "value": 228.68,
+      "unit": "seconds",
+      "decimals": 2,
+      "source": {
+        "publisher": "World Athletics",
+        "title": "Ratified: Kipyegon's world 1500m record in Eugene",
+        "url": "https://worldathletics.org/news/press-releases/ratified-faith-kipyegon-world-1500m-record-eugene",
+        "published": "2025-09-13",
+        "accessed": "2026-09-27",
+        "quote": "Clocking 3:48.68 at the Prefontaine Classic on 5 July, multiple Olympic and world champion Kipyegon took 0.36 off the world record of 3:49.04 she set in Paris on 7 July 2024."
+      }
+    },
+    {
+      "id": "w1500-year",
+      "text": "Year the women's 1500 m world record was set (Kipyegon, Eugene, 5 Jul 2025)",
+      "value": 2025,
+      "unit": "year",
+      "decimals": 0,
+      "source": {
+        "publisher": "Wikipedia",
+        "title": "List of world records in athletics",
+        "url": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+        "accessed": "2026-09-27",
+        "quote": "3:48.68 | — | Faith Kipyegon | KEN | 05 Jul 2025 | Prefontaine Classic, Eugene"
+      }
+    },
+    {
+      "id": "w1500-prev-mark",
+      "text": "Women's 1500 m world record before Eugene 2025: Kipyegon 3:49.04, Paris, 7 Jul 2024",
+      "value": 229.04,
+      "unit": "seconds",
+      "decimals": 2,
+      "source": {
+        "publisher": "World Athletics",
+        "title": "Ratified: Kipyegon's world 1500m record in Eugene",
+        "url": "https://worldathletics.org/news/press-releases/ratified-faith-kipyegon-world-1500m-record-eugene",
+        "published": "2025-09-13",
+        "accessed": "2026-09-27",
+        "quote": "Clocking 3:48.68 at the Prefontaine Classic on 5 July, multiple Olympic and world champion Kipyegon took 0.36 off the world record of 3:49.04 she set in Paris on 7 July 2024."
+      }
+    },
+    {
+      "id": "w5000-mark",
+      "text": "Women's 5000 m world record, Beatrice Chebet (KEN), Eugene, 5 Jul 2025: 13:58.06 (ratified 10 Sep 2025)",
+      "value": 838.06,
+      "unit": "seconds",
+      "decimals": 2,
+      "source": {
+        "publisher": "World Athletics",
+        "title": "Ratified: world records for Alekna, Chebet and Duplantis",
+        "url": "https://worldathletics.org/news/press-releases/ratified-world-records-alekna-chebet-duplantis",
+        "published": "2025-09-10",
+        "accessed": "2026-09-27",
+        "quote": "13:58.06 Beatrice Chebet (KEN) Eugene, 5 July 2025"
+      }
+    },
+    {
+      "id": "w5000-year",
+      "text": "Year the women's 5000 m world record was set (Chebet, Eugene, 5 Jul 2025)",
+      "value": 2025,
+      "unit": "year",
+      "decimals": 0,
+      "source": {
+        "publisher": "World Athletics",
+        "title": "Ratified: world records for Alekna, Chebet and Duplantis",
+        "url": "https://worldathletics.org/news/press-releases/ratified-world-records-alekna-chebet-duplantis",
+        "published": "2025-09-10",
+        "accessed": "2026-09-27",
+        "quote": "13:58.06 Beatrice Chebet (KEN) Eugene, 5 July 2025"
+      }
+    },
+    {
+      "id": "w5000-prev-mark",
+      "text": "Women's 5000 m world record before Chebet: Gudaf Tsegay 14:00.21, Eugene, 17 Sep 2023",
+      "value": 840.21,
+      "unit": "seconds",
+      "decimals": 2,
+      "source": {
+        "publisher": "World Athletics",
+        "title": "Ratified: world records for Alekna, Chebet and Duplantis",
+        "url": "https://worldathletics.org/news/press-releases/ratified-world-records-alekna-chebet-duplantis",
+        "published": "2025-09-10",
+        "accessed": "2026-09-27",
+        "quote": "the 14:00.21 set by Gudaf Tsegay in Eugene on 17 September 2023."
+      }
+    },
+    {
+      "id": "w10000-mark",
+      "text": "Women's 10,000 m world record, Beatrice Chebet (KEN), Eugene, 25 May 2024: 28:54.14 (ratified 11 Dec 2024)",
+      "value": 1734.14,
+      "unit": "seconds",
+      "decimals": 2,
+      "source": {
+        "publisher": "World Athletics",
+        "title": "Ratified: world records for Chebet, Duplantis, McLaughlin-Levrone, Chepngetich and Kawano",
+        "url": "https://worldathletics.org/news/press-releases/ratified-world-records-chebet-duplantis-mclaughlin-levrone-chepngetich-kawano",
+        "published": "2024-12-11",
+        "accessed": "2026-09-27",
+        "quote": "28:54.14 Beatrice Chebet (KEN) Eugene, 25 May 2024"
+      }
+    },
+    {
+      "id": "w10000-year",
+      "text": "Year the women's 10,000 m world record was set (Chebet, Eugene, 25 May 2024)",
+      "value": 2024,
+      "unit": "year",
+      "decimals": 0,
+      "source": {
+        "publisher": "World Athletics",
+        "title": "Ratified: world records for Chebet, Duplantis, McLaughlin-Levrone, Chepngetich and Kawano",
+        "url": "https://worldathletics.org/news/press-releases/ratified-world-records-chebet-duplantis-mclaughlin-levrone-chepngetich-kawano",
+        "published": "2024-12-11",
+        "accessed": "2026-09-27",
+        "quote": "28:54.14 Beatrice Chebet (KEN) Eugene, 25 May 2024"
+      }
+    },
+    {
+      "id": "w10000-prev-mark",
+      "text": "Women's 10,000 m world record before Chebet: Letesenbet Gidey 29:01.03, Hengelo, 8 Jun 2021",
+      "value": 1741.03,
+      "unit": "seconds",
+      "decimals": 2,
+      "source": {
+        "publisher": "World Athletics",
+        "title": "Ratified: world records for Chebet, Duplantis, McLaughlin-Levrone, Chepngetich and Kawano",
+        "url": "https://worldathletics.org/news/press-releases/ratified-world-records-chebet-duplantis-mclaughlin-levrone-chepngetich-kawano",
+        "published": "2024-12-11",
+        "accessed": "2026-09-27",
+        "quote": "29:01.03 set by Letesenbet Gidey in Hengelo on 8 June 2021"
+      }
+    },
+    {
+      "id": "wmar-mark",
+      "text": "Women's marathon world record (mixed race), Ruth Chepngetich (KEN), Chicago, 13 Oct 2024: 2:09:56 (ratified 11 Dec 2024)",
+      "value": 7796,
+      "unit": "seconds",
+      "decimals": 0,
+      "source": {
+        "publisher": "World Athletics",
+        "title": "Ratified: world records for Chebet, Duplantis, McLaughlin-Levrone, Chepngetich and Kawano",
+        "url": "https://worldathletics.org/news/press-releases/ratified-world-records-chebet-duplantis-mclaughlin-levrone-chepngetich-kawano",
+        "published": "2024-12-11",
+        "accessed": "2026-09-27",
+        "quote": "2:09:56 (mx) Ruth Chepngetich (KEN) Chicago, 13 October 2024"
+      }
+    },
+    {
+      "id": "wmar-year",
+      "text": "Year the women's marathon world record was set (Chepngetich, Chicago, 13 Oct 2024)",
+      "value": 2024,
+      "unit": "year",
+      "decimals": 0,
+      "source": {
+        "publisher": "World Athletics",
+        "title": "Ratified: world records for Chebet, Duplantis, McLaughlin-Levrone, Chepngetich and Kawano",
+        "url": "https://worldathletics.org/news/press-releases/ratified-world-records-chebet-duplantis-mclaughlin-levrone-chepngetich-kawano",
+        "published": "2024-12-11",
+        "accessed": "2026-09-27",
+        "quote": "2:09:56 (mx) Ruth Chepngetich (KEN) Chicago, 13 October 2024"
+      }
+    },
+    {
+      "id": "wmar-prev-mark",
+      "text": "Women's marathon world record before Chicago 2024: Tigist Assefa 2:11:53, Berlin, 24 Sep 2023",
+      "value": 7913,
+      "unit": "seconds",
+      "decimals": 0,
+      "source": {
+        "publisher": "World Athletics",
+        "title": "Ratified: world records for Chebet, Duplantis, McLaughlin-Levrone, Chepngetich and Kawano",
+        "url": "https://worldathletics.org/news/press-releases/ratified-world-records-chebet-duplantis-mclaughlin-levrone-chepngetich-kawano",
+        "published": "2024-12-11",
+        "accessed": "2026-09-27",
+        "quote": "2:11:53, set by Ethiopia's Tigist Assefa in Berlin on 24 September 2023."
+      }
+    },
+    {
+      "id": "wmar-gain-2024",
+      "text": "Seconds Chepngetich took off the women's marathon world record in Chicago 2024 (2:11:53 to 2:09:56)",
+      "value": 117,
+      "unit": "seconds",
+      "decimals": 0,
+      "derive": {
+        "op": "diff",
+        "of": [
+          "wmar-prev-mark",
+          "wmar-mark"
+        ]
+      }
+    },
+    {
+      "id": "wmar-holder-ban-years",
+      "text": "Length of the doping ban the Athletics Integrity Unit imposed on Chepngetich in Oct 2025 (hydrochlorothiazide, sample of 14 Mar 2025)",
+      "value": 3,
+      "unit": "years",
+      "decimals": 0,
+      "source": {
+        "publisher": "Athletics Weekly",
+        "title": "Ruth Chepngetich banned for three years for doping",
+        "url": "https://athleticsweekly.com/news/ruth-chepngetich-banned-for-three-years-for-doping-1040008418/",
+        "published": "2025-10-23",
+        "accessed": "2026-09-27",
+        "quote": "has been banned for three years after an investigation by the Athletics Integrity Unit"
+      }
+    },
+    {
+      "id": "wmar-holder-sample-concentration",
+      "text": "Estimated hydrochlorothiazide concentration in Chepngetich's urine sample of 14 Mar 2025, per the AIU",
+      "value": 3800,
+      "unit": "ng/mL",
+      "decimals": 0,
+      "source": {
+        "publisher": "Athletics Weekly",
+        "title": "Ruth Chepngetich banned for three years for doping",
+        "url": "https://athleticsweekly.com/news/ruth-chepngetich-banned-for-three-years-for-doping-1040008418/",
+        "published": "2025-10-23",
+        "accessed": "2026-09-27",
+        "quote": "Chepngetich had an estimated concentration of 3800 ng/mL in her urine"
+      }
+    },
+    {
+      "id": "wmar-holder-sample-year",
+      "text": "Year of Chepngetich's positive sample (14 Mar 2025); results before that date, including the 2:09:56 record, stand",
+      "value": 2025,
+      "unit": "year",
+      "decimals": 0,
+      "source": {
+        "publisher": "CITIUS Mag",
+        "title": "Marathon World Record Holder Ruth Chepngetich Banned Three Years After Positive Test for Banned Diuretic",
+        "url": "https://citiusmag.com/articles/ruth-chepngetich-banned-three-years-doping-athletics-integrity-unit-admission",
+        "published": "2025-10-23",
+        "accessed": "2026-09-27",
+        "quote": "All of Chepngetich's results prior to March 14th, including the marathon world record, still stand."
+      }
+    },
+    {
+      "id": "wmar-wo-mark",
+      "text": "Women-only marathon world record, Tigst Assefa (ETH), London, 26 Apr 2026: 2:15:41 (ratified 23 Jul 2026)",
+      "value": 8141,
+      "unit": "seconds",
+      "decimals": 0,
+      "source": {
+        "publisher": "World Athletics",
+        "title": "Sawe breaks two-hour barrier with 1:59:30 world record at London Marathon",
+        "url": "https://worldathletics.org/news/report/sawe-two-hour-assefa-world-record-london-marathon",
+        "published": "2026-04-26",
+        "accessed": "2026-09-27",
+        "quote": "Assefa gradually edged clear to secure victory in 2:15:41, taking nine seconds off her own global mark"
+      }
+    },
+    {
+      "id": "wmar-wo-prev-mark",
+      "text": "Women-only marathon world record before 2026: Tigist Assefa 2:15:50, London, 27 Apr 2025 (ratified 4 Jul 2025)",
+      "value": 8150,
+      "unit": "seconds",
+      "decimals": 0,
+      "source": {
+        "publisher": "World Athletics",
+        "title": "Ratified: world records for Assefa, Stano and Dunfee",
+        "url": "https://worldathletics.org/news/press-releases/ratified-world-records-assefa-stano-dunfee",
+        "published": "2025-07-04",
+        "accessed": "2026-09-27",
+        "quote": "2:15:50 Tigist Assefa (ETH) London, 27 April 2025"
+      }
+    },
+    {
+      "id": "w100h-mark",
+      "text": "Women's 100 m hurdles ratified world record, Tobi Amusan (NGR), Eugene, 24 Jul 2022",
+      "value": 12.12,
+      "unit": "seconds",
+      "decimals": 2,
+      "source": {
+        "publisher": "Wikipedia",
+        "title": "List of world records in athletics",
+        "url": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+        "accessed": "2026-09-27",
+        "quote": "12.12 | +0.9 | Tobi Amusan | NGR | 24 Jul 2022 | World Championships, Eugene"
+      }
+    },
+    {
+      "id": "w100h-year",
+      "text": "Year the ratified women's 100 m hurdles world record was set (Amusan, Eugene, 24 Jul 2022)",
+      "value": 2022,
+      "unit": "year",
+      "decimals": 0,
+      "source": {
+        "publisher": "Wikipedia",
+        "title": "List of world records in athletics",
+        "url": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+        "accessed": "2026-09-27",
+        "quote": "12.12 | +0.9 | Tobi Amusan | NGR | 24 Jul 2022 | World Championships, Eugene"
+      }
+    },
+    {
+      "id": "w400h-mark",
+      "text": "Women's 400 m hurdles world record, Sydney McLaughlin-Levrone (USA), Paris, 8 Aug 2024 (ratified 11 Dec 2024)",
+      "value": 50.37,
+      "unit": "seconds",
+      "decimals": 2,
+      "source": {
+        "publisher": "World Athletics",
+        "title": "Ratified: world records for Chebet, Duplantis, McLaughlin-Levrone, Chepngetich and Kawano",
+        "url": "https://worldathletics.org/news/press-releases/ratified-world-records-chebet-duplantis-mclaughlin-levrone-chepngetich-kawano",
+        "published": "2024-12-11",
+        "accessed": "2026-09-27",
+        "quote": "50.37 Sydney McLaughlin-Levrone (USA) Paris, 8 August 2024"
+      }
+    },
+    {
+      "id": "w400h-year",
+      "text": "Year the women's 400 m hurdles world record was set (McLaughlin-Levrone, Paris, 8 Aug 2024)",
+      "value": 2024,
+      "unit": "year",
+      "decimals": 0,
+      "source": {
+        "publisher": "World Athletics",
+        "title": "Ratified: world records for Chebet, Duplantis, McLaughlin-Levrone, Chepngetich and Kawano",
+        "url": "https://worldathletics.org/news/press-releases/ratified-world-records-chebet-duplantis-mclaughlin-levrone-chepngetich-kawano",
+        "published": "2024-12-11",
+        "accessed": "2026-09-27",
+        "quote": "50.37 Sydney McLaughlin-Levrone (USA) Paris, 8 August 2024"
+      }
+    },
+    {
+      "id": "wsc-mark",
+      "text": "Women's 3000 m steeplechase world record, Beatrice Chepkoech (KEN), Monaco, 20 Jul 2018: 8:44.32",
+      "value": 524.32,
+      "unit": "seconds",
+      "decimals": 2,
+      "source": {
+        "publisher": "Wikipedia",
+        "title": "List of world records in athletics",
+        "url": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+        "accessed": "2026-09-27",
+        "quote": "8:44.32 | — | Beatrice Chepkoech | KEN | 20 Jul 2018 | Herculis, Monaco"
+      }
+    },
+    {
+      "id": "wsc-year",
+      "text": "Year the women's 3000 m steeplechase world record was set (Chepkoech, Monaco, 20 Jul 2018)",
+      "value": 2018,
+      "unit": "year",
+      "decimals": 0,
+      "source": {
+        "publisher": "Wikipedia",
+        "title": "List of world records in athletics",
+        "url": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+        "accessed": "2026-09-27",
+        "quote": "8:44.32 | — | Beatrice Chepkoech | KEN | 20 Jul 2018 | Herculis, Monaco"
+      }
+    },
+    {
+      "id": "whj-mark",
+      "text": "Women's high jump world record, Yaroslava Mahuchikh (UKR), Paris, 7 Jul 2024 (ratified 24 Oct 2024)",
+      "value": 2.1,
+      "unit": "m",
+      "decimals": 2,
+      "source": {
+        "publisher": "World Athletics",
+        "title": "Ratified: Mahuchikh's world high jump record",
+        "url": "https://worldathletics.org/news/press-releases/ratified-world-records-mahuchikh-eisa-hibbert-yan",
+        "published": "2024-10-24",
+        "accessed": "2026-09-27",
+        "quote": "2.10m Yaroslava Mahuchikh (UKR) Paris 7 July 2024"
+      }
+    },
+    {
+      "id": "whj-year",
+      "text": "Year the women's high jump world record was set (Mahuchikh, Paris, 7 Jul 2024)",
+      "value": 2024,
+      "unit": "year",
+      "decimals": 0,
+      "source": {
+        "publisher": "World Athletics",
+        "title": "Ratified: Mahuchikh's world high jump record",
+        "url": "https://worldathletics.org/news/press-releases/ratified-world-records-mahuchikh-eisa-hibbert-yan",
+        "published": "2024-10-24",
+        "accessed": "2026-09-27",
+        "quote": "2.10m Yaroslava Mahuchikh (UKR) Paris 7 July 2024"
+      }
+    },
+    {
+      "id": "whj-prev-mark",
+      "text": "Women's high jump world record before 2024: Stefka Kostadinova (BUL), Rome, 30 Aug 1987",
+      "value": 2.09,
+      "unit": "m",
+      "decimals": 2,
+      "source": {
+        "publisher": "Wikipedia",
+        "title": "Women's high jump world record progression",
+        "url": "https://en.wikipedia.org/wiki/Women%27s_high_jump_world_record_progression",
+        "accessed": "2026-09-27",
+        "quote": "2.09 m (6 ft 10+1⁄4 in) | Stefka Kostadinova (BUL) | 30 August 1987 | Rome"
+      }
+    },
+    {
+      "id": "whj-prev-year",
+      "text": "Year of the previous women's high jump world record (Kostadinova 2.09, Rome, 30 Aug 1987)",
+      "value": 1987,
+      "unit": "year",
+      "decimals": 0,
+      "source": {
+        "publisher": "World Athletics",
+        "title": "Ratified: Mahuchikh's world high jump record",
+        "url": "https://worldathletics.org/news/press-releases/ratified-world-records-mahuchikh-eisa-hibbert-yan",
+        "published": "2024-10-24",
+        "accessed": "2026-09-27",
+        "quote": "the world record set by Bulgaria's Stefka Kostadinova at the World Championships in Rome on 30 August 1987"
+      }
+    },
+    {
+      "id": "whj-age-when-broken",
+      "text": "Calendar years the Kostadinova high jump record stood before Mahuchikh broke it (1987 to 2024)",
+      "value": 37,
+      "unit": "years",
+      "decimals": 0,
+      "derive": {
+        "op": "diff",
+        "of": [
+          "whj-year",
+          "whj-prev-year"
+        ]
+      }
+    },
+    {
+      "id": "whj-gain",
+      "text": "Metres added to the women's high jump world record in 2024 (2.09 to 2.10)",
+      "value": 0.01,
+      "unit": "m",
+      "decimals": 2,
+      "derive": {
+        "op": "diff",
+        "of": [
+          "whj-mark",
+          "whj-prev-mark"
+        ]
+      }
+    },
+    {
+      "id": "wpv-mark",
+      "text": "Women's pole vault world record, Yelena Isinbayeva (RUS), Zurich, 28 Aug 2009",
+      "value": 5.06,
+      "unit": "m",
+      "decimals": 2,
+      "source": {
+        "publisher": "Wikipedia",
+        "title": "List of world records in athletics",
+        "url": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+        "accessed": "2026-09-27",
+        "quote": "5.06m | — | Yelena Isinbayeva | RUS | 28 Aug 2009 | Weltklasse Zürich, Zürich"
+      }
+    },
+    {
+      "id": "wpv-year",
+      "text": "Year the women's pole vault world record was set (Isinbayeva, Zurich, 28 Aug 2009)",
+      "value": 2009,
+      "unit": "year",
+      "decimals": 0,
+      "source": {
+        "publisher": "Wikipedia",
+        "title": "List of world records in athletics",
+        "url": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+        "accessed": "2026-09-27",
+        "quote": "5.06m | — | Yelena Isinbayeva | RUS | 28 Aug 2009 | Weltklasse Zürich, Zürich"
+      }
+    },
+    {
+      "id": "wlj-mark",
+      "text": "Women's long jump world record, Galina Chistyakova (URS), Leningrad, 11 Jun 1988",
+      "value": 7.52,
+      "unit": "m",
+      "decimals": 2,
+      "source": {
+        "publisher": "Wikipedia",
+        "title": "List of world records in athletics",
+        "url": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+        "accessed": "2026-09-27",
+        "quote": "7.52m | +1.4 | Galina Chistyakova | URS | 11 Jun 1988 | Brothers Znamensky Memorial, Leningrad"
+      }
+    },
+    {
+      "id": "wlj-year",
+      "text": "Year the women's long jump world record was set (Chistyakova, Leningrad, 11 Jun 1988)",
+      "value": 1988,
+      "unit": "year",
+      "decimals": 0,
+      "source": {
+        "publisher": "Wikipedia",
+        "title": "List of world records in athletics",
+        "url": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+        "accessed": "2026-09-27",
+        "quote": "7.52m | +1.4 | Galina Chistyakova | URS | 11 Jun 1988 | Brothers Znamensky Memorial, Leningrad"
+      }
+    },
+    {
+      "id": "wtj-mark",
+      "text": "Women's triple jump world record, Yulimar Rojas (VEN), Belgrade (indoor), 20 Mar 2022",
+      "value": 15.74,
+      "unit": "m",
+      "decimals": 2,
+      "source": {
+        "publisher": "Wikipedia",
+        "title": "List of world records in athletics",
+        "url": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+        "accessed": "2026-09-27",
+        "quote": "15.74m | N/A | Yulimar Rojas | VEN | 20 Mar 2022 | World Championships, Belgrade | indoor"
+      }
+    },
+    {
+      "id": "wtj-year",
+      "text": "Year the women's triple jump world record was set (Rojas, Belgrade indoor, 20 Mar 2022)",
+      "value": 2022,
+      "unit": "year",
+      "decimals": 0,
+      "source": {
+        "publisher": "Wikipedia",
+        "title": "List of world records in athletics",
+        "url": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+        "accessed": "2026-09-27",
+        "quote": "15.74m | N/A | Yulimar Rojas | VEN | 20 Mar 2022 | World Championships, Belgrade | indoor"
+      }
+    },
+    {
+      "id": "wsp-mark",
+      "text": "Women's shot put world record, Natalya Lisovskaya (URS), Moscow, 7 Jun 1987",
+      "value": 22.63,
+      "unit": "m",
+      "decimals": 2,
+      "source": {
+        "publisher": "Wikipedia",
+        "title": "List of world records in athletics",
+        "url": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+        "accessed": "2026-09-27",
+        "quote": "22.63m | — | Natalya Lisovskaya | URS | 7 Jun 1987 | Brothers Znamensky Memorial, Moscow"
+      }
+    },
+    {
+      "id": "wsp-year",
+      "text": "Year the women's shot put world record was set (Lisovskaya, Moscow, 7 Jun 1987)",
+      "value": 1987,
+      "unit": "year",
+      "decimals": 0,
+      "source": {
+        "publisher": "Wikipedia",
+        "title": "List of world records in athletics",
+        "url": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+        "accessed": "2026-09-27",
+        "quote": "22.63m | — | Natalya Lisovskaya | URS | 7 Jun 1987 | Brothers Znamensky Memorial, Moscow"
+      }
+    },
+    {
+      "id": "wdt-mark",
+      "text": "Women's discus world record, Gabriele Reinsch (GDR), Neubrandenburg, 9 Jul 1988",
+      "value": 76.8,
+      "unit": "m",
+      "decimals": 2,
+      "source": {
+        "publisher": "Wikipedia",
+        "title": "List of world records in athletics",
+        "url": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+        "accessed": "2026-09-27",
+        "quote": "76.80m | — | Gabriele Reinsch | GDR | 9 Jul 1988 | East Germany-Italy tournament, Neubrandenburg"
+      }
+    },
+    {
+      "id": "wdt-year",
+      "text": "Year the women's discus world record was set (Reinsch, Neubrandenburg, 9 Jul 1988)",
+      "value": 1988,
+      "unit": "year",
+      "decimals": 0,
+      "source": {
+        "publisher": "Wikipedia",
+        "title": "List of world records in athletics",
+        "url": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+        "accessed": "2026-09-27",
+        "quote": "76.80m | — | Gabriele Reinsch | GDR | 9 Jul 1988 | East Germany-Italy tournament, Neubrandenburg"
+      }
+    },
+    {
+      "id": "wht-mark",
+      "text": "Women's hammer throw world record, Anita Wlodarczyk (POL), Warsaw, 28 Aug 2016",
+      "value": 82.98,
+      "unit": "m",
+      "decimals": 2,
+      "source": {
+        "publisher": "Wikipedia",
+        "title": "List of world records in athletics",
+        "url": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+        "accessed": "2026-09-27",
+        "quote": "82.98m | — | Anita Włodarczyk | POL | 28 Aug 2016 | Kamila Skolimowska Memorial, Warsaw"
+      }
+    },
+    {
+      "id": "wht-year",
+      "text": "Year the women's hammer world record was set (Wlodarczyk, Warsaw, 28 Aug 2016)",
+      "value": 2016,
+      "unit": "year",
+      "decimals": 0,
+      "source": {
+        "publisher": "Wikipedia",
+        "title": "List of world records in athletics",
+        "url": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+        "accessed": "2026-09-27",
+        "quote": "82.98m | — | Anita Włodarczyk | POL | 28 Aug 2016 | Kamila Skolimowska Memorial, Warsaw"
+      }
+    },
+    {
+      "id": "wjt-mark",
+      "text": "Women's javelin world record (current 1999 specification), Barbora Spotakova (CZE), Stuttgart, 13 Sep 2008",
+      "value": 72.28,
+      "unit": "m",
+      "decimals": 2,
+      "source": {
+        "publisher": "Wikipedia",
+        "title": "List of world records in athletics",
+        "url": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+        "accessed": "2026-09-27",
+        "quote": "72.28m | — | Barbora Špotáková | CZE | 13 Sep 2008 | World Athletics Final, Stuttgart"
+      }
+    },
+    {
+      "id": "wjt-year",
+      "text": "Year the women's javelin world record was set (Spotakova, Stuttgart, 13 Sep 2008)",
+      "value": 2008,
+      "unit": "year",
+      "decimals": 0,
+      "source": {
+        "publisher": "Wikipedia",
+        "title": "List of world records in athletics",
+        "url": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+        "accessed": "2026-09-27",
+        "quote": "72.28m | — | Barbora Špotáková | CZE | 13 Sep 2008 | World Athletics Final, Stuttgart"
+      }
+    },
+    {
+      "id": "whep-mark",
+      "text": "Women's heptathlon world record, Jackie Joyner-Kersee (USA), Seoul, 24 Sep 1988",
+      "value": 7291,
+      "unit": "points",
+      "decimals": 0,
+      "source": {
+        "publisher": "Wikipedia",
+        "title": "List of world records in athletics",
+        "url": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+        "accessed": "2026-09-27",
+        "quote": "7291 pts | — | Jackie Joyner-Kersee | USA | 24 Sep 1988 | Olympic Games, Seoul"
+      }
+    },
+    {
+      "id": "whep-year",
+      "text": "Year the women's heptathlon world record was set (Joyner-Kersee, Seoul, 24 Sep 1988)",
+      "value": 1988,
+      "unit": "year",
+      "decimals": 0,
+      "source": {
+        "publisher": "Wikipedia",
+        "title": "List of world records in athletics",
+        "url": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+        "accessed": "2026-09-27",
+        "quote": "7291 pts | — | Jackie Joyner-Kersee | USA | 24 Sep 1988 | Olympic Games, Seoul"
+      }
+    },
+    {
+      "id": "events-men",
+      "text": "Number of men's individual Olympic-programme events in the timeline set (no relays, no race walks), Sep 2026",
+      "value": 20,
+      "unit": "events",
+      "decimals": 0,
+      "source": {
+        "publisher": "Wikipedia",
+        "title": "List of world records in athletics",
+        "url": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+        "accessed": "2026-09-27",
+        "quote": "100 m | 200 m | 400 m | 800 m | 1500 m | 5000 m | 10,000 m | Marathon | 110 m hurdles | 400 m hurdles | 3000 m steeplechase | High jump | Pole vault | Long jump | Triple jump | Shot put | Discus | Hammer throw | Javelin throw | Decathlon"
+      }
+    },
+    {
+      "id": "events-women",
+      "text": "Number of women's individual Olympic-programme events in the timeline set (no relays, no race walks), Sep 2026",
+      "value": 20,
+      "unit": "events",
+      "decimals": 0,
+      "source": {
+        "publisher": "Wikipedia",
+        "title": "List of world records in athletics",
+        "url": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+        "accessed": "2026-09-27",
+        "quote": "100 m | 200 m | 400 m | 800 m | 1500 m | 5000 m | 10,000 m | Marathon | 100 m hurdles | 400 m hurdles | 3000 m steeplechase | High jump | Pole vault | Long jump | Triple jump | Shot put | Discus | Hammer | Javelin | Heptathlon"
+      }
+    },
+    {
+      "id": "events-total",
+      "text": "Number of individual Olympic-programme world records on the timeline (men plus women), Sep 2026",
+      "value": 40,
+      "unit": "events",
+      "decimals": 0,
+      "derive": {
+        "op": "sum",
+        "of": [
+          "events-men",
+          "events-women"
+        ]
+      }
+    },
+    {
+      "id": "records-pre-1990",
+      "text": "Standing records in the 40-event set that were set before 1990 (tally of date cells), Sep 2026",
+      "value": 9,
+      "unit": "records",
+      "decimals": 0,
+      "source": {
+        "publisher": "Wikipedia",
+        "title": "List of world records in athletics",
+        "url": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+        "accessed": "2026-09-27",
+        "quote": "26 Jul 1983 | 6 Oct 1985 | 30 Aug 1986 | 7 Jun 1987 | 16 Jul 1988 | 29 Sep 1988 | 11 Jun 1988 | 9 Jul 1988 | 24 Sep 1988"
+      }
+    },
+    {
+      "id": "records-pre-1990-women",
+      "text": "Women's standing records in the 20-event set that were set before 1990 (tally of date cells), Sep 2026",
+      "value": 8,
+      "unit": "records",
+      "decimals": 0,
+      "source": {
+        "publisher": "Wikipedia",
+        "title": "List of world records in athletics",
+        "url": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+        "accessed": "2026-09-27",
+        "quote": "26 Jul 1983 | 6 Oct 1985 | 7 Jun 1987 | 16 Jul 1988 | 29 Sep 1988 | 11 Jun 1988 | 9 Jul 1988 | 24 Sep 1988"
+      }
+    },
+    {
+      "id": "records-pre-1990-men",
+      "text": "Men's standing records in the 20-event set that were set before 1990 (only the hammer, 30 Aug 1986), Sep 2026",
+      "value": 1,
+      "unit": "records",
+      "decimals": 0,
+      "derive": {
+        "op": "diff",
+        "of": [
+          "records-pre-1990",
+          "records-pre-1990-women"
+        ]
+      }
+    },
+    {
+      "id": "share-pre-1990",
+      "text": "Share of the 40 standing records that were set before 1990",
+      "value": 22.5,
+      "unit": "%",
+      "decimals": 1,
+      "derive": {
+        "op": "share",
+        "of": [
+          "records-pre-1990",
+          "events-total"
+        ]
+      }
+    },
+    {
+      "id": "share-pre-1990-women",
+      "text": "Share of the 20 women's standing records that were set before 1990",
+      "value": 40.0,
+      "unit": "%",
+      "decimals": 1,
+      "derive": {
+        "op": "share",
+        "of": [
+          "records-pre-1990-women",
+          "events-women"
+        ]
+      }
+    },
+    {
+      "id": "records-since-2020",
+      "text": "Standing records in the 40-event set that were set in 2020 or later (the year of the World Athletics shoe rule), Sep 2026",
+      "value": 17,
+      "unit": "records",
+      "decimals": 0,
+      "source": {
+        "publisher": "Wikipedia",
+        "title": "List of world records in athletics",
+        "url": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+        "accessed": "2026-09-27",
+        "quote": "14 Aug 2020 | 7 Oct 2020 | 26 Apr 2026 | 10 Jun 2026 | 3 Aug 2021 | 9 Jun 2023 | 12 Mar 2026 | 27 May 2023 | 13 Apr 2025 | 05 Jul 2025 | 05 Jul 2025 | 25 May 2024 | 13 Oct 2024 | 24 Jul 2022 | 8 Aug 2024 | 7 Jul 2024 | 20 Mar 2022"
+      }
+    },
+    {
+      "id": "share-since-2020",
+      "text": "Share of the 40 standing records that were set in 2020 or later",
+      "value": 42.5,
+      "unit": "%",
+      "decimals": 1,
+      "derive": {
+        "op": "share",
+        "of": [
+          "records-since-2020",
+          "events-total"
+        ]
+      }
+    },
+    {
+      "id": "records-since-1990",
+      "text": "Standing records in the 40-event set that were set in 1990 or later",
+      "value": 31,
+      "unit": "records",
+      "decimals": 0,
+      "derive": {
+        "op": "diff",
+        "of": [
+          "events-total",
+          "records-pre-1990"
+        ]
+      }
+    },
+    {
+      "id": "records-1990-2019",
+      "text": "Standing records in the 40-event set that were set between 1990 and 2019 inclusive (the quiet middle)",
+      "value": 14,
+      "unit": "records",
+      "decimals": 0,
+      "derive": {
+        "op": "diff",
+        "of": [
+          "records-since-1990",
+          "records-since-2020"
+        ]
+      }
+    },
+    {
+      "id": "share-1990-2019",
+      "text": "Share of the 40 standing records that were set between 1990 and 2019 inclusive",
+      "value": 35.0,
+      "unit": "%",
+      "decimals": 1,
+      "derive": {
+        "op": "share",
+        "of": [
+          "records-1990-2019",
+          "events-total"
+        ]
+      }
+    },
+    {
+      "id": "records-since-2023",
+      "text": "Standing records in the 40-event set that were set in 2023 or later (tally of date cells), Sep 2026",
+      "value": 12,
+      "unit": "records",
+      "decimals": 0,
+      "source": {
+        "publisher": "Wikipedia",
+        "title": "List of world records in athletics",
+        "url": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+        "accessed": "2026-09-27",
+        "quote": "26 Apr 2026 | 10 Jun 2026 | 9 Jun 2023 | 12 Mar 2026 | 27 May 2023 | 13 Apr 2025 | 05 Jul 2025 | 05 Jul 2025 | 25 May 2024 | 13 Oct 2024 | 8 Aug 2024 | 7 Jul 2024"
+      }
+    },
+    {
+      "id": "share-since-2023",
+      "text": "Share of the 40 standing records that were set in 2023 or later",
+      "value": 30.0,
+      "unit": "%",
+      "decimals": 1,
+      "derive": {
+        "op": "share",
+        "of": [
+          "records-since-2023",
+          "events-total"
+        ]
+      }
+    },
+    {
+      "id": "median-year",
+      "text": "Median year the 40 standing records were set (20th and 21st of the sorted years are both 2016: men's 400 m and women's hammer)",
+      "value": 2016,
+      "unit": "year",
+      "decimals": 0,
+      "source": {
+        "publisher": "Wikipedia",
+        "title": "List of world records in athletics",
+        "url": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+        "accessed": "2026-09-27",
+        "quote": "43.03 | | Wayde van Niekerk | RSA | 14 Aug 2016 | Rio de Janeiro | 82.98m | — | Anita Włodarczyk | POL | 28 Aug 2016 | Kamila Skolimowska Memorial, Warsaw"
+      }
+    },
+    {
+      "id": "median-age",
+      "text": "Median age of a standing world record in the 40-event set in 2026, calendar years",
+      "value": 10,
+      "unit": "years",
+      "decimals": 0,
+      "derive": {
+        "op": "diff",
+        "of": [
+          "year-now",
+          "median-year"
+        ]
+      }
+    },
+    {
+      "id": "m100-first-mark",
+      "text": "First IAAF-ratified men's 100 m world record, Donald Lippincott (USA), Stockholm, 6 Jul 1912",
+      "value": 10.6,
+      "unit": "seconds",
+      "decimals": 1,
+      "source": {
+        "publisher": "World Athletics",
+        "title": "100 years of the 100 metres World record - IAAF Centenary",
+        "url": "https://worldathletics.org/news/press-release/100-years-of-the-100-metres-world-record-ia",
+        "published": "2012-07-06",
+        "accessed": "2026-09-27",
+        "quote": "On 6 July 1912 Lippincott ran a time of 10.6 in the 100m qualifying rounds"
+      }
+    },
+    {
+      "id": "m100-first-year",
+      "text": "Year of the first IAAF-ratified men's 100 m world record (Lippincott, Stockholm, 6 Jul 1912)",
+      "value": 1912,
+      "unit": "year",
+      "decimals": 0,
+      "source": {
+        "publisher": "Wikipedia",
+        "title": "Men's 100 metres world record progression",
+        "url": "https://en.wikipedia.org/wiki/Men%27s_100_metres_world_record_progression",
+        "accessed": "2026-09-27",
+        "quote": "10.6 | — | — | Donald Lippincott | United States | Stockholm, Sweden | 6 July 1912"
+      }
+    },
+    {
+      "id": "m100-1968-mark",
+      "text": "Men's 100 m world record, Jim Hines (USA), Mexico City, 14 Oct 1968, first fully automatic-timed sub-10",
+      "value": 9.95,
+      "unit": "seconds",
+      "decimals": 2,
+      "source": {
+        "publisher": "Wikipedia",
+        "title": "Men's 100 metres world record progression",
+        "url": "https://en.wikipedia.org/wiki/Men%27s_100_metres_world_record_progression",
+        "accessed": "2026-09-27",
+        "quote": "9.95 | +0.3 | ±0.0 | Jim Hines | United States | Mexico City, Mexico | 14 October 1968"
+      }
+    },
+    {
+      "id": "m100-1968-year",
+      "text": "Year of Jim Hines's 9.95 men's 100 m world record (Mexico City, 14 Oct 1968)",
+      "value": 1968,
+      "unit": "year",
+      "decimals": 0,
+      "source": {
+        "publisher": "Wikipedia",
+        "title": "Men's 100 metres world record progression",
+        "url": "https://en.wikipedia.org/wiki/Men%27s_100_metres_world_record_progression",
+        "accessed": "2026-09-27",
+        "quote": "9.95 | +0.3 | ±0.0 | Jim Hines | United States | Mexico City, Mexico | 14 October 1968"
+      }
+    },
+    {
+      "id": "m100-pct-1912-2009",
+      "text": "Percent change in the men's 100 m world record from 10.6 (1912) to 9.58 (2009); negative means faster",
+      "value": -9.6,
+      "unit": "%",
+      "decimals": 1,
+      "derive": {
+        "op": "pct-change",
+        "of": [
+          "m100-first-mark",
+          "m100-mark"
+        ]
+      }
+    },
+    {
+      "id": "m100-span-1912-2009",
+      "text": "Years between the first men's 100 m world record (1912) and the current one (2009)",
+      "value": 97,
+      "unit": "years",
+      "decimals": 0,
+      "derive": {
+        "op": "diff",
+        "of": [
+          "m100-year",
+          "m100-first-year"
+        ]
+      }
+    },
+    {
+      "id": "m100-rate-1912-2009",
+      "text": "Average yearly improvement of the men's 100 m world record, 1912 to 2009, percent per year (negative = faster)",
+      "value": -0.1,
+      "unit": "% per year",
+      "decimals": 2,
+      "derive": {
+        "op": "ratio",
+        "of": [
+          "m100-pct-1912-2009",
+          "m100-span-1912-2009"
+        ]
+      }
+    },
+    {
+      "id": "m100-pct-1912-1968",
+      "text": "Percent change in the men's 100 m world record from 10.6 (1912) to 9.95 (1968)",
+      "value": -6.1,
+      "unit": "%",
+      "decimals": 1,
+      "derive": {
+        "op": "pct-change",
+        "of": [
+          "m100-first-mark",
+          "m100-1968-mark"
+        ]
+      }
+    },
+    {
+      "id": "m100-span-1912-1968",
+      "text": "Years between the 1912 and 1968 men's 100 m world records",
+      "value": 56,
+      "unit": "years",
+      "decimals": 0,
+      "derive": {
+        "op": "diff",
+        "of": [
+          "m100-1968-year",
+          "m100-first-year"
+        ]
+      }
+    },
+    {
+      "id": "m100-rate-1912-1968",
+      "text": "Average yearly improvement of the men's 100 m world record, 1912 to 1968, percent per year",
+      "value": -0.11,
+      "unit": "% per year",
+      "decimals": 2,
+      "derive": {
+        "op": "ratio",
+        "of": [
+          "m100-pct-1912-1968",
+          "m100-span-1912-1968"
+        ]
+      }
+    },
+    {
+      "id": "m100-pct-1968-2009",
+      "text": "Percent change in the men's 100 m world record from 9.95 (1968) to 9.58 (2009)",
+      "value": -3.7,
+      "unit": "%",
+      "decimals": 1,
+      "derive": {
+        "op": "pct-change",
+        "of": [
+          "m100-1968-mark",
+          "m100-mark"
+        ]
+      }
+    },
+    {
+      "id": "m100-span-1968-2009",
+      "text": "Years between the 1968 and 2009 men's 100 m world records",
+      "value": 41,
+      "unit": "years",
+      "decimals": 0,
+      "derive": {
+        "op": "diff",
+        "of": [
+          "m100-year",
+          "m100-1968-year"
+        ]
+      }
+    },
+    {
+      "id": "m100-rate-1968-2009",
+      "text": "Average yearly improvement of the men's 100 m world record, 1968 to 2009, percent per year",
+      "value": -0.09,
+      "unit": "% per year",
+      "decimals": 2,
+      "derive": {
+        "op": "ratio",
+        "of": [
+          "m100-pct-1968-2009",
+          "m100-span-1968-2009"
+        ]
+      }
+    },
+    {
+      "id": "m100-age",
+      "text": "Years the men's 100 m world record has stood unbroken as of 2026 (set 2009)",
+      "value": 17,
+      "unit": "years",
+      "decimals": 0,
+      "derive": {
+        "op": "diff",
+        "of": [
+          "year-now",
+          "m100-year"
+        ]
+      }
+    },
+    {
+      "id": "mmar-first-mark",
+      "text": "First marathon world best in the IAAF progression, Johnny Hayes (USA), London Olympics, 24 Jul 1908: 2:55:18.4",
+      "value": 10518.4,
+      "unit": "seconds",
+      "decimals": 1,
+      "source": {
+        "publisher": "Wikipedia",
+        "title": "Marathon world record progression",
+        "url": "https://en.wikipedia.org/wiki/Marathon_world_record_progression",
+        "accessed": "2026-09-27",
+        "quote": "2:55:18.4 | Johnny Hayes | United States | July 24, 1908 | London Olympics, England"
+      }
+    },
+    {
+      "id": "mmar-first-year",
+      "text": "Year of the first marathon world best in the IAAF progression (Hayes, London, 24 Jul 1908)",
+      "value": 1908,
+      "unit": "year",
+      "decimals": 0,
+      "source": {
+        "publisher": "Wikipedia",
+        "title": "Marathon world record progression",
+        "url": "https://en.wikipedia.org/wiki/Marathon_world_record_progression",
+        "accessed": "2026-09-27",
+        "quote": "2:55:18.4 | Johnny Hayes | United States | July 24, 1908 | London Olympics, England"
+      }
+    },
+    {
+      "id": "mmar-1967-mark",
+      "text": "Marathon world best, Derek Clayton (AUS), Fukuoka, 3 Dec 1967: 2:09:36.4, the first sub-2:10",
+      "value": 7776.4,
+      "unit": "seconds",
+      "decimals": 1,
+      "source": {
+        "publisher": "Wikipedia",
+        "title": "Marathon world record progression",
+        "url": "https://en.wikipedia.org/wiki/Marathon_world_record_progression",
+        "accessed": "2026-09-27",
+        "quote": "2:09:36.4 | Derek Clayton | Australia | December 3, 1967 | Fukuoka Marathon"
+      }
+    },
+    {
+      "id": "mmar-1967-year",
+      "text": "Year of Derek Clayton's 2:09:36.4 marathon world best (Fukuoka, 3 Dec 1967)",
+      "value": 1967,
+      "unit": "year",
+      "decimals": 0,
+      "source": {
+        "publisher": "Wikipedia",
+        "title": "Marathon world record progression",
+        "url": "https://en.wikipedia.org/wiki/Marathon_world_record_progression",
+        "accessed": "2026-09-27",
+        "quote": "2:09:36.4 | Derek Clayton | Australia | December 3, 1967 | Fukuoka Marathon"
+      }
+    },
+    {
+      "id": "mmar-pct-1908-2026",
+      "text": "Percent change in the men's marathon world best/record from 2:55:18.4 (1908) to 1:59:30 (2026); negative means faster",
+      "value": -31.8,
+      "unit": "%",
+      "decimals": 1,
+      "derive": {
+        "op": "pct-change",
+        "of": [
+          "mmar-first-mark",
+          "mmar-mark"
+        ]
+      }
+    },
+    {
+      "id": "mmar-span-1908-2026",
+      "text": "Years between the first marathon world best (1908) and the current record (2026)",
+      "value": 118,
+      "unit": "years",
+      "decimals": 0,
+      "derive": {
+        "op": "diff",
+        "of": [
+          "mmar-year",
+          "mmar-first-year"
+        ]
+      }
+    },
+    {
+      "id": "mmar-rate-1908-2026",
+      "text": "Average yearly improvement of the men's marathon record, 1908 to 2026, percent per year (negative = faster)",
+      "value": -0.27,
+      "unit": "% per year",
+      "decimals": 2,
+      "derive": {
+        "op": "ratio",
+        "of": [
+          "mmar-pct-1908-2026",
+          "mmar-span-1908-2026"
+        ]
+      }
+    },
+    {
+      "id": "mmar-pct-1908-1967",
+      "text": "Percent change in the men's marathon world best from 2:55:18.4 (1908) to 2:09:36.4 (1967)",
+      "value": -26.1,
+      "unit": "%",
+      "decimals": 1,
+      "derive": {
+        "op": "pct-change",
+        "of": [
+          "mmar-first-mark",
+          "mmar-1967-mark"
+        ]
+      }
+    },
+    {
+      "id": "mmar-span-1908-1967",
+      "text": "Years between the 1908 and 1967 marathon world bests",
+      "value": 59,
+      "unit": "years",
+      "decimals": 0,
+      "derive": {
+        "op": "diff",
+        "of": [
+          "mmar-1967-year",
+          "mmar-first-year"
+        ]
+      }
+    },
+    {
+      "id": "mmar-rate-1908-1967",
+      "text": "Average yearly improvement of the men's marathon world best, 1908 to 1967, percent per year",
+      "value": -0.44,
+      "unit": "% per year",
+      "decimals": 2,
+      "derive": {
+        "op": "ratio",
+        "of": [
+          "mmar-pct-1908-1967",
+          "mmar-span-1908-1967"
+        ]
+      }
+    },
+    {
+      "id": "mmar-pct-1967-2026",
+      "text": "Percent change in the men's marathon world best/record from 2:09:36.4 (1967) to 1:59:30 (2026)",
+      "value": -7.8,
+      "unit": "%",
+      "decimals": 1,
+      "derive": {
+        "op": "pct-change",
+        "of": [
+          "mmar-1967-mark",
+          "mmar-mark"
+        ]
+      }
+    },
+    {
+      "id": "mmar-span-1967-2026",
+      "text": "Years between the 1967 marathon world best and the 2026 record",
+      "value": 59,
+      "unit": "years",
+      "decimals": 0,
+      "derive": {
+        "op": "diff",
+        "of": [
+          "mmar-year",
+          "mmar-1967-year"
+        ]
+      }
+    },
+    {
+      "id": "mmar-rate-1967-2026",
+      "text": "Average yearly improvement of the men's marathon record, 1967 to 2026, percent per year",
+      "value": -0.13,
+      "unit": "% per year",
+      "decimals": 2,
+      "derive": {
+        "op": "ratio",
+        "of": [
+          "mmar-pct-1967-2026",
+          "mmar-span-1967-2026"
+        ]
+      }
+    },
+    {
+      "id": "mmar-kiptum-mark",
+      "text": "Men's marathon world record before Sawe: Kelvin Kiptum (KEN), Chicago, 8 Oct 2023: 2:00:35 (ratified 6 Feb 2024)",
+      "value": 7235,
+      "unit": "seconds",
+      "decimals": 0,
+      "source": {
+        "publisher": "World Athletics",
+        "title": "Ratified: Kiptum's world marathon record",
+        "url": "https://worldathletics.org/news/press-releases/ratified-world-marathon-record-kelvin-kiptum",
+        "published": "2024-02-06",
+        "accessed": "2026-09-27",
+        "quote": "2:00:35 Kelvin Kiptum (KEN) Chicago 8 October 2023"
+      }
+    },
+    {
+      "id": "mmar-kiptum-year",
+      "text": "Year of Kelvin Kiptum's 2:00:35 marathon world record (Chicago, 8 Oct 2023)",
+      "value": 2023,
+      "unit": "year",
+      "decimals": 0,
+      "source": {
+        "publisher": "World Athletics",
+        "title": "Ratified: Kiptum's world marathon record",
+        "url": "https://worldathletics.org/news/press-releases/ratified-world-marathon-record-kelvin-kiptum",
+        "published": "2024-02-06",
+        "accessed": "2026-09-27",
+        "quote": "2:00:35 Kelvin Kiptum (KEN) Chicago 8 October 2023"
+      }
+    },
+    {
+      "id": "mmar-kipchoge-2022-mark",
+      "text": "Men's marathon world record before Kiptum: Eliud Kipchoge (KEN), Berlin, 25 Sep 2022: 2:01:09",
+      "value": 7269,
+      "unit": "seconds",
+      "decimals": 0,
+      "source": {
+        "publisher": "World Athletics",
+        "title": "Ratified: Kiptum's world marathon record",
+        "url": "https://worldathletics.org/news/press-releases/ratified-world-marathon-record-kelvin-kiptum",
+        "published": "2024-02-06",
+        "accessed": "2026-09-27",
+        "quote": "2:01:09 set by his compatriot Eliud Kipchoge in Berlin on 25 September 2022"
+      }
+    },
+    {
+      "id": "mmar-sawe-gain",
+      "text": "Seconds Sawe took off the men's marathon world record in London 2026 (2:00:35 to 1:59:30)",
+      "value": 65,
+      "unit": "seconds",
+      "decimals": 0,
+      "derive": {
+        "op": "diff",
+        "of": [
+          "mmar-kiptum-mark",
+          "mmar-mark"
+        ]
+      }
+    },
+    {
+      "id": "mmar-kipchoge-exhibition-mark",
+      "text": "Eliud Kipchoge's non-record-eligible exhibition marathon time, Vienna, 2019: 1:59:41",
+      "value": 7181,
+      "unit": "seconds",
+      "decimals": 0,
+      "source": {
+        "publisher": "World Athletics",
+        "title": "Sawe breaks two-hour barrier with 1:59:30 world record at London Marathon",
+        "url": "https://worldathletics.org/news/report/sawe-two-hour-assefa-world-record-london-marathon",
+        "published": "2026-04-26",
+        "accessed": "2026-09-27",
+        "quote": "surpassing Eliud Kipchoge's 1:59:41 exhibition performance from 2019"
+      }
+    },
+    {
+      "id": "mmar-sawe-vs-exhibition",
+      "text": "Seconds by which Sawe's 1:59:30 record beat Kipchoge's 1:59:41 exhibition run of 2019",
+      "value": 11,
+      "unit": "seconds",
+      "decimals": 0,
+      "derive": {
+        "op": "diff",
+        "of": [
+          "mmar-kipchoge-exhibition-mark",
+          "mmar-mark"
+        ]
+      }
+    },
+    {
+      "id": "m1000-mark",
+      "text": "Men's 1000 m world record, Emmanuel Wanyonyi (KEN), Monaco, 10 Jul 2026: 2:11.83 (ratified 3 Sep 2026)",
+      "value": 131.83,
+      "unit": "seconds",
+      "decimals": 2,
+      "source": {
+        "publisher": "World Athletics",
+        "title": "Ratified: world records for Kiplimo, Tharp and Wanyonyi",
+        "url": "https://worldathletics.org/news/press-releases/ratified-world-records-kiplimo-tharp-wanyonyi",
+        "published": "2026-09-03",
+        "accessed": "2026-09-27",
+        "quote": "2:11.83"
+      }
+    },
+    {
+      "id": "m1000-year",
+      "text": "Year the men's 1000 m world record was set (Wanyonyi, Monaco, 10 Jul 2026)",
+      "value": 2026,
+      "unit": "year",
+      "decimals": 0,
+      "source": {
+        "publisher": "Wikipedia",
+        "title": "List of world records in athletics",
+        "url": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+        "accessed": "2026-09-27",
+        "quote": "2:11.83 | | Emmanuel Wanyonyi | KEN | 10 Jul 2026 | Monaco"
+      }
+    },
+    {
+      "id": "m1000-prev-year",
+      "text": "Year of the previous men's 1000 m world record, Noah Ngeny 2:11.96, Rieti, 5 Sep 1999",
+      "value": 1999,
+      "unit": "year",
+      "decimals": 0,
+      "source": {
+        "publisher": "World Athletics",
+        "title": "Ratified: world records for Kiplimo, Tharp and Wanyonyi",
+        "url": "https://worldathletics.org/news/press-releases/ratified-world-records-kiplimo-tharp-wanyonyi",
+        "published": "2026-09-03",
+        "accessed": "2026-09-27",
+        "quote": "2:11.96 set by fellow Kenyan Noah Ngeny in Rieti on 5 September 1999"
+      }
+    },
+    {
+      "id": "m1000-age-when-broken",
+      "text": "Calendar years the Ngeny 1000 m record stood before Wanyonyi broke it (1999 to 2026)",
+      "value": 27,
+      "unit": "years",
+      "decimals": 0,
+      "derive": {
+        "op": "diff",
+        "of": [
+          "m1000-year",
+          "m1000-prev-year"
+        ]
+      }
+    },
+    {
+      "id": "m110h-age-when-broken",
+      "text": "Calendar years the Merritt 110 m hurdles record stood before Tharp broke it (2012 to 2026)",
+      "value": 14,
+      "unit": "years",
+      "decimals": 0,
+      "derive": {
+        "op": "diff",
+        "of": [
+          "m110h-year",
+          "m110h-prev-year"
+        ]
+      }
+    },
+    {
+      "id": "pending-mmile-mark",
+      "text": "PENDING ratification: men's mile, Josh Kerr (GBR), London, 18 Jul 2026: 3:42.66 (would replace El Guerrouj 3:43.13 of 1999)",
+      "value": 222.66,
+      "unit": "seconds",
+      "decimals": 2,
+      "source": {
+        "publisher": "World Athletics",
+        "title": "Kerr breaks world mile record with 3:42.66 in London",
+        "url": "https://worldathletics.org/news/report/london-athletics-meet-2026-josh-kerr-world-mile-record",
+        "published": "2026-07-18",
+        "accessed": "2026-09-27",
+        "quote": "Great Britain's Josh Kerr achieved his much-publicised aim of breaking the long-standing world mile record with a stunning 3:42.66* run at the Novuna London Athletics Meet"
+      }
+    },
+    {
+      "id": "mmile-mark",
+      "text": "Men's mile ratified world record, Hicham El Guerrouj (MAR), Rome, 7 Jul 1999: 3:43.13",
+      "value": 223.13,
+      "unit": "seconds",
+      "decimals": 2,
+      "source": {
+        "publisher": "Wikipedia",
+        "title": "List of world records in athletics",
+        "url": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+        "accessed": "2026-09-27",
+        "quote": "3:43.13 | | Hicham El Guerrouj | MAR | 7 Jul 1999 | Rome"
+      }
+    },
+    {
+      "id": "mmile-year",
+      "text": "Year the ratified men's mile world record was set (El Guerrouj, Rome, 7 Jul 1999)",
+      "value": 1999,
+      "unit": "year",
+      "decimals": 0,
+      "source": {
+        "publisher": "Wikipedia",
+        "title": "List of world records in athletics",
+        "url": "https://en.wikipedia.org/wiki/List_of_world_records_in_athletics",
+        "accessed": "2026-09-27",
+        "quote": "3:43.13 | | Hicham El Guerrouj | MAR | 7 Jul 1999 | Rome"
+      }
+    },
+    {
+      "id": "pending-m400h-mark",
+      "text": "PENDING ratification: men's 400 m hurdles, Alison dos Santos (BRA), Zurich, 27 Aug 2026 (would replace Warholm 45.94 of 2021)",
+      "value": 45.8,
+      "unit": "seconds",
+      "decimals": 2,
+      "source": {
+        "publisher": "World Athletics",
+        "title": "Dos Santos and Russell break world records in unforgettable Zurich",
+        "url": "https://worldathletics.org/news/report/zurich-weltklasse-dos-santos-world-400m-hurdles-record",
+        "published": "2026-08-27",
+        "accessed": "2026-09-27",
+        "quote": "The Brazilian charged through the line in 45.80, taking 0.14 off the world record set by Warholm at the Tokyo Olympic Games in 2021."
+      }
+    },
+    {
+      "id": "pending-w100h-mark",
+      "text": "PENDING ratification: women's 100 m hurdles, Masai Russell (USA), Zurich, 27 Aug 2026 (would replace Amusan 12.12 of 2022)",
+      "value": 12.09,
+      "unit": "seconds",
+      "decimals": 2,
+      "source": {
+        "publisher": "World Athletics",
+        "title": "Dos Santos and Russell break world records in unforgettable Zurich",
+        "url": "https://worldathletics.org/news/report/zurich-weltklasse-dos-santos-world-400m-hurdles-record",
+        "published": "2026-08-27",
+        "accessed": "2026-09-27",
+        "quote": "Russell stopped the clock at 12.09 to take 0.03 off the previous world record."
+      }
+    },
+    {
+      "id": "pending-mhalf-mark",
+      "text": "PENDING ratification: men's half marathon, Yomif Kejelcha (ETH), Buenos Aires, 23 Aug 2026: 56:51",
+      "value": 3411,
+      "unit": "seconds",
+      "decimals": 0,
+      "source": {
+        "publisher": "World Athletics",
+        "title": "Ratified: world records for Kiplimo, Tharp and Wanyonyi",
+        "url": "https://worldathletics.org/news/press-releases/ratified-world-records-kiplimo-tharp-wanyonyi",
+        "published": "2026-09-03",
+        "accessed": "2026-09-27",
+        "quote": "56:51 at the Media Maratón Ciudad de Buenos Aires on 23 August"
+      }
+    },
+    {
+      "id": "shoe-rule-year",
+      "text": "Year World Athletics set its first numeric shoe limits (40 mm sole, one plate; press release of 31 Jan 2020), used as the timeline cutoff",
+      "value": 2020,
+      "unit": "year",
+      "decimals": 0,
+      "source": {
+        "publisher": "World Athletics",
+        "title": "World Athletics modifies rules governing competition shoes for elite athletes",
+        "url": "https://worldathletics.org/news/press-releases/modified-rules-shoes",
+        "published": "2020-01-31",
+        "accessed": "2026-09-27",
+        "quote": "From 30 April 2020, any shoe must have been available for purchase by any athlete on the open retail market (online or in store) for a period of four months before it can be used in competition."
+      }
+    },
+    {
+      "id": "shoe-rule-sole-mm",
+      "text": "Maximum sole thickness under the World Athletics shoe rule of 31 Jan 2020",
+      "value": 40,
+      "unit": "mm",
+      "decimals": 0,
+      "source": {
+        "publisher": "World Athletics",
+        "title": "World Athletics modifies rules governing competition shoes for elite athletes",
+        "url": "https://worldathletics.org/news/press-releases/modified-rules-shoes",
+        "published": "2020-01-31",
+        "accessed": "2026-09-27",
+        "quote": "The sole must be no thicker than 40mm."
+      }
+    },
+    {
+      "id": "shoe-rule-plates",
+      "text": "Maximum number of rigid embedded plates allowed in a shoe under the World Athletics rule of 31 Jan 2020",
+      "value": 1,
+      "unit": "plates",
+      "decimals": 0,
+      "source": {
+        "publisher": "World Athletics",
+        "title": "World Athletics modifies rules governing competition shoes for elite athletes",
+        "url": "https://worldathletics.org/news/press-releases/modified-rules-shoes",
+        "published": "2020-01-31",
+        "accessed": "2026-09-27",
+        "quote": "The shoe must not contain more than one rigid embedded plate or blade (of any material) that runs either the full length or only part of the length of the shoe."
+      }
+    },
+    {
+      "id": "shoe-rule-retail-months",
+      "text": "Months a shoe must have been on open retail sale before competition use, World Athletics rule from 30 Apr 2020",
+      "value": 4,
+      "unit": "months",
+      "decimals": 0,
+      "source": {
+        "publisher": "World Athletics",
+        "title": "World Athletics modifies rules governing competition shoes for elite athletes",
+        "url": "https://worldathletics.org/news/press-releases/modified-rules-shoes",
+        "published": "2020-01-31",
+        "accessed": "2026-09-27",
+        "quote": "From 30 April 2020, any shoe must have been available for purchase by any athlete on the open retail market (online or in store) for a period of four months before it can be used in competition."
+      }
+    },
+    {
+      "id": "vaporfly-retail-year",
+      "text": "Year the Nike Zoom Vaporfly 4%, the carbon-plate racing shoe of the Breaking2 project, went on general sale (20 Jul 2017; secondary source)",
+      "value": 2017,
+      "unit": "year",
+      "decimals": 0,
+      "source": {
+        "publisher": "Complex",
+        "title": "Nike's First ZoomX Sneaker Releases on July 20",
+        "url": "https://www.complex.com/sneakers/a/brendan-dunne/nike-zoomx-vaporfly-4-percent-release-date",
+        "published": "2017-07-18",
+        "accessed": "2026-09-27",
+        "quote": "The model, the Zoom VaporFly 4% ($250), based on Nike's Breaking2 marathon shoe, will release on July 20."
+      }
+    },
+    {
+      "id": "citius-forecast-year",
+      "text": "Year by which Berthelot et al. (PLoS ONE, 2008) forecast half of all world records would be within 0.05% of their limit",
+      "value": 2027,
+      "unit": "year",
+      "decimals": 0,
+      "source": {
+        "publisher": "PLoS ONE",
+        "title": "The Citius End: World Records Progression Announces the Completion of a Brief Ultra-Physiological Quest",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0001552",
+        "published": "2008-02-06",
+        "accessed": "2026-09-27",
+        "quote": "Starting at 75% of their estimated asymptotic values in 1896, WR have now reached 99%, and, present conditions prevailing, half of all WR will not be improved by more than 0,05% in 2027."
+      }
+    },
+    {
+      "id": "citius-forecast-threshold",
+      "text": "Improvement threshold in the 2008 forecast: half of all world records would not improve by more than this share, by 2027",
+      "value": 0.05,
+      "unit": "%",
+      "decimals": 2,
+      "source": {
+        "publisher": "PLoS ONE",
+        "title": "The Citius End: World Records Progression Announces the Completion of a Brief Ultra-Physiological Quest",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0001552",
+        "published": "2008-02-06",
+        "accessed": "2026-09-27",
+        "quote": "half of all WR will not be improved by more than 0,05% in 2027"
+      }
+    },
+    {
+      "id": "citius-asymptote-share-2027",
+      "text": "Share of the estimated asymptotic (limit) value that half of all records were forecast to reach by 2027, Berthelot et al. 2008",
+      "value": 99.95,
+      "unit": "%",
+      "decimals": 2,
+      "source": {
+        "publisher": "PLoS ONE",
+        "title": "The Citius End: World Records Progression Announces the Completion of a Brief Ultra-Physiological Quest",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0001552",
+        "published": "2008-02-06",
+        "accessed": "2026-09-27",
+        "quote": "By 2027, half of the records will reach 99.95% of their asymptotic value, within a [2002–2120] credibility interval."
+      }
+    },
+    {
+      "id": "citius-records-analysed",
+      "text": "Number of world records analysed in Berthelot et al. 2008 (all quantifiable Olympic events, 1896 to 2007)",
+      "value": 3263,
+      "unit": "records",
+      "decimals": 0,
+      "source": {
+        "publisher": "PLoS ONE",
+        "title": "The Citius End: World Records Progression Announces the Completion of a Brief Ultra-Physiological Quest",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0001552",
+        "published": "2008-02-06",
+        "accessed": "2026-09-27",
+        "quote": "We conducted a qualitative and quantitative analysis of 3263 WR in all 147 measurable Olympic events from five disciplines"
+      }
+    },
+    {
+      "id": "citius-events-analysed",
+      "text": "Number of measurable Olympic events covered by Berthelot et al. 2008",
+      "value": 147,
+      "unit": "events",
+      "decimals": 0,
+      "source": {
+        "publisher": "PLoS ONE",
+        "title": "The Citius End: World Records Progression Announces the Completion of a Brief Ultra-Physiological Quest",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0001552",
+        "published": "2008-02-06",
+        "accessed": "2026-09-27",
+        "quote": "We conducted a qualitative and quantitative analysis of 3263 WR in all 147 measurable Olympic events from five disciplines"
+      }
+    },
+    {
+      "id": "citius-start-share-1896",
+      "text": "Share of their estimated asymptotic value that world records stood at in 1896, per Berthelot et al. 2008",
+      "value": 75,
+      "unit": "%",
+      "decimals": 0,
+      "source": {
+        "publisher": "PLoS ONE",
+        "title": "The Citius End: World Records Progression Announces the Completion of a Brief Ultra-Physiological Quest",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0001552",
+        "published": "2008-02-06",
+        "accessed": "2026-09-27",
+        "quote": "Starting at 75% of their estimated asymptotic values in 1896, WR have now reached 99%, and, present conditions prevailing, half of all WR will not be improved by more than 0,05% in 2027."
+      }
+    },
+    {
+      "id": "citius-share-2008",
+      "text": "Share of their estimated asymptotic value that world records had reached by the paper's data cutoff (2007), per Berthelot et al. 2008",
+      "value": 99,
+      "unit": "%",
+      "decimals": 0,
+      "source": {
+        "publisher": "PLoS ONE",
+        "title": "The Citius End: World Records Progression Announces the Completion of a Brief Ultra-Physiological Quest",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0001552",
+        "published": "2008-02-06",
+        "accessed": "2026-09-27",
+        "quote": "Starting at 75% of their estimated asymptotic values in 1896, WR have now reached 99%, and, present conditions prevailing, half of all WR will not be improved by more than 0,05% in 2027."
+      }
+    },
+    {
+      "id": "citius-publication-year",
+      "text": "Publication year of Berthelot et al., The Citius End, PLoS ONE 3(2): e1552",
+      "value": 2008,
+      "unit": "year",
+      "decimals": 0,
+      "source": {
+        "publisher": "PLoS ONE",
+        "title": "The Citius End: World Records Progression Announces the Completion of a Brief Ultra-Physiological Quest",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0001552",
+        "published": "2008-02-06",
+        "accessed": "2026-09-27",
+        "quote": "Berthelot G, Thibault V, Tafflet M, Escolano S, El Helou N, Jouven X, Hermine O, Toussaint J-F (2008) The Citius End: World Records Progression Announces the Completion of a Brief Ultra-Physiological Quest. PLOS ONE 3(2): e1552."
+      }
+    },
+    {
+      "id": "citius-years-to-forecast",
+      "text": "Years from 2026 to the 2027 forecast date of Berthelot et al.",
+      "value": 1,
+      "unit": "years",
+      "decimals": 0,
+      "derive": {
+        "op": "diff",
+        "of": [
+          "citius-forecast-year",
+          "year-now"
+        ]
+      }
+    },
+    {
+      "id": "citius-years-since-paper",
+      "text": "Years between the 2008 paper and 2026",
+      "value": 18,
+      "unit": "years",
+      "decimals": 0,
+      "derive": {
+        "op": "diff",
+        "of": [
+          "year-now",
+          "citius-publication-year"
+        ]
+      }
+    }
+  ]
+}
