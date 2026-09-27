@@ -1,0 +1,14 @@
+{
+  "slug": "world-records-last-broken",
+  "title": "The Last Time Every World Record Was Broken",
+  "layout": 2,
+  "renderer": "catalog",
+  "createdAt": "2026-09-27T19:30:21.635Z",
+  "metadata": {
+    "tone": "neutral-analytic, authoritative, curiosity-driven — numbers speak for themselves",
+    "targetAudience": "18-35, globally curious, English-speaking, prefers facts over opinions",
+    "language": "en",
+    "targetLength": 600,
+    "format": "long"
+  }
+}
