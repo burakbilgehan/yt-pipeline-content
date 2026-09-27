@@ -1,0 +1,1 @@
+Here is the twist. Four out of six products, cheaper relative to wages. <break time="1000ms"/> But cheaper... for whom? <break time="1000ms"/> That index used median wages — the middle of the income distribution. The typical worker. What if we change the ruler?

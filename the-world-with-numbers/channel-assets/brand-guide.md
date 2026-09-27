@@ -1,159 +1,52 @@
-# "The World With Numbers" — Visual Brand Guide (v6.0)
+# The World With Numbers: Brand Guide (v7)
 
-This is the **visual ruleset** for all video rendering. Every agent (storyboard, video-production, collector) MUST read and follow this guide. No exceptions.
+Rules for how the channel looks and sounds. Exact values (hex colors, px sizes, easing curves, durations, atmosphere numbers) live only in `yt-pipeline/src/remotion/catalog/tokens.ts`; this guide names tokens and never restates their values. The research behind v7 is in `research/brand/` (dated records, not rules). Supersedes v6 (26.09.2026, owner direction: darker, premium, never loud, neutral enough for statistics).
 
-> **Color Source of Truth:** `channel-assets/design-system.json`
-> All color values below are derived from that file. Do NOT hardcode hex values in code — import from `src/remotion/palette.ts` (auto-generated via `npm run sync-palette`).
+## Position and voice
 
-## 1. Color Palette
+- The calm, late-night desk lamp of data YouTube: one well-lit fact at a time, sourced, measured and shown to scale.
+- Number first, then context, then source. Short declarative sentences; the drama is in the magnitude.
+- Name units and years every time. Say "we do not know" when the data ends.
+- Never: hype words, stacked rhetorical questions, exclamation marks on screen, emoji, whooshes or hit stingers on data beats. A value can be "the highest on record", never "outrageous".
 
-| Role | Name | Value | Usage |
-|:-----|:-----|:------|:------|
-| **Background** | Deep Base | `#2A2A32` | Master video background |
-| **Data Set A** | Accent Pink | `#E88CA5` | Primary data series, highlights, accented elements |
-| **Data Set B** | Accent Blue | `#7BA7C9` | Secondary data series, stable/comparative data |
-| **Text** | Warm Cream | `#F0EDE8` | All readable text — titles, labels, callouts |
-| **Axis/Grid** | — | `rgba(240,237,232,0.35)` | Axis labels, tick marks, structural elements (not a brand color) |
-| **Positive** | Green | `#5BBF8C` | Positive change, growth indicators |
-| **Negative** | Red | `#E06070` | Negative change, decline indicators |
-| **Surface** | — | `#2E2E38` | Card/panel backgrounds |
-| **Border** | — | `rgba(240,237,232,0.12)` | Subtle borders and dividers |
+## Color
 
-### Color Rules
-- **Max 2 data colors per chart** — Pink + Blue. Never add a third vivid color.
-- **Sage** (`#8A9A7A`) removed from v6 palette. Grid/axis elements use `rgba(240,237,232,0.35)` (AXIS token). Grid lines use `rgba(240,237,232,0.08)` — max 10% opacity (VB-5).
-- **No gradient text.** Ever.
-- **No pure white (`#FFF`).** Use Warm Cream for all text.
-- Background is always solid `#2A2A32` — no gradient backgrounds unless explicitly specified in storyboard.
-- **Never hardcode hex values in source code.** Import from `src/remotion/palette.ts`.
+- Every frame is `bg`, flat. Cards, chips and digit cells use `surface`, then `surface2`; elevation is lightness only, no shadows.
+- `highlight` marks the one thing the narration is about: at most one item or one series per scene. `contrast` only when the narration names a second item. Everything else is `dataNeutral`.
+- Text: `textPrimary` for titles and values that matter, `textSecondary` for labels, `textTertiary` only at caption size.
+- No red/green pair, no positive/negative colors: direction is a sign and an arrow.
+- Every mark (bar, segment, panel, digit cell) has a subtle corner, `SHAPE.radius`; a bar rounds only its value end, its baseline stays square. Cards use `SHAPE.cardRadius`, chips are pills. (user, 27.09.2026)
 
-## 2. Typography
+## Type
 
-| Role | Font | Weight | Notes |
-|:-----|:-----|:-------|:------|
-| **Headings / Hook Titles** | `Montserrat` | 700–800 (Bold/ExtraBold) | Impact titles, section headers |
-| **Data Labels & Numbers** | `Montserrat` | 600–700 | `fontVariantNumeric: "tabular-nums lining-nums"` — tabular nums MANDATORY so digits don't shift width |
-| **Body Text** | `Montserrat` | 400 | Subtitles, explanations, small labels |
+- Four roles only (`TYPE.giant`, `value`, `body`, `caption`), each at one of its token sizes. `giant` (the display family) is the number or phrase the scene is about; everything else, every mark value included, is in the text family.
+- Headers, labels, chips, panels and sources are captions: uppercase and tracked.
 
-### Typography Rules
-- **Heading sizes:** Hook/hero titles 64–80px, section titles 36–48px, labels 16–22px
-- **Line height:** 1.2 for headings, 1.5 for body
-- **Letter spacing:** -0.02em for headings, normal for body
-- **All text color is Warm Cream** (`#F0EDE8`) unless it's a data value using Pink or Blue
+## Atmosphere
 
-## 3. Visual Texture (CSS/SVG Generated — No External Files)
+- Every frame: film grain at the `ATMOSPHERE.grain` settings. Depth comes from 3D layers, cards and turns (`MOTION`), not from light.
+- Never a glow, gradient, shadow or texture on data marks or text. No other effect exists and a storyboard cannot request one.
 
-These textures are generated in code. No external PNG files needed.
+## Motion
 
-### Film Grain (Every Scene)
-Apply as the **topmost layer** on every scene, 3% opacity:
-```
-filter: url(#noiseFilter);
-opacity: 0.03;
-mix-blend-mode: overlay;
-```
-Implementation: SVG `<feTurbulence>` filter — see Remotion shared components.
+- A "kick" (a short shake or punch of the frame) is an accent for a few key moments, never rhythmic or periodic: no pulse or heartbeat on every beat. Ambient motion is slow drift only; energy comes from cuts, 3D turns and moves that carry information. (user, 26.09.2026)
+- One type system per video: the heading family and the body family from the tokens, nothing else. (user, 26.09.2026)
 
-### Dot Grid (Data Visualization Scenes)
-Background dot pattern for data-heavy scenes:
-- 28px spacing, `rgba(240,237,232,0.04)` — 4% opacity (VB-5: data-ink ratio)
-- Creates subtle "graph paper" feel without being distracting
+## Maps
 
-## 4. Animation Principles
+- Routes, pipelines, shipping lanes and borders come from sourced coordinates recorded in the video's `research/`; a simplified path is labeled "schematic" on screen. Never sketch geography by eye. (user, 26.09.2026)
 
-All motion must feel **smooth, weighted, and deliberate**. Never mechanical. Never linear.
+## Imagery
 
-### Easing
-- **Default motion:** `Easing.bezier(0.33, 1, 0.68, 1)` — the "muted easing" curve
-- **Never use linear easing** for any visible element
-- **Fallback for complex motion:** `Easing.out(Easing.exp)`
+- No photographs and no AI-generated images. The vocabulary is type, numbers, bars, lines, maps (Natural Earth, Equal Earth projection), flags and Lucide icons.
+- No people on screen. Objects (tankers, barrels, pipes, devices) are clean vector drawings, not photos or renders. (user, 26.09.2026)
+- The channel has no logo yet; its name is set in plain type.
 
-### Springs
-- **Bar charts / counters:** `spring({ stiffness: 100, damping: 20 })` — slight bounce on arrival
-- **Cards / panels:** `spring({ stiffness: 80, damping: 18 })` — softer entrance
+## Sound
 
-### Stagger
-- **List/leaderboard items:** 10-frame stagger between each item
-- **Chart bars:** 6-frame stagger
-- **No simultaneous entrance** of multiple data elements — always stagger
+- Ambient or lo-fi instrumental, 60 to 85 bpm, no vocals and no drum hit on a data beat, at least 18 LU under the voice.
+- Sources: YouTube Audio Library (attribution not required filter), Pixabay Content License, Free Music Archive CC0 or CC BY only.
 
-### Timing
-- **Line charts:** strokeDashoffset reveal, left-to-right, 60–90 frames
-- **Number counters:** interpolate from 0 to value over 30–45 frames
-- **Scene transitions:** 8-frame crossfade default
+## Scenes and charts
 
-## 5. Composition Guidelines
-
-### Layout Principles
-- **Left-aligned data, right-aligned visuals** when combining text + chart
-- **Generous padding:** minimum 60px from screen edges
-- **Visual hierarchy:** One focal element per scene — never compete for attention
-- **Data density:** Max 6–8 items visible in any leaderboard/list at once
-
-### Scene Category Defaults
-
-**Hero / Hook:**
-- Title centered or left-aligned, large (64–80px Montserrat Bold)
-- Subtitle below in Montserrat, muted
-- Clean background — no charts, no clutter
-- Single accent element (underline, small stat) in Accent Pink
-
-**Data Visualization (Charts):**
-- Chart occupies 60–70% of frame
-- Title top-left, source bottom-right (small, muted)
-- Dot grid background active
-- Y-axis labels in Montserrat, `fontVariantNumeric: "tabular-nums lining-nums"`
-
-**Comparison / Duel:**
-- Side-by-side layout, equal weight
-- Thin vertical divider (`rgba(240,237,232,0.35)`, 1px)
-- Entity names 24px Montserrat, key stat 48px Montserrat
-- Flag/icon max 48px — don't overshadow the data
-
-**Leaderboard / List:**
-- Vertical stack, full-width items
-- Rank number (Montserrat, Accent Pink), name (Montserrat), value (Montserrat, right-aligned, tabular-nums)
-- Max 6–8 visible items, staggered entrance
-- Horizontal bars behind values showing relative scale
-
-**Narrative / Explanation:**
-- Large key stat or quote centered
-- Supporting text below in Montserrat
-- Optional subtle background visual at 15% opacity
-
-**CTA / Closing:**
-- Channel name + subscribe prompt
-- Minimal — accent underline only
-- No busy backgrounds
-
-## 6. AI Image Generation Rules
-
-When generating images via Gemini or DALL-E:
-
-### Always
-- Dark background, close to `#2A2A32`
-- Cinematic lighting, single light source preferred
-- Minimal composition — one subject, clean negative space
-- Muted, desaturated color grading matching the palette
-- High detail, photorealistic style
-
-### Never
-- No text in generated images (Remotion adds text)
-- No faces or identifiable people
-- No busy/cluttered compositions
-- No bright/saturated colors that break the muted palette
-- No stock photo clichés (handshake, lightbulb, etc.)
-
-### Style Prompt Template
-```
-[subject description], dark moody background, cinematic lighting, 
-muted color palette, minimal composition, high detail, 
-photorealistic, editorial documentary style, no text, no people
-```
-
-## 7. Visual Reference
-
-See `channel-assets/Gemini_Generated_Image_go4311go4311go43.png` for the template screen layouts.
-See `channel-assets/animation-rhythm-reference.mp4` for animation rhythm reference.
-
-These files define the target aesthetic. All renders should match this visual quality and mood.
+Scene types, layout and honest-chart rules are defined by the scene catalog: `yt-pipeline/src/remotion/catalog/schema.ts` (what a scene may contain) and the `storyboard` skill (how to choose one).

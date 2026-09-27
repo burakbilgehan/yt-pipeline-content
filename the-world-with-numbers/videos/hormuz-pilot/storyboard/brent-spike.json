@@ -1,0 +1,5 @@
+{ "type": "compare-values", "kicker": "Brent crude", "title": "US dollars a barrel", "source": "research notes (market data)",
+  "status": { "text": "Blockade since Mar 2", "tone": "pink" },
+  "holdSec": 2.0,
+  "props": { "prefix": "$", "items": [ { "label": "Before", "value": 73 }, { "label": "Peak, Mar 19", "value": 119, "highlight": true } ] },
+  "cues": { "second": "one hundred and nineteen", "kick": "one hundred and nineteen" } }

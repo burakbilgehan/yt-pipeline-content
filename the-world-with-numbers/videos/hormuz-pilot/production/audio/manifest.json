@@ -1,0 +1,29 @@
+{
+  "blocks": {
+    "hook-one-strait": {
+      "hash": "7eb683cab9971f1b6bb2a8b05cfe9bf2aa740ae88a0c4565e9dc70b2ae352ab4",
+      "file": "hook-one-strait.7eb683ca.wav",
+      "duration": 7.496333333333333
+    },
+    "where-hormuz": {
+      "hash": "b0e87c3206049b0d85528d3209cbb80435ec09954e96d95605acc16ea1c5bf37",
+      "file": "where-hormuz.b0e87c32.wav",
+      "duration": 6.2763333333333335
+    },
+    "daily-flow": {
+      "hash": "f5349957fe6e089c32e7266682a87fa96786ddbefeaa88f3d144bd5bafca695c",
+      "file": "daily-flow.f5349957.wav",
+      "duration": 7.801333333333333
+    },
+    "chokepoint-ranking": {
+      "hash": "c6f6864d4d52f3b06dfbda7636e4d48fe62512102199461a79d948eebd590f85",
+      "file": "chokepoint-ranking.c6f6864d.wav",
+      "duration": 10.119333333333334
+    },
+    "brent-spike": {
+      "hash": "c7e3dc3c50ff4aa9b68de26a9c219a0542f736103651ac1b9e8a529747f49b34",
+      "file": "brent-spike.c7e3dc3c.wav",
+      "duration": 6.947333333333333
+    }
+  }
+}

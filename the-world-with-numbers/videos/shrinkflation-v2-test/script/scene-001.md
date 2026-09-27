@@ -1,0 +1,1 @@
+Your bag of chips is smaller. Your coffee can lost a third of its weight. Everyone says groceries are more expensive. <break time="500ms"/> But when you measure the actual price per unit against median wages... four out of six common grocery products cost LESS of your paycheck today than they did in the year two thousand.

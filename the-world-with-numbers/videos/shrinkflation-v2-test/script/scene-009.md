@@ -1,0 +1,1 @@
+<break time="500ms"/> Chips, milk, peanut butter, ice cream — they all hover near the baseline. Wages are roughly keeping pace. Nothing dramatic. Nothing alarming. <break time="500ms"/> Then two thousand eight — the financial crisis. Milk and chips push briefly above one as commodity prices surge, but by two thousand nine, most products settle back down.

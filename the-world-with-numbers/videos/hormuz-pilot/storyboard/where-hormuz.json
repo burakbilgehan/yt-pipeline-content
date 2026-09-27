@@ -1,0 +1,40 @@
+{
+  "type": "map-focus",
+  "kicker": "Strait of Hormuz",
+  "title": "Between Iran and Oman",
+  "source": "Natural Earth",
+  "props": {
+    "focus": [
+      "364",
+      "512"
+    ],
+    "contrast": [
+      "784"
+    ],
+    "route": [
+      [
+        50.6,
+        26.8
+      ],
+      [
+        56.3,
+        26.5
+      ],
+      [
+        58.6,
+        24.8
+      ]
+    ],
+    "routeLabel": "Tanker route, schematic",
+    "marker": {
+      "lon": 56.3,
+      "lat": 26.5,
+      "label": "Strait of Hormuz"
+    },
+    "frame": "marker"
+  },
+  "cues": {
+    "zoom": "between Iran and Oman"
+  },
+  "holdSec": 0.8
+}

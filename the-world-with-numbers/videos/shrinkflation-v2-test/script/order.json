@@ -1,0 +1,66 @@
+{
+  "sections": [
+    {
+      "title": "HOOK",
+      "blocks": [
+        "scene-001",
+        "scene-002"
+      ]
+    },
+    {
+      "title": "THE METRIC",
+      "blocks": [
+        "scene-003",
+        "scene-004",
+        "scene-005",
+        "scene-006"
+      ]
+    },
+    {
+      "title": "THE RACE — ACT 1: 2000–2009",
+      "blocks": [
+        "scene-007",
+        "scene-008",
+        "scene-009",
+        "scene-010"
+      ]
+    },
+    {
+      "title": "THE RACE — ACT 2: 2010–2019",
+      "blocks": [
+        "scene-011",
+        "scene-012",
+        "scene-013",
+        "scene-014",
+        "scene-015"
+      ]
+    },
+    {
+      "title": "THE RACE — ACT 3: 2020–2025",
+      "blocks": [
+        "scene-016",
+        "scene-017",
+        "scene-018",
+        "scene-019"
+      ]
+    },
+    {
+      "title": "THE LENS SWITCH",
+      "blocks": [
+        "scene-020",
+        "scene-021",
+        "scene-022",
+        "scene-023",
+        "scene-024",
+        "scene-025"
+      ]
+    },
+    {
+      "title": "CLOSING",
+      "blocks": [
+        "scene-026",
+        "scene-027"
+      ]
+    }
+  ]
+}

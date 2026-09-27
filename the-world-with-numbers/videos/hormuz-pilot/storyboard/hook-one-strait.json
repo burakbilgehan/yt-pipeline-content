@@ -1,0 +1,17 @@
+{
+  "type": "statement",
+  "kicker": "Strait of Hormuz",
+  "title": "World oil supply",
+  "holdSec": 0.6,
+  "props": {
+    "text": "A fifth of the world's oil passes through one narrow strait.",
+    "emphasis": "one narrow strait.",
+    "fraction": {
+      "n": 1,
+      "d": 5
+    }
+  },
+  "cues": {
+    "emphasis": "one narrow strait"
+  }
+}

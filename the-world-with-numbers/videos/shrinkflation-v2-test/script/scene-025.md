@@ -1,0 +1,1 @@
+<break time="1200ms"/> And one more lens. Gold. <break time="500ms"/> If you'd measured your groceries against gold's twelve-fold rise over this period... everything collapses toward zero. Eggs, coffee, chips — all on sale. Deep, deep on sale. <break time="500ms"/> But no one buys eggs with gold.

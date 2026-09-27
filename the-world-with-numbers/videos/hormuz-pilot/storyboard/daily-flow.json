@@ -1,0 +1,15 @@
+{
+  "type": "big-number",
+  "kicker": "Strait of Hormuz",
+  "title": "Crude oil flow, million barrels a day",
+  "source": "EIA via research notes",
+  "holdSec": 1.2,
+  "props": {
+    "value": 20.9,
+    "decimals": 1,
+    "unit": "million barrels a day",
+    "context": "of oil flows through Hormuz, about 20% of global consumption",
+    "reference": { "label": "can bypass by pipeline", "value": 9, "kind": "part", "remainderLabel": "no other route" }
+  },
+  "cues": { "reference": "The pipelines that can bypass", "remainder": "only about nine million", "kick": "only about nine million" }
+}

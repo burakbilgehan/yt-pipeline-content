@@ -1,0 +1,29 @@
+{
+  "slug": "shrinkflation-v2-test",
+  "layout": 2,
+  "title": "Shrinkflation Decoded",
+  "renderer": "legacy",
+  "description": "Tracking how everyday products have secretly shrunk over the past two decades \u2014 with hard data from government statistical agencies, not anecdotes.",
+  "createdAt": "2026-09-26T00:47:29.586Z",
+  "migratedFrom": "shrinkflation-decoded",
+  "tags": [
+    "shrinkflation",
+    "inflation",
+    "consumer-products",
+    "data-driven",
+    "trends-over-time",
+    "hidden-statistics"
+  ],
+  "metadata": {
+    "targetLength": 840,
+    "tone": "neutral-analytic, authoritative, curiosity-driven \u2014 numbers speak for themselves",
+    "targetAudience": "18-35, globally curious, English-speaking, prefers facts over opinions",
+    "language": "en",
+    "format": "long"
+  },
+  "tts": {
+    "provider": "google",
+    "modelId": "chirp3-hd",
+    "speed": 1.15
+  }
+}

@@ -1,0 +1,214 @@
+{
+  "renderer": "catalog",
+  "title": "Hormuz Pilot",
+  "scenes": [
+    {
+      "id": "hook-one-strait",
+      "section": "The bottleneck",
+      "startTime": 0,
+      "endTime": 8.096333,
+      "type": "statement",
+      "title": "World oil supply",
+      "kicker": "Strait of Hormuz",
+      "chapter": {
+        "index": 1,
+        "total": 3
+      },
+      "props": {
+        "text": "A fifth of the world’s oil passes through one narrow strait.",
+        "emphasis": "one narrow strait.",
+        "fraction": {
+          "n": 1,
+          "d": 5
+        }
+      },
+      "cues": {
+        "emphasis": 100
+      }
+    },
+    {
+      "id": "where-hormuz",
+      "section": "The bottleneck",
+      "startTime": 8.096333,
+      "endTime": 15.172666,
+      "type": "map-focus",
+      "title": "Between Iran and Oman",
+      "kicker": "Strait of Hormuz",
+      "source": "Natural Earth",
+      "chapter": {
+        "index": 1,
+        "total": 3
+      },
+      "props": {
+        "focus": [
+          "364",
+          "512"
+        ],
+        "contrast": [
+          "784"
+        ],
+        "route": [
+          [
+            50.6,
+            26.8
+          ],
+          [
+            56.3,
+            26.5
+          ],
+          [
+            58.6,
+            24.8
+          ]
+        ],
+        "routeLabel": "Tanker route, schematic",
+        "marker": {
+          "lon": 56.3,
+          "lat": 26.5,
+          "label": "Strait of Hormuz"
+        },
+        "frame": "marker"
+      },
+      "cues": {
+        "zoom": 47
+      }
+    },
+    {
+      "id": "daily-flow",
+      "section": "The flow",
+      "startTime": 15.172666,
+      "endTime": 24.173999,
+      "type": "big-number",
+      "title": "Crude oil flow, million barrels a day",
+      "kicker": "Strait of Hormuz",
+      "source": "EIA via research notes",
+      "chapter": {
+        "index": 2,
+        "total": 3
+      },
+      "props": {
+        "value": 20.9,
+        "decimals": 1,
+        "unit": "million barrels a day",
+        "context": "of oil flows through Hormuz, about 20% of global consumption",
+        "reference": {
+          "label": "can bypass by pipeline",
+          "value": 9,
+          "kind": "part",
+          "remainderLabel": "no other route"
+        }
+      },
+      "cues": {
+        "reference": 127,
+        "remainder": 195,
+        "kick": 195
+      }
+    },
+    {
+      "id": "chokepoint-ranking",
+      "section": "The flow",
+      "startTime": 24.173999,
+      "endTime": 35.093332,
+      "type": "ranked-bars",
+      "title": "Flow, million barrels a day",
+      "kicker": "Oil chokepoints",
+      "source": "EIA via research notes",
+      "chapter": {
+        "index": 2,
+        "total": 3
+      },
+      "props": {
+        "decimals": 1,
+        "unit": "mb/d",
+        "items": [
+          {
+            "label": "Malacca",
+            "value": 23.2
+          },
+          {
+            "label": "Hormuz",
+            "value": 20.9,
+            "highlight": true
+          },
+          {
+            "label": "Suez + SUMED",
+            "value": 4.9
+          },
+          {
+            "label": "Bab el-Mandeb",
+            "value": 4.2
+          },
+          {
+            "label": "Panama",
+            "value": 2.3
+          }
+        ],
+        "annotation": {
+          "text": "Under a quarter of Hormuz’s flow",
+          "item": "Suez + SUMED"
+        }
+      },
+      "cues": {
+        "annotation": 119
+      }
+    },
+    {
+      "id": "brent-spike",
+      "section": "The price",
+      "startTime": 35.093332,
+      "endTime": 44.040665,
+      "type": "compare-values",
+      "title": "US dollars a barrel",
+      "kicker": "Brent crude",
+      "source": "research notes (market data)",
+      "status": {
+        "text": "Blockade since Mar 2",
+        "tone": "pink"
+      },
+      "chapter": {
+        "index": 3,
+        "total": 3
+      },
+      "props": {
+        "prefix": "$",
+        "items": [
+          {
+            "label": "Before",
+            "value": 73
+          },
+          {
+            "label": "Peak, Mar 19",
+            "value": 119,
+            "highlight": true
+          }
+        ]
+      },
+      "cues": {
+        "second": 171,
+        "kick": 171
+      }
+    }
+  ],
+  "audioSegments": [
+    {
+      "src": "production/audio/hook-one-strait.7eb683ca.wav",
+      "startTime": 0
+    },
+    {
+      "src": "production/audio/where-hormuz.b0e87c32.wav",
+      "startTime": 8.096333
+    },
+    {
+      "src": "production/audio/daily-flow.f5349957.wav",
+      "startTime": 15.172666
+    },
+    {
+      "src": "production/audio/chokepoint-ranking.c6f6864d.wav",
+      "startTime": 24.173999
+    },
+    {
+      "src": "production/audio/brent-spike.c7e3dc3c.wav",
+      "startTime": 35.093332
+    }
+  ]
+}

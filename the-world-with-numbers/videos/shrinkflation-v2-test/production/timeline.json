@@ -1,0 +1,222 @@
+{
+  "fps": 30,
+  "totalDuration": 734.678,
+  "scenes": [
+    {
+      "id": "scene-001",
+      "section": "HOOK",
+      "startTime": 0,
+      "endTime": 20,
+      "audioFile": "scene-001.63f3a5e8.wav",
+      "audioDuration": 16.890333333333334
+    },
+    {
+      "id": "scene-002",
+      "section": "HOOK",
+      "startTime": 20,
+      "endTime": 25.702,
+      "audioFile": "scene-002.12642050.wav",
+      "audioDuration": 4.202333333333334
+    },
+    {
+      "id": "scene-003",
+      "section": "THE METRIC",
+      "startTime": 25.702,
+      "endTime": 56.78,
+      "audioFile": "scene-003.1178e958.wav",
+      "audioDuration": 29.578333333333333
+    },
+    {
+      "id": "scene-004",
+      "section": "THE METRIC",
+      "startTime": 56.78,
+      "endTime": 67.972,
+      "audioFile": "scene-004.63fcca97.wav",
+      "audioDuration": 9.692333333333334
+    },
+    {
+      "id": "scene-005",
+      "section": "THE METRIC",
+      "startTime": 67.972,
+      "endTime": 90.876,
+      "audioFile": "scene-005.b9b36f61.wav",
+      "audioDuration": 21.404333333333334
+    },
+    {
+      "id": "scene-006",
+      "section": "THE METRIC",
+      "startTime": 90.876,
+      "endTime": 97.225,
+      "audioFile": "scene-006.e6a8d9f0.wav",
+      "audioDuration": 5.849333333333333
+    },
+    {
+      "id": "scene-007",
+      "section": "THE RACE — ACT 1: 2000–2009",
+      "startTime": 97.225,
+      "endTime": 128.157,
+      "audioFile": "scene-007.6ab3963c.wav",
+      "audioDuration": 30.432333333333332
+    },
+    {
+      "id": "scene-008",
+      "section": "THE RACE — ACT 1: 2000–2009",
+      "startTime": 128.157,
+      "endTime": 142.863,
+      "audioFile": "scene-008.2ab2c79b.wav",
+      "audioDuration": 14.206333333333333
+    },
+    {
+      "id": "scene-009",
+      "section": "THE RACE — ACT 1: 2000–2009",
+      "startTime": 142.863,
+      "endTime": 164.035,
+      "audioFile": "scene-009.9944ff51.wav",
+      "audioDuration": 20.672333333333334
+    },
+    {
+      "id": "scene-010",
+      "section": "THE RACE — ACT 1: 2000–2009",
+      "startTime": 164.035,
+      "endTime": 198.749,
+      "audioFile": "scene-010.19164aab.wav",
+      "audioDuration": 34.214333333333336
+    },
+    {
+      "id": "scene-011",
+      "section": "THE RACE — ACT 2: 2010–2019",
+      "startTime": 198.749,
+      "endTime": 220.836,
+      "audioFile": "scene-011.f1873148.wav",
+      "audioDuration": 21.587333333333333
+    },
+    {
+      "id": "scene-012",
+      "section": "THE RACE — ACT 2: 2010–2019",
+      "startTime": 220.836,
+      "endTime": 238.714,
+      "audioFile": "scene-012.3e5aef92.wav",
+      "audioDuration": 17.378333333333334
+    },
+    {
+      "id": "scene-013",
+      "section": "THE RACE — ACT 2: 2010–2019",
+      "startTime": 238.714,
+      "endTime": 267.633,
+      "audioFile": "scene-013.de8eca74.wav",
+      "audioDuration": 28.419333333333334
+    },
+    {
+      "id": "scene-014",
+      "section": "THE RACE — ACT 2: 2010–2019",
+      "startTime": 267.633,
+      "endTime": 310.216,
+      "audioFile": "scene-014.eb70b993.wav",
+      "audioDuration": 42.083333333333336
+    },
+    {
+      "id": "scene-015",
+      "section": "THE RACE — ACT 2: 2010–2019",
+      "startTime": 310.216,
+      "endTime": 369.659,
+      "audioFile": "scene-015.4e223005.wav",
+      "audioDuration": 57.943333333333335
+    },
+    {
+      "id": "scene-016",
+      "section": "THE RACE — ACT 3: 2020–2025",
+      "startTime": 369.659,
+      "endTime": 403.031,
+      "audioFile": "scene-016.2ec85990.wav",
+      "audioDuration": 32.87233333333333
+    },
+    {
+      "id": "scene-017",
+      "section": "THE RACE — ACT 3: 2020–2025",
+      "startTime": 403.031,
+      "endTime": 431.34,
+      "audioFile": "scene-017.0d74cb54.wav",
+      "audioDuration": 27.809333333333335
+    },
+    {
+      "id": "scene-018",
+      "section": "THE RACE — ACT 3: 2020–2025",
+      "startTime": 431.34,
+      "endTime": 474.594,
+      "audioFile": "scene-018.c4c9cefc.wav",
+      "audioDuration": 42.754333333333335
+    },
+    {
+      "id": "scene-019",
+      "section": "THE RACE — ACT 3: 2020–2025",
+      "startTime": 474.594,
+      "endTime": 500.158,
+      "audioFile": "scene-019.8a10e3d3.wav",
+      "audioDuration": 25.064333333333334
+    },
+    {
+      "id": "scene-020",
+      "section": "THE LENS SWITCH",
+      "startTime": 500.158,
+      "endTime": 519.743,
+      "audioFile": "scene-020.ea934f59.wav",
+      "audioDuration": 16.585333333333335
+    },
+    {
+      "id": "scene-021",
+      "section": "THE LENS SWITCH",
+      "startTime": 519.743,
+      "endTime": 569.121,
+      "audioFile": "scene-021.d1639ff6.wav",
+      "audioDuration": 47.87833333333333
+    },
+    {
+      "id": "scene-022",
+      "section": "THE LENS SWITCH",
+      "startTime": 569.121,
+      "endTime": 601.419,
+      "audioFile": "scene-022.62d50d86.wav",
+      "audioDuration": 30.798333333333332
+    },
+    {
+      "id": "scene-023",
+      "section": "THE LENS SWITCH",
+      "startTime": 601.419,
+      "endTime": 633.083,
+      "audioFile": "scene-023.49442b53.wav",
+      "audioDuration": 31.16433333333333
+    },
+    {
+      "id": "scene-024",
+      "section": "THE LENS SWITCH",
+      "startTime": 633.083,
+      "endTime": 667.736,
+      "audioFile": "scene-024.835a8390.wav",
+      "audioDuration": 34.153333333333336
+    },
+    {
+      "id": "scene-025",
+      "section": "THE LENS SWITCH",
+      "startTime": 667.736,
+      "endTime": 690.457,
+      "audioFile": "scene-025.a6af083a.wav",
+      "audioDuration": 21.221333333333334
+    },
+    {
+      "id": "scene-026",
+      "section": "CLOSING",
+      "startTime": 690.457,
+      "endTime": 720.986,
+      "audioFile": "scene-026.bbfecfcc.wav",
+      "audioDuration": 29.029333333333334
+    },
+    {
+      "id": "scene-027",
+      "section": "CLOSING",
+      "startTime": 720.986,
+      "endTime": 734.678,
+      "audioFile": "scene-027.fa707c77.wav",
+      "audioDuration": 9.692333333333334
+    }
+  ]
+}

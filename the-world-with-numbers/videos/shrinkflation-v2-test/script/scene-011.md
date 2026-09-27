@@ -1,0 +1,1 @@
+The twenty-tens. The quiet decade. <break time="500ms"/> Coffee spikes above one in twenty eleven and twelve — a global commodity boom — then falls back below. It would stay below one for years. Eggs remain volatile. The twenty fifteen avian flu outbreak pushes them nearly twice as expensive as the baseline — then they crash back down by twenty seventeen.

@@ -1,0 +1,115 @@
+{
+  "format": "long",
+  "resolution": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "sharedComponents": {
+    "raceChart": {
+      "yAxisRange": [
+        0,
+        3.5
+      ],
+      "xAxisRange": [
+        2000,
+        2025
+      ],
+      "baseline": {
+        "value": 1,
+        "color": "#EAE0D5",
+        "opacity": 0.3,
+        "strokeDash": "4,4",
+        "label": "Baseline (2000 = 1.0)"
+      },
+      "zones": {
+        "above": {
+          "color": "#E06070",
+          "opacity": 0.03,
+          "label": "More expensive"
+        },
+        "below": {
+          "color": "#5BBF8C",
+          "opacity": 0.03,
+          "label": "Cheaper"
+        }
+      },
+      "products": {
+        "eggs": {
+          "color": "#D8A7B1",
+          "opacity": 1,
+          "strokeDash": "none",
+          "strokeWidth": 3,
+          "label": "Eggs (dozen)"
+        },
+        "coffee": {
+          "color": "#90AFC5",
+          "opacity": 1,
+          "strokeDash": "none",
+          "strokeWidth": 3,
+          "label": "Coffee (lb)"
+        },
+        "chips": {
+          "color": "#EAE0D5",
+          "opacity": 0.5,
+          "strokeDash": "6,3",
+          "strokeWidth": 2,
+          "label": "Chips (lb)"
+        },
+        "milk": {
+          "color": "#EAE0D5",
+          "opacity": 0.4,
+          "strokeDash": "none",
+          "strokeWidth": 2,
+          "label": "Milk (gal)"
+        },
+        "peanutButter": {
+          "color": "#EAE0D5",
+          "opacity": 0.6,
+          "strokeDash": "10,5",
+          "strokeWidth": 2,
+          "label": "Peanut Butter (lb)"
+        },
+        "iceCream": {
+          "color": "#EAE0D5",
+          "opacity": 0.35,
+          "strokeDash": "3,3",
+          "strokeWidth": 2,
+          "label": "Ice Cream (half gal)"
+        }
+      },
+      "deflatorIndicator": {
+        "position": "top-right",
+        "font": "JetBrains Mono",
+        "fontSize": 18,
+        "color": "#EAE0D5",
+        "opacity": 0.8
+      },
+      "grid": {
+        "color": "#A3B18A",
+        "opacity": 0.1,
+        "dotSpacing": 20
+      },
+      "animation": {
+        "lineReveal": {
+          "type": "strokeDashoffset",
+          "frames": 90
+        },
+        "springConfig": {
+          "stiffness": 100,
+          "damping": 20
+        },
+        "stagger": 6,
+        "easing": "bezier(0.33, 1, 0.68, 1)"
+      },
+      "source": {
+        "text": "Source: BLS Average Price Data (APU series) • Median usual weekly earnings (BLS LEU)",
+        "font": "Inter",
+        "fontSize": 12,
+        "color": "#EAE0D5",
+        "opacity": 0.4,
+        "position": "bottom-right"
+      }
+    }
+  }
+}

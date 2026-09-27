@@ -1,0 +1,1 @@
+<break time="500ms"/> Coffee does the opposite. It drifts steadily downward through the early two thousands. By two thousand four, a pound of ground roast takes about a quarter less of your paycheck than it did at the start of the decade. Coffee kept getting cheaper.

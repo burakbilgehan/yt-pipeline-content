@@ -1,0 +1,22 @@
+{
+  "items": [
+    {
+      "n": 1,
+      "block": "scene-013",
+      "text": "Annotation text too small",
+      "status": "fixed",
+      "createdAt": "2026-09-26T01:00:16.506Z",
+      "history": [
+        {
+          "at": "2026-09-26T01:00:16.506Z",
+          "status": "open"
+        },
+        {
+          "at": "2026-09-26T01:00:16.900Z",
+          "status": "fixed",
+          "note": "font 28px"
+        }
+      ]
+    }
+  ]
+}

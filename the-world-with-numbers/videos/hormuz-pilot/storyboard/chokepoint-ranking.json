@@ -1,0 +1,41 @@
+{
+  "type": "ranked-bars",
+  "kicker": "Oil chokepoints",
+  "title": "Flow, million barrels a day",
+  "source": "EIA via research notes",
+  "props": {
+    "decimals": 1,
+    "unit": "mb/d",
+    "items": [
+      {
+        "label": "Malacca",
+        "value": 23.2
+      },
+      {
+        "label": "Hormuz",
+        "value": 20.9,
+        "highlight": true
+      },
+      {
+        "label": "Suez + SUMED",
+        "value": 4.9
+      },
+      {
+        "label": "Bab el-Mandeb",
+        "value": 4.2
+      },
+      {
+        "label": "Panama",
+        "value": 2.3
+      }
+    ],
+    "annotation": {
+      "text": "Under a quarter of Hormuz's flow",
+      "item": "Suez + SUMED"
+    }
+  },
+  "cues": {
+    "annotation": "The Suez route"
+  },
+  "holdSec": 0.8
+}

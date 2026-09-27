@@ -1,0 +1,1 @@
+<break time="500ms"/> But look at the rest of the field. They're drifting down. Slowly. Steadily. No single dramatic moment — just a gradual slide. Peanut butter. Milk. Chips. Ice cream. All sinking below one. Wages growing just a little faster than these prices, year after year.

@@ -1,0 +1,1 @@
+<break time="500ms"/> Now — a common objection. If companies are shrinking packages, doesn't that hide inflation? Actually, the BLS already accounts for this. When your coffee can shrinks from sixteen ounces to ten at the same sticker price, BLS records that as a price INCREASE per pound. Shrinkflation is already baked into the numbers you're about to see.

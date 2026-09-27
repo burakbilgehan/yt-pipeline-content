@@ -1,0 +1,46 @@
+{
+  "fps": 30,
+  "totalDuration": 44.040665,
+  "scenes": [
+    {
+      "id": "hook-one-strait",
+      "section": "The bottleneck",
+      "startTime": 0,
+      "endTime": 8.096333,
+      "audioFile": "hook-one-strait.7eb683ca.wav",
+      "audioDuration": 7.496333333333333
+    },
+    {
+      "id": "where-hormuz",
+      "section": "The bottleneck",
+      "startTime": 8.096333,
+      "endTime": 15.172666,
+      "audioFile": "where-hormuz.b0e87c32.wav",
+      "audioDuration": 6.2763333333333335
+    },
+    {
+      "id": "daily-flow",
+      "section": "The flow",
+      "startTime": 15.172666,
+      "endTime": 24.173999,
+      "audioFile": "daily-flow.f5349957.wav",
+      "audioDuration": 7.801333333333333
+    },
+    {
+      "id": "chokepoint-ranking",
+      "section": "The flow",
+      "startTime": 24.173999,
+      "endTime": 35.093332,
+      "audioFile": "chokepoint-ranking.c6f6864d.wav",
+      "audioDuration": 10.119333333333334
+    },
+    {
+      "id": "brent-spike",
+      "section": "The price",
+      "startTime": 35.093332,
+      "endTime": 44.040665,
+      "audioFile": "brent-spike.c7e3dc3c.wav",
+      "audioDuration": 6.947333333333333
+    }
+  ]
+}
