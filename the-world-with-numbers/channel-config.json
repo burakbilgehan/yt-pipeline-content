@@ -257,7 +257,7 @@
       "width": 1920,
       "height": 1080
     },
-    "fps": 30,
+    "fps": 60,
     "preferredStockSource": "pexels",
     "imageProvider": "gemini",
     "aiImageStyle": "dusty grey background, cinematic lighting, muted color palette, minimal composition, high detail, photorealistic, editorial documentary style, no text, no people",

@@ -1,5 +1,6 @@
 {
   "renderer": "catalog",
+  "fps": 60,
   "title": "Hormuz Pilot",
   "scenes": [
     {
